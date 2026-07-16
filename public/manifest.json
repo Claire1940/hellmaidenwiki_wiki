@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Hell Maiden Wiki - Builds, Cards, Bosses & Roadmap",
+  "short_name": "Hell Maiden",
+  "description": "Hell Maiden Wiki with beginner guides, best deck builds, Spirit Cards, Poets of Limbo, boss strategies, achievements, roadmap updates, and Steam Early Access details.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#F0194F",
+  "background_color": "#101119",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
