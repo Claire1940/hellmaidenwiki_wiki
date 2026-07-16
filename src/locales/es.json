@@ -1,1 +1,1258 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Hell Maiden - Builds, cartas, jefes y hoja de ruta",
+      "description": "Wiki de Hell Maiden con guías para principiantes, mejores builds de mazos, Spirit Cards, Poets of Limbo, estrategias contra jefes, logros, actualizaciones de la hoja de ruta y detalles del Acceso Anticipado de Steam.",
+      "keywords": "Hell Maiden, Steam, builds de mazos, Spirit Cards, jefes, Poets, logros, hoja de ruta",
+      "ogTitle": "Wiki de Hell Maiden - Builds, cartas, jefes y hoja de ruta",
+      "ogDescription": "Wiki de Hell Maiden con guías para principiantes, mejores builds de mazos, Spirit Cards, Poets of Limbo, estrategias contra jefes, logros, actualizaciones de la hoja de ruta y detalles del Acceso Anticipado de Steam.",
+      "twitterTitle": "Wiki de Hell Maiden - Builds, cartas, jefes y hoja de ruta",
+      "twitterDescription": "Wiki de Hell Maiden que cubre builds, Spirit Cards, jefes, logros y actualizaciones de la hoja de ruta para el deckbuilder en Acceso Anticipado de Steam."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "builds": "Builds",
+    "bosses": "Jefes",
+    "characters": "Personajes",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "media": "Multimedia"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Deckbuilder gótico de supervivencia contra hordas",
+    "title": "Wiki de Hell Maiden",
+    "description": "Construye mazos de Spirit Cards, rescata a los Poets of Limbo, derrota a jefes en los Circles of Hell y sigue cada actualización del Acceso Anticipado.",
+    "getFreeCodesCTA": "Explorar builds",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "88%",
+        "label": "Reseñas positivas"
+      },
+      "stat2": {
+        "value": "40+",
+        "label": "Habilidades disponibles"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "Círculos disponibles"
+      },
+      "stat4": {
+        "value": "72",
+        "label": "Logros de Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Hell Maiden",
+    "description": "Construye mazos de Spirit Cards, rescata a los Poets of Limbo y sobrevive a oleadas de bullet-hell a través de los Circles of Hell en este roguelite gótico de supervivencia de hordas y construcción de mazos en Steam."
+  },
+  "tools": {
+    "title": "Hell Maiden",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para construir mazos, rescatar a los Poets, derrotar jefes y sobrevivir a los Circles of Hell",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Primeros pasos, controles y tu primera victoria en el Limbo"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Mejores builds",
+        "description": "Combinaciones de Weapon Cards y Mod Cards para cada estilo de juego"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guía de los Circles",
+        "description": "Limbo, Lust, objetivos, Poets y preparación para jefes"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes",
+        "description": "Dante, Virgil, Beatrice y los Poets of Limbo"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Jefes",
+        "description": "Queen Minos, los Malebranche y enemigos de élite"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Progresión",
+        "description": "Templos, Charms, Wails, niveles e hitos"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Logros",
+        "description": "Los 72 logros de Steam y sus requisitos"
+      },
+      {
+        "icon": "Clock",
+        "title": "Hoja de ruta",
+        "description": "Parches de acceso anticipado y el camino hacia los nueve Circles"
+      }
+    ]
+  },
+  "modules": {
+    "hellMaidenBeginnerGuide": {
+      "title": "Guía para principiantes de Hell Maiden",
+      "displayType": "pasos",
+      "intro": "Hell Maiden combina ataques automáticos con apuntado manual y esquive activo. Mantente en movimiento, recoge experiencia, construye una mano de cuatro armas, fortalece esas armas con Mod Cards y conserva suficiente salud y movilidad para el enfrentamiento contra el jefe tras el temporizador de supervivencia.",
+      "steps": [
+        {
+          "title": "Muévete y apunta al mismo tiempo",
+          "description": "Dante ataca automáticamente, pero tú controlas la dirección de sus ataques con el cursor del ratón o el stick de apuntado del mando. Rodea a los grupos de enemigos y dirige los ataques hacia la parte más densa de cada oleada en lugar de quedarte inmóvil.",
+          "priority": "Mantén a los enemigos a un lado de Dante para que la experiencia que sueltan sea fácil de recoger."
+        },
+        {
+          "title": "Usa el dash para cruzar las líneas enemigas",
+          "description": "El dash le permite a Dante pasar a través de huecos peligrosos sin recibir daño. Úsalo para escapar de enemigos que te rodeen, cruzar patrones de proyectiles o salir del área de un Templo después de activarlo.",
+          "priority": "No gastes cada dash en el movimiento normal; mantén uno disponible para los enemigos de élite y los indicadores de ataque de los jefes."
+        },
+        {
+          "title": "Recoge experiencia y elige cartas",
+          "description": "Los enemigos derrotados sueltan orbes de experiencia que aumentan el nivel de Dante. Las opciones al subir de nivel pueden añadir Weapon Cards, acoplar Mod Cards o fortalecer los efectos que ya estén presentes en la mano.",
+          "priority": "Recoge la experiencia cercana con regularidad en lugar de dejar grandes grupos de orbes detrás de la oleada de enemigos."
+        },
+        {
+          "title": "Construye una mano de cuatro armas",
+          "description": "Tu mano puede albergar cuatro cartas de arma. Llena las casillas vacías mientras mantienes un arma preferida como fuente principal de daño, luego acopla Mods que mejoren el daño, la cantidad de proyectiles, la velocidad de ataque, los efectos de estado o la supervivencia.",
+          "priority": "Evita llenar cada casilla con efectos no relacionados antes de que tu arma principal tenga Mods útiles."
+        },
+        {
+          "title": "Fusiona cartas de Mod duplicadas",
+          "description": "Las cartas de Mod idénticas se pueden combinar en versiones más fuertes, siendo el nivel 3 un hito importante para tu build. Algunos Mods también fortalecen las armas según su posición, así que reordena la mano cada vez que cambie un efecto posicional.",
+          "priority": "Fusiona los duplicados en el arma que inflija más daño en lugar de esparcir copias débiles por toda la mano."
+        },
+        {
+          "title": "Activa templos durante la partida",
+          "description": "Los templos otorgan progresión adicional para la partida y aparecen a lo largo de cada Circle. Explora mientras las oleadas sean manejables, activa diferentes tipos de templos e intenta activar 12 templos en una sola partida.",
+          "priority": "Visita los templos al principio y a mitad de la partida; las oleadas tardías hacen que los desvíos largos sean mucho más peligrosos."
+        },
+        {
+          "title": "Sobrevive al Limbo y derrota a Queen Minos",
+          "description": "El Circle 1 requiere que Dante sobreviva durante 12 minutos antes de su encuentro final. Entra en la secuencia del jefe con una mano de armas completa, Mods mejorados, un hechizo listo y suficiente salud para lidiar con los patrones de proyectiles y los ataques de área telegrafiados de Queen Minos.",
+          "priority": "Ruta de la primera sesión: recoge experiencia, llena las casillas de armas, concéntrate en acumular un Mod de nivel 3, activa los templos cercanos, rescata a los Poets disponibles, sobrevive 12 minutos y luego usa los desplazamientos rápidos y el hechizo de Dante durante los patrones más restrictivos de Queen Minos."
+        }
+      ],
+      "quickTips": [
+        "Dante ataca automáticamente; tu trabajo es apuntar, esquivar y posicionarte.",
+        "Llena las cuatro casillas de armas pronto para que cada subida de nivel pueda añadir Mods en lugar de casillas vacías.",
+        "Fusiona las cartas de Mod duplicadas para alcanzar el nivel 3 en tu arma más fuerte.",
+        "Activa los templos al principio y a mitad de la partida mientras las oleadas aún sean manejables.",
+        "Rescata a cada Poet que puedas alcanzar para expandir tu conjunto de cartas permanente."
+      ]
+    },
+    "hellMaidenBestBuilds": {
+      "title": "Las mejores builds y Spirit Cards de Hell Maiden",
+      "displayType": "cartas",
+      "intro": "Las Spirit Cards se dividen en cartas de arma y cartas de Mod. Una build confiable normalmente concentra sus mejoras más fuertes en un arma insignia, usa las casillas restantes para ataques complementarios y fusiona los Mods duplicados para alcanzar el nivel 3 en lugar de acumular muchos efectos débiles.",
+      "builds": [
+        {
+          "name": "Build de daño concentrado",
+          "bestFor": "Daño directo, enemigos de élite y limpiezas confiables del Limbo",
+          "owners": [
+            "Dante",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "Daño",
+            "Velocidad de ataque",
+            "Proyectiles adicionales"
+          ],
+          "positioning": "Coloca el arma principal junto a cualquier efecto de Mod o de arma que fortalezca las cartas adyacentes o las cartas situadas a su derecha.",
+          "buildPlan": "Elige un arma principal pronto, fusiona sus Mods duplicados e intenta equipar tres Mods de nivel 3 en esa arma. Usa las casillas de armas secundarias para cobertura en lugar de competir en inversiones de daño.",
+          "spellUsage": "Guarda Dante's Inferno o el hechizo de Horace para oleadas densas y fases de jefes que restrinjan el movimiento."
+        },
+        {
+          "name": "Build de presión de proyectiles",
+          "bestFor": "Grandes grupos de enemigos y cobertura continua de la pantalla",
+          "owners": [
+            "Virgil",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Wayfinder",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "Cantidad de proyectiles",
+            "Velocidad de ataque",
+            "Duración del ataque",
+            "Efectos de área o de estado"
+          ],
+          "positioning": "Usa las dos ranuras de arma centrales para cartas con bonificaciones adyacentes, de modo que un efecto posicional pueda potenciar más de un ataque.",
+          "buildPlan": "Aumenta primero el número y la frecuencia de los ataques, y luego añade daño una vez que la pantalla esté cubierta de forma constante. Fusiona los modificadores de proyectil duplicados en lugar de colocar copias de nivel bajo en cada arma.",
+          "spellUsage": "El Signo Estelar Pléyades de Virgil proporciona un poderoso ataque de emergencia cuando los proyectiles normales no pueden abrir un camino seguro."
+        },
+        {
+          "name": "Build de control de estados",
+          "bestFor": "Controlar oleadas rápidas mientras se inflige daño mediante golpes repetidos",
+          "owners": [
+            "Dante",
+            "Virgil",
+            "Ovid"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder",
+            "Codex Amoris"
+          ],
+          "modPriorities": [
+            "Efectos de estado",
+            "Cantidad de proyectiles",
+            "Velocidad de ataque",
+            "Duración del efecto"
+          ],
+          "positioning": "Acopla modificadores centrados en estados a armas rápidas o de múltiples golpes, y mantén una sola arma separada dedicada al daño inmediato.",
+          "buildPlan": "Distribuye la aplicación de estados en dos armas, pero concentra los modificadores de daño bruto en un solo rematador. Esto evita que la mano dependa de efectos que tardan en acumularse.",
+          "spellUsage": "Usa un Hechizo de Poeta después de que los efectos de estado hayan agrupado a los enemigos o durante una oleada de élites difícil de contener."
+        },
+        {
+          "name": "Build de supervivencia",
+          "bestFor": "Primeras victorias, exploración de templos y desafíos de curación baja",
+          "owners": [
+            "Dante",
+            "Virgil"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder"
+          ],
+          "modPriorities": [
+            "Supervivencia",
+            "Soporte de curación",
+            "Cobertura de área",
+            "Velocidad de ataque"
+          ],
+          "positioning": "Mantén el arma más segura para limpiar oleadas en la posición principal potenciada y usa las ranuras secundarias para protección y cobertura.",
+          "buildPlan": "Asegura un daño de área constante antes de invertir por completo en el daño a jefes. Visita los templos mientras la presión enemiga sea baja, evita el daño por contacto innecesario y reserva el desplazamiento para situaciones de encierro.",
+          "spellUsage": "Trata el Hechizo como un reinicio defensivo cuando Dante esté rodeado, en lugar de usarlo inmediatamente después de que esté disponible."
+        },
+        {
+          "name": "Build centrada en jefes",
+          "bestFor": "Reina Minos, Scarmiglione, Libicocco y otros objetivos con mucha vida",
+          "owners": [
+            "Homer",
+            "Ovid",
+            "Dante"
+          ],
+          "featuredWeapons": [
+            "Winged Lyric",
+            "Codex Amoris",
+            "Blazing Quill"
+          ],
+          "modPriorities": [
+            "Daño a un solo objetivo",
+            "Velocidad de ataque",
+            "Daño crítico o directo",
+            "Mods duplicados de nivel 3"
+          ],
+          "positioning": "Otorga al Arma principal para jefes las bonificaciones posicionales más fuertes y mantén las Armas para despejar grupos en las ranuras restantes para los enemigos invocados.",
+          "buildPlan": "Winged Lyric ataca a un objetivo a la vez sin fallar, lo que la hace adecuada para ejercer presión constante sobre élites y jefes. Codex Amoris sirve de apoyo para completar Lust con un enfoque en Ovid, mientras que Blazing Quill puede completar ambos Círculos disponibles.",
+          "spellUsage": "Espera a que el jefe termine un patrón de mucho movimiento y luego activa el Hechizo característico mientras el objetivo permanezca dentro del área de ataque."
+        }
+      ]
+    },
+    "hellMaidenWalkthrough": {
+      "title": "Guía de Hell Maiden: Limbo y Lust",
+      "displayType": "fases",
+      "intro": "Cada Círculo combina oleadas de enemigos, misiones, Templos, rescates de Poetas, creación de cartas y un desafío de jefe final. Completa los objetivos opcionales mientras las oleadas sigan siendo manejables, y deja de dar rodeos largos una vez que tu mano esté lista para los minutos finales.",
+      "stages": [
+        {
+          "title": "Círculo 1: Limbo",
+          "runLength": "Sobrevive durante 12 minutos",
+          "rescueTargets": [
+            "Horace",
+            "Homer"
+          ],
+          "bosses": [
+            "Queen Minos"
+          ],
+          "objectives": [
+            "Recoge experiencia y llena las cuatro ranuras de Arma",
+            "Equipa y fusiona cartas de Mod",
+            "Activa los tipos de Templos disponibles",
+            "Completa las misiones de Limbo y rescata a Horace y Homer",
+            "Sobrevive al temporizador de oleada de 12 minutos",
+            "Derrota a Queen Minos"
+          ],
+          "recommendedSetup": "Usa Blazing Quill, Wayfinder, Carpe Diem o Winged Lyric como Arma principal. Entra en el enfrentamiento contra el jefe con al menos un Arma muy mejorada, una buena cobertura contra grupos y un Hechizo listo.",
+          "bossTips": "Queen Minos usa proyectiles de bullet-hell y ataques de área telegrafiados. Muévete por el borde de las zonas peligrosas, esquiva solo cuando se cierre un camino seguro y activa el Hechizo durante los patrones que concentren a los enemigos y proyectiles en un área estrecha.",
+          "rewards": "Completar Limbo hace avanzar la historia, abre más diálogos con los Poetas, ayuda al rescate de Horace y Homer, y conduce a desbloquear el Círculo 2."
+        },
+        {
+          "title": "Desbloquear el Círculo 2: Lust",
+          "runLength": "Desbloqueo de progresión",
+          "requirements": [
+            "Completa el objetivo de supervivencia de Limbo",
+            "Derrota a Queen Minos",
+            "Continúa la historia del Foro y las interacciones con los Poetas",
+            "Selecciona Lust tras el desbloqueo de progresión de Winds of Desire"
+          ],
+          "preparation": "Usa partidas adicionales en Limbo para desbloquear más cartas de Poeta, completar diálogos, familiarizarte mejor con los Mods posicionales y practicar cómo llegar al jefe con curación limitada.",
+          "recommendedGoal": "Crea una mano completa de Armas y Mods antes de entrar en Lust para que sus enemigos más rápidos y sus oleadas de élites no interrumpan el desarrollo temprano del mazo.",
+          "bossTips": "Considera las victorias adicionales en Limbo como práctica para llegar a un jefe con una mano completamente desarrollada y recursos de curación limitados.",
+          "rewards": "Desbloquear Lust otorga Winds of Desire y da acceso al Poeta, los enemigos y los jefes del segundo Círculo."
+        },
+        {
+          "title": "Círculo 2: Lust",
+          "runLength": "Sobrevive durante 12 minutos",
+          "rescueTargets": [
+            "Ovid"
+          ],
+          "bosses": [
+            "Scarmiglione",
+            "Libicocco y Scarmiglione"
+          ],
+          "featuredThreats": [
+            "Súcubo",
+            "Súcubo de élite",
+            "Víbora",
+            "Víbora de élite",
+            "Pecador de la Lujuria",
+            "Mina de la Lujuria",
+            "Devi-Brotchi"
+          ],
+          "objectives": [
+            "Estabiliza tu build antes de que aparezcan las Víboras y Súcubos de élite",
+            "Sigue activando Templos sin dejar que te rodeen",
+            "Rescata a Ovid y desbloquea la línea de cartas Codex Amoris",
+            "Sobrevive al temporizador de oleada de 12 minutos",
+            "Derrota a Scarmiglione",
+            "Supera el encuentro de Libicocco y Scarmiglione"
+          ],
+          "recommendedSetup": "Lleva una combinación de control de masas y daño concentrado a jefes. Las builds de proyectiles o estados ayudan a gestionar las densas oleadas de la Lujuria, mientras que una acumulación de Mod de nivel 3 y un Hechizo guardado proporcionan el daño necesario para sus encuentros finales.",
+          "bossTips": "Muévete lateralmente durante los ataques telegrafiados, elimina las amenazas invocadas antes de que bloqueen las rutas de escape y evita usar todos los dashes durante el patrón inicial. Usa el Hechizo distintivo una vez que la pareja de jefes esté agrupada o lanzando un ataque.",
+          "rewards": "El progreso en la Lujuria añade a Ovid, el Codex Amoris, más capítulos de la historia, diálogos adicionales y habilidades obtenidas de los jefes derrotados del Círculo."
+        }
+      ]
+    },
+    "hellMaidenCharacters": {
+      "title": "Hell Maiden Poets of Limbo y desbloqueos de personajes",
+      "displayType": "cartas",
+      "intro": "Hell Maiden continúa la historia de la Divina Comedia de Dante después de que Dante llega al Paraíso y regresa misteriosamente al Infierno sin sus recuerdos. Virgil la guía, Beatrice la protege y los Poets of Limbo proporcionan nuevas opciones de combate mientras Dante los ayuda a buscar la salvación.",
+      "characters": [
+        {
+          "name": "Dante Alighieri",
+          "role": "Protagonista jugable",
+          "story": "Dante regresa al Infierno tras llegar al Paraíso y ha perdido los recuerdos de su viaje anterior. Comienza a ascender de nuevo por los Circles of Hell en busca de respuestas y otro camino al Cielo.",
+          "unlock": "Disponible desde el principio",
+          "signatureWeapon": "Blazing Quill",
+          "spell": "Dante's Inferno",
+          "rewards": [
+            "Cartas de arma de Dante",
+            "Cartas de Mod de Dante",
+            "Un Hechizo distintivo que limpia la pantalla",
+            "Capítulos de la historia y diálogos relacionados con los recuerdos"
+          ]
+        },
+        {
+          "name": "Virgil",
+          "role": "Guía y compañero poeta",
+          "story": "El poeta romano acompaña a Dante por el Infierno y sirve como su guía a través del abismo. Virgil es uno de los poetas centrales vinculados al progreso inicial de Dante.",
+          "unlock": "Progresa en la historia inicial e interactúa con Virgil en el Poets' Forum",
+          "signatureWeapon": "Wayfinder",
+          "spell": "Star Sign Pleiades",
+          "rewards": [
+            "Cartas de arma de Virgil",
+            "Cartas de Mod de Virgil",
+            "Wayfinder",
+            "Hechizo de Virgil",
+            "Bendición y progresión de diálogo"
+          ]
+        },
+        {
+          "name": "Beatrice",
+          "role": "Protectora santificada",
+          "story": "Beatrice protege a Dante durante su renovado viaje por el Infierno y sigue conectada a la búsqueda de Paradiso de Dante y a sus recuerdos perdidos.",
+          "unlock": "Encontrada a través de la progresión de la historia",
+          "signatureWeapon": "Ninguno",
+          "spell": "Ninguno",
+          "rewards": [
+            "Guía de la historia",
+            "Diálogo adicional",
+            "Progreso hacia el objetivo de interacción de Pilgrim's Journey"
+          ]
+        },
+        {
+          "name": "Horace",
+          "role": "Poet of Limbo",
+          "story": "Horace es una de las primeras Poets que Dante puede rescatar mientras explora el Limbo. Salvarla expande la reserva de cartas disponibles y abre más interacciones en el Foro.",
+          "unlock": "Rescata a Horace en el Círculo 1, Limbo",
+          "signatureWeapon": "Carpe Diem",
+          "spell": "Hechizo característico de Horace",
+          "rewards": [
+            "Cinco nuevas habilidades",
+            "Cartas de Arma de Horace",
+            "Cartas de Mod de Horace",
+            "Carpe Diem",
+            "Bendición, ventaja, Hechizo y ataque definitivo",
+            "Nuevo diálogo del Foro"
+          ]
+        },
+        {
+          "name": "Homer",
+          "role": "Poet of Limbo",
+          "story": "Homer es otra Poet rescatada durante la progresión del Limbo. Su Arma característica enfoca su ataque en un solo objetivo y no falla.",
+          "unlock": "Rescata a Homer en el Círculo 1, Limbo",
+          "signatureWeapon": "Winged Lyric",
+          "spell": "Hechizo característico de Homer",
+          "rewards": [
+            "Cinco nuevas habilidades",
+            "Cartas de Arma de Homer",
+            "Cartas de Mod de Homer",
+            "Winged Lyric",
+            "Bendición, ventaja, Hechizo y ataque definitivo",
+            "Nuevo diálogo del Foro"
+          ]
+        },
+        {
+          "name": "Ovid",
+          "role": "Poet conectada a la Lujuria",
+          "story": "Ovid pasa a formar parte del creciente grupo de Poets de Dante durante la progresión del Círculo 2 y proporciona un nuevo conjunto de cartas adecuadas para partidas posteriores.",
+          "unlock": "Rescata a Ovid durante la progresión del Círculo 2, Lujuria",
+          "signatureWeapon": "Codex Amoris",
+          "spell": "Hechizo característico de Ovid",
+          "rewards": [
+            "Cinco nuevas habilidades",
+            "Cartas de arma de Ovid",
+            "Cartas de Mod de Ovid",
+            "Codex Amoris",
+            "Bendición, ventaja, Hechizo y ataque definitivo",
+            "Nuevos diálogos de Lust y del Foro"
+          ]
+        },
+        {
+          "name": "Lucan",
+          "role": "Poeta de la antigüedad anunciado",
+          "story": "Lucan es nombrado entre los poetas y artistas legendarios que Dante encontrará durante el viaje más amplio a través de los nueve Circles of Hell.",
+          "unlock": "Conectado con la hoja de ruta ampliada del Early Access y la progresión futura de los Círculos",
+          "signatureWeapon": "Se introducirá con el contenido posterior de los Poetas",
+          "spell": "Se introducirá con el contenido posterior de los Poetas",
+          "rewards": [
+            "Futuras interacciones con los Poetas",
+            "Cartas y habilidades adicionales",
+            "Más diálogos relacionados con la historia y la salvación"
+          ]
+        }
+      ]
+    },
+    "hellMaidenBosses": {
+      "title": "Jefes y enemigos de élite de Hell Maiden",
+      "displayType": "acordeón",
+      "intro": "El Early Access incluye dos Círculos completos con encuentros con jefes principales, objetivos de élite con nombre propio y distintas familias de enemigos. Las victorias contra los jefes amplían el repertorio de habilidades, mientras que las bajas de élite y las victorias repetidas desbloquean logros de Steam dedicados.",
+      "encounters": [
+        {
+          "name": "Queen Minos",
+          "circle": "Círculo 1 — Limbo",
+          "encounterType": "Jefe principal",
+          "attackPattern": "Queen Minos alterna entre varios ataques de arena claramente telegrafiados. La corrección de lanzamiento redujo la frecuencia con la que puede repetir el mismo movimiento en rápida sucesión, por lo que los jugadores deben leer una secuencia cambiante en lugar de confiar en un único bucle fijo.",
+          "recommendedCounter": "Mantente en movimiento por la parte exterior de la arena, reserva el dash para ataques comprometidos y causa daño durante la ventana de recuperación después de cada aviso. Evita gastar todas las opciones de escape mientras los enemigos normales o los proyectiles sigan ocupando la ruta de adelante.",
+          "preparation": "Entra con una configuración completa de armas y Mods, al menos un arma fiable para limpiar zonas, Mods de daño mejorados y un Hechizo de Poeta listo para una fase concurrida o insegura.",
+          "victoryReward": "Derrotar a Queen Minos desbloquea Soul Magister. Tres victorias distintas desbloquean Taboo Arts I, y las victorias contra jefes principales añaden dos nuevas habilidades al conjunto permanente de cartas."
+        },
+        {
+          "name": "Scarmiglione",
+          "circle": "Círculo 2 — Lust",
+          "encounterType": "Jefe Malebranche",
+          "attackPattern": "Scarmiglione ejerce una presión rápida y agresiva y obliga a reposicionarse con frecuencia. Las ventanas de daño más seguras aparecen después de una aproximación comprometida o una secuencia de ataque, en lugar de mientras el jefe se está acercando activamente.",
+          "recommendedCounter": "Muévete hacia los lados en lugar de retroceder en línea recta, espera a que la dirección del ataque esté clara antes de usar el dash y usa daño de ráfaga durante la recuperación. Elimina primero a los enemigos cercanos cuando bloqueen la ruta necesaria para la siguiente esquiva.",
+          "preparation": "Prioriza el control de movimiento, un daño fiable a un solo objetivo, una reserva de salud, Mods de nivel 3 en el arma principal y un Hechizo de Poeta que pueda crear espacio o terminar una fase peligrosa.",
+          "victoryReward": "Derrotar a Scarmiglione desbloquea Salamander Inquisitor. Derrotar tanto a Scarmiglione como a Libicocco desbloquea Malebranche Punisher; completar ambas victorias tres veces distintas desbloquea Taboo Arts II."
+        },
+        {
+          "name": "Libicocco",
+          "circle": "Círculo 2 — Lust",
+          "encounterType": "Jefe Malebranche",
+          "attackPattern": "Libicocco puede crear clones durante el encuentro, lo que multiplica la presión visual y hace que los ataques superpuestos sean más difíciles de leer. La corrección de lanzamiento también solucionó un problema de progresión que podía ocurrir después del ataque de los clones.",
+          "recommendedCounter": "Mantén una vía de escape abierta antes de que aparezcan los clones, evita pararte en el centro de amenazas superpuestas y usa ataques de área amplia para controlar las copias mientras el daño sostenido sigue centrado en el encuentro principal.",
+          "preparation": "Lleva tanto control de masas como daño de jefe en lugar de depender de una mano orientada puramente a un solo objetivo. Conserva suficiente salud y disponibilidad de dash para la fase de clones, y evita activar el Hechizo de Poeta antes de que la arena se llene.",
+          "victoryReward": "Derrotar a Libicocco y Scarmiglione desbloquea Malebranche Punisher. Tres conjuntos completos de victorias desbloquean Taboo Arts II, mientras que las victorias contra jefes principales amplían el repertorio permanente de habilidades."
+        },
+        {
+          "name": "Víbora de élite",
+          "circle": "Círculo 2 — Lust",
+          "encounterType": "Enemigo élite",
+          "attackPattern": "La Víbora Élite aparece como un objetivo prioritario durante las oleadas de supervivencia de Lust. Es más peligrosa cuando se mezcla en una horda densa porque los enemigos cercanos reducen el espacio disponible para moverse con claridad y realizar daño concentrado.",
+          "recommendedCounter": "Identifícala temprano, aléjate de la parte más densa de la oleada y concentra las armas de gran daño en la élite mientras los ataques de área evitan que los enemigos normales rodeen al jugador.",
+          "preparation": "Usa una mano con al menos un arma de área y una opción fuerte de daño concentrado. Las bonificaciones adicionales de movimiento o defensa hacen que el encuentro con la élite sea más seguro cuando llega durante una oleada concurrida.",
+          "victoryReward": "Matar a la Víbora Élite desbloquea Elite Killer I. Las bajas de Víboras estándar también cuentan para Viper Hunter, que requiere 1000 enemigos Víbora."
+        },
+        {
+          "name": "Súcubo Élite",
+          "circle": "Círculo 2 — Lust",
+          "encounterType": "Enemigo élite",
+          "attackPattern": "La Súcubo Élite es una amenaza con nombre de alta prioridad dentro de las oleadas de enemigos de Lust. Su peligro aumenta cuando el jugador se queda atrapado cerca de otros enemigos y no puede mantener una ruta de movimiento despejada.",
+          "recommendedCounter": "Crea distancia antes de comprometerte a hacer daño, evita luchar en el centro de la horda y usa proyectiles mejorados o efectos de estado para mantener la presión mientras te reposicionas.",
+          "preparation": "Prioriza el daño constante, la cobertura de área y la suficiente supervivencia para evitar recibir daño por contacto repetido mientras aíslas a la élite de la oleada circundante.",
+          "victoryReward": "Matar a la Súcubo Élite desbloquea Elite Killer II. Las bajas de Súcubos estándar cuentan para Succubi Hunter, que requiere 250 bajas en el Círculo 2, Lust."
+        },
+        {
+          "name": "Familias de enemigos del círculo",
+          "circle": "Limbo y Lust",
+          "encounterType": "Enemigos de la horda",
+          "attackPattern": "Los objetivos de logros confirman las familias de enemigos Imp, Skeleton, Brotchi, Ghoul, Lost Soul, Slime, Lust Sinner, Lust Mine, Viper, Devi-Brotchi y Succubus en todo el contenido disponible.",
+          "recommendedCounter": "Usa daño de área superpuesto para grupos cuerpo a cuerpo densos, proyectiles para objetivos que entran desde múltiples direcciones y cambios frecuentes de ruta antes de que la horda se cierre alrededor del jugador.",
+          "preparation": "Crea una mano equilibrada en lugar de acumular solo daño contra jefes. Un arma para despejar multitudes, un arma de daño concentrado, Mods útiles y un Poet Spell de emergencia proporcionan una cobertura confiable.",
+          "victoryReward": "Cada familia de enemigos tiene un logro de caza acumulativo, con objetivos que van desde 250 Succubi hasta 2000 Brotchi o Lust Sinners."
+        }
+      ]
+    },
+    "hellMaidenProgression": {
+      "title": "Progresión y recursos de Hell Maiden",
+      "displayType": "tabla",
+      "intro": "La progresión combina la subida de nivel durante la partida y la construcción de mazos con la metaprogresión de Early Access. La ruta más sólida es desbloquear primero a los Poets y sus cartas, completar cada Círculo de forma constante, y luego buscar Charms raros, puntuaciones altas, colecciones completas de cartas y logros de desafío.",
+      "rows": [
+        {
+          "system": "Templos",
+          "where": "Durante una partida",
+          "howItWorks": "Los Templos se activan al explorar un Círculo y proporcionan beneficios durante la partida. La lista de logros confirma múltiples tipos de Templos y suficientes Templos distintos para activar 12 en una sola partida.",
+          "priority": "Alto durante cada partida",
+          "milestone": "Activa todos los tipos de Templos disponibles para Devout Pilgrim y 12 Templos diferentes en una sola partida para Pious Pilgrim."
+        },
+        {
+          "system": "Charms",
+          "where": "Preparación y recompensas de la partida",
+          "howItWorks": "Los Charms proporcionan bonificaciones basadas en la rareza que fortalecen la partida. Cristal es un nivel de rareza confirmado y está vinculado a uno de los logros de progresión más raros.",
+          "priority": "Prioriza primero las bonificaciones generales fuertes",
+          "milestone": "Obtén un Charm de rareza Cristal para desbloquear Heavenly Gift."
+        },
+        {
+          "system": "Wails of the Abyss",
+          "where": "Metaprogresión",
+          "howItWorks": "Los Wails of the Abyss son un recurso de progresión gastable que se usa entre partidas. Respaldan el sistema de metaprogresión ampliado introducido para el Early Access.",
+          "priority": "Gástalos en victorias constantes antes de intentar desafíos específicos",
+          "milestone": "Gasta un total acumulado de 5000 Wails of the Abyss para desbloquear Abyssal Spender."
+        },
+        {
+          "system": "Nivel de personaje",
+          "where": "Durante una partida",
+          "howItWorks": "Recoge experiencia de los enemigos derrotados para subir de nivel y elegir cartas o mejoras. El nivel se reinicia con cada partida, por lo que la supervivencia y la recolección eficiente de experiencia determinan qué tan rápido una build alcanza su máximo potencial.",
+          "priority": "Muy alta en los minutos iniciales",
+          "milestone": "Alcanza el nivel 50 para desbloquear Infernal Prowess I."
+        },
+        {
+          "system": "Puntuación alta",
+          "where": "Por Círculo",
+          "howItWorks": "La puntuación recompensa las bajas eficientes, la supervivencia y un buen rendimiento en la partida. Limbo y Lust tienen cada uno un logro de maestría independiente de 100.000 puntos.",
+          "priority": "Intentar tras lograr completar partidas en 12 minutos de forma constante",
+          "milestone": "Alcanza 100.000 en Limbo para Hellish Mastery I y 100.000 en Lust para Hellish Mastery II."
+        },
+        {
+          "system": "Rescates de Poetas",
+          "where": "Progresión permanente",
+          "howItWorks": "El Acceso Anticipado cuenta con cuatro personajes Poetas en sus sistemas actuales de progresión y cartas. Las rutas de logros cubren explícitamente a Virgil, Horace, Homer y Ovid, mientras que Horace, Homer y Ovid tienen hitos de rescate dedicados.",
+          "priority": "Máxima prioridad de progresión permanente",
+          "milestone": "Rescata a Horace, Homer y Ovid; cada Poeta rescatado añade veinticinco nuevas habilidades al repertorio permanente."
+        },
+        {
+          "system": "Cartas de Arma y Mod",
+          "where": "Creadas en cada partida; las opciones se expanden permanentemente",
+          "howItWorks": "El repertorio actual del Acceso Anticipado contiene más de 40 habilidades entre opciones de Arma y Mod. Las Cartas de Arma definen los ataques, mientras que las Cartas de Mod mejoran un arma y se pueden mejorar al nivel 3.",
+          "priority": "Construye un núcleo de daño antes de diversificar",
+          "milestone": "Completa manos enteras, equipa tres Mods de nivel 3 en un Arma y colecciona las cartas de todos los Poetas."
+        },
+        {
+          "system": "Recompensas de habilidades de jefe",
+          "where": "Desbloqueos permanentes tras las victorias",
+          "howItWorks": "Las victorias contra los jefes principales añaden nuevas opciones de build para partidas posteriores en lugar de solo terminar el Círculo actual.",
+          "priority": "Repite las victorias contra jefes tras la primera victoria",
+          "milestone": "Cada jefe derrotado añade dos nuevas habilidades al repertorio permanente."
+        },
+        {
+          "system": "Acceso al Círculo",
+          "where": "Progresión de la campaña",
+          "howItWorks": "Limbo es el Círculo inicial. La progresión continua abre Lust, el segundo Círculo completo disponible en el Acceso Anticipado.",
+          "priority": "Completa Limbo antes de farmear desafíos",
+          "milestone": "Desbloquea el Círculo 2, Lust, para obtener Winds of Desire."
+        },
+        {
+          "system": "Orden recomendado",
+          "where": "A lo largo de varias partidas",
+          "howItWorks": "Primero domina Limbo y activa los Templos, luego rescata a los Poetas, derrota a Queen Minos, desbloquea Lust y logra completar partidas de 12 minutos de forma constante. Después de eso, repite los jefes Malebranche, mejora las colecciones de cartas, gasta Wails y busca desafíos de puntuación o resistencia.",
+          "priority": "Mejor ruta general",
+          "milestone": "Completar Limbo, rescates de Poetas, repetir Queen Minos, desbloquear Lust, derrotar a Malebranche, partidas de nivel 50 y 100.000 puntos, y luego colecciones completas de cartas."
+        }
+      ]
+    },
+    "hellMaidenAchievements": {
+      "title": "Todos los 72 logros de Hell Maiden",
+      "displayType": "lista de verificación",
+      "intro": "Hell Maiden cuenta actualmente con 72 logros de Steam. La siguiente lista de verificación conserva los requisitos oficiales y destaca los objetivos a largo plazo que normalmente requieren una build dedicada, completar partidas repetidamente o colecciones completas de cartas de Poetas.",
+      "groups": [
+        {
+          "name": "Progresión e hitos",
+          "achievements": [
+            {
+              "name": "Astral Wayfarer",
+              "requirement": "Usa Blazing Quill en Limbo dos veces.",
+              "featured": false
+            },
+            {
+              "name": "Conqueror of Limbo",
+              "requirement": "Sobrevive 12 minutos en el Círculo 1, Limbo.",
+              "featured": false
+            },
+            {
+              "name": "Satírico dorado",
+              "requirement": "Rescata a Horace.",
+              "featured": false
+            },
+            {
+              "name": "Bardo de ojos de cristal",
+              "requirement": "Rescata a Homer.",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo I",
+              "requirement": "Salva a Horace y Homer.",
+              "featured": false
+            },
+            {
+              "name": "Vientos del deseo",
+              "requirement": "Desbloquea el Círculo 2, Lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Destreza infernal I",
+              "requirement": "Alcanza el nivel 50.",
+              "featured": false
+            },
+            {
+              "name": "Conquistador de la Lujuria",
+              "requirement": "Sobrevive 12 minutos en el Círculo 2, Lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Imago cerúleo",
+              "requirement": "Rescata a Ovid.",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo II",
+              "requirement": "Salva a Ovid.",
+              "featured": false
+            },
+            {
+              "name": "Maestría infernal I",
+              "requirement": "Alcanza una puntuación máxima de 100.000 en el Círculo 1, Limbo.",
+              "featured": true
+            },
+            {
+              "name": "Maestría infernal II",
+              "requirement": "Alcanza una puntuación máxima de 100.000 en el Círculo 2, Lujuria.",
+              "featured": true
+            },
+            {
+              "name": "Don celestial",
+              "requirement": "Consigue un amuleto de rareza de cristal.",
+              "featured": false
+            },
+            {
+              "name": "Gastador abisal",
+              "requirement": "Gasta un total de 5.000 Lamentos del Abismo.",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "Colección de cartas y construcción de mazos",
+          "achievements": [
+            {
+              "name": "Maestro de armas",
+              "requirement": "Consigue una mano completa de cartas de arma en una sola partida.",
+              "featured": false
+            },
+            {
+              "name": "Maestro de la estrategia",
+              "requirement": "Consigue una mano completa de cartas de arma y de Mod en una sola partida.",
+              "featured": false
+            },
+            {
+              "name": "Maestro de Mods",
+              "requirement": "Equipa tres cartas de Mod de nivel 3 en una sola carta de arma.",
+              "featured": false
+            },
+            {
+              "name": "Mano perfecta",
+              "requirement": "Consigue una mano completa de cartas de Mod de nivel 3 en una sola partida.",
+              "featured": true
+            },
+            {
+              "name": "Alma de poeta I",
+              "requirement": "Equipa todas las cartas de arma de Dante.",
+              "featured": true
+            },
+            {
+              "name": "Alma de poeta II",
+              "requirement": "Equipa todas las cartas de arma de Virgil.",
+              "featured": true
+            },
+            {
+              "name": "Alma de poeta III",
+              "requirement": "Equipa todas las cartas de arma de Horace.",
+              "featured": true
+            },
+            {
+              "name": "Alma de poeta IV",
+              "requirement": "Equipar todas las cartas de Arma de Homero.",
+              "featured": true
+            },
+            {
+              "name": "Alma de poeta V",
+              "requirement": "Equipar todas las cartas de Arma de Ovidio.",
+              "featured": true
+            },
+            {
+              "name": "Esencia de poeta I",
+              "requirement": "Equipar todas las cartas de Mod de Dante.",
+              "featured": true
+            },
+            {
+              "name": "Esencia de poeta II",
+              "requirement": "Equipar todas las cartas de Mod de Virgilio.",
+              "featured": true
+            },
+            {
+              "name": "Esencia de poeta III",
+              "requirement": "Equipar todas las cartas de Mod de Horacio.",
+              "featured": true
+            },
+            {
+              "name": "Esencia de poeta IV",
+              "requirement": "Equipar todas las cartas de Mod de Homero.",
+              "featured": true
+            },
+            {
+              "name": "Esencia de poeta V",
+              "requirement": "Equipar todas las cartas de Mod de Ovidio.",
+              "featured": true
+            }
+          ]
+        },
+        {
+          "name": "Armas y hechizos de poeta",
+          "achievements": [
+            {
+              "name": "Blazing Quill I",
+              "requirement": "Usar el hechizo de Dante.",
+              "featured": false
+            },
+            {
+              "name": "Blazing Quill II",
+              "requirement": "Superar el Círculo 1, Limbo, usando la Blazing Quill de Dante.",
+              "featured": false
+            },
+            {
+              "name": "Blazing Quill III",
+              "requirement": "Superar el Círculo 2, Lujuria, usando la Blazing Quill de Dante.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder I",
+              "requirement": "Usar el Wayfinder de Virgilio.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder II",
+              "requirement": "Usar el hechizo de Virgilio.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder III",
+              "requirement": "Superar el Círculo 1, Limbo, usando el Wayfinder de Virgilio.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem I",
+              "requirement": "Usar el Carpe Diem de Horacio.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem II",
+              "requirement": "Usar el hechizo de Horacio.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem III",
+              "requirement": "Superar el Círculo 1, Limbo, usando el Carpe Diem de Horacio.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric I",
+              "requirement": "Usar el Winged Lyric de Homero.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric II",
+              "requirement": "Usar el hechizo de Homero.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric III",
+              "requirement": "Superar el Círculo 1, Limbo, usando el Winged Lyric de Homero.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris I",
+              "requirement": "Usa el Codex Amoris de Ovidio.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris II",
+              "requirement": "Usa el hechizo de Ovidio.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris III",
+              "requirement": "Supera el Círculo 2, Lujuria, usando el Codex Amoris de Ovidio.",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "Jefes y enemigos de élite",
+          "achievements": [
+            {
+              "name": "Magíster de almas",
+              "requirement": "Derrota a la Reina Minos.",
+              "featured": false
+            },
+            {
+              "name": "Artes prohibidas I",
+              "requirement": "Derrota a la Reina Minos tres veces distintas.",
+              "featured": false
+            },
+            {
+              "name": "Inquisidor Salamandra",
+              "requirement": "Derrota a Scarmiglione en el Círculo 2, Lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Castigador Malebranche",
+              "requirement": "Derrota a Libicocco y Scarmiglione.",
+              "featured": false
+            },
+            {
+              "name": "Artes prohibidas II",
+              "requirement": "Derrota a Libicocco y Scarmiglione tres veces distintas.",
+              "featured": false
+            },
+            {
+              "name": "Asesino de élite I",
+              "requirement": "Mata al enemigo Víbora de élite en el Círculo 2, Lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Asesino de élite II",
+              "requirement": "Mata al enemigo Súcubo de élite en el Círculo 2, Lujuria.",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "Desafíos de supervivencia y partida",
+          "achievements": [
+            {
+              "name": "Sediento de sangre",
+              "requirement": "Mata a 2.500 enemigos en una sola partida.",
+              "featured": false
+            },
+            {
+              "name": "Peregrino devoto",
+              "requirement": "Activa todos los tipos de templos disponibles.",
+              "featured": false
+            },
+            {
+              "name": "Peregrino piadoso",
+              "requirement": "Activa 12 templos diferentes en una sola partida.",
+              "featured": false
+            },
+            {
+              "name": "Talento diabólico",
+              "requirement": "Inflige 200.000 de daño con una sola arma en una sola partida.",
+              "featured": false
+            },
+            {
+              "name": "Resistencia vital I",
+              "requirement": "Supera el Círculo 1, Limbo, sin curarte más de 500 PV.",
+              "featured": true
+            },
+            {
+              "name": "Resistencia vital II",
+              "requirement": "Supera el Círculo 2, Lujuria, sin curarte más de 500 PV.",
+              "featured": true
+            }
+          ]
+        },
+        {
+          "name": "Caza de enemigos",
+          "achievements": [
+            {
+              "name": "Cazador de diablillos",
+              "requirement": "Mata a 500 enemigos diablillo.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de esqueletos",
+              "requirement": "Mata a 1.000 enemigos esqueleto.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de Brotchi",
+              "requirement": "Mata a 2.000 enemigos Brotchi.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de súcubos",
+              "requirement": "Elimina a 250 súcubos en el Círculo 2, Lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de ghouls",
+              "requirement": "Elimina a 500 ghouls.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de almas perdidas",
+              "requirement": "Elimina a 500 almas perdidas.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de slimes",
+              "requirement": "Elimina a 1.500 slimes.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de pecadores de la lujuria",
+              "requirement": "Elimina a 2.000 pecadores de la lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de minas de la lujuria",
+              "requirement": "Elimina a 1.000 minas de la lujuria.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de víboras",
+              "requirement": "Elimina a 1.000 víboras.",
+              "featured": false
+            },
+            {
+              "name": "Cazador de Devi-Brotchi",
+              "requirement": "Elimina a 500 enemigos Devi-Brotchi.",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "Historia y diálogos",
+          "achievements": [
+            {
+              "name": "Habitante del foro",
+              "requirement": "Agota todas las interacciones de diálogo con cada Poet of Limbo en el Limbo.",
+              "featured": false
+            },
+            {
+              "name": "Reina sin poder",
+              "requirement": "Mira todos los capítulos introductorios de la Reina Minos.",
+              "featured": false
+            },
+            {
+              "name": "El viaje del peregrino I",
+              "requirement": "Habla con Beatrice tres veces.",
+              "featured": false
+            },
+            {
+              "name": "Ascendiendo por la escalera",
+              "requirement": "Mira todos los capítulos introductorios de Libicocco y Scarmiglione.",
+              "featured": false
+            },
+            {
+              "name": "Poeta novato",
+              "requirement": "Agota todas las interacciones de diálogo con cada Poet of Limbo en Lujuria.",
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    "hellMaidenRoadmap": {
+      "title": "Hoja de ruta y actualizaciones del acceso anticipado de Hell Maiden",
+      "displayType": "cronología",
+      "intro": "Hell Maiden entró en acceso anticipado con dos Círculos completos, cuatro Poets, cuatro armas distintivas, más de 40 habilidades, jefes, contenido de historia y progresión permanente. AstralShift planea correcciones periódicas y actualizaciones de contenido mientras expande el juego hacia los nueve Círculos.",
+      "entries": [
+        {
+          "date": "23 de mayo de 2025",
+          "status": "Anuncio",
+          "headline": "Hell Maiden revelado",
+          "details": "AstralShift presentó públicamente Hell Maiden como un roguelite de acción y supervivencia de hordas con progresión de construcción de mazos, compañeros Poet, capítulos de historia y una visión inspirada en el anime del Infierno de Dante."
+        },
+        {
+          "date": "Octubre de 2025",
+          "status": "Demo",
+          "headline": "Demo jugable y primer hotfix",
+          "details": "La demo pública ofreció el Círculo de Limbo completo, más de 25 habilidades, un Poet, seis Weapon Cards y diez Mod Cards. Poco después se lanzó un hotfix con correcciones de jugabilidad y calidad de vida."
+        },
+        {
+          "date": "13 de julio de 2026",
+          "status": "Transición",
+          "headline": "Demo original eliminada",
+          "details": "AstralShift eliminó la demo antigua porque la versión de Early Access había divergido debido a la nueva metaprogresión, estadísticas rebalanceadas y mecánicas cambiadas. El estudio planea una nueva demo de paridad una vez que la versión de Early Access se estabilice."
+        },
+        {
+          "date": "16 de julio de 2026",
+          "status": "Lanzamiento de Early Access",
+          "headline": "Dos Circles disponibles en el lanzamiento",
+          "details": "Early Access se lanzó con Limbo y Lust, cuatro Poets of Limbo por encontrar y rescatar, cuatro armas distintivas, más de 40 habilidades, jefes principales, misiones, contenido de historia y progresión permanente entre partidas."
+        },
+        {
+          "date": "16 de julio de 2026",
+          "status": "Hotfix v0.2.31",
+          "headline": "Correcciones de progresión y equilibrio del día de lanzamiento",
+          "details": "El hotfix de lanzamiento solucionó la interrupción de la progresión tras el ataque de clones de Libicocco, corrigió problemas de interfaz y localización, garantizó que Curse of Dido otorgue al menos un proyectil, redujo la frecuencia con la que la Queen Minos repite los mismos ataques y añadió una opción de lanzamiento beta para DirectX 11."
+        },
+        {
+          "date": "Más adelante en 2026",
+          "status": "Contenido planificado",
+          "headline": "Circle 3 — Gluttony",
+          "details": "La hoja de ruta oficial apunta a Gluttony como el próximo Circle más adelante en 2026, añadiendo otra etapa del descenso a través del infierno con nuevos enemigos, contenido de progresión y encuentros."
+        },
+        {
+          "date": "Durante el Early Access",
+          "status": "Desarrollo en curso",
+          "headline": "Parches regulares y expansión de contenido",
+          "details": "Los desarrolladores planean hotfixes frecuentes, cambios de equilibrio, mejoras de calidad de vida, nuevos Circles, Poets, cartas, jefes, misiones, lore, armas, ventajas y habilidades definitivas. Se espera que el periodo de Early Access continúe durante aproximadamente un año o más, según lo requiera el desarrollo."
+        },
+        {
+          "date": "Lanzamiento completo",
+          "status": "Objetivo a largo plazo",
+          "headline": "Los nueve Circles y el Endless Mode",
+          "details": "Está previsto que la versión completa incluya los nueve Circles of Hell, un elenco más amplio de Poets, más armas distintivas, ventajas, cartas, ataques definitivos, jefes, lore, misiones secundarias, mejoras de calidad de vida y un Endless Mode. La página de la tienda también indica que se espera que el precio aumente con el lanzamiento completo."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Hell Maiden",
+    "questions": [
+      {
+        "question": "¿Qué es Hell Maiden?",
+        "answer": "Hell Maiden es un roguelite gótico de construcción de mazos y supervivencia contra hordas en Steam. Juegas como Dante, atacando automáticamente mientras apuntas, te deslizas, recoges experiencia y construyes una mano de Spirit Cards a través de los Circles of Hell."
+      },
+      {
+        "question": "¿Es Hell Maiden un juego para un solo jugador?",
+        "answer": "Sí. Hell Maiden es un juego para un solo jugador sin multijugador ni cooperativo."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Hell Maiden?",
+        "answer": "Hell Maiden está disponible en Steam para PC. Entró en Early Access de Steam el 16 de julio de 2026."
+      },
+      {
+        "question": "¿Cuántos Circles están disponibles en el Early Access de Hell Maiden?",
+        "answer": "El Early Access se lanzó con dos Circles completos: Limbo y Lust. La hoja de ruta planea expandir Hell Maiden hacia los nueve Circles of Hell con el tiempo."
+      },
+      {
+        "question": "¿Cuántos logros tiene Hell Maiden?",
+        "answer": "Hell Maiden tiene actualmente 72 logros de Steam distribuidos en categorías de progresión, colección de cartas, Poets, jefes, supervivencia, caza de enemigos e historia."
+      },
+      {
+        "question": "¿Es compatible Hell Maiden con mandos?",
+        "answer": "Sí. Hell Maiden es compatible con entrada de apuntado mediante ratón, teclado y mando. Dante ataca automáticamente, por lo que principalmente controlas el apuntado, el deslizamiento y el posicionamiento."
+      },
+      {
+        "question": "¿Seguirá recibiendo actualizaciones Hell Maiden?",
+        "answer": "Sí. AstralShift planea hotfixes regulares, cambios de equilibrio, nuevos Circles, Poets, cartas, jefes y un eventual Endless Mode para Hell Maiden durante el Early Access y hacia el lanzamiento completo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a Hell Maiden?",
+    "description": "¡Únete a la comunidad de Hell Maiden en Discord para obtener guías de builds, estrategias contra jefes y actualizaciones del Acceso Anticipado!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Hell Maiden",
+    "description": "Tu centro de recursos completo para builds de Hell Maiden, Spirit Cards, personajes, jefes, Círculos, logros y actualizaciones del Acceso Anticipado.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Hell Maiden Wiki. No afiliado con los desarrolladores de Hell Maiden.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Hell Maiden",
+      "description": "Guías completas de Hell Maiden, desde conceptos básicos para principiantes hasta tácticas de supervivencia avanzadas en los Circles of Hell.",
+      "metaTitle": "Guía de Hell Maiden - Consejos para principiantes y progresión",
+      "metaDescription": "Domina Hell Maiden con guías para principiantes, controles, consejos de guardado y progresión, y estrategias de supervivencia para los Circles of Hell de este deckbuilder gótico.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿De qué trata esta guía?",
+      "whatIsDescription": "Guías paso a paso de Hell Maiden que cubren los controles, el desplazamiento rápido y apuntado, la recolección de experiencia y las rutas más seguras durante tus primeras horas en Limbo y más allá.",
+      "why": "¿Por qué leer esta guía?",
+      "whySteps": {
+        "step1Title": "Empieza con fuerza",
+        "step1Description": "Aprende los movimientos iniciales, las prioridades de mejora y qué se conserva después de la muerte",
+        "step2Title": "Sobrevive más tiempo",
+        "step2Description": "Domina la esquiva, el posicionamiento y los patrones de recogida de experiencia en cada Círculo",
+        "step3Title": "Evita errores comunes",
+        "step3Description": "Evita las trampas para principiantes que terminan las partidas antes de tiempo en los Circles of Hell"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "builds": {
+      "title": "Builds de Hell Maiden",
+      "description": "Las mejores builds de Hell Maiden con combos de Spirit Cards, Weapon Cards y Mod Cards, además de una tier list completa para cada Círculo.",
+      "metaTitle": "Builds de Hell Maiden - Mejores mazos y tier list",
+      "metaDescription": "Descubre las mejores builds de Hell Maiden, combinaciones de primer nivel de Spirit Cards y Weapon Cards, y estrategias de mazos probadas para cada uno de los Circles of Hell.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "¿Qué son las builds?",
+      "whatIsDescription": "Completa builds de mazos de Hell Maiden que combinan Spirit Cards, Weapon Cards y Mod Cards en poderosas sinergias, con órdenes de mejora y Circles recomendados para cada configuración.",
+      "why": "¿Por qué usar builds?",
+      "whySteps": {
+        "step1Title": "Copia mazos probados",
+        "step1Description": "Usa combinaciones de Spirit Cards y Weapon Cards ya preparadas y probadas en cada Circle",
+        "step2Title": "Sigue los órdenes de mejora",
+        "step2Description": "Elige las cartas en la secuencia correcta para alcanzar pronto el pico de poder de tu build",
+        "step3Title": "Encuentra alternativas",
+        "step3Description": "Intercambia cartas sustitutas y adapta tu mazo a los enemigos y jefes a los que te enfrentes"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las builds"
+    },
+    "bosses": {
+      "title": "Jefes de Hell Maiden",
+      "description": "Guías de jefes de Hell Maiden con patrones de ataque, fases, zonas seguras y estrategias de contraataque para Minos, Libicocco, Scarmiglione y más.",
+      "metaTitle": "Jefes de Hell Maiden - Estrategias y guías de fases",
+      "metaDescription": "Derrota a cada jefe de Hell Maiden con estrategias fase por fase, indicadores de ataque, zonas seguras y builds recomendadas para Minos, Libicocco y Scarmiglione.",
+      "categoryLabel": "JEFES",
+      "whatIs": "¿Qué son los jefes?",
+      "whatIsDescription": "Análisis detallados de los jefes de Hell Maiden que cubren indicadores de ataque, transiciones de fase, zonas seguras, builds de contraataque y las recompensas por derrotar a cada guardián de los Circles.",
+      "why": "¿Por qué leer guías de jefes?",
+      "whySteps": {
+        "step1Title": "Lee los indicadores de ataque",
+        "step1Description": "Reconoce cada preparación de ataque de los jefes para esquivar y reposicionarte a tiempo",
+        "step2Title": "Sobrevive a cada fase",
+        "step2Description": "Aprende las transiciones de fase y cómo escala el combate a través del Circle",
+        "step3Title": "Elige builds de contraataque",
+        "step3Description": "Lleva los mazos de Spirit Cards y Weapon Cards recomendados a los que cada jefe es vulnerable"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los jefes"
+    },
+    "characters": {
+      "title": "Personajes de Hell Maiden",
+      "description": "Guías de personajes de Hell Maiden para Dante, Virgil, Beatrice, Ovid y los Poets of Limbo, con historias, habilidades y condiciones de desbloqueo.",
+      "metaTitle": "Personajes de Hell Maiden - Dante, Virgil y Poets",
+      "metaDescription": "Explora a cada personaje de Hell Maiden, incluyendo a Dante, Virgil, Beatrice, Ovid y los Poets of Limbo, con trasfondo, habilidades, bendiciones y cómo rescatarlos.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Quiénes son los personajes?",
+      "whatIsDescription": "Perfiles del elenco de Hell Maiden, incluyendo a Dante, Virgil, Beatrice, Ovid y los Poets of Limbo, cubriendo sus historias, habilidades, bendiciones y condiciones de rescate.",
+      "why": "¿Por qué leer guías de personajes?",
+      "whySteps": {
+        "step1Title": "Aprende el trasfondo",
+        "step1Description": "Comprende la historia gótica y cómo cada personaje se conecta con el universo de Little Goody Two Shoes",
+        "step2Title": "Desbloquea habilidades",
+        "step2Description": "Descubre las bendiciones de cada Poet y las condiciones para reclutarlos",
+        "step3Title": "Planifica rescates",
+        "step3Description": "Encuentra dónde y cómo salvar a cada Poet of Limbo a través de los Circles"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los personajes"
+    },
+    "release": {
+      "title": "Lanzamiento de Hell Maiden",
+      "description": "Información de lanzamiento de Hell Maiden, incluyendo la fecha de Early Access, la hoja de ruta del lanzamiento completo, detalles de la demo y dónde jugar en Steam e itch.io.",
+      "metaTitle": "Lanzamiento de Hell Maiden - Early Access y hoja de ruta",
+      "metaDescription": "Sigue la cronología de lanzamiento de Hell Maiden, incluyendo el lanzamiento de Early Access, la fecha de lanzamiento completo, la demo, la hoja de ruta y la disponibilidad en Steam e itch.io.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "Todo sobre el lanzamiento y la hoja de ruta de Hell Maiden, incluyendo el inicio del Early Access en Steam, los planes de lanzamiento completo, la demo jugable y el calendario de actualizaciones continuas de AstralShift.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce las fechas",
+        "step1Description": "Sigue el lanzamiento de Early Access, la ventana de lanzamiento completo y la disponibilidad de la demo",
+        "step2Title": "Sigue la hoja de ruta",
+        "step3Title": "Juega la demo",
+        "step2Description": "Mira los próximos Circles, personajes, armas, habilidades y planes para el Modo Endless",
+        "step3Description": "Encuentra dónde descargar la demo y qué contenido incluye antes de comprar"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Toda la información de lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas de Hell Maiden",
+      "description": "Disponibilidad de plataformas y fechas de lanzamiento de Hell Maiden para PC, PS5, Nintendo Switch, Xbox y Steam Deck, con detalles de compatibilidad.",
+      "metaTitle": "Plataformas de Hell Maiden - PS5, Switch, Xbox y Steam Deck",
+      "metaDescription": "Descubre en qué plataformas está Hell Maiden, incluyendo soporte para PC, PS5, Nintendo Switch, Xbox y Steam Deck, fechas de lanzamiento y estado de verificación.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿En qué plataformas está disponible?",
+      "whatIsDescription": "Cobertura de plataformas de Hell Maiden en PC, Steam Deck, PS5, Nintendo Switch y Xbox, con tiempos de lanzamiento, estado de verificación y detalles de juego cruzado a medida que el juego se expande más allá del Early Access.",
+      "why": "¿Por qué consultar las plataformas?",
+      "whySteps": {
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compara la disponibilidad y las fechas de lanzamiento en PC, PS5, Switch y Xbox",
+        "step2Title": "Comprueba Steam Deck",
+        "step2Description": "Confirma el estado de verificación en Steam Deck y el rendimiento en modo portátil antes de jugar",
+        "step3Title": "Sigue los lanzamientos en consolas",
+        "step3Description": "Sigue la hoja de ruta para saber cuándo se lanza cada versión de consola"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las plataformas"
+    },
+    "media": {
+      "title": "Multimedia de Hell Maiden",
+      "description": "Contenido multimedia de Hell Maiden, incluyendo el tráiler de lanzamiento de EA, el tema de apertura y la banda sonora original (OST) del deckbuilder gótico de AstralShift.",
+      "metaTitle": "Multimedia de Hell Maiden - Tráiler, tema y OST",
+      "metaDescription": "Mira los tráilers de Hell Maiden, escucha el tema de apertura y la banda sonora original, y explora el contenido multimedia del deckbuilder de supervivencia gótico de AstralShift.",
+      "categoryLabel": "MULTIMEDIA",
+      "whatIs": "¿Qué hay aquí?",
+      "whatIsDescription": "Cobertura mediática de Hell Maiden, que incluye los tráileres oficiales, el tema de apertura y la banda sonora original que establecen la atmósfera gótica de los Circles of Hell.",
+      "why": "¿Por qué ver y escuchar?",
+      "whySteps": {
+        "step1Title": "Mira los tráileres",
+        "step1Description": "No te pierdas los tráileres de jugabilidad y de lanzamiento del acceso anticipado para ver un avance del arte y el combate",
+        "step2Title": "Escucha el tema",
+        "step2Description": "Escucha el tema de apertura que define el tono gótico del juego",
+        "step3Title": "Disfruta de la banda sonora",
+        "step3Description": "Explora la banda sonora original detrás de los Circles of Hell"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todo el contenido multimedia"
+    }
+  }
+}

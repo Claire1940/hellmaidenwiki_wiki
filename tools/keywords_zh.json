@@ -1,46 +1,74 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "攻略指南",
       "keywords": [
-        "lucid blocks 指南"
+        "Hell Maiden 攻略",
+        "Hell Maiden 新手指南",
+        "Hell Maiden 操作按键",
+        "Hell Maiden 存档进度",
+        "Hell Maiden 流程攻略"
       ]
     },
     {
-      "category": "合成",
+      "category": "流派构筑",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "Hell Maiden 强度榜",
+        "Hell Maiden 最强构筑",
+        "Hell Maiden 精神卡牌",
+        "Hell Maiden 武器卡牌",
+        "Hell Maiden 模组卡牌",
+        "Hell Maiden 法术组合",
+        "Hell Maiden 炽羽笔构筑"
       ]
     },
     {
-      "category": "物品",
+      "category": "Boss 攻略",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "Hell Maiden Boss 攻略",
+        "Hell Maiden 弥诺斯",
+        "Hell Maiden 利比科科",
+        "Hell Maiden 斯卡尔米廖内"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "角色介绍",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "Hell Maiden 角色大全",
+        "Hell Maiden 但丁",
+        "Hell Maiden 维吉尔",
+        "Hell Maiden 奥维德",
+        "Hell Maiden 贝雅特丽齐",
+        "Hell Maiden 小乖鞋宇宙"
       ]
     },
     {
-      "category": "建造",
+      "category": "发布信息",
       "keywords": [
-        "lucid blocks 感质空间"
+        "Hell Maiden 发售日期",
+        "Hell Maiden 抢先体验",
+        "Hell Maiden 正式版发售",
+        "Hell Maiden 试玩版",
+        "Hell Maiden 试玩下载",
+        "Hell Maiden Steam 商店",
+        "Hell Maiden itch io"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "平台支持",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "Hell Maiden PS5 发售",
+        "Hell Maiden Switch 发售",
+        "Hell Maiden Xbox 版",
+        "Hell Maiden Steam Deck"
+      ]
+    },
+    {
+      "category": "媒体资源",
+      "keywords": [
+        "Hell Maiden 预告片",
+        "Hell Maiden 主题曲",
+        "Hell Maiden 原声带"
       ]
     }
   ]

@@ -1,1 +1,1258 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Hell Maiden Wiki - ビルド、カード、ボス＆ロードマップ",
+      "description": "初心者向けガイド、おすすめデッキビルド、Spirit Cards、Poets of Limbo、ボス攻略、実績、ロードマップの更新情報、そしてSteam早期アクセスの詳細を網羅したHell Maiden Wiki。",
+      "keywords": "Hell Maiden, Steam, デッキビルド, Spirit Cards, ボス, Poets, 実績, ロードマップ",
+      "ogTitle": "Hell Maiden Wiki - ビルド、カード、ボス＆ロードマップ",
+      "ogDescription": "初心者向けガイド、おすすめデッキビルド、Spirit Cards、Poets of Limbo、ボス攻略、実績、ロードマップの更新情報、そしてSteam早期アクセスの詳細を網羅したHell Maiden Wiki。",
+      "twitterTitle": "Hell Maiden Wiki - ビルド、カード、ボス＆ロードマップ",
+      "twitterDescription": "Steam早期アクセス中のデッキビルドゲームにおけるビルド、Spirit Cards、ボス、実績、ロードマップの更新情報を網羅したHell Maiden Wiki。"
+    }
+  },
+  "nav": {
+    "guide": "ガイド",
+    "builds": "ビルド",
+    "bosses": "ボス",
+    "characters": "キャラクター",
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "media": "メディア"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "ゴシックホードサバイバル・デッキビルダー",
+    "title": "Hell Maiden Wiki",
+    "description": "Spirit Cardsのデッキを構築し、Poets of Limboを救出し、Circles of Hellのボスを打ち倒し、すべての早期アクセスアップデート情報をチェックしよう。",
+    "getFreeCodesCTA": "ビルドを探索",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "88%",
+        "label": "好評なレビュー"
+      },
+      "stat2": {
+        "value": "40+",
+        "label": "利用可能なアビリティ"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "プレイ可能なCircles"
+      },
+      "stat4": {
+        "value": "72",
+        "label": "Steam実績"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Hell Maidenのゲームプレイ",
+    "description": "Steamで配信中のこのゴシック・デッキ構築型ホードサバイバル・ローグライトゲームで、Spirit Cardsのデッキを構築し、Poets of Limboを救出し、Circles of Hellで弾幕の波を生き延びよう。"
+  },
+  "tools": {
+    "title": "Hell Maiden",
+    "titleHighlight": "ガイド",
+    "subtitle": "デッキ構築、詩人の救出、ボスの撃破、そしてCircles of Hellを生き延びるために必要なすべて",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "初心者向けガイド",
+        "description": "最初の一歩、操作方法、そして初のLimboクリア"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "最強ビルド",
+        "description": "あらゆるプレイスタイルに対応するウェポンカードとMod Cardsの組み合わせ"
+      },
+      {
+        "icon": "Eye",
+        "title": "サークル攻略",
+        "description": "Limbo、Lust、目標、詩人、そしてボス戦の準備"
+      },
+      {
+        "icon": "Users",
+        "title": "キャラクター",
+        "description": "ダンテ、ヴァージル、ベアトリス、そしてPoets of Limbo"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "ボス",
+        "description": "ミノス女王、マレブランケ、そしてエリートの敵"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "進行要素",
+        "description": "寺院、チャーム、ウェイル、レベル、そしてマイルストーン"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "実績",
+        "description": "全72個のSteam実績とその解除条件"
+      },
+      {
+        "icon": "Clock",
+        "title": "ロードマップ",
+        "description": "早期アクセスのパッチと9つのサークルへの道のり"
+      }
+    ]
+  },
+  "modules": {
+    "hellMaidenBeginnerGuide": {
+      "title": "Hell Maiden 初心者向けガイド",
+      "displayType": "ステップ",
+      "intro": "Hell Maidenは、自動攻撃に手動の照準合わせと能動的な回避を組み合わせたゲームです。常に動き回り、経験値を集め、4枚のウェポンカードの手札を構築し、それらの武器をMod Cardsで強化し、生存タイマー終了後のボス戦に備えて十分な体力と機動力を温存しましょう。",
+      "steps": [
+        {
+          "title": "移動と照準合わせを同時に行う",
+          "description": "ダンテは自動的に攻撃しますが、攻撃の方向はマウスカーソルまたはコントローラーのエイム入力で操作します。立ち止まるのではなく、敵の集団の周囲を回りながら、各ウェーブの最も密集している部分に向けて攻撃を放ちましょう。",
+          "priority": "経験値アイテムを回収しやすくするため、敵は常にダンテの片側に留めておくようにしましょう。"
+        },
+        {
+          "title": "ダッシュを使って敵の包囲網を突破する",
+          "description": "ダッシュを使用すると、ダンテはダメージを受けることなく危険な隙間を通り抜けることができます。囲まれた敵からの脱出、弾幕の突破、または起動後の寺院エリアからの離脱に活用しましょう。",
+          "priority": "すべてのダッシュを通常の移動に使ってしまわないように注意し、エリートやボスの予兆攻撃に備えて1回分を残しておきましょう。"
+        },
+        {
+          "title": "経験値を集めてカードを選択する",
+          "description": "倒した敵は、ダンテのレベルを上げる経験値オーブをドロップします。レベルアップ時の選択肢では、ウェポンカードの追加、Mod Cardsの装着、またはすでに手札にある効果の強化を行うことができます。",
+          "priority": "敵のウェーブの後方に大量のオーブを残すのではなく、近くの経験値を定期的に回収しましょう。"
+        },
+        {
+          "title": "4枚のWeaponからなる手札の構築",
+          "description": "手札には4枚のWeapon Cardsを保持できます。お気に入りの武器を1つメインのダメージソースとして維持しながら空きスロットを埋め、ダメージ、発射体数、攻撃速度、状態異常、または生存能力を向上させるModsを装着しましょう。",
+          "priority": "メイン武器に有用なModsが揃う前に、すべてのスロットを無関係な効果で埋めてしまうのは避けましょう。"
+        },
+        {
+          "title": "重複するMod Cardsの合成",
+          "description": "同一のMod Cardsを合成してより強力なバージョンにすることができ、レベル3が構築の重要な節目となります。一部のModsは配置された位置に応じて武器を強化するため、位置効果が変化したときはいつでも手札を並べ替えましょう。",
+          "priority": "手札全体に弱いコピーを分散させるのではなく、最もダメージを与えている武器の重複カードを合成しましょう。"
+        },
+        {
+          "title": "ラン中のTemplesの起動",
+          "description": "Templesはランの追加の進行状況を提供し、各Circleのいたるところに出現します。ウェーブに対処しやすい間に探索し、さまざまな種類のTempleを起動して、1回のランで12箇所のTemplesを起動することを目指しましょう。",
+          "priority": "ランの序盤から中盤にかけてTemplesを訪れましょう。終盤のウェーブでは、遠回りをすることが非常に危険になります。"
+        },
+        {
+          "title": "Limboを生き延び、Queen Minosを撃破せよ",
+          "description": "Circle 1では、最終エンカウントの前にDanteが12分間生存する必要があります。完成したWeaponの手札、アップグレードされたMods、準備の整ったSpell、そしてQueen Minosの発射体パターンや予兆のある範囲攻撃に対処するのに十分な体力を備えてボス戦に挑みましょう。",
+          "priority": "初回セッションのルート：経験値を回収し、Weaponスロットを埋め、1つのレベル3 Modスタックに集中し、近くのTemplesを起動し、救出可能なPoetsを救出し、12分間生存したのち、Queen Minosの最も回避が困難な攻撃パターンの間にダッシュとDanteのSpellを使用します。"
+        }
+      ],
+      "quickTips": [
+        "Danteは自動的に攻撃します。プレイヤーの役割は、狙いを定めること、回避すること、そして位置取りをすることです。",
+        "レベルアップ時に空きスロットではなくModsを追加できるよう、早い段階で4つすべてのWeaponスロットを埋めておきましょう。",
+        "最も強力なWeaponで、重複するMod Cardsをレベル3を目指して合成しましょう。",
+        "ウェーブがまだ対処しやすいランの序盤から中盤にかけて、Templesを起動しましょう。",
+        "永続的なカードプールを拡張するために、到達できるすべてのPoetを救出しましょう。"
+      ]
+    },
+    "hellMaidenBestBuilds": {
+      "title": "Hell Maiden 最強ビルドとSpirit Cards",
+      "displayType": "カード",
+      "intro": "Spirit CardsはWeapon CardsとMod Cardsに分かれています。信頼性の高いビルドは通常、最も強力なアップグレードを1つの代表的なWeaponに集中させ、残りのスロットを補完的な攻撃に使用し、多くの弱い効果を集める代わりに重複するModsをレベル3に向けて合成します。",
+      "builds": [
+        {
+          "name": "特化型ダメージビルド",
+          "bestFor": "直接ダメージ、エリート、そして確実なLimboクリア",
+          "owners": [
+            "Dante",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "ダメージ",
+            "攻撃速度",
+            "追加の発射体"
+          ],
+          "positioning": "隣接するカードや右側に配置されたカードを強化するModまたはWeapon効果の横に、コアとなるWeaponを配置しましょう。",
+          "buildPlan": "早い段階でコアとなるWeaponを1つ選び、その重複するModsを合成し、そのWeaponに3つのレベル3 Modsを装備することを目指しましょう。競合するダメージ投資をするのではなく、カバー範囲を広げるためにサブのWeaponスロットを使用しましょう。",
+          "spellUsage": "DanteのInfernoやHoraceのSpellは、敵が密集したウェーブや移動が制限されるボス戦のフェーズのために温存しておきましょう。"
+        },
+        {
+          "name": "発射体プレッシャービルド",
+          "bestFor": "大規模な敵のグループと画面全体の継続的なカバー",
+          "owners": [
+            "Virgil",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Wayfinder",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "発射体数",
+            "攻撃速度",
+            "攻撃持続時間",
+            "攻撃範囲または状態異常効果"
+          ],
+          "positioning": "隣接ボーナスを持つカードには中央2つのWeaponスロットを使用し、1つの配置効果で複数の攻撃をサポートできるようにしましょう。",
+          "buildPlan": "まずは攻撃の数と頻度を増やし、画面を安定して覆えるようになってからダメージを追加しましょう。重複した発射体Modは、すべてのWeaponに低レベルのものを配置するのではなく、合成してください。",
+          "spellUsage": "VirgilのStar Sign「Pleiades」は、通常の発射体で安全な道を作れない場合に強力な緊急攻撃手段となります。"
+        },
+        {
+          "name": "状態異常コントロール・ビルド",
+          "bestFor": "連続ヒットでダメージを与えつつ、高速なウェーブを制御する",
+          "owners": [
+            "Dante",
+            "Virgil",
+            "Ovid"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder",
+            "Codex Amoris"
+          ],
+          "modPriorities": [
+            "状態異常効果",
+            "発射体数",
+            "攻撃速度",
+            "効果持続時間"
+          ],
+          "positioning": "状態異常重視のModは高速または多段ヒットのWeaponに装着し、即時ダメージ用のWeaponを1つ別に確保しておきましょう。",
+          "buildPlan": "状態異常の付与は2つのWeaponに分散させ、純粋なダメージModは1つのフィニッシャーに集中させます。これにより、手札が発動に時間のかかる効果に依存しすぎるのを防げます。",
+          "spellUsage": "Poet's Spellは、状態異常で敵を集めた後や、対処が困難なエリートウェーブの際に使用しましょう。"
+        },
+        {
+          "name": "サバイバル・クリア・ビルド",
+          "bestFor": "初回クリア、Temple探索、および回復手段の少ないチャレンジ向け",
+          "owners": [
+            "Dante",
+            "Virgil"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder"
+          ],
+          "modPriorities": [
+            "生存能力",
+            "回復サポート",
+            "攻撃範囲",
+            "攻撃速度"
+          ],
+          "positioning": "最も安全に敵を殲滅できるWeaponをメインのサポート枠に配置し、サブスロットを防御と範囲カバーに使用しましょう。",
+          "buildPlan": "ボスへのダメージに特化する前に、安定した範囲ダメージを確保してください。敵の圧力が低いうちにTempleを訪れ、不要な接触ダメージを避け、囲まれた時のためにダッシュを温存しましょう。",
+          "spellUsage": "Spellは使用可能になった直後に使うのではなく、Danteが囲まれた際の防御的なリセット手段として扱いましょう。"
+        },
+        {
+          "name": "ボス特化ビルド",
+          "bestFor": "Queen Minos、Scarmiglione、Libicocco、およびその他の高耐久ターゲット",
+          "owners": [
+            "Homer",
+            "Ovid",
+            "Dante"
+          ],
+          "featuredWeapons": [
+            "Winged Lyric",
+            "Codex Amoris",
+            "Blazing Quill"
+          ],
+          "modPriorities": [
+            "単体ターゲットダメージ",
+            "攻撃速度",
+            "クリティカルまたは直接ダメージ",
+            "レベル3の重複Mod"
+          ],
+          "positioning": "ボス用の主力Weaponに最強の配置ボーナスを与え、残りのスロットには召喚された敵を処理するための広範囲攻撃Weaponを維持しましょう。",
+          "buildPlan": "Winged Lyricは標的を確実に1体ずつ攻撃するため、エリートやボスへの継続的なプレッシャーに適しています。Codex AmorisはOvidに焦点を当てたLustの攻略をサポートし、Blazing Quillは現在利用可能な両方のCirclesをクリア可能です。",
+          "spellUsage": "ボスの激しい移動パターンが終わるのを待ち、ターゲットが攻撃エリア内に留まっている間にシグネチャーSpellを発動しましょう。"
+        }
+      ]
+    },
+    "hellMaidenWalkthrough": {
+      "title": "Hell Maiden LimboおよびLust攻略ガイド",
+      "displayType": "ステージ",
+      "intro": "各Circleは、敵のウェーブ、クエスト、Temple、Poetの救出、カード構築、および最終ボス戦で構成されています。ウェーブがまだ対処可能なうちに任意目標を完了し、手札が整って終盤に入ったら、遠回りは控えましょう。",
+      "stages": [
+        {
+          "title": "Circle 1: Limbo",
+          "runLength": "12分間生存する",
+          "rescueTargets": [
+            "Horace",
+            "Homer"
+          ],
+          "bosses": [
+            "Queen Minos"
+          ],
+          "objectives": [
+            "経験値を集め、4つのWeaponスロットをすべて埋める",
+            "Modカードを装着・合成する",
+            "利用可能なTempleを起動する",
+            "Limboのクエストを完了し、HoraceとHomerを救出する",
+            "12分間のウェーブタイマーを生き延びる",
+            "Queen Minosを撃破する"
+          ],
+          "recommendedSetup": "Blazing Quill、Wayfinder、Carpe Diem、またはWinged Lyricを主力Weaponとして使用します。少なくとも1つの大幅にアップグレードされたWeapon、有効な広範囲攻撃、そして準備の整ったSpellを持ってボス戦に挑みましょう。",
+          "bossTips": "Queen Minosは弾幕攻撃と予兆のある範囲攻撃を使用します。危険地帯の縁を移動し、安全なルートが塞がれた時のみダッシュを使用し、敵や弾幕が狭い範囲に追い込まれるパターン中にSpellを発動しましょう。",
+          "rewards": "Limboをクリアするとストーリーが進展し、Poetとのさらなる会話が解放され、HoraceとHomerの救出をサポートし、Circle 2のアンロックに繋がります。"
+        },
+        {
+          "title": "Circle 2: Lust を解放",
+          "runLength": "進行によるアンロック",
+          "requirements": [
+            "Limboの生存目標を達成する",
+            "Queen Minosを撃破する",
+            "ForumのストーリーとPoetとの交流を継続する",
+            "Winds of Desireの進行アンロック後、Lustを選択する"
+          ],
+          "preparation": "Limboを繰り返しプレイして、より多くのPoetカードをアンロックし、会話を完了させ、配置Modへの習熟度を高め、限られた回復手段でボスに到達する練習をしましょう。",
+          "recommendedGoal": "Lustに入る前にWeaponとModの手札を完成させ、足の速い敵やエリートのウェーブによって序盤のデッキ構築が妨げられないようにしましょう。",
+          "bossTips": "Limboの追加クリアを、完成した手札と限られた回復リソースでボスに到着するための練習として活用してください。",
+          "rewards": "LustをアンロックするとWinds of Desireが付与され、第2のCircleのPoet、敵、ボスが解放されます。"
+        },
+        {
+          "title": "Circle 2: Lust",
+          "runLength": "12分間生存する",
+          "rescueTargets": [
+            "Ovid"
+          ],
+          "bosses": [
+            "Scarmiglione",
+            "リビコッコとスカルミリオーネ"
+          ],
+          "featuredThreats": [
+            "サキュバス",
+            "エリートサキュバス",
+            "バイパー",
+            "エリートバイパー",
+            "色欲の罪人",
+            "色欲の地雷",
+            "デヴィ・ブロッティ"
+          ],
+          "objectives": [
+            "エリートバイパーやサキュバスが現れる前にビルドを安定させる",
+            "囲まれることなく神殿の起動を続ける",
+            "オウィディウスを救出し、Codex Amorisのカードラインを解放する",
+            "12分間のウェーブタイマーを生き延びる",
+            "スカルミリオーネを撃破する",
+            "リビコッコとスカルミリオーネの遭遇戦に勝利する"
+          ],
+          "recommendedSetup": "クラウドコントロールとボスへの集中ダメージを組み合わせて持ち込みましょう。投射物やステータス効果のビルドは色欲の密集したウェーブの処理に役立ち、レベル3のModスタックと温存したスペルは最終遭遇戦に必要なダメージをもたらします。",
+          "bossTips": "予兆攻撃の間は横方向に動き続け、退路を塞がれる前に召喚された敵を処理し、開幕のパターンでダッシュを使い果たさないようにしましょう。ボスのペアがまとまるか、攻撃動作に入ったら、シグネチャースペルを使用してください。",
+          "rewards": "色欲の進行によって、オウィディウス、Codex Amoris、さらなるストーリーチャプター、追加の会話、そしてCircleの撃破したボスから得られるアビリティが追加されます。"
+        }
+      ]
+    },
+    "hellMaidenCharacters": {
+      "title": "Hell MaidenのPoets of Limboとキャラクターの解放",
+      "displayType": "カード",
+      "intro": "Hell Maidenは、ダンテがパラディーゾに到達した後に記憶を失って謎の地獄への帰還を果たした、ダンテの『神曲』のその後の物語を描きます。ヴァージルが彼女を導き、ベアトリーチェが彼女を守り、ダンテが彼らの救済を助ける中でPoets of Limboが新たな戦闘の選択肢を提供します。",
+      "characters": [
+        {
+          "name": "ダンテ・アリギエーリ",
+          "role": "プレイアブル主人公",
+          "story": "ダンテはパラディーゾに到達した後に地獄へと戻り、前回の旅の記憶を失っています。彼女は答えと天国への別の道を探して、再びCirclesを登り始めます。",
+          "unlock": "最初から使用可能",
+          "signatureWeapon": "ブレイジング・クイル",
+          "spell": "ダンテのインフェルノ",
+          "rewards": [
+            "ダンテの武器カード",
+            "ダンテのModカード",
+            "画面全体の敵を一掃するシグネチャースペル",
+            "ストーリーチャプターと記憶に関する会話"
+          ]
+        },
+        {
+          "name": "ヴァージル",
+          "role": "導き手であり詩人の仲間",
+          "story": "このローマの詩人は地獄を進むダンテに同行し、奈落の導き手として仕えます。ヴァージルは、ダンテの初期の進行に深く関わる中心的な詩人の一人です。",
+          "unlock": "オープニングストーリーを進め、詩人のフォーラムでヴァージルと話す",
+          "signatureWeapon": "ウェイファインダー",
+          "spell": "星座「プレアデス」",
+          "rewards": [
+            "ヴァージルの武器カード",
+            "ヴァージルのModカード",
+            "ウェイファインダー",
+            "ヴァージルのスペル",
+            "祝福とダイアログの進行"
+          ]
+        },
+        {
+          "name": "ベアトリチェ",
+          "role": "神聖なる守護者",
+          "story": "ベアトリチェは、ダンテの地獄への新たな旅において彼女を守り、ダンテのパラディソ探索と失われた記憶の追及に深く関わり続けている。",
+          "unlock": "ストーリーの進行によって遭遇",
+          "signatureWeapon": "なし",
+          "spell": "なし",
+          "rewards": [
+            "ストーリーの導き",
+            "追加ダイアログ",
+            "「Pilgrim's Journey」インタラクション目標の進行状況"
+          ]
+        },
+        {
+          "name": "ホラティウス",
+          "role": "Poet of Limbo",
+          "story": "ホラティウスは、ダンテがLimboを探索中に救出できる最初のPoetの一人である。彼女を救出することで、使用可能なカードプールが広がり、Forumでのさらなるインタラクションが解放される。",
+          "unlock": "Circle 1のLimboでホラティウスを救出する",
+          "signatureWeapon": "Carpe Diem",
+          "spell": "ホラティウスのシグネチャーSpell",
+          "rewards": [
+            "5つの新しいアビリティ",
+            "ホラティウスのWeapon Cards",
+            "ホラティウスのMod Cards",
+            "Carpe Diem",
+            "祝福、パーク、Spell、アルティメット攻撃",
+            "新しいForumのダイアログ"
+          ]
+        },
+        {
+          "name": "ホメロス",
+          "role": "Poet of Limbo",
+          "story": "ホメロスは、Limboの進行中に救出されるもう一人のPoetである。彼女のシグネチャーWeaponは単一の標的に攻撃を集中させ、必中する。",
+          "unlock": "Circle 1のLimboでホメロスを救出する",
+          "signatureWeapon": "Winged Lyric",
+          "spell": "ホメロスのシグネチャーSpell",
+          "rewards": [
+            "5つの新しいアビリティ",
+            "ホメロスのWeapon Cards",
+            "ホメロスのMod Cards",
+            "Winged Lyric",
+            "祝福、パーク、Spell、アルティメット攻撃",
+            "新しいForumのダイアログ"
+          ]
+        },
+        {
+          "name": "オウィディウス",
+          "role": "Lustに関連するPoet",
+          "story": "オウィディウスはCircle 2の進行中にダンテのPoetsのグループに加わり、後半のランに適した新しいカードセットを提供する。",
+          "unlock": "Circle 2のLust進行中にオウィディウスを救出する",
+          "signatureWeapon": "Codex Amoris",
+          "spell": "オウィディウスのシグネチャーSpell",
+          "rewards": [
+            "5つの新アビリティ",
+            "Ovidの武器カード",
+            "OvidのModカード",
+            "Codex Amoris",
+            "祝福、パーク、スペル、そしてアルティメットアタック",
+            "新たな「愛欲」と「フォーラム」の会話"
+          ]
+        },
+        {
+          "name": "ルーカン",
+          "role": "発表された古代の詩人",
+          "story": "ルーカンは、ダンテが9つの Circles of Hell を旅する中で出会う伝説的な詩人や芸術家の中に名を連ねています。",
+          "unlock": "拡張された早期アクセスのロードマップ、および今後のサークルの進行に関連",
+          "signatureWeapon": "後日実装の詩人コンテンツで導入予定",
+          "spell": "後日実装の詩人コンテンツで導入予定",
+          "rewards": [
+            "今後の詩人とのインタラクション",
+            "追加のカードとアビリティ",
+            "さらなるストーリーと救済に関する会話"
+          ]
+        }
+      ]
+    },
+    "hellMaidenBosses": {
+      "title": "Hell Maidenのボスとエリート敵",
+      "displayType": "アコーディオン",
+      "intro": "早期アクセスには、主要なボス戦、名前付きのエリートターゲット、そして異なる敵の系統を含む、2つの完全なサークルが含まれています。ボスに勝利するとアビリティプールが拡張され、エリートの撃破や周回クリアによって専用のSteam実績が解除されます。",
+      "encounters": [
+        {
+          "name": "クィーン・ミノス",
+          "circle": "サークル1 — リンボ",
+          "encounterType": "主要ボス",
+          "attackPattern": "クィーン・ミノスは、予兆の分かりやすいアリーナ攻撃をいくつか順に繰り出してきます。ローンチ時のホットフィックスにより、同じ技を素早く連続で繰り返す頻度が減少したため、プレイヤーは固定された1つのループに頼るのではなく、変化するシーケンスを見極める必要があります。",
+          "recommendedCounter": "アリーナの外周を移動し続け、本命の攻撃のためにダッシュを温存し、敵の予兆攻撃の後の隙にダメージを与えましょう。前方のルートを通常の敵や飛び道具が塞いでいる間は、すべての回避手段を使い果たさないようにしてください。",
+          "preparation": "完璧な武器とModのセットアップ、信頼できるエリア一掃武器を少なくとも1つ、アップグレードされたダメージMod、そして混雑時や危険なフェーズに備えて詩人のスペルを用意した状態で挑みましょう。",
+          "victoryReward": "クィーン・ミノスを撃破すると「ソウルマジスター」が解放されます。3回勝利すると「タブーアーツI」が解放され、主要ボスに勝利すると恒久的なカードプールに2つの新しいアビリティが追加されます。"
+        },
+        {
+          "name": "スカルミリョーネ",
+          "circle": "サークル2 — 愛欲",
+          "encounterType": "マレブランケのボス",
+          "attackPattern": "スカルミリョーネは素早くアグレッシブなプレッシャーを与え、頻繁な位置調整を強いてきます。最も安全にダメージを与えられる隙は、ボスが積極的に距離を詰めてきている最中ではなく、本格的な接近や攻撃シーケンスの後に訪れます。",
+          "recommendedCounter": "直線的に後退するのではなく横方向に移動し、攻撃の方向が明確になるのを待ってからダッシュし、敵の隙にバーストダメージを与えましょう。次の回避に必要なルートを塞いでいる場合は、まず周囲の敵を排除してください。",
+          "preparation": "移動のコントロール、信頼性の高い単体ダメージ、HPの温存、メイン武器のレベル3 Mod、そしてスペースを作り出したり危険なフェーズを終わらせたりできる詩人のスペルを優先しましょう。",
+          "victoryReward": "スカルミリョーネを撃破すると「サラマンダー・インクイジター」が解放されます。スカルミリョーネとリビコッコの両方を撃破すると「マレブランケ・パニッシャー」が解放され、両方に3回ずつ勝利すると「タブーアーツII」が解放されます。"
+        },
+        {
+          "name": "リビコッコ",
+          "circle": "サークル2 — 愛欲",
+          "encounterType": "マレブランケのボス",
+          "attackPattern": "リビコッコは戦闘中に分身を作り出すことができ、視覚的なプレッシャーを増大させ、重なり合う攻撃を見極めにくくします。ローンチ時のホットフィックスにより、分身攻撃の後に発生する可能性があった進行不能の問題も修正されました。",
+          "recommendedCounter": "分身が現れる前に回避ルートを確保し、重なり合う脅威の中心に立つのを避け、持続ダメージを本体に集中させつつ、広範囲攻撃を使って分身をコントロールしましょう。",
+          "preparation": "単体特化のカード手札に頼るのではなく、集団制御（クラウドコントロール）とボスへのダメージの両方を持ち込みましょう。分身フェーズに備えて十分なHPとダッシュの使用回数を残しておき、アリーナが混雑する前に詩人のスペルを発動するのを避けましょう。",
+          "victoryReward": "リビコッコとスカルミリョーネを撃破すると「マレブランケ・パニッシャー」が解放されます。3回すべての勝利を達成すると「タブーアーツII」が解放され、主要ボスに勝利すると恒久的なアビリティプールが拡張されます。"
+        },
+        {
+          "name": "エリート・バイパー",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "エリートエネミー",
+          "attackPattern": "エリートバイパーは、Lustのサバイバルウェーブ中に優先ターゲットとして出現します。密集した群れに紛れると、周囲の敵によって自由な移動や集中攻撃のためのスペースが制限されるため、より危険になります。",
+          "recommendedCounter": "早期に発見し、ウェーブの最も密集した場所から離れ、範囲攻撃で通常エネミーの包囲を防ぎつつ、高火力の武器をエリートに集中させましょう。",
+          "preparation": "少なくとも1つの範囲武器と、1つの強力な単体火力手段を含む手札を使用しましょう。混雑したウェーブ中にエリートが出現した場合、追加の移動速度や防御ボーナスがあると、より安全に対処できます。",
+          "victoryReward": "エリートバイパーを倒すと、「Elite Killer I」が解除されます。通常のバイパーの撃破数も、1,000体のバイパー撃破を必要とする「Viper Hunter」にカウントされます。"
+        },
+        {
+          "name": "エリートサキュバス",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "エリートエネミー",
+          "attackPattern": "エリートサキュバスは、Lustの敵ウェーブ内における名前付きの最優先脅威です。プレイヤーが他の敵の近くに閉じ込められ、明確な移動ルートを確保できなくなると、その危険性はさらに増します。",
+          "recommendedCounter": "ダメージを与える前に距離を取り、群れの中心での戦闘を避け、位置を調整しながら強化された飛び道具やステータス効果を使用してプレッシャーを与え続けましょう。",
+          "preparation": "エリートを周囲のウェーブから孤立させつつ、連続して接触ダメージを受けるのを防ぐため、安定したダメージ、範囲カバー、そして十分な生存能力を優先しましょう。",
+          "victoryReward": "エリートサキュバスを倒すと、「Elite Killer II」が解除されます。通常のサキュバスの撃破数も、Circle 2 — Lustでの250体撃破を必要とする「Succubi Hunter」にカウントされます。"
+        },
+        {
+          "name": "Circleのエネミーファミリー",
+          "circle": "LimboおよびLust",
+          "encounterType": "ホードエネミー",
+          "attackPattern": "実績の対象には、現在プレイ可能なコンテンツ全体で Imp、Skeleton、Brotchi、Ghoul、Lost Soul、Slime、Lust Sinner、Lust Mine、Viper、Devi-Brotchi、Succubus のエネミーファミリーが含まれていることが確認されています。",
+          "recommendedCounter": "密集した近接グループには重なり合う範囲ダメージを、複数の方向から進入してくるターゲットには飛び道具を使用し、群れがプレイヤーを取り囲む前に頻繁にルートを変更しましょう。",
+          "preparation": "ボスのダメージだけを累積させるのではなく、バランスの取れた手札を構築しましょう。雑魚処理用の武器1つ、単体火力武器1つ、有用なMod、そして緊急用のPoet Spellがあれば、信頼性の高い対応が可能です。",
+          "victoryReward": "各エネミーファミリーには累計討伐実績があり、目標は250体のSuccubiから2,000体のBrotchiまたはLust Sinnersまで多岐にわたります。"
+        }
+      ]
+    },
+    "hellMaidenProgression": {
+      "title": "Hell Maidenの進行状況と資源",
+      "displayType": "テーブル",
+      "intro": "進行システムは、ラン中のレベルアップやデッキ構築と、早期アクセスのメタ進行要素を組み合わせたものです。最も効果的なルートは、まずPoetsとそのカードをアンロックし、各Circleを安定してクリアした後に、レアなチャーム、ハイスコア、カードコレクションのコンプリート、そしてチャレンジ実績の解除に挑戦することです。",
+      "rows": [
+        {
+          "system": "神殿",
+          "where": "ラン中",
+          "howItWorks": "神殿はCircleの探索中に起動され、そのラン限りの恩恵をもたらします。実績リストからは、複数の神殿タイプが存在し、1回のランで12箇所の異なる神殿を起動するのに十分な数が存在することが確認されています。",
+          "priority": "毎回のランにおいて高い優先度",
+          "milestone": "「Devout Pilgrim」のために利用可能なすべての神殿タイプを起動し、1回のランで12箇所の異なる神殿を起動して「Pious Pilgrim」を解除しましょう。"
+        },
+        {
+          "system": "チャーム",
+          "where": "ランの準備と報酬",
+          "howItWorks": "チャームは、レアリティに応じたボーナスを提供してランを強化します。「Crystal」は確認されているレアリティのティアであり、より希少な進行実績の1つに関連付けられています。",
+          "priority": "まずは強力な汎用ボーナスを維持することを優先しましょう",
+          "milestone": "「Crystal」レアリティのチャームを獲得して、「Heavenly Gift」を解除しましょう。"
+        },
+        {
+          "system": "Wails of the Abyss",
+          "where": "メタ進行要素",
+          "howItWorks": "Wails of the Abyssは、ランの合間に使用する消費型の進行リソースです。早期アクセス向けに導入された、拡張されたメタ進行システムをサポートしています。",
+          "priority": "限定的なチャレンジに挑戦する前に、安定したクリアのために消費しましょう",
+          "milestone": "Wails of the Abyssを累計で5,000消費し、「Abyssal Spender」を解除しましょう。"
+        },
+        {
+          "system": "キャラクターレベル",
+          "where": "ラン中",
+          "howItWorks": "倒した敵から経験値を集めてレベルアップし、カードやアップグレードを選択します。レベルはランダムな挑戦ごとにリセットされるため、生存と効率的な経験値収集が、ビルドの完成速度を左右します。",
+          "priority": "序盤数分間は非常に高い",
+          "milestone": "レベル50に到達して「Infernal Prowess I」をアンロックする。"
+        },
+        {
+          "system": "ハイスコア",
+          "where": "Circles of Hellごと",
+          "howItWorks": "スコアは効率的な撃破、生存、そして優れたプレイングによって上昇します。LimboとLustには、それぞれ個別に10万ポイントのマスター実績が用意されています。",
+          "priority": "12分間での安定したクリアを目指す",
+          "milestone": "Limboで10万ポイントに到達して「Hellish Mastery I」を、Lustで10万ポイントに到達して「Hellish Mastery II」を獲得する。"
+        },
+        {
+          "system": "Poets of Limboの救出",
+          "where": "永続的な進行要素",
+          "howItWorks": "アーリーアクセス版では、現在の進行システムとカードシステムにおいて4人のPoetキャラクターが登場します。実績ルートはVirgil、Horace、Homer、Ovidを網羅しており、Horace、Homer、Ovidには専用の救出マイルストーンがあります。",
+          "priority": "永続的な進行における最優先事項",
+          "milestone": "Horace、Homer、Ovidを救出する。救出したPoetごとに、永続的なプールへ5つの新しいアビリティが追加されます。"
+        },
+        {
+          "system": "WeaponカードとModカード",
+          "where": "各挑戦中に構築、選択肢は永続的に拡大",
+          "howItWorks": "現在のアーリーアクセス版のプールには、WeaponとModの選択肢を合わせて40以上のアビリティが含まれています。Weaponカードは攻撃を決定し、Modカードは武器を強化し、レベル3までアップグレード可能です。",
+          "priority": "ダメージの核を一つ完成させてから広げる",
+          "milestone": "フルハンドを完成させ、一つのWeaponにレベル3のModを3つ装備し、すべてのPoetのカードを収集する。"
+        },
+        {
+          "system": "ボス撃破報酬",
+          "where": "勝利後の永続的なアンロック",
+          "howItWorks": "主要なボスを撃破すると、現在のCircleを終了させるだけでなく、その後の挑戦で新しいビルドの選択肢が追加されます。",
+          "priority": "初勝利後もボスを繰り返し撃破する",
+          "milestone": "ボスを倒すたびに、永続的なプールへ2つの新しいアビリティが追加されます。"
+        },
+        {
+          "system": "Circleへのアクセス",
+          "where": "キャンペーンの進行",
+          "howItWorks": "Limboは最初のCircleです。進行を続けることで、アーリーアクセス版で利用可能な2つ目の完全なCircleであるLustが開放されます。",
+          "priority": "チャレンジを周回する前にLimboをクリアする",
+          "milestone": "Circle 2であるLustをアンロックし、「Winds of Desire」を獲得する。"
+        },
+        {
+          "system": "推奨される順番",
+          "where": "複数の挑戦を通して",
+          "howItWorks": "まずはLimboを学びTemplesを起動し、次にPoetを救出し、Queen Minosを倒してLustをアンロックし、安定した12分クリアを目指します。その後はMalebrancheのボスを繰り返し倒し、カードコレクションを充実させ、Wailsを消費し、スコアや耐久チャレンジに挑みましょう。",
+          "priority": "全体的なベストルート",
+          "milestone": "Limboクリア、Poet救出、Queen Minosの周回、Lustアンロック、Malebranche撃破、レベル50および10万ポイントの達成、そしてカードコレクションのコンプリート。"
+        }
+      ]
+    },
+    "hellMaidenAchievements": {
+      "title": "Hell Maidenの全72実績",
+      "displayType": "チェックリスト",
+      "intro": "Hell Maidenには現在72個のSteam実績があります。以下のチェックリストは公式の要件を記載しており、専用のビルドや繰り返しのクリア、あるいはPoetのカードコンプリートが必要となる長期的な目標を強調しています。",
+      "groups": [
+        {
+          "name": "進行とマイルストーン",
+          "achievements": [
+            {
+              "name": "Astral Wayfarer",
+              "requirement": "LimboでBlazing Quillを2回使用する。",
+              "featured": false
+            },
+            {
+              "name": "Conqueror of Limbo",
+              "requirement": "Circle 1, Limboで12分間生き延びる。",
+              "featured": false
+            },
+            {
+              "name": "黄金の風刺家",
+              "requirement": "ホラティウスを救出する。",
+              "featured": false
+            },
+            {
+              "name": "水晶の眼を持つ吟遊詩人",
+              "requirement": "ホメロスを救出する。",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo I",
+              "requirement": "ホラティウスとホメロスを救う。",
+              "featured": false
+            },
+            {
+              "name": "欲望の風",
+              "requirement": "Circle 2, Lustを解放する。",
+              "featured": false
+            },
+            {
+              "name": "地獄の武勇 I",
+              "requirement": "レベル50に到達する。",
+              "featured": false
+            },
+            {
+              "name": "Lustの征服者",
+              "requirement": "Circle 2, Lustで12分間生き延びる。",
+              "featured": false
+            },
+            {
+              "name": "セルリアン・イマゴ",
+              "requirement": "オウィディウスを救出する。",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo II",
+              "requirement": "オウィディウスを救う。",
+              "featured": false
+            },
+            {
+              "name": "地獄の熟達 I",
+              "requirement": "Circle 1, Limboでハイスコア100,000に到達する。",
+              "featured": true
+            },
+            {
+              "name": "地獄の熟達 II",
+              "requirement": "Circle 2, Lustでハイスコア100,000に到達する。",
+              "featured": true
+            },
+            {
+              "name": "天の贈り物",
+              "requirement": "レア度「クリスタル」のチャームを獲得する。",
+              "featured": false
+            },
+            {
+              "name": "深淵の浪費家",
+              "requirement": "Wails of the Abyssを累計5,000消費する。",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "カードコレクションとデッキ構築",
+          "achievements": [
+            {
+              "name": "ウェポンマスター",
+              "requirement": "1回のランで手札をすべてWeaponカードにする。",
+              "featured": false
+            },
+            {
+              "name": "ストラテジーマスター",
+              "requirement": "1回のランで手札をすべてWeaponカードとModカードにする。",
+              "featured": false
+            },
+            {
+              "name": "モッドマスター",
+              "requirement": "1枚のWeaponカードにレベル3のModカードを3枚装備する。",
+              "featured": false
+            },
+            {
+              "name": "パーフェクトハンド",
+              "requirement": "1回のランで手札をすべてレベル3のModカードにする。",
+              "featured": true
+            },
+            {
+              "name": "詩人の魂 I",
+              "requirement": "ダンテのWeaponカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人の魂 II",
+              "requirement": "ウェルギリウスのWeaponカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人の魂 III",
+              "requirement": "ホラティウスのWeaponカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人の魂 IV",
+              "requirement": "ホメロスの武器カードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人の魂 V",
+              "requirement": "オウィディウスの武器カードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人のエッセンス I",
+              "requirement": "ダンテのModカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人のエッセンス II",
+              "requirement": "ヴァージルのModカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人のエッセンス III",
+              "requirement": "ホラティウスのModカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人のエッセンス IV",
+              "requirement": "ホメロスのModカードをすべて装備する。",
+              "featured": true
+            },
+            {
+              "name": "詩人のエッセンス V",
+              "requirement": "オウィディウスのModカードをすべて装備する。",
+              "featured": true
+            }
+          ]
+        },
+        {
+          "name": "詩人の武器とスペル",
+          "achievements": [
+            {
+              "name": "ブレイジング・クイル I",
+              "requirement": "ダンテのスペルを使用する。",
+              "featured": false
+            },
+            {
+              "name": "ブレイジング・クイル II",
+              "requirement": "ダンテのブレイジング・クイルを使用してCircle 1（Limbo）をクリアする。",
+              "featured": false
+            },
+            {
+              "name": "ブレイジング・クイル III",
+              "requirement": "ダンテのブレイジング・クイルを使用してCircle 2（Lust）をクリアする。",
+              "featured": false
+            },
+            {
+              "name": "ウェイファインダー I",
+              "requirement": "ヴァージルのウェイファインダーを使用する。",
+              "featured": false
+            },
+            {
+              "name": "ウェイファインダー II",
+              "requirement": "ヴァージルのスペルを使用する。",
+              "featured": false
+            },
+            {
+              "name": "ウェイファインダー III",
+              "requirement": "ヴァージルのウェイファインダーを使用してCircle 1（Limbo）をクリアする。",
+              "featured": false
+            },
+            {
+              "name": "カルペ・ディエム I",
+              "requirement": "ホラティウスのカルペ・ディエムを使用する。",
+              "featured": false
+            },
+            {
+              "name": "カルペ・ディエム II",
+              "requirement": "ホラティウスのスペルを使用する。",
+              "featured": false
+            },
+            {
+              "name": "カルペ・ディエム III",
+              "requirement": "ホラティウスのカルペ・ディエムを使用してCircle 1（Limbo）をクリアする.",
+              "featured": false
+            },
+            {
+              "name": "ウィングド・リリック I",
+              "requirement": "ホメロスのウィングド・リリックを使用する。",
+              "featured": false
+            },
+            {
+              "name": "ウィングド・リリック II",
+              "requirement": "ホメロスのスペルを使用する。",
+              "featured": false
+            },
+            {
+              "name": "ウィングド・リリック III",
+              "requirement": "ホメロスのウィングド・リリックを使用してCircle 1（Limbo）をクリアする。",
+              "featured": false
+            },
+            {
+              "name": "コーデックス・アモリス I",
+              "requirement": "Ovid の Codex Amoris を使用する。",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris II",
+              "requirement": "Ovid の呪文を使用する。",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris III",
+              "requirement": "Ovid の Codex Amoris を使用して Circle 2, Lust をクリアする。",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "achievements": [
+            {
+              "name": "ボスとエリートエネミー",
+              "requirement": "Soul Magister",
+              "featured": false
+            },
+            {
+              "name": "Queen Minos を倒す。",
+              "requirement": "Taboo Arts I",
+              "featured": false
+            },
+            {
+              "name": "サラマンダー・インクイジター",
+              "requirement": "Salamander Inquisitor",
+              "featured": false
+            },
+            {
+              "name": "Circle 2, Lust で Scarmiglione を倒す。",
+              "requirement": "Malebranche Punisher",
+              "featured": false
+            },
+            {
+              "name": "Libicocco と Scarmiglione を倒す。",
+              "requirement": "Taboo Arts II",
+              "featured": false
+            },
+            {
+              "name": "Libicocco と Scarmiglione を通算3回倒す。",
+              "requirement": "",
+              "featured": false
+            },
+            {
+              "name": "Elite Killer I",
+              "requirement": "Circle 2, Lust でエリートエネミーの Viper を倒す。",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "Elite Killer II",
+          "achievements": [
+            {
+              "name": "Circle 2, Lust でエリートエネミーの Succubus を倒す。",
+              "requirement": "",
+              "featured": false
+            },
+            {
+              "name": "サバイバルとランのチャレンジ",
+              "requirement": "Bloodthirsty",
+              "featured": false
+            },
+            {
+              "name": "1回のランで敵を2,500体倒す。",
+              "requirement": "Devout Pilgrim",
+              "featured": false
+            },
+            {
+              "name": "利用可能なすべての種類の Temple を起動する。",
+              "requirement": "Pious Pilgrim",
+              "featured": false
+            },
+            {
+              "name": "1回のランで12種類の異なる Temple を起動する。",
+              "requirement": "Devilish Talent",
+              "featured": true
+            },
+            {
+              "name": "1回のランで、1つの武器で200,000ダメージを与える。",
+              "requirement": "Vital Endurance I",
+              "featured": true
+            }
+          ]
+        },
+        {
+          "name": "HP回復量を500以下に抑えて Circle 1, Limbo をクリアする。",
+          "achievements": [
+            {
+              "name": "Vital Endurance II",
+              "requirement": "HP回復量を500以下に抑えて Circle 2, Lust をクリアする。",
+              "featured": false
+            },
+            {
+              "name": "",
+              "requirement": "エネミーハンティング",
+              "featured": false
+            },
+            {
+              "name": "Imp Hunter",
+              "requirement": "Imp を500体倒す。",
+              "featured": false
+            },
+            {
+              "name": "サキュバスハンター",
+              "requirement": "Circle 2「Lust」でサキュバスの敵を250体倒す。",
+              "featured": false
+            },
+            {
+              "name": "グールハンター",
+              "requirement": "グールの敵を500体倒す。",
+              "featured": false
+            },
+            {
+              "name": "ロストソウルハンター",
+              "requirement": "ロストソウルの敵を500体倒す。",
+              "featured": false
+            },
+            {
+              "name": "スライムハンター",
+              "requirement": "スライムの敵を1,500体倒す。",
+              "featured": false
+            },
+            {
+              "name": "ラストシナーハンター",
+              "requirement": "ラストシナーの敵を2,000体倒す。",
+              "featured": false
+            },
+            {
+              "name": "ラストマインハンター",
+              "requirement": "ラストマインの敵を1,000体倒す。",
+              "featured": false
+            },
+            {
+              "name": "バイパーハンター",
+              "requirement": "バイパーの敵を1,000体倒す。",
+              "featured": false
+            },
+            {
+              "name": "デヴィ・ブロッチハンター",
+              "requirement": "デヴィ・ブロッチの敵を500体倒す。",
+              "featured": false
+            }
+          ]
+        },
+        {
+          "name": "ストーリーと会話",
+          "achievements": [
+            {
+              "name": "フォーラムの住人",
+              "requirement": "LimboにいるすべてのPoets of Limboとのすべての会話を聞き終える。",
+              "featured": false
+            },
+            {
+              "name": "無力な女王",
+              "requirement": "ミノス女王の導入チャプターをすべて見る。",
+              "featured": false
+            },
+            {
+              "name": "巡礼者の旅 I",
+              "requirement": "ベアトリーチェと3回話す。",
+              "featured": false
+            },
+            {
+              "name": "梯子を登る",
+              "requirement": "リビコッコとスカルミリョーネの導入チャプターをすべて見る。",
+              "featured": false
+            },
+            {
+              "name": "新米詩人",
+              "requirement": "LustにいるすべてのPoets of Limboとのすべての会話を聞き終える。",
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    "hellMaidenRoadmap": {
+      "title": "Hell Maiden 早期アクセスロードマップ＆アップデート",
+      "displayType": "タイムライン",
+      "intro": "Hell Maidenは、完成した2つのCircles、4人のPoet、4つの特徴的な武器、40以上の能力、ボス、ストーリーコンテンツ、そして永続的な進行要素を備えて早期アクセスを開始しました。AstralShiftは、ゲームを全9つのCirclesへと拡張しながら、定期的な修正やコンテンツアップデートを計画しています。",
+      "entries": [
+        {
+          "date": "2025年5月23日",
+          "status": "告知",
+          "headline": "Hell Maiden 発表",
+          "details": "AstralShiftは、デッキ構築型の成長システム、仲間のPoet、ストーリーチャプター、そしてダンテの『神曲』地獄篇にインスパイアされたアニメ風の世界観を備えたホードサバイバル・アクションローグライトとして、Hell Maidenを公式に発表しました。"
+        },
+        {
+          "date": "2025年10月",
+          "status": "デモ",
+          "headline": "プレイ可能なデモと最初のホットフィックス",
+          "details": "公開デモでは、完成したLimboのCircle、25以上の能力、1人のPoet、6枚のWeapon Cards、10枚のMod Cardsが提供されました。その後、ゲームプレイと快適性（QoL）の改善を行う早期のホットフィックスが配信されました。"
+        },
+        {
+          "date": "2026年7月13日",
+          "status": "移行",
+          "headline": "オリジナルデモの公開終了",
+          "details": "AstralShiftは、メタ進行要素の追加、ステータスの再調整、ゲームメカニクスの変更などにより、Early Access版の内容と乖離が生じたため、旧デモの公開を終了しました。同スタジオは、Early Access版が安定した後に、内容を合わせた新しいデモを配信する予定です。"
+        },
+        {
+          "date": "2026年7月16日",
+          "status": "Early Accessローンチ",
+          "headline": "ローンチ時点で2つのCircleがプレイ可能",
+          "details": "Early Accessは、LimboとLustの2つのCircle、救出可能な4人のPoets of Limbo、4つの特徴的な武器、40以上の武器アビリティ、強力なボス、クエスト、ストーリーコンテンツ、および周回プレイ間で引き継がれる永続的な進行要素を実装して開始されました。"
+        },
+        {
+          "date": "2026年7月16日",
+          "status": "ホットフィックス v0.2.31",
+          "headline": "ローンチ当日の進行状況およびバランスの修正",
+          "details": "ローンチ時のホットフィックスでは、Libicoccoの分身攻撃の後に進行が停止する不具合の修正、インターフェースおよびローカライズの問題の修正、Curse of Didoが少なくとも1つの飛び道具を付与するよう調整、Queen Minosが同じ攻撃を短時間で繰り返す頻度の低下、およびDirectX 11ベータ版の起動オプションの追加が行われました。"
+        },
+        {
+          "date": "2026年後半",
+          "status": "今後の実装予定コンテンツ",
+          "headline": "Circle 3 — Gluttony",
+          "details": "公式ロードマップでは、2026年後半に次のCircleとしてGluttonyを追加することを目標としており、新しい敵、進行要素、新たな遭遇とともに、地獄を下るさらなるステージが追加されます。"
+        },
+        {
+          "date": "Early Access期間中",
+          "status": "継続的な開発",
+          "headline": "定期的なパッチとコンテンツの拡張",
+          "details": "開発者は、頻繁なホットフィックス、バランス調整、QOLの向上、新しいCircle、Poet、カード、ボス、クエスト、伝承（ロア）、武器、パーク、アルティメットアビリティを計画しています。Early Access期間は、開発の状況に応じて、約1年またはそれ以上続く見込みです。"
+        },
+        {
+          "date": "正式リリース",
+          "status": "長期目標",
+          "headline": "全9つのCircleとエンドレスモード",
+          "details": "完成版では、全9つのCircles of Hell、より多くのPoets、さらなる特徴的な武器、パーク、カード、アルティメットアタック、ボス、伝承（ロア）、サイドクエスト、QOLの向上、およびエンドレスモードの搭載が計画されています。また、ストアページには正式リリース時に価格が改定される予定であることが記載されています。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Hell Maidenについて知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "Hell Maidenとは何ですか？",
+        "answer": "Hell Maidenは、Steamで配信中のゴシックホードサバイバル・デッキ構築ローグライトゲームです。プレイヤーはDanteとなり、エイム、ダッシュ、経験値の回収を行い、Circles of Hellを進みながらSpirit Cardsの手札を構築しつつ、自動で攻撃を行います。"
+      },
+      {
+        "question": "Hell Maidenはシングルプレイ専用ゲームですか？",
+        "answer": "はい。Hell Maidenはシングルプレイ専用のゲームであり、マルチプレイや協力プレイ（コープ）には対応していません。"
+      },
+      {
+        "question": "Hell Maidenはどこでプレイできますか？",
+        "answer": "Hell MaidenはPC向けにSteamで配信されています。2026年7月16日にSteam Early Accessが開始されました。"
+      },
+      {
+        "question": "Hell MaidenのEarly Accessでは、何個のCircleがプレイ可能ですか？",
+        "answer": "Early Accessは、LimboとLustという2つの完成されたCircleが実装された状態で開始されました。ロードマップでは、今後時間をかけてHell Maidenを全9つのCircles of Hellへと拡張していく予定です。"
+      },
+      {
+        "question": "Hell Maidenの実績（アチーブメント）はいくつありますか？",
+        "answer": "Hell Maidenには現在、ゲームの進行、カード収集、Poets、ボス、生存、敵の討伐、ストーリーなどのカテゴリーにわたって、72個のSteam実績があります。"
+      },
+      {
+        "question": "Hell Maidenはコントローラーに対応していますか？",
+        "answer": "はい。Hell Maidenはマウス、キーボード、およびコントローラーによるエイム入力に対応しています。Danteは自動的に攻撃するため、プレイヤーは主にエイム、ダッシュ、位置取りを操作します。"
+      },
+      {
+        "question": "Hell Maidenは今後もアップデートが行われますか？",
+        "answer": "はい。AstralShiftは、Early Access期間中および正式リリースに向けて、定期的なホットフィックス、バランス調整、新しいCircle、Poet、カード、ボス、および最終的にはHell Maiden用のエンドレスモードの実装を計画しています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Hell Maidenをプレイする準備はできましたか？",
+    "description": "DiscordのHell Maidenコミュニティに参加して、ビルドガイド、ボス攻略、早期アクセスのアップデート情報を手に入れましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamでプレイする"
+  },
+  "footer": {
+    "title": "Hell Maiden Wiki",
+    "description": "Hell Maidenのビルド、Spirit Cards、キャラクター、ボス、Circles、実績、早期アクセスアップデートに関する総合リソースハブ。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steamコミュニティ",
+    "steamStore": "Steamストア",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "コピーライト",
+    "copyright": "© 2026 Hell Maiden Wiki. Hell Maidenの開発元とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Hell Maidenガイド",
+      "description": "初心者向けの基本から、Circles of Hellでの高度な生存戦略までを網羅した、Hell Maidenの完全ガイド。",
+      "metaTitle": "Hell Maidenガイド - 初心者向けヒント＆進行方法",
+      "metaDescription": "初心者向けガイド、操作方法、セーブと進行のヒント、そしてゴシック調デッキビルドゲームのCircles of Hellにおける生存戦略で、Hell Maidenを極めましょう。",
+      "categoryLabel": "ガイド",
+      "whatIs": "このガイドについて",
+      "whatIsDescription": "操作方法、ダッシュとエイム、経験値回収、そしてLimboでの最初の数時間からその先へ進むための最も安全なルートをカバーする、ステップバイステップのHell Maiden攻略。",
+      "why": "なぜこのガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "幸先の良いスタート",
+        "step1Description": "序盤の立ち回り、アップグレードの優先順位、そして死後に引き継がれる要素を学びましょう",
+        "step2Title": "より長く生き残る",
+        "step2Description": "各Circleにおける回避、ポジショニング、経験値回収パターンをマスターしましょう",
+        "step3Title": "よくある間違いを避ける",
+        "step3Description": "Circles of Hellでランが早期終了してしまう初心者向けの罠を回避しましょう"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのガイド"
+    },
+    "builds": {
+      "title": "Hell Maidenビルド",
+      "description": "Spirit Card、Weapon Card、Mod Cardの組み合わせによる最適なHell Maidenビルドと、各Circleの完全なティアリスト。",
+      "metaTitle": "Hell Maidenビルド - 最強デッキ＆ティアリスト",
+      "metaDescription": "すべてのCircles of Hellに対応する、最適なHell Maidenビルド、トップティアのSpirit CardとWeapon Cardの組み合わせ、そして実績のあるデッキ戦略を見つけましょう。",
+      "categoryLabel": "ビルド",
+      "whatIs": "ビルドとは？",
+      "whatIsDescription": "Spirit Card、Weapon Card、Mod Cardを組み合わせて強力なシナジーを生み出すHell Maidenのデッキ構築ガイド。各ビルドのアップグレード順序や推奨されるCirclesも掲載。",
+      "why": "なぜビルドを使うのか？",
+      "whySteps": {
+        "step1Title": "実証済みのデッキをコピー",
+        "step1Description": "すべてのCircleでテスト済みの、Spirit CardとWeapon Cardの完成された組み合わせを利用可能",
+        "step2Title": "アップグレード順序に従う",
+        "step2Description": "適切な順番でカードを選択し、ビルドの強力なパワー・スパイクを早期に引き出す",
+        "step3Title": "代替案を見つける",
+        "step3Description": "代用カードに入れ替えて、対峙する敵やボスに合わせてデッキを適応させる"
+      },
+      "featured": "注目＆必須",
+      "all": "すべてのビルド"
+    },
+    "bosses": {
+      "title": "Hell Maidenのボス",
+      "description": "Minos、Libicocco、Scarmiglioneなどの攻撃パターン、フェーズ、安全地帯、攻略法を網羅したHell Maidenのボスガイド。",
+      "metaTitle": "Hell Maidenのボス - 戦略＆フェーズガイド",
+      "metaDescription": "Minos、Libicocco、Scarmiglioneなど、Hell Maidenの全ボスをフェーズごとの戦略、攻撃の予兆、安全地帯、推奨ビルドで攻略。",
+      "categoryLabel": "ボス",
+      "whatIs": "ボスとは？",
+      "whatIsDescription": "Hell Maidenの各ボスについて、攻撃の予兆、フェーズ移行、安全地帯、対策ビルド、各Circlesの守護者を倒した際の報酬を詳しく解説。",
+      "why": "なぜボスガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "攻撃の予兆を読む",
+        "step1Description": "ボスの予備動作を見極め、回避や位置取りを完璧に行う",
+        "step2Title": "すべてのフェーズを生き残る",
+        "step2Description": "フェーズの移行を学び、Circleが進むにつれて激化する戦闘に対応する",
+        "step3Title": "対策ビルドを選択する",
+        "step3Description": "各ボスが弱点とする推奨のSpirit CardとWeapon Cardデッキを持ち込む"
+      },
+      "featured": "注目＆必須",
+      "all": "すべてのボス"
+    },
+    "characters": {
+      "title": "Hell Maidenのキャラクター",
+      "description": "Dante、Virgil、Beatrice、Ovid、そしてPoets of Limboのキャラクターガイド。背景ストーリー、アビリティ、解放条件を網羅。",
+      "metaTitle": "Hell Maidenのキャラクター - Dante、Virgil＆Poets",
+      "metaDescription": "Dante、Virgil、Beatrice、Ovid、Poets of Limboを含むHell Maidenの全キャラクターを、伝承、アビリティ、加護、救出方法とともに紹介。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "キャラクターとは？",
+      "whatIsDescription": "Dante、Virgil、Beatrice、Ovid、Poets of Limboなど、Hell Maidenの登場人物のプロフィール。背景ストーリー、アビリティ、加護、救出条件を収録。",
+      "why": "なぜキャラクターガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "伝承を学ぶ",
+        "step1Description": "ゴシックな物語を理解し、各キャラクターがどのようにLittle Goody Two Shoesの世界と繋がっているかを知る",
+        "step2Title": "アビリティを解放する",
+        "step2Description": "各Poetの加護と、彼らを仲間にするための条件を発見する",
+        "step3Title": "救出を計画する",
+        "step3Description": "Circlesの各地で、すべてのPoet of Limboをどこでどのように救出すべきかを確認する"
+      },
+      "featured": "注目＆基本情報",
+      "all": "全キャラクター"
+    },
+    "release": {
+      "title": "Hell Maiden リリース",
+      "description": "早期アクセス開始日、正式リリースまでのロードマップ、体験版の詳細、Steamおよびitch.ioでのプレイ方法を含む、Hell Maidenのリリース情報。",
+      "metaTitle": "Hell Maiden リリース - 早期アクセス＆ロードマップ",
+      "metaDescription": "早期アクセスの開始、正式リリース日、体験版、ロードマップ、Steamおよびitch.ioでの配信状況など、Hell Maidenのリリーススケジュールを追跡しましょう。",
+      "categoryLabel": "リリース",
+      "whatIs": "リリース情報とは？",
+      "whatIsDescription": "Steam早期アクセスの開始、正式リリースの計画、プレイ可能な体験版、AstralShiftによる今後のアップデートスケジュールなど、Hell Maidenのローンチとロードマップに関するすべての情報。",
+      "why": "なぜリリース情報を追うべきなのか？",
+      "whySteps": {
+        "step1Title": "日程を把握する",
+        "step1Description": "早期アクセスの開始、正式リリースの時期、体験版の配信状況を追跡",
+        "step2Title": "ロードマップをチェックする",
+        "step3Title": "体験版をプレイする",
+        "step2Description": "今後追加予定のCircles、キャラクター、武器、アビリティ、そしてエンドレスモードの計画を確認",
+        "step3Description": "購入前に体験版のダウンロード場所と収録コンテンツを確認"
+      },
+      "featured": "注目＆基本情報",
+      "all": "すべてのリリース情報"
+    },
+    "platforms": {
+      "title": "Hell Maiden 対応プラットフォーム",
+      "description": "PC、PS5、Nintendo Switch、Xbox、Steam DeckでのHell Maidenの対応状況、リリース日、および互換性の詳細。",
+      "metaTitle": "Hell Maiden 対応プラットフォーム - PS5、Switch、Xbox＆Steam Deck",
+      "metaDescription": "PC、PS5、Nintendo Switch、Xbox、Steam Deckのサポート、リリース日、Steam Deckの「確認済み」ステータスなど、Hell Maidenが対応しているプラットフォームを確認しましょう。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "対応プラットフォームは？",
+      "whatIsDescription": "ゲームが早期アクセスを超えて拡張するにあたり、PC、Steam Deck、PS5、Nintendo Switch、XboxにわたるHell Maidenの対応プラットフォーム、リリース時期、確認済みステータス、クロスプラットフォームの詳細。",
+      "why": "なぜプラットフォームを確認するのか？",
+      "whySteps": {
+        "step1Title": "プラットフォームを選ぶ",
+        "step1Description": "PC、PS5、Switch、Xboxにおける対応状況とリリース日を比較",
+        "step2Title": "Steam Deckの互換性を確認",
+        "step2Description": "プレイ前にSteam Deckの「確認済み」ステータスと携帯モードでのパフォーマンスを確認",
+        "step3Title": "コンソール版のリリースを追跡",
+        "step3Description": "各コンソール版がいつローンチされるかロードマップで確認"
+      },
+      "featured": "注目＆基本情報",
+      "all": "すべてのプラットフォーム"
+    },
+    "media": {
+      "title": "Hell Maiden メディア",
+      "description": "AstralShiftが贈るゴシック・デッキビルドゲームの早期アクセス（EA）ローンチトレーラー、オープニングテーマ、オリジナルサウンドトラック（OST）を含むHell Maidenのメディア。",
+      "metaTitle": "Hell Maiden メディア - トレーラー、テーマ＆OST",
+      "metaDescription": "Hell Maidenのトレーラーの視聴、オープニングテーマやオリジナルサウンドトラックの試聴など、AstralShiftが贈るゴシック・サバイバル・デッキビルドゲームのメディアをチェックしましょう。",
+      "categoryLabel": "メディア",
+      "whatIs": "ここには何がある？",
+      "whatIsDescription": "公式トレーラー、オープニングテーマ、そしてCircles of Hellのゴシックな雰囲気を演出するオリジナルサウンドトラックを含む、Hell Maidenのメディア情報。",
+      "why": "視聴する理由",
+      "whySteps": {
+        "step1Title": "トレーラーを視聴する",
+        "step1Description": "EAローンチやゲームプレイトレーラーを視聴して、アートワークや戦闘システムをプレビューしよう",
+        "step2Title": "テーマ曲を聴く",
+        "step2Description": "ゲームのゴシックな世界観を象徴するオープニングテーマを試聴しよう",
+        "step3Title": "OSTを楽しむ",
+        "step3Description": "Circles of Hellの世界を彩るオリジナルサウンドトラックを探索しよう"
+      },
+      "featured": "注目＆必須",
+      "all": "すべてのメディア"
+    }
+  }
+}
