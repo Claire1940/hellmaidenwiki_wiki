@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Hell Maiden Wiki - Builds, Cards, Bosses & Roadmap",
+      "description": "Hell Maiden Wiki with beginner guides, best deck builds, Spirit Cards, Poets of Limbo, boss strategies, achievements, roadmap updates, and Steam Early Access details.",
+      "keywords": "Hell Maiden, Steam, deck builds, Spirit Cards, bosses, Poets, achievements, roadmap",
+      "ogTitle": "Hell Maiden Wiki - Builds, Cards, Bosses & Roadmap",
+      "ogDescription": "Hell Maiden Wiki with beginner guides, best deck builds, Spirit Cards, Poets of Limbo, boss strategies, achievements, roadmap updates, and Steam Early Access details.",
+      "twitterTitle": "Hell Maiden Wiki - Builds, Cards, Bosses & Roadmap",
+      "twitterDescription": "Hell Maiden Wiki covering builds, Spirit Cards, bosses, achievements, and roadmap updates for the Steam Early Access deckbuilder."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Gothic Horde Survival Deckbuilder",
+    "title": "Hell Maiden Wiki",
+    "description": "Build Spirit Card decks, rescue the Poets of Limbo, defeat bosses across the Circles of Hell, and follow every Early Access update.",
+    "getFreeCodesCTA": "Explore Builds",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
-      },
-      "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
-      },
-      "stat3": {
-        "value": "97%",
+        "value": "88%",
         "label": "Positive Reviews"
       },
+      "stat2": {
+        "value": "40+",
+        "label": "Abilities Available"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "Circles Available"
+      },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "72",
+        "label": "Steam Achievements"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Hell Maiden?",
+    "description": "Join the Hell Maiden community on Discord for build guides, boss strategies, and Early Access updates!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Hell Maiden Wiki",
+    "description": "Your complete resource hub for Hell Maiden builds, Spirit Cards, characters, bosses, Circles, achievements, and Early Access updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Hell Maiden Wiki. Not affiliated with the developers of Hell Maiden.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

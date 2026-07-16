@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn about our mission to provide the best Hell Maiden game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 620,
           alt: 'Hell Maiden Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'About Hell Maiden Wiki',
       description: 'Learn about our mission to provide the best Hell Maiden game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -151,7 +151,7 @@ export default function About() {
               <div className="text-2xl mb-3">🎯</div>
               <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
+                Step-by-step guides to unlock all 72 achievements in the game.
                 Complete your collection with our detailed walkthroughs.
               </p>
             </div>
