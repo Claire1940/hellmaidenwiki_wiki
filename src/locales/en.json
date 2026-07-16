@@ -52,696 +52,633 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Hell Maiden Gameplay",
+    "description": "Build Spirit Card decks, rescue the Poets of Limbo, and survive bullet-hell waves across the Circles of Hell in this gothic deckbuilding horde-survival roguelite on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Hell Maiden",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to build decks, rescue Poets, defeat bosses, and survive the Circles of Hell",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First steps, controls, and your first Limbo clear"
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Best Builds",
+        "description": "Weapon and Mod Card combinations for every playstyle"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Circle Walkthrough",
+        "description": "Limbo, Lust, objectives, Poets, and boss prep"
+      },
+      {
+        "icon": "Users",
+        "title": "Characters",
+        "description": "Dante, Virgil, Beatrice, and the Poets of Limbo"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Bosses",
+        "description": "Queen Minos, the Malebranche, and elite enemies"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Progression",
+        "description": "Temples, Charms, Wails, levels, and milestones"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Achievements",
+        "description": "All 72 Steam achievements and their requirements"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Roadmap",
+        "description": "Early Access patches and the path to nine Circles"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "hellMaidenBeginnerGuide": {
+      "title": "Hell Maiden Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Hell Maiden combines automatic attacks with manual aiming and active dodging. Keep moving, collect experience, build a four-Weapon hand, strengthen those weapons with Mod Cards, and preserve enough health and mobility for the boss encounter after the survival timer.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Move and Aim at the Same Time",
+          "description": "Dante attacks automatically, but you control the direction of her attacks with the mouse cursor or controller aim input. Circle around enemy groups and point attacks into the densest part of each wave instead of standing still.",
+          "priority": "Keep enemies on one side of Dante so experience drops remain easy to collect."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Use the Dash to Cross Enemy Lines",
+          "description": "The dash lets Dante pass through dangerous gaps without taking damage. Use it to escape surrounding enemies, cross projectile patterns, or leave a Temple area after activating it.",
+          "priority": "Do not spend every dash on normal movement; keep one available for elites and boss telegraphs."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Collect Experience and Choose Cards",
+          "description": "Defeated enemies drop experience orbs that increase Dante's level. Level-up choices can add Weapon Cards, attach Mod Cards, or strengthen effects already present in the hand.",
+          "priority": "Collect nearby experience regularly instead of leaving large groups of orbs behind the enemy wave."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Build a Four-Weapon Hand",
+          "description": "Your hand can hold four Weapon Cards. Fill the empty slots while keeping one preferred weapon as the main damage source, then attach Mods that improve damage, projectile count, attack speed, status effects, or survivability.",
+          "priority": "Avoid filling every slot with unrelated effects before your main weapon has useful Mods."
+        },
+        {
+          "title": "Merge Duplicate Mod Cards",
+          "description": "Identical Mod Cards can be combined into stronger versions, with Level 3 serving as an important build milestone. Some Mods also strengthen weapons according to their position, so rearrange the hand whenever a positional effect changes.",
+          "priority": "Merge duplicates on the weapon doing the most damage rather than spreading weak copies across the entire hand."
+        },
+        {
+          "title": "Activate Temples During the Run",
+          "description": "Temples provide additional run progression and appear throughout each Circle. Explore while the waves are manageable, activate different Temple types, and work toward activating 12 Temples in a single run.",
+          "priority": "Visit Temples early and mid-run; late waves make long detours much more dangerous."
+        },
+        {
+          "title": "Survive Limbo and Defeat Queen Minos",
+          "description": "Circle 1 requires Dante to survive for 12 minutes before its final encounter. Enter the boss sequence with a complete Weapon hand, upgraded Mods, a ready Spell, and enough health to handle Queen Minos's projectile patterns and telegraphed area attacks.",
+          "priority": "First-session route: collect experience, fill Weapon slots, focus one Level 3 Mod stack, activate nearby Temples, rescue available Poets, survive 12 minutes, then use dashes and Dante's Spell during Queen Minos's most restrictive patterns."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Dante attacks automatically — your job is aiming, dodging, and positioning.",
+        "Fill all four Weapon slots early so every level-up can add Mods instead of empty slots.",
+        "Merge duplicate Mod Cards toward Level 3 on your strongest Weapon.",
+        "Activate Temples early and mid-run while waves are still manageable.",
+        "Rescue every Poet you can reach to expand your permanent card pool."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "hellMaidenBestBuilds": {
+      "title": "Hell Maiden Best Builds and Spirit Cards",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+      "intro": "Spirit Cards are divided into Weapon Cards and Mod Cards. A dependable build normally concentrates its strongest upgrades on one signature Weapon, uses the remaining slots for complementary attacks, and merges duplicate Mods toward Level 3 instead of collecting many weak effects.",
+      "builds": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Focused Damage Build",
+          "bestFor": "Direct damage, elites, and reliable Limbo clears",
+          "owners": ["Dante", "Horace"],
+          "featuredWeapons": ["Blazing Quill", "Carpe Diem"],
+          "modPriorities": ["Damage", "Attack speed", "Additional projectiles"],
+          "positioning": "Place the core Weapon beside any Mod or Weapon effect that strengthens adjacent cards or cards positioned to its right.",
+          "buildPlan": "Choose one core Weapon early, merge its duplicate Mods, and work toward equipping three Level 3 Mods on that Weapon. Use secondary Weapon slots for coverage rather than competing damage investments.",
+          "spellUsage": "Save Dante's Inferno or Horace's Spell for dense waves and boss phases that restrict movement."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Projectile Pressure Build",
+          "bestFor": "Large enemy groups and continuous screen coverage",
+          "owners": ["Virgil", "Horace"],
+          "featuredWeapons": ["Wayfinder", "Carpe Diem"],
+          "modPriorities": ["Projectile count", "Attack speed", "Attack duration", "Area or status effects"],
+          "positioning": "Use the two middle Weapon slots for cards with adjacent bonuses so one positional effect can support more than one attack.",
+          "buildPlan": "Increase the number and frequency of attacks first, then add damage after the screen is consistently covered. Merge duplicate projectile Mods instead of placing low-level copies on every Weapon.",
+          "spellUsage": "Virgil's Star Sign Pleiades provides a powerful emergency attack when normal projectiles cannot open a safe path."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Status Control Build",
+          "bestFor": "Controlling fast waves while dealing damage through repeated hits",
+          "owners": ["Dante", "Virgil", "Ovid"],
+          "featuredWeapons": ["Blazing Quill", "Wayfinder", "Codex Amoris"],
+          "modPriorities": ["Status effects", "Projectile count", "Attack speed", "Effect duration"],
+          "positioning": "Attach status-focused Mods to fast or multi-hit Weapons and keep one separate Weapon dedicated to immediate damage.",
+          "buildPlan": "Spread status application across two Weapons, but concentrate raw damage Mods on a single finisher. This prevents the hand from becoming dependent on effects that take time to build.",
+          "spellUsage": "Use a Poet's Spell after status effects have gathered enemies or during an elite wave that is difficult to contain."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Survival Clear Build",
+          "bestFor": "First clears, Temple exploration, and low-healing challenges",
+          "owners": ["Dante", "Virgil"],
+          "featuredWeapons": ["Blazing Quill", "Wayfinder"],
+          "modPriorities": ["Survivability", "Healing support", "Area coverage", "Attack speed"],
+          "positioning": "Keep the safest crowd-clearing Weapon in the main supported position and use secondary slots for protection and coverage.",
+          "buildPlan": "Secure consistent area damage before investing fully in boss damage. Visit Temples while enemy pressure is low, avoid unnecessary contact damage, and preserve the dash for enclosed situations.",
+          "spellUsage": "Treat the Spell as a defensive reset when Dante is surrounded rather than using it immediately after it becomes available."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Boss-Focused Build",
+          "bestFor": "Queen Minos, Scarmiglione, Libicocco, and other high-health targets",
+          "owners": ["Homer", "Ovid", "Dante"],
+          "featuredWeapons": ["Winged Lyric", "Codex Amoris", "Blazing Quill"],
+          "modPriorities": ["Single-target damage", "Attack speed", "Critical or direct damage", "Level 3 duplicate Mods"],
+          "positioning": "Give the core boss Weapon the strongest positional bonuses and keep crowd-clearing Weapons in the remaining slots for summoned enemies.",
+          "buildPlan": "Winged Lyric attacks one target at a time without missing, making it suited to sustained pressure on elites and bosses. Codex Amoris supports Ovid-focused Lust clears, while Blazing Quill can complete both available Circles.",
+          "spellUsage": "Wait for the boss to finish a movement-heavy pattern, then activate the signature Spell while the target remains inside the attack area."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "hellMaidenWalkthrough": {
+      "title": "Hell Maiden Limbo and Lust Walkthrough",
+      "displayType": "stages",
+      "intro": "Every Circle combines enemy waves, quests, Temples, Poet rescues, card building, and a final boss challenge. Complete optional objectives while waves are still manageable, then stop taking long detours once your hand is ready for the final minutes.",
+      "stages": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "title": "Circle 1: Limbo",
+          "runLength": "Survive for 12 minutes",
+          "rescueTargets": ["Horace", "Homer"],
+          "bosses": ["Queen Minos"],
+          "objectives": [
+            "Collect experience and fill all four Weapon slots",
+            "Attach and merge Mod Cards",
+            "Activate available Temple types",
+            "Complete Limbo quests and rescue Horace and Homer",
+            "Survive the 12-minute wave timer",
+            "Defeat Queen Minos"
+          ],
+          "recommendedSetup": "Use Blazing Quill, Wayfinder, Carpe Diem, or Winged Lyric as the core Weapon. Enter the boss encounter with at least one heavily upgraded Weapon, useful crowd coverage, and a ready Spell.",
+          "bossTips": "Queen Minos uses bullet-hell projectiles and telegraphed area attacks. Move around the edge of dangerous zones, dash only when a safe lane closes, and activate the Spell during patterns that force enemies and projectiles into a narrow area.",
+          "rewards": "Clearing Limbo advances the story, opens further Poet dialogue, supports the rescue of Horace and Homer, and leads toward unlocking Circle 2."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "title": "Unlock Circle 2: Lust",
+          "runLength": "Progression unlock",
+          "requirements": [
+            "Complete Limbo's survival objective",
+            "Defeat Queen Minos",
+            "Continue the Forum story and Poet interactions",
+            "Select Lust after the Winds of Desire progression unlock"
+          ],
+          "preparation": "Use additional runs in Limbo to unlock more Poet cards, complete dialogue, improve familiarity with positional Mods, and practice reaching the boss with limited healing.",
+          "recommendedGoal": "Build a complete Weapon and Mod hand before entering Lust so its faster enemies and elite waves do not interrupt early deck development.",
+          "bossTips": "Treat extra Limbo clears as practice for arriving at a boss with a fully developed hand and limited healing resources.",
+          "rewards": "Unlocking Lust grants Winds of Desire and opens the second Circle's Poet, enemies, and bosses."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "title": "Circle 2: Lust",
+          "runLength": "Survive for 12 minutes",
+          "rescueTargets": ["Ovid"],
+          "bosses": ["Scarmiglione", "Libicocco and Scarmiglione"],
+          "featuredThreats": ["Succubus", "Elite Succubus", "Viper", "Elite Viper", "Lust Sinner", "Lust Mine", "Devi-Brotchi"],
+          "objectives": [
+            "Stabilize the build before elite Vipers and Succubi appear",
+            "Continue activating Temples without becoming surrounded",
+            "Rescue Ovid and unlock the Codex Amoris card line",
+            "Survive the 12-minute wave timer",
+            "Defeat Scarmiglione",
+            "Defeat the Libicocco and Scarmiglione encounter"
+          ],
+          "recommendedSetup": "Bring a combination of crowd control and focused boss damage. Projectile or status builds help manage Lust's dense waves, while a Level 3 Mod stack and saved Spell provide the damage needed for its final encounters.",
+          "bossTips": "Keep moving laterally during telegraphed attacks, clear summoned threats before they block escape routes, and avoid using every dash during the opening pattern. Use the signature Spell once the boss pair is grouped or committed to an attack.",
+          "rewards": "Lust progression adds Ovid, Codex Amoris, further story chapters, additional dialogue, and abilities earned from the Circle's defeated bosses."
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+    "hellMaidenCharacters": {
+      "title": "Hell Maiden Poets of Limbo and Character Unlocks",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+      "intro": "Hell Maiden continues the story of Dante's Divine Comedy after Dante reaches Paradiso and mysteriously returns to Hell without her memories. Virgil guides her, Beatrice protects her, and the Poets of Limbo provide new combat options as Dante helps them pursue salvation.",
+      "characters": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Dante Alighieri",
+          "role": "Playable protagonist",
+          "story": "Dante returns to Hell after reaching Paradiso and has lost the memories of her previous journey. She begins climbing through the Circles again in search of answers and another path to Heaven.",
+          "unlock": "Available from the beginning",
+          "signatureWeapon": "Blazing Quill",
+          "spell": "Dante's Inferno",
+          "rewards": [
+            "Dante Weapon Cards",
+            "Dante Mod Cards",
+            "A screen-clearing signature Spell",
+            "Story chapters and memory-related dialogue"
+          ]
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Virgil",
+          "role": "Guide and Poet companion",
+          "story": "The Roman poet accompanies Dante through Hell and serves as her guide through the abyss. Virgil is one of the central Poets connected to Dante's early progression.",
+          "unlock": "Progress through the opening story and interact with Virgil in the Poets' Forum",
+          "signatureWeapon": "Wayfinder",
+          "spell": "Star Sign Pleiades",
+          "rewards": [
+            "Virgil Weapon Cards",
+            "Virgil Mod Cards",
+            "Wayfinder",
+            "Virgil's Spell",
+            "Blessing and dialogue progression"
+          ]
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Beatrice",
+          "role": "Sanctified protector",
+          "story": "Beatrice protects Dante during her renewed journey through Hell and remains connected to Dante's search for Paradiso and her missing memories.",
+          "unlock": "Encountered through story progression",
+          "signatureWeapon": "None",
+          "spell": "None",
+          "rewards": [
+            "Story guidance",
+            "Additional dialogue",
+            "Progress toward the Pilgrim's Journey interaction objective"
+          ]
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Horace",
+          "role": "Poet of Limbo",
+          "story": "Horace is one of the first Poets Dante can rescue while exploring Limbo. Saving her expands the available card pool and opens further interactions in the Forum.",
+          "unlock": "Rescue Horace in Circle 1, Limbo",
+          "signatureWeapon": "Carpe Diem",
+          "spell": "Horace's signature Spell",
+          "rewards": [
+            "Five new abilities",
+            "Horace Weapon Cards",
+            "Horace Mod Cards",
+            "Carpe Diem",
+            "Blessing, perk, Spell, and ultimate attack",
+            "New Forum dialogue"
+          ]
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Homer",
+          "role": "Poet of Limbo",
+          "story": "Homer is another Poet rescued during Limbo progression. Her signature Weapon focuses its attack on a single target and does not miss.",
+          "unlock": "Rescue Homer in Circle 1, Limbo",
+          "signatureWeapon": "Winged Lyric",
+          "spell": "Homer's signature Spell",
+          "rewards": [
+            "Five new abilities",
+            "Homer Weapon Cards",
+            "Homer Mod Cards",
+            "Winged Lyric",
+            "Blessing, perk, Spell, and ultimate attack",
+            "New Forum dialogue"
+          ]
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Ovid",
+          "role": "Poet connected to Lust",
+          "story": "Ovid becomes part of Dante's growing group of Poets during Circle 2 progression and provides a new set of cards suited to later runs.",
+          "unlock": "Rescue Ovid during Circle 2, Lust progression",
+          "signatureWeapon": "Codex Amoris",
+          "spell": "Ovid's signature Spell",
+          "rewards": [
+            "Five new abilities",
+            "Ovid Weapon Cards",
+            "Ovid Mod Cards",
+            "Codex Amoris",
+            "Blessing, perk, Spell, and ultimate attack",
+            "New Lust and Forum dialogue"
+          ]
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "name": "Lucan",
+          "role": "Announced Poet of antiquity",
+          "story": "Lucan is named among the legendary poets and artists Dante will encounter during the wider journey through the nine Circles of Hell.",
+          "unlock": "Connected to the expanded Early Access roadmap and future Circle progression",
+          "signatureWeapon": "To be introduced with later Poet content",
+          "spell": "To be introduced with later Poet content",
+          "rewards": [
+            "Future Poet interactions",
+            "Additional cards and abilities",
+            "Further story and salvation-related dialogue"
+          ]
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "hellMaidenBosses": {
+      "title": "Hell Maiden Bosses and Elite Enemies",
+      "displayType": "accordion",
+      "intro": "Early Access includes two complete Circles with major boss encounters, named elite targets, and distinct enemy families. Boss victories expand the ability pool, while elite kills and repeated clears unlock dedicated Steam achievements.",
+      "encounters": [
+        {
+          "name": "Queen Minos",
+          "circle": "Circle 1 — Limbo",
+          "encounterType": "Major Boss",
+          "attackPattern": "Queen Minos cycles through several clearly telegraphed arena attacks. The launch hotfix reduced how often she can repeat the same move in quick succession, so players must read a changing sequence instead of relying on one fixed loop.",
+          "recommendedCounter": "Keep moving around the outer part of the arena, preserve the dash for committed attacks, and deal damage during the recovery window after each telegraph. Avoid spending every escape option while normal enemies or projectiles are still occupying the route ahead.",
+          "preparation": "Enter with a complete Weapon and Mod setup, at least one reliable area-clearing weapon, upgraded damage Mods, and a Poet Spell ready for a crowded or unsafe phase.",
+          "victoryReward": "Defeating Queen Minos unlocks Soul Magister. Three separate victories unlock Taboo Arts I, and major boss wins add two new abilities to the permanent card pool."
+        },
+        {
+          "name": "Scarmiglione",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "Malebranche Boss",
+          "attackPattern": "Scarmiglione applies fast, aggressive pressure and forces frequent repositioning. The safest damage windows appear after a committed approach or attack sequence rather than while the boss is actively closing distance.",
+          "recommendedCounter": "Move sideways instead of retreating in a straight line, wait for the attack direction to become clear before dashing, and use burst damage during recovery. Clear nearby enemies first when they block the route needed for the next dodge.",
+          "preparation": "Prioritize movement control, dependable single-target damage, a health reserve, Level 3 Mods on the main weapon, and a Poet Spell that can create space or finish a dangerous phase.",
+          "victoryReward": "Defeating Scarmiglione unlocks Salamander Inquisitor. Defeating both Scarmiglione and Libicocco unlocks Malebranche Punisher; completing both victories three separate times unlocks Taboo Arts II."
+        },
+        {
+          "name": "Libicocco",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "Malebranche Boss",
+          "attackPattern": "Libicocco can create clones during the encounter, multiplying visual pressure and making overlapping attacks harder to read. The launch hotfix also fixed a progression issue that could occur after the clone attack.",
+          "recommendedCounter": "Keep an open escape lane before the clones appear, avoid standing in the center of overlapping threats, and use wide-area attacks to control copies while sustained damage remains focused on the main encounter.",
+          "preparation": "Bring both crowd control and boss damage instead of relying on a purely single-target hand. Preserve enough health and dash availability for the clone phase, and avoid triggering the Poet Spell before the arena becomes crowded.",
+          "victoryReward": "Defeating Libicocco and Scarmiglione unlocks Malebranche Punisher. Three complete sets of victories unlock Taboo Arts II, while major boss victories expand the permanent ability pool."
+        },
+        {
+          "name": "Elite Viper",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "Elite Enemy",
+          "attackPattern": "The Elite Viper appears as a priority target during Lust's survival waves. It is more dangerous when mixed into a dense horde because nearby enemies reduce the space available for clean movement and focused damage.",
+          "recommendedCounter": "Identify it early, move away from the thickest part of the wave, and focus high-damage weapons on the elite while area attacks keep normal enemies from surrounding the player.",
+          "preparation": "Use a hand with at least one area weapon and one strong focused-damage option. Extra movement or defensive bonuses make the elite encounter safer when it arrives during a crowded wave.",
+          "victoryReward": "Killing the Elite Viper unlocks Elite Killer I. Standard Viper kills also count toward Viper Hunter, which requires 1,000 Viper enemies."
+        },
+        {
+          "name": "Elite Succubus",
+          "circle": "Circle 2 — Lust",
+          "encounterType": "Elite Enemy",
+          "attackPattern": "The Elite Succubus is a named high-priority threat inside Lust's enemy waves. Its danger increases when the player remains trapped near other enemies and cannot maintain a clear movement route.",
+          "recommendedCounter": "Create distance before committing to damage, avoid fighting inside the center of the horde, and use upgraded projectiles or status effects to maintain pressure while repositioning.",
+          "preparation": "Favor steady damage, area coverage, and enough survivability to avoid taking repeated contact damage while isolating the elite from the surrounding wave.",
+          "victoryReward": "Killing the Elite Succubus unlocks Elite Killer II. Standard Succubus kills count toward Succubi Hunter, which requires 250 kills in Circle 2, Lust."
+        },
+        {
+          "name": "Circle Enemy Families",
+          "circle": "Limbo and Lust",
+          "encounterType": "Horde Enemies",
+          "attackPattern": "Achievement targets confirm Imp, Skeleton, Brotchi, Ghoul, Lost Soul, Slime, Lust Sinner, Lust Mine, Viper, Devi-Brotchi, and Succubus enemy families across the available content.",
+          "recommendedCounter": "Use overlapping area damage for dense melee groups, projectiles for targets entering from multiple directions, and frequent route changes before the horde closes around the player.",
+          "preparation": "Build a balanced hand instead of stacking only boss damage. One crowd-clearing weapon, one focused-damage weapon, useful Mods, and an emergency Poet Spell provide dependable coverage.",
+          "victoryReward": "Each enemy family has a cumulative hunting achievement, with targets ranging from 250 Succubi to 2,000 Brotchi or Lust Sinners."
+        }
+      ]
+    },
+    "hellMaidenProgression": {
+      "title": "Hell Maiden Progression and Resources",
+      "displayType": "table",
+      "intro": "Progression combines in-run leveling and deck building with Early Access meta-progression. The strongest route is to unlock Poets and their cards first, clear each Circle consistently, then chase rare Charms, high scores, complete card collections, and challenge achievements.",
+      "rows": [
+        {
+          "system": "Temples",
+          "where": "Inside a run",
+          "howItWorks": "Temples are activated while exploring a Circle and provide run-based benefits. The achievement list confirms multiple Temple types and enough distinct Temples to activate 12 in one run.",
+          "priority": "High during every run",
+          "milestone": "Activate all available Temple types for Devout Pilgrim and 12 different Temples in one run for Pious Pilgrim."
+        },
+        {
+          "system": "Charms",
+          "where": "Run preparation and rewards",
+          "howItWorks": "Charms provide rarity-based bonuses that strengthen a run. Crystal is a confirmed rarity tier and is tied to one of the rarer progression achievements.",
+          "priority": "Keep strong general-purpose bonuses first",
+          "milestone": "Obtain a Crystal-rarity Charm to unlock Heavenly Gift."
+        },
+        {
+          "system": "Wails of the Abyss",
+          "where": "Meta-progression",
+          "howItWorks": "Wails of the Abyss are a spendable progression resource used between runs. They support the expanded meta-progression system introduced for Early Access.",
+          "priority": "Spend on consistent clears before narrow challenges",
+          "milestone": "Spend a cumulative total of 5,000 Wails of the Abyss to unlock Abyssal Spender."
+        },
+        {
+          "system": "Character Level",
+          "where": "Inside a run",
+          "howItWorks": "Collect experience from defeated enemies to level up and choose cards or upgrades. The level resets with the run, so survival and efficient experience collection determine how quickly a build reaches full strength.",
+          "priority": "Very high in the opening minutes",
+          "milestone": "Reach Level 50 to unlock Infernal Prowess I."
+        },
+        {
+          "system": "High Score",
+          "where": "Per Circle",
+          "howItWorks": "Score rewards efficient kills, survival, and strong run performance. Limbo and Lust each have a separate 100,000-point mastery achievement.",
+          "priority": "Pursue after reliable 12-minute clears",
+          "milestone": "Reach 100,000 in Limbo for Hellish Mastery I and 100,000 in Lust for Hellish Mastery II."
+        },
+        {
+          "system": "Poet Rescues",
+          "where": "Permanent progression",
+          "howItWorks": "Early Access features four Poet characters in its current progression and card systems. Achievement paths explicitly cover Virgil, Horace, Homer, and Ovid, while Horace, Homer, and Ovid have dedicated rescue milestones.",
+          "priority": "Top permanent-progression priority",
+          "milestone": "Rescue Horace, Homer, and Ovid; every rescued Poet adds five new abilities to the permanent pool."
+        },
+        {
+          "system": "Weapon and Mod Cards",
+          "where": "Built each run; options expand permanently",
+          "howItWorks": "The current Early Access pool contains more than 40 abilities across Weapon and Mod choices. Weapon Cards define attacks, while Mod Cards enhance a weapon and can be upgraded to Level 3.",
+          "priority": "Build one damage core before spreading",
+          "milestone": "Complete full hands, equip three Level 3 Mods to one Weapon, and collect every Poet's cards."
+        },
+        {
+          "system": "Boss Ability Rewards",
+          "where": "Permanent unlocks after victories",
+          "howItWorks": "Major boss victories add new build options to later runs instead of only ending the current Circle.",
+          "priority": "Repeat boss clears after the first victory",
+          "milestone": "Each defeated boss adds two new abilities to the permanent pool."
+        },
+        {
+          "system": "Circle Access",
+          "where": "Campaign progression",
+          "howItWorks": "Limbo is the starting Circle. Continued progression opens Lust, the second complete Circle available in Early Access.",
+          "priority": "Clear Limbo before farming challenges",
+          "milestone": "Unlock Circle 2, Lust, to earn Winds of Desire."
+        },
+        {
+          "system": "Recommended Order",
+          "where": "Across multiple runs",
+          "howItWorks": "First learn Limbo and activate Temples, then rescue Poets, defeat Queen Minos, unlock Lust, and build consistent 12-minute clears. After that, repeat the Malebranche bosses, improve card collections, spend Wails, and pursue score or endurance challenges.",
+          "priority": "Best overall route",
+          "milestone": "Limbo clear, Poet rescues, Queen Minos repeats, Lust unlock, Malebranche clears, Level 50 and 100,000-point runs, then full card collections."
+        }
+      ]
+    },
+    "hellMaidenAchievements": {
+      "title": "All 72 Hell Maiden Achievements",
+      "displayType": "checklist",
+      "intro": "Hell Maiden currently has 72 Steam achievements. The checklist below preserves the official requirements and highlights the long-run goals that usually need a dedicated build, repeated clears, or complete Poet card collections.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Progression and Milestones",
           "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+            { "name": "Astral Wayfarer", "requirement": "Use Blazing Quill in Limbo twice.", "featured": false },
+            { "name": "Conqueror of Limbo", "requirement": "Survive 12 minutes in Circle 1, Limbo.", "featured": false },
+            { "name": "Golden Satirist", "requirement": "Rescue Horace.", "featured": false },
+            { "name": "Crystal-eyed Bard", "requirement": "Rescue Homer.", "featured": false },
+            { "name": "Poets of Limbo I", "requirement": "Save Horace and Homer.", "featured": false },
+            { "name": "Winds of Desire", "requirement": "Unlock Circle 2, Lust.", "featured": false },
+            { "name": "Infernal Prowess I", "requirement": "Reach Level 50.", "featured": false },
+            { "name": "Conqueror of Lust", "requirement": "Survive 12 minutes in Circle 2, Lust.", "featured": false },
+            { "name": "Cerulean Imago", "requirement": "Rescue Ovid.", "featured": false },
+            { "name": "Poets of Limbo II", "requirement": "Save Ovid.", "featured": false },
+            { "name": "Hellish Mastery I", "requirement": "Reach a high score of 100,000 in Circle 1, Limbo.", "featured": true },
+            { "name": "Hellish Mastery II", "requirement": "Reach a high score of 100,000 in Circle 2, Lust.", "featured": true },
+            { "name": "Heavenly Gift", "requirement": "Get a Charm of Crystal rarity.", "featured": false },
+            { "name": "Abyssal Spender", "requirement": "Spend a total of 5,000 Wails of the Abyss.", "featured": false }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Card Collection and Deck Building",
           "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+            { "name": "Weapon Master", "requirement": "Get a full hand of Weapon cards in a single run.", "featured": false },
+            { "name": "Strategy Master", "requirement": "Get a full hand of Weapon and Mod cards in a single run.", "featured": false },
+            { "name": "Mod Master", "requirement": "Equip three Level 3 Mod cards onto a single Weapon card.", "featured": false },
+            { "name": "Perfect Hand", "requirement": "Get a full hand of Level 3 Mod cards in a single run.", "featured": true },
+            { "name": "Soul of Poet I", "requirement": "Equip all of Dante's Weapon cards.", "featured": true },
+            { "name": "Soul of Poet II", "requirement": "Equip all of Virgil's Weapon cards.", "featured": true },
+            { "name": "Soul of Poet III", "requirement": "Equip all of Horace's Weapon cards.", "featured": true },
+            { "name": "Soul of Poet IV", "requirement": "Equip all of Homer's Weapon cards.", "featured": true },
+            { "name": "Soul of Poet V", "requirement": "Equip all of Ovid's Weapon cards.", "featured": true },
+            { "name": "Essence of Poet I", "requirement": "Equip all of Dante's Mod cards.", "featured": true },
+            { "name": "Essence of Poet II", "requirement": "Equip all of Virgil's Mod cards.", "featured": true },
+            { "name": "Essence of Poet III", "requirement": "Equip all of Horace's Mod cards.", "featured": true },
+            { "name": "Essence of Poet IV", "requirement": "Equip all of Homer's Mod cards.", "featured": true },
+            { "name": "Essence of Poet V", "requirement": "Equip all of Ovid's Mod cards.", "featured": true }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Poet Weapons and Spells",
           "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+            { "name": "Blazing Quill I", "requirement": "Use Dante's Spell.", "featured": false },
+            { "name": "Blazing Quill II", "requirement": "Beat Circle 1, Limbo, using Dante's Blazing Quill.", "featured": false },
+            { "name": "Blazing Quill III", "requirement": "Beat Circle 2, Lust, using Dante's Blazing Quill.", "featured": false },
+            { "name": "Wayfinder I", "requirement": "Use Virgil's Wayfinder.", "featured": false },
+            { "name": "Wayfinder II", "requirement": "Use Virgil's Spell.", "featured": false },
+            { "name": "Wayfinder III", "requirement": "Beat Circle 1, Limbo, using Virgil's Wayfinder.", "featured": false },
+            { "name": "Carpe Diem I", "requirement": "Use Horace's Carpe Diem.", "featured": false },
+            { "name": "Carpe Diem II", "requirement": "Use Horace's Spell.", "featured": false },
+            { "name": "Carpe Diem III", "requirement": "Beat Circle 1, Limbo, using Horace's Carpe Diem.", "featured": false },
+            { "name": "Winged Lyric I", "requirement": "Use Homer's Winged Lyric.", "featured": false },
+            { "name": "Winged Lyric II", "requirement": "Use Homer's Spell.", "featured": false },
+            { "name": "Winged Lyric III", "requirement": "Beat Circle 1, Limbo, using Homer's Winged Lyric.", "featured": false },
+            { "name": "Codex Amoris I", "requirement": "Use Ovid's Codex Amoris.", "featured": false },
+            { "name": "Codex Amoris II", "requirement": "Use Ovid's Spell.", "featured": false },
+            { "name": "Codex Amoris III", "requirement": "Beat Circle 2, Lust, using Ovid's Codex Amoris.", "featured": false }
           ]
         },
         {
-          "name": "Combat and Creatures",
+          "name": "Bosses and Elite Enemies",
           "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+            { "name": "Soul Magister", "requirement": "Defeat Queen Minos.", "featured": false },
+            { "name": "Taboo Arts I", "requirement": "Defeat Queen Minos three separate times.", "featured": false },
+            { "name": "Salamander Inquisitor", "requirement": "Defeat Scarmiglione in Circle 2, Lust.", "featured": false },
+            { "name": "Malebranche Punisher", "requirement": "Defeat Libicocco and Scarmiglione.", "featured": false },
+            { "name": "Taboo Arts II", "requirement": "Defeat Libicocco and Scarmiglione three separate times.", "featured": false },
+            { "name": "Elite Killer I", "requirement": "Kill the Elite Viper enemy in Circle 2, Lust.", "featured": false },
+            { "name": "Elite Killer II", "requirement": "Kill the Elite Succubus enemy in Circle 2, Lust.", "featured": false }
           ]
         },
         {
-          "name": "Growth and Farming",
+          "name": "Survival and Run Challenges",
           "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+            { "name": "Bloodthirsty", "requirement": "Kill 2,500 enemies in a single run.", "featured": false },
+            { "name": "Devout Pilgrim", "requirement": "Activate all available Temple types.", "featured": false },
+            { "name": "Pious Pilgrim", "requirement": "Activate 12 different Temples in a single run.", "featured": false },
+            { "name": "Devilish Talent", "requirement": "Deal 200,000 damage with a single weapon in a single run.", "featured": false },
+            { "name": "Vital Endurance I", "requirement": "Beat Circle 1, Limbo, without healing more than 500 HP.", "featured": true },
+            { "name": "Vital Endurance II", "requirement": "Beat Circle 2, Lust, without healing more than 500 HP.", "featured": true }
+          ]
+        },
+        {
+          "name": "Enemy Hunting",
+          "achievements": [
+            { "name": "Imp Hunter", "requirement": "Kill 500 Imp enemies.", "featured": false },
+            { "name": "Skeleton Hunter", "requirement": "Kill 1,000 Skeleton enemies.", "featured": false },
+            { "name": "Brotchi Hunter", "requirement": "Kill 2,000 Brotchi enemies.", "featured": false },
+            { "name": "Succubi Hunter", "requirement": "Kill 250 Succubus enemies in Circle 2, Lust.", "featured": false },
+            { "name": "Ghoul Hunter", "requirement": "Kill 500 Ghoul enemies.", "featured": false },
+            { "name": "Lost Soul Hunter", "requirement": "Kill 500 Lost Soul enemies.", "featured": false },
+            { "name": "Slime Hunter", "requirement": "Kill 1,500 Slime enemies.", "featured": false },
+            { "name": "Lust Sinner Hunter", "requirement": "Kill 2,000 Lust Sinner enemies.", "featured": false },
+            { "name": "Lust Mine Hunter", "requirement": "Kill 1,000 Lust Mine enemies.", "featured": false },
+            { "name": "Viper Hunter", "requirement": "Kill 1,000 Viper enemies.", "featured": false },
+            { "name": "Devi-Brotchi Hunter", "requirement": "Kill 500 Devi-Brotchi enemies.", "featured": false }
+          ]
+        },
+        {
+          "name": "Story and Dialogue",
+          "achievements": [
+            { "name": "Forum Dweller", "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Limbo.", "featured": false },
+            { "name": "Powerless Queen", "requirement": "Watch all of Queen Minos' introductory chapters.", "featured": false },
+            { "name": "Pilgrim's Journey I", "requirement": "Talk to Beatrice three times.", "featured": false },
+            { "name": "Climbing the Ladder", "requirement": "Watch all of Libicocco's and Scarmiglione's introductory chapters.", "featured": false },
+            { "name": "Novice Poet", "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Lust.", "featured": false }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "hellMaidenRoadmap": {
+      "title": "Hell Maiden Early Access Roadmap and Updates",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Hell Maiden entered Early Access with two complete Circles, four Poets, four signature weapons, more than 40 abilities, bosses, story content, and permanent progression. AstralShift plans regular fixes and content updates while expanding the game toward all nine Circles.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "May 23, 2025",
+          "status": "Announcement",
+          "headline": "Hell Maiden Revealed",
+          "details": "AstralShift publicly introduced Hell Maiden as a horde-survival action roguelite with deck-building progression, Poet companions, story chapters, and an anime-inspired vision of Dante's Inferno."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "October 2025",
+          "status": "Demo",
+          "headline": "Playable Demo and First Hotfix",
+          "details": "The public demo offered the complete Limbo Circle, more than 25 abilities, one Poet, six Weapon Cards, and ten Mod Cards. An early hotfix followed with gameplay and quality-of-life corrections."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "July 13, 2026",
+          "status": "Transition",
+          "headline": "Original Demo Removed",
+          "details": "AstralShift removed the old demo because the Early Access build had diverged through new meta-progression, rebalanced stats, and changed mechanics. The studio plans a new parity demo after the Early Access version stabilizes."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "July 16, 2026",
+          "status": "Early Access Launch",
+          "headline": "Two Circles Available at Launch",
+          "details": "Early Access launched with Limbo and Lust, four Poets of Limbo to find and rescue, four signature weapons, more than 40 abilities, major bosses, quests, story content, and permanent progression between runs."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "date": "July 16, 2026",
+          "status": "Hotfix v0.2.31",
+          "headline": "Launch-Day Progression and Balance Fixes",
+          "details": "The launch hotfix fixed progression stopping after Libicocco's clone attack, corrected interface and localization issues, ensured Curse of Dido grants at least one projectile, reduced Queen Minos repeating the same attacks too quickly, and added a DirectX 11 beta launch option."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "date": "Later in 2026",
+          "status": "Planned Content",
+          "headline": "Circle 3 — Gluttony",
+          "details": "The official roadmap targets Gluttony as the next Circle later in 2026, adding another stage of the descent through Hell with new enemies, progression content, and encounters."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "During Early Access",
+          "status": "Ongoing Development",
+          "headline": "Regular Patches and Content Expansion",
+          "details": "The developers plan frequent hotfixes, balance changes, quality-of-life improvements, new Circles, Poets, cards, bosses, quests, lore, weapons, perks, and ultimate abilities. The Early Access period is expected to continue for roughly one year or longer as development requires."
+        },
+        {
+          "date": "Full Release",
+          "status": "Long-Term Goal",
+          "headline": "All Nine Circles and Endless Mode",
+          "details": "The completed version is planned to include all nine Circles of Hell, a larger roster of Poets, more signature weapons, perks, cards, ultimate attacks, bosses, lore, side quests, quality-of-life improvements, and an Endless Mode. The store page also states that the price is expected to increase at full release."
         }
       ]
     }
@@ -749,31 +686,35 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Hell Maiden",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Hell Maiden?",
+        "answer": "Hell Maiden is a gothic horde-survival deckbuilding roguelite on Steam. You play as Dante, attacking automatically while aiming, dashing, collecting experience, and building a hand of Spirit Cards across the Circles of Hell."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Hell Maiden a singleplayer game?",
+        "answer": "Yes. Hell Maiden is a singleplayer game with no multiplayer or co-op."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Hell Maiden?",
+        "answer": "Hell Maiden is available on Steam for PC. It entered Steam Early Access on July 16, 2026."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many Circles are available in Hell Maiden Early Access?",
+        "answer": "Early Access launched with two complete Circles — Limbo and Lust. The roadmap plans to expand Hell Maiden toward all nine Circles of Hell over time."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How many achievements does Hell Maiden have?",
+        "answer": "Hell Maiden currently has 72 Steam achievements across progression, card collection, Poets, bosses, survival, enemy hunting, and story categories."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Hell Maiden support controllers?",
+        "answer": "Yes. Hell Maiden supports mouse, keyboard, and controller aim input. Dante attacks automatically, so you mainly control aiming, dashing, and positioning."
+      },
+      {
+        "question": "Will Hell Maiden keep getting updates?",
+        "answer": "Yes. AstralShift plans regular hotfixes, balance changes, new Circles, Poets, cards, bosses, and an eventual Endless Mode for Hell Maiden during Early Access and toward full release."
       }
     ]
   },
@@ -802,124 +743,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Hell Maiden Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced deck-building strategies across the Circles of Hell.",
+      "metaTitle": "Hell Maiden Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Hell Maiden guides covering beginner tips, Spirit Card decks, boss strategies, Circle walkthroughs, and expert tactics for mastering the gothic deckbuilder.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Hell Maiden gameplay mechanics, aiming and dodging, Spirit Card deck building, and Circle progression from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand aiming, dashing, experience collection, and avoid common beginner mistakes",
+        "step2Title": "Build Stronger Decks",
+        "step2Description": "Follow proven Weapon and Mod Card combinations to survive each Circle",
+        "step3Title": "Master Boss Strategies",
+        "step3Description": "Develop tactics for Queen Minos, the Malebranche, and elite enemies"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Hell Maiden Builds",
+      "description": "Master Spirit Card deck building with the strongest Weapon and Mod Card combinations for damage, projectiles, status effects, and boss fights.",
+      "metaTitle": "Hell Maiden Builds - Best Deck & Spirit Card Setups",
+      "metaDescription": "Master Hell Maiden deck building with the best Weapon and Mod Card combinations. Learn card positioning, merging duplicate Mods, and Level 3 build paths for every playstyle.",
+      "categoryLabel": "DECK BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Builds combine one core Weapon with complementary attacks and merged duplicate Mods toward Level 3. Each setup covers a different playstyle such as focused damage, projectile pressure, status control, survival, or boss focus.",
+      "why": "Why plan your build?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick a Core Weapon",
+        "step1Description": "Choose one signature Weapon early and concentrate your strongest upgrades on it",
+        "step2Title": "Merge Duplicate Mods",
+        "step2Description": "Combine identical Mod Cards toward Level 3 instead of collecting many weak effects",
+        "step3Title": "Position Cards Correctly",
+        "step3Description": "Arrange the hand so positional bonuses support your main damage source"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Build Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Hell Maiden Spirit Cards",
+      "description": "Detailed Spirit Card guides covering Weapon Cards, Mod Cards, effects, merging rules, rarity, and unlock sources.",
+      "metaTitle": "Hell Maiden Spirit Cards - Weapon & Mod Card Database",
+      "metaDescription": "Complete Hell Maiden Spirit Card database including Weapon Cards, Mod Cards, effects, merging rules, rarity, and unlock sources for every Poet.",
+      "categoryLabel": "SPIRIT CARDS",
+      "whatIs": "What are Spirit Cards?",
+      "whatIsDescription": "Spirit Cards are divided into Weapon Cards that define attacks and Mod Cards that enhance a weapon. Mods can be merged and upgraded to Level 3, and each Poet unlocks their own signature card line.",
+      "why": "Why study Spirit Cards?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Learn Card Effects",
+        "step1Description": "Understand what each Weapon and Mod Card does before committing to a build",
+        "step2Title": "Plan Merges",
+        "step2Description": "Know which duplicate Mods combine toward Level 3 milestones",
+        "step3Title": "Unlock Poet Cards",
+        "step3Description": "Rescue Poets to expand your permanent Weapon and Mod Card pool"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Spirit Cards"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Hell Maiden Circles",
+      "description": "Explore the Circles of Hell, survival objectives, quests, Temples, Poet rescues, enemy waves, and boss encounters.",
+      "metaTitle": "Hell Maiden Circles - Limbo, Lust & Walkthroughs",
+      "metaDescription": "Explore Hell Maiden Circles including Limbo and Lust. Find survival objectives, Temples, Poet rescues, enemy families, and boss preparation for each Circle.",
+      "categoryLabel": "CIRCLES OF HELL",
+      "whatIs": "What are Circles?",
+      "whatIsDescription": "Each Circle is a 12-minute survival run combining enemy waves, quests, Temples, Poet rescues, card building, and a final boss. Limbo and Lust are available in Early Access, with more Circles planned on the roadmap.",
+      "why": "Why study Circles?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Complete Objectives",
+        "step1Description": "Finish quests, rescue Poets, and activate Temples while waves are manageable",
+        "step2Title": "Survive 12 Minutes",
+        "step2Description": "Build a complete hand before the final boss encounter begins",
+        "step3Title": "Defeat the Boss",
+        "step3Description": "Prepare recommended setups and learn each boss's attack patterns"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Circle Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Hell Maiden Characters",
+      "description": "Meet Dante, Virgil, Beatrice, and the Poets of Limbo. Learn their roles, stories, signature weapons, Spells, and unlock methods.",
+      "metaTitle": "Hell Maiden Characters - Poets, Weapons & Unlocks",
+      "metaDescription": "Complete Hell Maiden character guide covering Dante, Virgil, Beatrice, Horace, Homer, Ovid, and the Poets of Limbo with their signature weapons, Spells, and unlock methods.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Hell Maiden follows Dante's renewed journey through Hell alongside Virgil and Beatrice. Rescuing the Poets of Limbo unlocks signature Weapons, Blessings, perks, Spells, ultimate attacks, and new dialogue.",
+      "why": "Why rescue Poets?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Expand Your Card Pool",
+        "step1Description": "Each rescued Poet adds five new abilities and a signature Weapon line",
+        "step2Title": "Unlock Spells",
+        "step2Description": "Gain emergency Spells for dense waves and dangerous boss phases",
+        "step3Title": "Progress the Story",
+        "step3Description": "Open new Forum dialogue and salvation-related story chapters"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Character Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Hell Maiden Updates",
+      "description": "Track Early Access patches, hotfixes, balance changes, the roadmap, new Circles, and future content plans.",
+      "metaTitle": "Hell Maiden Updates - Roadmap, Patches & News",
+      "metaDescription": "Follow Hell Maiden Early Access updates including patch notes, hotfixes, balance changes, the roadmap toward all nine Circles, Endless Mode, and the full release.",
+      "categoryLabel": "UPDATES & ROADMAP",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Hell Maiden receives regular hotfixes, balance changes, and content updates during Early Access. Track patches, the roadmap toward all nine Circles, new Poets, cards, bosses, and the planned Endless Mode.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Stay Current",
+        "step1Description": "Keep up with hotfixes, balance changes, and quality-of-life improvements",
+        "step2Title": "Plan Ahead",
+        "step2Description": "See which Circles, Poets, and cards are coming next on the roadmap",
+        "step3Title": "Prepare for Changes",
+        "step3Description": "Adjust your builds as stats, mechanics, and content evolve"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update Articles"
     }
   }
 }

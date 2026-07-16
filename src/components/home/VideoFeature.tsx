@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
@@ -9,28 +9,84 @@ interface VideoFeatureProps {
 }
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [shouldPlay, setShouldPlay] = useState(false);
+
+  // 进入视口后自动播放，作为主要交互；点击海报作为后备触发
+  useEffect(() => {
+    const node = containerRef.current;
+    if (!node || shouldPlay) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setShouldPlay(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [shouldPlay]);
+
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // loop=1 需要带 playlist=videoId 才能在 YouTube 嵌入中真正循环
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div
+        ref={containerRef}
+        className="relative w-full overflow-hidden rounded-lg bg-black"
+        style={{ paddingBottom: "56.25%" }}
+      >
+        {shouldPlay ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setShouldPlay(true)}
+            aria-label={`Play ${title}`}
+            className="group absolute inset-0 h-full w-full"
+          >
+            {/* 海报图 */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/hero.webp"
+              alt={title}
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+            />
+            {/* 渐变遮罩 */}
+            <span className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/20" />
+            {/* 播放按钮 */}
+            <span className="absolute inset-0 flex items-center justify-center">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] shadow-lg shadow-black/40 transition-transform duration-300 group-hover:scale-110 md:h-20 md:w-20">
+                <Play className="ml-1 h-7 w-7 text-white md:h-9 md:w-9" />
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">
