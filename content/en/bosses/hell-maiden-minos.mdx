@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "hell maiden minos: Step-by-Step Boss Strategy & Rewards",
+  description: "Master the hell maiden minos boss fight in Circle 1 Limbo. Learn the best Spirit Card builds, attack patterns, and how to unlock the Soul Magister achievement.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Hell+Maiden+Minos+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **hell maiden minos**: The final encounter of Circle 1 (Limbo) requiring a 12-minute survival run.
+- **Key Mechanic**: Bullet-hell projectile patterns and telegraphed area-of-effect (AoE) strikes.
+- **Best Strategy**: Focus on Level 3 Mod merging and lateral movement to avoid recursive patterns.
+- **Critical Tip**: Save your Poet Spell for the phase where Minos restricts the arena boundaries.
+- **Top Choice**: The Blazing Quill or Winged Lyric weapons offer the most reliable damage scaling for this fight.
+</Callout>
+
+<Section icon={Target} title="The Gatekeeper of Limbo: hell maiden minos">
+
+In the gothic world of Hell Maiden, **hell maiden minos** (Queen Minos) serves as the primary progression gatekeeper within the first Circle, Limbo. As a horde-survival deckbuilder, the game challenges you to not only survive the relentless waves of Imps and Ghouls for 12 minutes but also to maintain enough health and firepower to take down this major boss. Queen Minos represents the first true test of your Spirit Card synergy and movement precision.
+
+The encounter is designed as a traditional bullet-hell challenge, where positioning is just as important as your damage output. Following the July 16, 2026, **Hotfix v0.2.31**, the developer AstralShift adjusted the boss's behavior to prevent her from repeating the same telegraphed moves too quickly. This means players must now adapt to a more varied sequence of attacks rather than memorizing a single loop. Success requires a balanced hand of Weapon and Mod cards, specifically those that allow for high single-target pressure while maintaining mobility.
+
+<Callout type="success" title="Hotfix v0.2.31 Update">
+The latest patch has improved boss AI, making the Queen Minos fight more dynamic. Players can no longer rely on "dead zones" in her attack patterns, as she now cycles through her abilities with higher variance.
+</Callout>
+
+| Boss Detail | Information |
+| :--- | :--- |
+| **Location** | Circle 1 — Limbo |
+| **Survival Requirement** | 12 Minutes |
+| **Encounter Type** | Major Boss |
+| **Primary Threats** | Projectile Walls, Telegraphed AoE |
+| **Achievement** | Soul Magister |
+
+</Section>
+
+<Section icon={Swords} title="Best Spirit Card Builds for Minos">
+
+To defeat **hell maiden minos**, your deck must transition from crowd control (necessary for the first 12 minutes) to high-precision boss damage. Spirit Cards are divided into Weapon Cards and Mod Cards. The most effective strategy is to concentrate your strongest upgrades on a single core weapon while using secondary slots for utility and coverage.
+
+<CardGrid cols={3}>
+  <Card title="Focused Damage Build">
+    - **Core Weapon**: Blazing Quill
+    - **Mod Priority**: Damage, Attack Speed
+    - **Best For**: Direct boss pressure and elite clearing.
+  </Card>
+  <Card title="Projectile Pressure Build">
+    - **Core Weapon**: Wayfinder
+    - **Mod Priority**: Projectile Count, Duration
+    - **Best For**: Continuous screen coverage during bullet-hell phases.
+  </Card>
+  <Card title="Boss-Focused Build">
+    - **Core Weapon**: Winged Lyric
+    - **Mod Priority**: Critical Damage, Level 3 Mods
+    - **Best For**: High-health targets that require focused fire.
+  </Card>
+</CardGrid>
+
+When building your hand, remember that positional effects are vital. Some Mod cards provide bonuses to adjacent weapons or weapons to their right. Always rearrange your hand to ensure your primary boss-killing weapon receives the maximum possible buffs from your Mod cards.
+
+<Callout type="tip" title="Mod Merging Strategy">
+Always aim to merge duplicate Mod cards into a **Level 3** version. A single Level 3 Mod is significantly more powerful than three Level 1 copies spread across different weapons. For the Minos fight, prioritize Level 3 Damage and Projectile Count mods.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Survival and Boss Route">
+
+Reaching **hell maiden minos** is a journey that starts the moment you spawn in Limbo. You must utilize the 12-minute survival window to maximize your power.
+
+<Steps>
+  <Step num="1" title="Early Resource Gathering">
+    Focus on collecting experience orbs from defeated Imps and Skeletons. Your priority in the first 3 minutes is to fill all four Weapon slots to ensure you have a diverse range of attacks.
+  </Step>
+  <Step num="2" title="Poet Rescue and Unlocks">
+    Locate and rescue Horace and Homer within Limbo. Saving these Poets expands your card pool, adding the Carpe Diem and Winged Lyric weapons to your available level-up choices.
+  </Step>
+  <Step num="3" title="Temple Activation">
+    Explore the map to find and activate Temples. Activating these provides run-based benefits and is required for the Pious Pilgrim achievement (12 Temples in one run). Do this before the 10-minute mark when enemy density peaks.
+  </Step>
+  <Step num="4" title="Mod Optimization">
+    By the 10-minute mark, you should have at least one Weapon card equipped with three Level 3 Mods. This "Perfect Hand" setup is essential for melting Minos's high health bar.
+  </Step>
+  <Step num="5" title="The Final Confrontation">
+    Once the timer hits 12 minutes, Queen Minos will spawn. Keep your distance, watch for the red floor telegraphs, and only use your dash when a projectile wall leaves no other gap.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Health Preservation">
+Avoid unnecessary contact damage during the 12-minute survival phase. Entering the Minos fight with low health is extremely dangerous, as her projectile patterns can be difficult to navigate without a safety margin.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Queen Minos Attack Patterns and Counters">
+
+Understanding the telegraphed behavior of **hell maiden minos** is the difference between victory and a failed run. She cycles through several distinct phases that test your reflexes and positioning.
+
+| Attack Pattern | Description | Recommended Counter |
+| :--- | :--- | :--- |
+| **Infernal Spiral** | Circular waves of projectiles | Move laterally/circle the boss |
+| **Limbo Strike** | Large AoE floor telegraphs | Dash out of the red zone immediately |
+| **Soul Summon** | Spawns minor enemies to distract | Use area-clearing secondary weapons |
+| **Abyssal Gate** | Restricts arena movement | Save Poet Spell for this phase |
+
+The most dangerous part of the fight occurs when Minos combines her projectile spirals with floor strikes. During these moments, do not panic-dash. Instead, look for the "safe lanes" between the projectiles and only use your dash to cross over a telegraphed strike zone.
+
+<Callout type="info" title="Poet Spells">
+Dante's Inferno or Virgil's Star Sign ☆ Pleiades can clear the screen of projectiles. Use these defensively when you feel overwhelmed by the bullet-hell patterns.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rewards, Achievements, and Progression">
+
+Defeating **hell maiden minos** is not just about the immediate victory; it unlocks significant permanent progression for your future descents into Hell.
+
+| Reward/Milestone | Requirement | Effect |
+| :--- | :--- | :--- |
+| **Soul Magister** | Defeat Queen Minos | Unlocks Steam Achievement |
+| **Taboo Arts I** | Defeat Minos 3 Times | Permanent card pool expansion |
+| **Winds of Desire** | Complete Limbo | Unlocks Circle 2: Lust |
+| **New Abilities** | Boss Victory | Adds 2 new abilities to the pool |
+
+Beyond these rewards, defeating Minos allows you to progress the story in the Poets' Forum. Interacting with Virgil and Beatrice after the fight will unlock new dialogue chapters and provide context for Dante's missing memories.
+
+<Checklist
+  id="minos-completion"
+  title="Limbo Mastery Checklist:"
+  items={[
+    "Defeat Queen Minos for the Soul Magister achievement",
+    "Rescue both Horace and Homer in a single run",
+    "Reach Level 50 during the Limbo survival phase",
+    "Activate 12 different Temples in one run",
+    "Defeat Minos three times to unlock Taboo Arts I"
+  ]}
+/>
+
+<Callout type="tip" title="Wails of the Abyss">
+Use the Wails of the Abyss earned from your Limbo runs to purchase meta-progression upgrades. Prioritize upgrades that increase your starting health and experience gain to make future boss encounters more manageable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the fight with hell maiden minos?",
+    answer: "You must survive for 12 minutes in Circle 1, Limbo. Once the timer expires, the normal enemy waves will stop, and Queen Minos will appear as the final boss of the stage."
+  },
+  {
+    question: "What is the best weapon to use against Queen Minos?",
+    answer: "The Winged Lyric (Homer's signature weapon) is excellent because it focuses damage on a single target and does not miss. The Blazing Quill is also a top-tier choice for balanced damage and range."
+  },
+  {
+    question: "Can I skip the 12-minute survival phase?",
+    answer: "No, the 12-minute survival phase is mandatory. This time is intended for you to build your hand of Spirit Cards and activate Temples to prepare for the boss encounter."
+  },
+  {
+    question: "What happens after I defeat Minos?",
+    answer: "You will earn the Soul Magister achievement, unlock new permanent abilities, and gain access to Circle 2, Lust, through the Winds of Desire progression milestone."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Mastering the **hell maiden minos** encounter is your first step toward conquering all nine Circles of Hell. Focus on your build synergy, respect the telegraphs, and keep your dashes ready for emergencies. Good luck, Pilgrim!
+</Callout>
+
+</Section>

@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden: Beginner Strategy & Deck Building Guide",
+  description: "Master Hell Maiden with our 2026 guide. Learn core mechanics, best Spirit Card builds, boss strategies, and efficient progression routes for Limbo and Lust.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/881337/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Master the **Hell Maiden** horde-survival loop by focusing on movement and active aiming.
+- Build a **four-Weapon hand** early to maximize damage and crowd control efficiency.
+- **Merge duplicate Mod Cards** to reach Level 3, significantly boosting your combat potential.
+- Prioritize **rescuing Poets** to unlock permanent signature weapons and character-specific abilities.
+- Survive for **12 minutes** in each Circle to face challenging bosses like Queen Minos.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Hell Maiden">
+
+The core gameplay loop of **Hell Maiden** requires players to balance automatic attacks with precise manual aiming. As Dante, your goal is to survive waves of enemies, collect experience, and strategically build your deck of Spirit Cards.
+
+**Video Highlights:**
+- Positioning techniques for high-density enemy waves.
+- Understanding the interaction between Weapon Cards and Mod Cards.
+- Essential tips for surviving the first 12-minute run.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden Gameplay Overview" />
+
+<CardGrid cols={3}>
+  <Card title="Movement">
+    - Always stay mobile.
+    - Use dash to cross gaps.
+    - Keep enemies on one side.
+  </Card>
+  <Card title="Deck Building">
+    - Aim for four weapons.
+    - Merge duplicate mods.
+    - Focus on synergy.
+  </Card>
+  <Card title="Progression">
+    - Activate Temples early.
+    - Rescue Poets of Limbo.
+    - Spend Wails of the Abyss.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Survival Strategy">
+Always save at least one dash for elite enemy telegraphs or when you find yourself surrounded by projectiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Builds and Spirit Cards">
+
+Efficient deck building in **Hell Maiden** relies on concentrating upgrades on a primary signature weapon. Avoid spreading your Mod Cards too thin across all four slots.
+
+| Build Type | Core Weapon | Mod Priority | Best Usage |
+| :--- | :--- | :--- | :--- |
+| Focused Damage | Blazing Quill | Damage, Attack Speed | Boss Fights |
+| Projectile Pressure | Wayfinder | Projectile Count, Speed | Large Crowds |
+| Status Control | Codex Amoris | Effect Duration, Multi-hit | Elite Enemies |
+
+<Callout type="warning" title="Positional Awareness">
+Rearrange your hand whenever a positional effect changes. Some Mod Cards provide bonuses based on their placement relative to your core weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Limbo Walkthrough">
+
+<Steps>
+  <Step num="1" title="Early Game Setup">
+    Focus on collecting experience orbs immediately. Secure your first two Weapon Cards within the first three minutes to establish a damage baseline.
+  </Step>
+  <Step num="2" title="Temple Activation">
+    Explore the map to activate Temples. This provides crucial run-based benefits that make the later minutes of the 12-minute survival timer manageable.
+  </Step>
+  <Step num="3" title="Boss Encounter">
+    Enter the Queen Minos fight with a full hand of Level 3 Mod-supported weapons. Use your signature Spell only during her most restrictive projectile patterns.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+Tracking your progress is vital for unlocking the full potential of your characters. Use the table below to prioritize your goals between runs.
+
+| Milestone | Requirement | Reward |
+| :--- | :--- | :--- |
+| Poet Rescue | Save Horace, Homer, Ovid | 5 new abilities per Poet |
+| Level 50 | Reach character level 50 | Infernal Prowess I |
+| High Score | 100,000 in Limbo/Lust | Hellish Mastery |
+| Crystal Charm | Obtain Crystal-rarity | Heavenly Gift |
+
+<Checklist
+  id="progression-goals"
+  title="Essential Progression Checklist:"
+  items={[
+    "Rescue all Poets of Limbo",
+    "Unlock Circle 2: Lust",
+    "Equip three Level 3 Mod cards on one weapon",
+    "Defeat Queen Minos three times",
+    "Spend 5,000 Wails of the Abyss"
+  ]}
+/>
+
+<Callout type="success" title="Meta-Progression">
+Rescuing Poets is your top priority. Each saved Poet permanently expands your card pool, allowing for more powerful builds in future runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss Strategies">
+
+Bosses in **Hell Maiden** require pattern recognition. Use the following data to prepare for your encounters in Limbo and Lust.
+
+| Boss | Circle | Primary Strategy |
+| :--- | :--- | :--- |
+| Queen Minos | Limbo | Move laterally, exploit recovery windows |
+| Scarmiglione | Lust | Keep distance, burst damage after attacks |
+| Libicocco | Lust | Clear clones first, avoid center overlap |
+
+<FAQ items={[
+  {
+    question: "How do I unlock Circle 2 (Lust)?",
+    answer: "You must complete the 12-minute survival objective in Limbo and defeat Queen Minos. Continue your story interactions in the Forum to trigger the progression."
+  },
+  {
+    question: "What is the best way to spend Wails of the Abyss?",
+    answer: "Spend them on permanent meta-upgrades that increase your survivability or damage consistency before investing in niche challenge setups."
+  },
+  {
+    question: "Is Hell Maiden a roguelike?",
+    answer: "Yes, it is a horde-survival roguelite. Runs involve deck-building, permanent progression, and character unlocks across the nine Circles of Hell."
+  }
+]} />
+
+</Section>

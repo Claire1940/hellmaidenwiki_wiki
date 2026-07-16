@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden steam deck: Setup Guide & Performance Settings",
+  description: "Optimize your hell maiden steam deck experience. Get the best graphics settings, controller layouts, and performance tweaks for smooth gameplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Steam+Deck+Setup",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Steam Deck Performance**: Runs smoothly with minor Proton adjustments and targeted setting tweaks.
+- **Target Frame Rates**: Achieve a consistent 60 FPS or a battery-friendly 40 FPS lock.
+- **Proton Selection**: Use Proton Experimental or Proton GE for optimal compatibility.
+- **Optimized Controls**: Customize the layout to map heavy combat actions to the back paddles.
+- **Battery Optimization**: Limit TDP to extend handheld playtime during long sessions.
+</Callout>
+
+<Section icon={Sparkles} title="hell maiden steam deck Compatibility Overview">
+
+Getting **hell maiden steam deck** gameplay configured correctly ensures a smooth journey through the game's challenging levels. As an early access title, optimization requires specific configuration adjustments to maintain stable frame rates and prevent compatibility crashes. The game runs decently out of the box, but applying community-tested optimization methods improves performance significantly.
+
+**Video Highlights:**
+- Official Early Access Launch showcase demonstrating gameplay loops.
+- Visual style overview depicting fast-paced action sequences.
+- Character interactions highlighting Virgil, Dante, and Lily Coco.
+- Cinematic previews of the combat mechanics and environments.
+
+<YouTubeEmbed videoId="kvBO_wNPCL0" title="Hell Maiden - Official Early Access Launch Trailer" />
+
+| Compatibility Aspect | Status | Notes |
+|---|---|---|
+| Playability Category | Playable | Requires minor configuration tweaks |
+| Default Proton | Proton 8.0-5 | Works, but performance varies |
+| Recommended Proton | Proton Experimental | Improves frame pacing and stability |
+| Text Readability | Good | UI scales adequately to the 7-inch screen |
+| Controller Support | Full | Native Steam Input detection |
+
+<Callout type="tip" title="Pro Tip">
+Force the use of Proton Experimental in the game properties menu before launching for the first time. This resolves initial launch black screens and audio syncing issues reported on SteamOS.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Graphics and Performance Settings">
+
+Optimizing visual options balances battery life and visual fidelity. While the game features stylized visuals, intensive particle effects during combat encounters can cause frame rate drops if settings are left at default values.
+
+| Setting Option | Battery Profile | Performance Profile | Visual Profile |
+|---|---|---|---|
+| Resolution | 1280x800 | 1280x800 | 1280x800 |
+| Frame Rate Limit | 40 FPS | 60 FPS | 60 FPS |
+| Refresh Rate | 40 Hz | 60 Hz | 60 Hz |
+| Shadow Quality | Low | Medium | High |
+| Textures | Medium | High | High |
+| Anti-Aliasing | FXAA | SMAA | SMAA |
+| Post-Processing | Low | Medium | High |
+| TDP Limit | 8 Watts | 12 Watts | Disabled |
+
+Adjusting these settings allows you to customize your experience based on whether you prioritize battery longevity or maximum smoothness.
+
+| Preset Profile | Expected Battery Life | Average Framerate | Thermal Load |
+|---|---|---|---|
+| Battery Saver | 3.5 to 4 Hours | Stable 40 FPS | Low |
+| Balanced | 2.5 to 3 Hours | Stable 60 FPS | Moderate |
+| Ultra Performance | 1.5 to 2 Hours | Unlocked 60+ FPS | High |
+
+<Callout type="warning" title="Warning">
+Enabling high post-processing along with unlocked frame rates can cause the Steam Deck fan to run at maximum speed, increasing overall thermal output.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controller Layouts and Custom Mapping">
+
+Fast-paced combat requires responsive inputs. Configuring Steam Input options allows you to map crucial actions to the Steam Deck back buttons, reducing thumb movement away from the analog sticks.
+
+<CardGrid cols={3}>
+  <Card title="Default Layout">
+    - Standard controller setup
+    - Uses face buttons for attacks
+    - Trigger buttons handle dodging
+    - Good for casual playthroughs
+  </Card>
+  <Card title="Combat Focused">
+    - Custom back button mapping
+    - Jump and dash on L4/R4
+    - Quick item select on L5/R5
+    - Keeps thumbs on sticks
+  </Card>
+  <Card title="Comfort Layout">
+    - Modified trigger activation
+    - Soft-pull actions configured
+    - Reduced hand fatigue
+    - Ideal for long sessions
+  </Card>
+</CardGrid>
+
+| In-Game Action | Default Button | Recommended Deck Mapping | Benefit |
+|---|---|---|---|
+| Primary Attack | X | X | Standard attack flow |
+| Secondary Attack | Y | Y | Heavy attack access |
+| Dash / Dodge | B | R4 (Back Paddle) | Keeps thumb on camera stick |
+| Jump | A | L4 (Back Paddle) | Allows aerial aiming |
+| Interact | Left Bumper | Left Bumper | Quick menu navigation |
+| Use Item | Right Bumper | R5 (Back Paddle) | Instant item deployment |
+
+<Callout type="success" title="Success">
+Mapping Dash to R4 and Jump to L4 lets you maneuver through dense enemy packs without losing camera control.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Optimization Guide">
+
+Follow these steps to configure your Steam Deck for optimal gameplay.
+
+<Steps>
+  <Step num="1" title="Select Proton Version">
+    Navigate to the game properties menu on your Steam Deck. Under the compatibility tab, check the box to force a specific compatibility tool and select Proton Experimental from the drop-down menu.
+  </Step>
+  <Step num="2" title="Configure System TDP">
+    Open the Steam Deck Quick Access Menu by pressing the three-dot button. Go to the Performance tab, enable manual TDP limit, and set it to 10 or 12 Watts to balance battery consumption and processing power.
+  </Step>
+  <Step num="3" title="Adjust In-Game Settings">
+    Launch the game and access the options menu. Set the resolution to 1280x800, lower Shadow Quality to Medium, and set Anti-Aliasing to SMAA for clear edges without high performance costs.
+  </Step>
+  <Step num="4" title="Map Back Paddles">
+    Press the Steam button, select Controller Settings, and enable the back buttons. Map L4 to Jump (A button) and R4 to Dash (B button) for improved combat mobility.
+  </Step>
+</Steps>
+
+<Callout type="info" title="System Note">
+If you encounter stuttering after updating SteamOS, clearing the shader cache for the game via Steam Deck storage settings can resolve the issue.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Troubleshooting Common SteamOS Issues">
+
+While optimization settings resolve most performance issues, players may encounter specific bugs during early access builds. Use this guide to identify and resolve common technical issues.
+
+| Issue | Potential Cause | Recommended Fix |
+|---|---|---|
+| Black screen on startup | Video codec incompatibility | Switch to Proton GE via ProtonUp-Qt |
+| Audio crackling | Audio buffer mismatch | Add launch option: `PULSE_LATENCY_MSEC=60 %command%` |
+| Cloud save sync error | Steam Cloud conflict | Restart Steam or toggle offline mode |
+| Frame rate stuttering | Shader compilation | Play for 10 minutes to allow cache compilation |
+| Controller unresponsive | Steam Input conflict | Re-enable Steam Input in controller settings |
+
+<Callout type="warning" title="Performance Warning">
+Do not use resolution scaling below 70% as it renders small UI text and damage numbers unreadable on the handheld display.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimization Checklist">
+
+Ensure you have completed all configurations before starting your play session.
+
+<Checklist
+  id="steam-deck-readiness"
+  title="Pre-Flight Settings Checklist:"
+  items={[
+    "Force Proton Experimental compatibility tool",
+    "Set SteamOS refresh rate to 60Hz or 40Hz",
+    "Configure manual TDP limit to 10-12 Watts",
+    "Apply recommended in-game graphics settings",
+    "Export custom back paddle controller layout"
+  ]}
+/>
+
+<Callout type="success" title="Configuration Complete">
+With these settings applied, you will experience smooth frame pacing and optimized battery life during your gameplay sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does hell maiden steam deck support offline play?",
+    answer: "Yes, once the game is fully downloaded and updated, you can launch and play the game in SteamOS Offline Mode without an active internet connection."
+  },
+  {
+    question: "Which Proton version provides the best stability?",
+    answer: "Proton Experimental offers the most consistent stability and resolves the common startup black screen issues present in standard Proton builds."
+  },
+  {
+    question: "How can I extend battery life past three hours?",
+    answer: "Set the Steam Deck screen refresh rate to 40Hz, cap the in-game framerate to 40 FPS, and limit the system TDP to 8 Watts in the quick access performance menu."
+  },
+  {
+    question: "Are custom controller layouts required to play?",
+    answer: "No, the default controller layout works fine, but mapping primary actions like jump and dash to the back paddles makes high-speed combat scenarios much easier to manage."
+  }
+]} />
+
+</Section>

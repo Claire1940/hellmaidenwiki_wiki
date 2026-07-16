@@ -10,7 +10,15 @@
       "twitterDescription": "Hell Maiden Wiki covering builds, Spirit Cards, bosses, achievements, and roadmap updates for the Steam Early Access deckbuilder."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "bosses": "Bosses",
+    "characters": "Characters",
+    "release": "Release",
+    "platforms": "Platforms",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -160,9 +168,19 @@
         {
           "name": "Focused Damage Build",
           "bestFor": "Direct damage, elites, and reliable Limbo clears",
-          "owners": ["Dante", "Horace"],
-          "featuredWeapons": ["Blazing Quill", "Carpe Diem"],
-          "modPriorities": ["Damage", "Attack speed", "Additional projectiles"],
+          "owners": [
+            "Dante",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "Damage",
+            "Attack speed",
+            "Additional projectiles"
+          ],
           "positioning": "Place the core Weapon beside any Mod or Weapon effect that strengthens adjacent cards or cards positioned to its right.",
           "buildPlan": "Choose one core Weapon early, merge its duplicate Mods, and work toward equipping three Level 3 Mods on that Weapon. Use secondary Weapon slots for coverage rather than competing damage investments.",
           "spellUsage": "Save Dante's Inferno or Horace's Spell for dense waves and boss phases that restrict movement."
@@ -170,9 +188,20 @@
         {
           "name": "Projectile Pressure Build",
           "bestFor": "Large enemy groups and continuous screen coverage",
-          "owners": ["Virgil", "Horace"],
-          "featuredWeapons": ["Wayfinder", "Carpe Diem"],
-          "modPriorities": ["Projectile count", "Attack speed", "Attack duration", "Area or status effects"],
+          "owners": [
+            "Virgil",
+            "Horace"
+          ],
+          "featuredWeapons": [
+            "Wayfinder",
+            "Carpe Diem"
+          ],
+          "modPriorities": [
+            "Projectile count",
+            "Attack speed",
+            "Attack duration",
+            "Area or status effects"
+          ],
           "positioning": "Use the two middle Weapon slots for cards with adjacent bonuses so one positional effect can support more than one attack.",
           "buildPlan": "Increase the number and frequency of attacks first, then add damage after the screen is consistently covered. Merge duplicate projectile Mods instead of placing low-level copies on every Weapon.",
           "spellUsage": "Virgil's Star Sign Pleiades provides a powerful emergency attack when normal projectiles cannot open a safe path."
@@ -180,9 +209,22 @@
         {
           "name": "Status Control Build",
           "bestFor": "Controlling fast waves while dealing damage through repeated hits",
-          "owners": ["Dante", "Virgil", "Ovid"],
-          "featuredWeapons": ["Blazing Quill", "Wayfinder", "Codex Amoris"],
-          "modPriorities": ["Status effects", "Projectile count", "Attack speed", "Effect duration"],
+          "owners": [
+            "Dante",
+            "Virgil",
+            "Ovid"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder",
+            "Codex Amoris"
+          ],
+          "modPriorities": [
+            "Status effects",
+            "Projectile count",
+            "Attack speed",
+            "Effect duration"
+          ],
           "positioning": "Attach status-focused Mods to fast or multi-hit Weapons and keep one separate Weapon dedicated to immediate damage.",
           "buildPlan": "Spread status application across two Weapons, but concentrate raw damage Mods on a single finisher. This prevents the hand from becoming dependent on effects that take time to build.",
           "spellUsage": "Use a Poet's Spell after status effects have gathered enemies or during an elite wave that is difficult to contain."
@@ -190,9 +232,20 @@
         {
           "name": "Survival Clear Build",
           "bestFor": "First clears, Temple exploration, and low-healing challenges",
-          "owners": ["Dante", "Virgil"],
-          "featuredWeapons": ["Blazing Quill", "Wayfinder"],
-          "modPriorities": ["Survivability", "Healing support", "Area coverage", "Attack speed"],
+          "owners": [
+            "Dante",
+            "Virgil"
+          ],
+          "featuredWeapons": [
+            "Blazing Quill",
+            "Wayfinder"
+          ],
+          "modPriorities": [
+            "Survivability",
+            "Healing support",
+            "Area coverage",
+            "Attack speed"
+          ],
           "positioning": "Keep the safest crowd-clearing Weapon in the main supported position and use secondary slots for protection and coverage.",
           "buildPlan": "Secure consistent area damage before investing fully in boss damage. Visit Temples while enemy pressure is low, avoid unnecessary contact damage, and preserve the dash for enclosed situations.",
           "spellUsage": "Treat the Spell as a defensive reset when Dante is surrounded rather than using it immediately after it becomes available."
@@ -200,9 +253,22 @@
         {
           "name": "Boss-Focused Build",
           "bestFor": "Queen Minos, Scarmiglione, Libicocco, and other high-health targets",
-          "owners": ["Homer", "Ovid", "Dante"],
-          "featuredWeapons": ["Winged Lyric", "Codex Amoris", "Blazing Quill"],
-          "modPriorities": ["Single-target damage", "Attack speed", "Critical or direct damage", "Level 3 duplicate Mods"],
+          "owners": [
+            "Homer",
+            "Ovid",
+            "Dante"
+          ],
+          "featuredWeapons": [
+            "Winged Lyric",
+            "Codex Amoris",
+            "Blazing Quill"
+          ],
+          "modPriorities": [
+            "Single-target damage",
+            "Attack speed",
+            "Critical or direct damage",
+            "Level 3 duplicate Mods"
+          ],
           "positioning": "Give the core boss Weapon the strongest positional bonuses and keep crowd-clearing Weapons in the remaining slots for summoned enemies.",
           "buildPlan": "Winged Lyric attacks one target at a time without missing, making it suited to sustained pressure on elites and bosses. Codex Amoris supports Ovid-focused Lust clears, while Blazing Quill can complete both available Circles.",
           "spellUsage": "Wait for the boss to finish a movement-heavy pattern, then activate the signature Spell while the target remains inside the attack area."
@@ -217,8 +283,13 @@
         {
           "title": "Circle 1: Limbo",
           "runLength": "Survive for 12 minutes",
-          "rescueTargets": ["Horace", "Homer"],
-          "bosses": ["Queen Minos"],
+          "rescueTargets": [
+            "Horace",
+            "Homer"
+          ],
+          "bosses": [
+            "Queen Minos"
+          ],
           "objectives": [
             "Collect experience and fill all four Weapon slots",
             "Attach and merge Mod Cards",
@@ -248,9 +319,22 @@
         {
           "title": "Circle 2: Lust",
           "runLength": "Survive for 12 minutes",
-          "rescueTargets": ["Ovid"],
-          "bosses": ["Scarmiglione", "Libicocco and Scarmiglione"],
-          "featuredThreats": ["Succubus", "Elite Succubus", "Viper", "Elite Viper", "Lust Sinner", "Lust Mine", "Devi-Brotchi"],
+          "rescueTargets": [
+            "Ovid"
+          ],
+          "bosses": [
+            "Scarmiglione",
+            "Libicocco and Scarmiglione"
+          ],
+          "featuredThreats": [
+            "Succubus",
+            "Elite Succubus",
+            "Viper",
+            "Elite Viper",
+            "Lust Sinner",
+            "Lust Mine",
+            "Devi-Brotchi"
+          ],
           "objectives": [
             "Stabilize the build before elite Vipers and Succubi appear",
             "Continue activating Temples without becoming surrounded",
@@ -521,108 +605,396 @@
         {
           "name": "Progression and Milestones",
           "achievements": [
-            { "name": "Astral Wayfarer", "requirement": "Use Blazing Quill in Limbo twice.", "featured": false },
-            { "name": "Conqueror of Limbo", "requirement": "Survive 12 minutes in Circle 1, Limbo.", "featured": false },
-            { "name": "Golden Satirist", "requirement": "Rescue Horace.", "featured": false },
-            { "name": "Crystal-eyed Bard", "requirement": "Rescue Homer.", "featured": false },
-            { "name": "Poets of Limbo I", "requirement": "Save Horace and Homer.", "featured": false },
-            { "name": "Winds of Desire", "requirement": "Unlock Circle 2, Lust.", "featured": false },
-            { "name": "Infernal Prowess I", "requirement": "Reach Level 50.", "featured": false },
-            { "name": "Conqueror of Lust", "requirement": "Survive 12 minutes in Circle 2, Lust.", "featured": false },
-            { "name": "Cerulean Imago", "requirement": "Rescue Ovid.", "featured": false },
-            { "name": "Poets of Limbo II", "requirement": "Save Ovid.", "featured": false },
-            { "name": "Hellish Mastery I", "requirement": "Reach a high score of 100,000 in Circle 1, Limbo.", "featured": true },
-            { "name": "Hellish Mastery II", "requirement": "Reach a high score of 100,000 in Circle 2, Lust.", "featured": true },
-            { "name": "Heavenly Gift", "requirement": "Get a Charm of Crystal rarity.", "featured": false },
-            { "name": "Abyssal Spender", "requirement": "Spend a total of 5,000 Wails of the Abyss.", "featured": false }
+            {
+              "name": "Astral Wayfarer",
+              "requirement": "Use Blazing Quill in Limbo twice.",
+              "featured": false
+            },
+            {
+              "name": "Conqueror of Limbo",
+              "requirement": "Survive 12 minutes in Circle 1, Limbo.",
+              "featured": false
+            },
+            {
+              "name": "Golden Satirist",
+              "requirement": "Rescue Horace.",
+              "featured": false
+            },
+            {
+              "name": "Crystal-eyed Bard",
+              "requirement": "Rescue Homer.",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo I",
+              "requirement": "Save Horace and Homer.",
+              "featured": false
+            },
+            {
+              "name": "Winds of Desire",
+              "requirement": "Unlock Circle 2, Lust.",
+              "featured": false
+            },
+            {
+              "name": "Infernal Prowess I",
+              "requirement": "Reach Level 50.",
+              "featured": false
+            },
+            {
+              "name": "Conqueror of Lust",
+              "requirement": "Survive 12 minutes in Circle 2, Lust.",
+              "featured": false
+            },
+            {
+              "name": "Cerulean Imago",
+              "requirement": "Rescue Ovid.",
+              "featured": false
+            },
+            {
+              "name": "Poets of Limbo II",
+              "requirement": "Save Ovid.",
+              "featured": false
+            },
+            {
+              "name": "Hellish Mastery I",
+              "requirement": "Reach a high score of 100,000 in Circle 1, Limbo.",
+              "featured": true
+            },
+            {
+              "name": "Hellish Mastery II",
+              "requirement": "Reach a high score of 100,000 in Circle 2, Lust.",
+              "featured": true
+            },
+            {
+              "name": "Heavenly Gift",
+              "requirement": "Get a Charm of Crystal rarity.",
+              "featured": false
+            },
+            {
+              "name": "Abyssal Spender",
+              "requirement": "Spend a total of 5,000 Wails of the Abyss.",
+              "featured": false
+            }
           ]
         },
         {
           "name": "Card Collection and Deck Building",
           "achievements": [
-            { "name": "Weapon Master", "requirement": "Get a full hand of Weapon cards in a single run.", "featured": false },
-            { "name": "Strategy Master", "requirement": "Get a full hand of Weapon and Mod cards in a single run.", "featured": false },
-            { "name": "Mod Master", "requirement": "Equip three Level 3 Mod cards onto a single Weapon card.", "featured": false },
-            { "name": "Perfect Hand", "requirement": "Get a full hand of Level 3 Mod cards in a single run.", "featured": true },
-            { "name": "Soul of Poet I", "requirement": "Equip all of Dante's Weapon cards.", "featured": true },
-            { "name": "Soul of Poet II", "requirement": "Equip all of Virgil's Weapon cards.", "featured": true },
-            { "name": "Soul of Poet III", "requirement": "Equip all of Horace's Weapon cards.", "featured": true },
-            { "name": "Soul of Poet IV", "requirement": "Equip all of Homer's Weapon cards.", "featured": true },
-            { "name": "Soul of Poet V", "requirement": "Equip all of Ovid's Weapon cards.", "featured": true },
-            { "name": "Essence of Poet I", "requirement": "Equip all of Dante's Mod cards.", "featured": true },
-            { "name": "Essence of Poet II", "requirement": "Equip all of Virgil's Mod cards.", "featured": true },
-            { "name": "Essence of Poet III", "requirement": "Equip all of Horace's Mod cards.", "featured": true },
-            { "name": "Essence of Poet IV", "requirement": "Equip all of Homer's Mod cards.", "featured": true },
-            { "name": "Essence of Poet V", "requirement": "Equip all of Ovid's Mod cards.", "featured": true }
+            {
+              "name": "Weapon Master",
+              "requirement": "Get a full hand of Weapon cards in a single run.",
+              "featured": false
+            },
+            {
+              "name": "Strategy Master",
+              "requirement": "Get a full hand of Weapon and Mod cards in a single run.",
+              "featured": false
+            },
+            {
+              "name": "Mod Master",
+              "requirement": "Equip three Level 3 Mod cards onto a single Weapon card.",
+              "featured": false
+            },
+            {
+              "name": "Perfect Hand",
+              "requirement": "Get a full hand of Level 3 Mod cards in a single run.",
+              "featured": true
+            },
+            {
+              "name": "Soul of Poet I",
+              "requirement": "Equip all of Dante's Weapon cards.",
+              "featured": true
+            },
+            {
+              "name": "Soul of Poet II",
+              "requirement": "Equip all of Virgil's Weapon cards.",
+              "featured": true
+            },
+            {
+              "name": "Soul of Poet III",
+              "requirement": "Equip all of Horace's Weapon cards.",
+              "featured": true
+            },
+            {
+              "name": "Soul of Poet IV",
+              "requirement": "Equip all of Homer's Weapon cards.",
+              "featured": true
+            },
+            {
+              "name": "Soul of Poet V",
+              "requirement": "Equip all of Ovid's Weapon cards.",
+              "featured": true
+            },
+            {
+              "name": "Essence of Poet I",
+              "requirement": "Equip all of Dante's Mod cards.",
+              "featured": true
+            },
+            {
+              "name": "Essence of Poet II",
+              "requirement": "Equip all of Virgil's Mod cards.",
+              "featured": true
+            },
+            {
+              "name": "Essence of Poet III",
+              "requirement": "Equip all of Horace's Mod cards.",
+              "featured": true
+            },
+            {
+              "name": "Essence of Poet IV",
+              "requirement": "Equip all of Homer's Mod cards.",
+              "featured": true
+            },
+            {
+              "name": "Essence of Poet V",
+              "requirement": "Equip all of Ovid's Mod cards.",
+              "featured": true
+            }
           ]
         },
         {
           "name": "Poet Weapons and Spells",
           "achievements": [
-            { "name": "Blazing Quill I", "requirement": "Use Dante's Spell.", "featured": false },
-            { "name": "Blazing Quill II", "requirement": "Beat Circle 1, Limbo, using Dante's Blazing Quill.", "featured": false },
-            { "name": "Blazing Quill III", "requirement": "Beat Circle 2, Lust, using Dante's Blazing Quill.", "featured": false },
-            { "name": "Wayfinder I", "requirement": "Use Virgil's Wayfinder.", "featured": false },
-            { "name": "Wayfinder II", "requirement": "Use Virgil's Spell.", "featured": false },
-            { "name": "Wayfinder III", "requirement": "Beat Circle 1, Limbo, using Virgil's Wayfinder.", "featured": false },
-            { "name": "Carpe Diem I", "requirement": "Use Horace's Carpe Diem.", "featured": false },
-            { "name": "Carpe Diem II", "requirement": "Use Horace's Spell.", "featured": false },
-            { "name": "Carpe Diem III", "requirement": "Beat Circle 1, Limbo, using Horace's Carpe Diem.", "featured": false },
-            { "name": "Winged Lyric I", "requirement": "Use Homer's Winged Lyric.", "featured": false },
-            { "name": "Winged Lyric II", "requirement": "Use Homer's Spell.", "featured": false },
-            { "name": "Winged Lyric III", "requirement": "Beat Circle 1, Limbo, using Homer's Winged Lyric.", "featured": false },
-            { "name": "Codex Amoris I", "requirement": "Use Ovid's Codex Amoris.", "featured": false },
-            { "name": "Codex Amoris II", "requirement": "Use Ovid's Spell.", "featured": false },
-            { "name": "Codex Amoris III", "requirement": "Beat Circle 2, Lust, using Ovid's Codex Amoris.", "featured": false }
+            {
+              "name": "Blazing Quill I",
+              "requirement": "Use Dante's Spell.",
+              "featured": false
+            },
+            {
+              "name": "Blazing Quill II",
+              "requirement": "Beat Circle 1, Limbo, using Dante's Blazing Quill.",
+              "featured": false
+            },
+            {
+              "name": "Blazing Quill III",
+              "requirement": "Beat Circle 2, Lust, using Dante's Blazing Quill.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder I",
+              "requirement": "Use Virgil's Wayfinder.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder II",
+              "requirement": "Use Virgil's Spell.",
+              "featured": false
+            },
+            {
+              "name": "Wayfinder III",
+              "requirement": "Beat Circle 1, Limbo, using Virgil's Wayfinder.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem I",
+              "requirement": "Use Horace's Carpe Diem.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem II",
+              "requirement": "Use Horace's Spell.",
+              "featured": false
+            },
+            {
+              "name": "Carpe Diem III",
+              "requirement": "Beat Circle 1, Limbo, using Horace's Carpe Diem.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric I",
+              "requirement": "Use Homer's Winged Lyric.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric II",
+              "requirement": "Use Homer's Spell.",
+              "featured": false
+            },
+            {
+              "name": "Winged Lyric III",
+              "requirement": "Beat Circle 1, Limbo, using Homer's Winged Lyric.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris I",
+              "requirement": "Use Ovid's Codex Amoris.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris II",
+              "requirement": "Use Ovid's Spell.",
+              "featured": false
+            },
+            {
+              "name": "Codex Amoris III",
+              "requirement": "Beat Circle 2, Lust, using Ovid's Codex Amoris.",
+              "featured": false
+            }
           ]
         },
         {
           "name": "Bosses and Elite Enemies",
           "achievements": [
-            { "name": "Soul Magister", "requirement": "Defeat Queen Minos.", "featured": false },
-            { "name": "Taboo Arts I", "requirement": "Defeat Queen Minos three separate times.", "featured": false },
-            { "name": "Salamander Inquisitor", "requirement": "Defeat Scarmiglione in Circle 2, Lust.", "featured": false },
-            { "name": "Malebranche Punisher", "requirement": "Defeat Libicocco and Scarmiglione.", "featured": false },
-            { "name": "Taboo Arts II", "requirement": "Defeat Libicocco and Scarmiglione three separate times.", "featured": false },
-            { "name": "Elite Killer I", "requirement": "Kill the Elite Viper enemy in Circle 2, Lust.", "featured": false },
-            { "name": "Elite Killer II", "requirement": "Kill the Elite Succubus enemy in Circle 2, Lust.", "featured": false }
+            {
+              "name": "Soul Magister",
+              "requirement": "Defeat Queen Minos.",
+              "featured": false
+            },
+            {
+              "name": "Taboo Arts I",
+              "requirement": "Defeat Queen Minos three separate times.",
+              "featured": false
+            },
+            {
+              "name": "Salamander Inquisitor",
+              "requirement": "Defeat Scarmiglione in Circle 2, Lust.",
+              "featured": false
+            },
+            {
+              "name": "Malebranche Punisher",
+              "requirement": "Defeat Libicocco and Scarmiglione.",
+              "featured": false
+            },
+            {
+              "name": "Taboo Arts II",
+              "requirement": "Defeat Libicocco and Scarmiglione three separate times.",
+              "featured": false
+            },
+            {
+              "name": "Elite Killer I",
+              "requirement": "Kill the Elite Viper enemy in Circle 2, Lust.",
+              "featured": false
+            },
+            {
+              "name": "Elite Killer II",
+              "requirement": "Kill the Elite Succubus enemy in Circle 2, Lust.",
+              "featured": false
+            }
           ]
         },
         {
           "name": "Survival and Run Challenges",
           "achievements": [
-            { "name": "Bloodthirsty", "requirement": "Kill 2,500 enemies in a single run.", "featured": false },
-            { "name": "Devout Pilgrim", "requirement": "Activate all available Temple types.", "featured": false },
-            { "name": "Pious Pilgrim", "requirement": "Activate 12 different Temples in a single run.", "featured": false },
-            { "name": "Devilish Talent", "requirement": "Deal 200,000 damage with a single weapon in a single run.", "featured": false },
-            { "name": "Vital Endurance I", "requirement": "Beat Circle 1, Limbo, without healing more than 500 HP.", "featured": true },
-            { "name": "Vital Endurance II", "requirement": "Beat Circle 2, Lust, without healing more than 500 HP.", "featured": true }
+            {
+              "name": "Bloodthirsty",
+              "requirement": "Kill 2,500 enemies in a single run.",
+              "featured": false
+            },
+            {
+              "name": "Devout Pilgrim",
+              "requirement": "Activate all available Temple types.",
+              "featured": false
+            },
+            {
+              "name": "Pious Pilgrim",
+              "requirement": "Activate 12 different Temples in a single run.",
+              "featured": false
+            },
+            {
+              "name": "Devilish Talent",
+              "requirement": "Deal 200,000 damage with a single weapon in a single run.",
+              "featured": false
+            },
+            {
+              "name": "Vital Endurance I",
+              "requirement": "Beat Circle 1, Limbo, without healing more than 500 HP.",
+              "featured": true
+            },
+            {
+              "name": "Vital Endurance II",
+              "requirement": "Beat Circle 2, Lust, without healing more than 500 HP.",
+              "featured": true
+            }
           ]
         },
         {
           "name": "Enemy Hunting",
           "achievements": [
-            { "name": "Imp Hunter", "requirement": "Kill 500 Imp enemies.", "featured": false },
-            { "name": "Skeleton Hunter", "requirement": "Kill 1,000 Skeleton enemies.", "featured": false },
-            { "name": "Brotchi Hunter", "requirement": "Kill 2,000 Brotchi enemies.", "featured": false },
-            { "name": "Succubi Hunter", "requirement": "Kill 250 Succubus enemies in Circle 2, Lust.", "featured": false },
-            { "name": "Ghoul Hunter", "requirement": "Kill 500 Ghoul enemies.", "featured": false },
-            { "name": "Lost Soul Hunter", "requirement": "Kill 500 Lost Soul enemies.", "featured": false },
-            { "name": "Slime Hunter", "requirement": "Kill 1,500 Slime enemies.", "featured": false },
-            { "name": "Lust Sinner Hunter", "requirement": "Kill 2,000 Lust Sinner enemies.", "featured": false },
-            { "name": "Lust Mine Hunter", "requirement": "Kill 1,000 Lust Mine enemies.", "featured": false },
-            { "name": "Viper Hunter", "requirement": "Kill 1,000 Viper enemies.", "featured": false },
-            { "name": "Devi-Brotchi Hunter", "requirement": "Kill 500 Devi-Brotchi enemies.", "featured": false }
+            {
+              "name": "Imp Hunter",
+              "requirement": "Kill 500 Imp enemies.",
+              "featured": false
+            },
+            {
+              "name": "Skeleton Hunter",
+              "requirement": "Kill 1,000 Skeleton enemies.",
+              "featured": false
+            },
+            {
+              "name": "Brotchi Hunter",
+              "requirement": "Kill 2,000 Brotchi enemies.",
+              "featured": false
+            },
+            {
+              "name": "Succubi Hunter",
+              "requirement": "Kill 250 Succubus enemies in Circle 2, Lust.",
+              "featured": false
+            },
+            {
+              "name": "Ghoul Hunter",
+              "requirement": "Kill 500 Ghoul enemies.",
+              "featured": false
+            },
+            {
+              "name": "Lost Soul Hunter",
+              "requirement": "Kill 500 Lost Soul enemies.",
+              "featured": false
+            },
+            {
+              "name": "Slime Hunter",
+              "requirement": "Kill 1,500 Slime enemies.",
+              "featured": false
+            },
+            {
+              "name": "Lust Sinner Hunter",
+              "requirement": "Kill 2,000 Lust Sinner enemies.",
+              "featured": false
+            },
+            {
+              "name": "Lust Mine Hunter",
+              "requirement": "Kill 1,000 Lust Mine enemies.",
+              "featured": false
+            },
+            {
+              "name": "Viper Hunter",
+              "requirement": "Kill 1,000 Viper enemies.",
+              "featured": false
+            },
+            {
+              "name": "Devi-Brotchi Hunter",
+              "requirement": "Kill 500 Devi-Brotchi enemies.",
+              "featured": false
+            }
           ]
         },
         {
           "name": "Story and Dialogue",
           "achievements": [
-            { "name": "Forum Dweller", "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Limbo.", "featured": false },
-            { "name": "Powerless Queen", "requirement": "Watch all of Queen Minos' introductory chapters.", "featured": false },
-            { "name": "Pilgrim's Journey I", "requirement": "Talk to Beatrice three times.", "featured": false },
-            { "name": "Climbing the Ladder", "requirement": "Watch all of Libicocco's and Scarmiglione's introductory chapters.", "featured": false },
-            { "name": "Novice Poet", "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Lust.", "featured": false }
+            {
+              "name": "Forum Dweller",
+              "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Limbo.",
+              "featured": false
+            },
+            {
+              "name": "Powerless Queen",
+              "requirement": "Watch all of Queen Minos' introductory chapters.",
+              "featured": false
+            },
+            {
+              "name": "Pilgrim's Journey I",
+              "requirement": "Talk to Beatrice three times.",
+              "featured": false
+            },
+            {
+              "name": "Climbing the Ladder",
+              "requirement": "Watch all of Libicocco's and Scarmiglione's introductory chapters.",
+              "featured": false
+            },
+            {
+              "name": "Novice Poet",
+              "requirement": "Exhaust all dialogue interactions with every Poet of Limbo in Lust.",
+              "featured": false
+            }
           ]
         }
       ]
@@ -742,125 +1114,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Hell Maiden Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced deck-building strategies across the Circles of Hell.",
-      "metaTitle": "Hell Maiden Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Hell Maiden guides covering beginner tips, Spirit Card decks, boss strategies, Circle walkthroughs, and expert tactics for mastering the gothic deckbuilder.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Hell Maiden gameplay mechanics, aiming and dodging, Spirit Card deck building, and Circle progression from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Hell Maiden Guide",
+      "description": "Complete Hell Maiden guides from beginner basics to advanced survival tactics across the Circles of Hell.",
+      "metaTitle": "Hell Maiden Guide - Beginner Tips & Progression",
+      "metaDescription": "Master Hell Maiden with beginner guides, controls, save and progression tips, and survival strategies for the gothic deckbuilder's Circles of Hell.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is this guide?",
+      "whatIsDescription": "Step-by-step Hell Maiden walkthroughs covering controls, dashing and aiming, experience collection, and the safest routes through your first hours in Limbo and beyond.",
+      "why": "Why read this guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand aiming, dashing, experience collection, and avoid common beginner mistakes",
-        "step2Title": "Build Stronger Decks",
-        "step2Description": "Follow proven Weapon and Mod Card combinations to survive each Circle",
-        "step3Title": "Master Boss Strategies",
-        "step3Description": "Develop tactics for Queen Minos, the Malebranche, and elite enemies"
+        "step1Title": "Start Strong",
+        "step1Description": "Learn the opening moves, upgrade priorities, and what carries over after death",
+        "step2Title": "Survive Longer",
+        "step2Description": "Master dodging, positioning, and experience pickup patterns across each Circle",
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Sidestep the beginner traps that end runs early in the Circles of Hell"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
+    "builds": {
       "title": "Hell Maiden Builds",
-      "description": "Master Spirit Card deck building with the strongest Weapon and Mod Card combinations for damage, projectiles, status effects, and boss fights.",
-      "metaTitle": "Hell Maiden Builds - Best Deck & Spirit Card Setups",
-      "metaDescription": "Master Hell Maiden deck building with the best Weapon and Mod Card combinations. Learn card positioning, merging duplicate Mods, and Level 3 build paths for every playstyle.",
-      "categoryLabel": "DECK BUILDS",
+      "description": "Best Hell Maiden builds with Spirit Card, Weapon Card, and Mod Card combos plus a full tier list for every Circle.",
+      "metaTitle": "Hell Maiden Builds - Best Decks & Tier List",
+      "metaDescription": "Discover the best Hell Maiden builds, top tier Spirit Card and Weapon Card combinations, and proven deck strategies for every Circle of Hell.",
+      "categoryLabel": "BUILDS",
       "whatIs": "What are Builds?",
-      "whatIsDescription": "Builds combine one core Weapon with complementary attacks and merged duplicate Mods toward Level 3. Each setup covers a different playstyle such as focused damage, projectile pressure, status control, survival, or boss focus.",
-      "why": "Why plan your build?",
+      "whatIsDescription": "Complete Hell Maiden deck builds that combine Spirit Cards, Weapon Cards, and Mod Cards into powerful synergies, with upgrade orders and recommended Circles for each setup.",
+      "why": "Why use builds?",
       "whySteps": {
-        "step1Title": "Pick a Core Weapon",
-        "step1Description": "Choose one signature Weapon early and concentrate your strongest upgrades on it",
-        "step2Title": "Merge Duplicate Mods",
-        "step2Description": "Combine identical Mod Cards toward Level 3 instead of collecting many weak effects",
-        "step3Title": "Position Cards Correctly",
-        "step3Description": "Arrange the hand so positional bonuses support your main damage source"
+        "step1Title": "Copy Proven Decks",
+        "step1Description": "Use ready-made Spirit Card and Weapon Card combinations tested across every Circle",
+        "step2Title": "Follow Upgrade Orders",
+        "step2Description": "Pick cards in the right sequence to hit your build's power spike early",
+        "step3Title": "Find Alternatives",
+        "step3Description": "Swap in substitute cards and adapt your deck to the enemies and bosses you face"
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
+      "all": "All Builds"
     },
-    "items": {
-      "title": "Hell Maiden Spirit Cards",
-      "description": "Detailed Spirit Card guides covering Weapon Cards, Mod Cards, effects, merging rules, rarity, and unlock sources.",
-      "metaTitle": "Hell Maiden Spirit Cards - Weapon & Mod Card Database",
-      "metaDescription": "Complete Hell Maiden Spirit Card database including Weapon Cards, Mod Cards, effects, merging rules, rarity, and unlock sources for every Poet.",
-      "categoryLabel": "SPIRIT CARDS",
-      "whatIs": "What are Spirit Cards?",
-      "whatIsDescription": "Spirit Cards are divided into Weapon Cards that define attacks and Mod Cards that enhance a weapon. Mods can be merged and upgraded to Level 3, and each Poet unlocks their own signature card line.",
-      "why": "Why study Spirit Cards?",
+    "bosses": {
+      "title": "Hell Maiden Bosses",
+      "description": "Hell Maiden boss guides with attack patterns, phases, safe zones, and counter strategies for Minos, Libicocco, Scarmiglione, and more.",
+      "metaTitle": "Hell Maiden Bosses - Strategies & Phase Guides",
+      "metaDescription": "Beat every Hell Maiden boss with phase-by-phase strategies, attack tells, safe zones, and recommended builds for Minos, Libicocco, and Scarmiglione.",
+      "categoryLabel": "BOSSES",
+      "whatIs": "What are Bosses?",
+      "whatIsDescription": "Detailed Hell Maiden boss breakdowns covering attack tells, phase transitions, safe zones, counter builds, and the rewards for defeating each guardian of the Circles.",
+      "why": "Why read boss guides?",
       "whySteps": {
-        "step1Title": "Learn Card Effects",
-        "step1Description": "Understand what each Weapon and Mod Card does before committing to a build",
-        "step2Title": "Plan Merges",
-        "step2Description": "Know which duplicate Mods combine toward Level 3 milestones",
-        "step3Title": "Unlock Poet Cards",
-        "step3Description": "Rescue Poets to expand your permanent Weapon and Mod Card pool"
+        "step1Title": "Read Attack Tells",
+        "step1Description": "Recognize every boss wind-up so you can dodge and reposition in time",
+        "step2Title": "Survive Every Phase",
+        "step2Description": "Learn the phase transitions and how the fight escalates across the Circle",
+        "step3Title": "Pick Counter Builds",
+        "step3Description": "Bring the recommended Spirit Card and Weapon Card decks each boss is weak to"
       },
       "featured": "Featured & Essential",
-      "all": "All Spirit Cards"
+      "all": "All Bosses"
     },
-    "biomes": {
-      "title": "Hell Maiden Circles",
-      "description": "Explore the Circles of Hell, survival objectives, quests, Temples, Poet rescues, enemy waves, and boss encounters.",
-      "metaTitle": "Hell Maiden Circles - Limbo, Lust & Walkthroughs",
-      "metaDescription": "Explore Hell Maiden Circles including Limbo and Lust. Find survival objectives, Temples, Poet rescues, enemy families, and boss preparation for each Circle.",
-      "categoryLabel": "CIRCLES OF HELL",
-      "whatIs": "What are Circles?",
-      "whatIsDescription": "Each Circle is a 12-minute survival run combining enemy waves, quests, Temples, Poet rescues, card building, and a final boss. Limbo and Lust are available in Early Access, with more Circles planned on the roadmap.",
-      "why": "Why study Circles?",
-      "whySteps": {
-        "step1Title": "Complete Objectives",
-        "step1Description": "Finish quests, rescue Poets, and activate Temples while waves are manageable",
-        "step2Title": "Survive 12 Minutes",
-        "step2Description": "Build a complete hand before the final boss encounter begins",
-        "step3Title": "Defeat the Boss",
-        "step3Description": "Prepare recommended setups and learn each boss's attack patterns"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Circle Guides"
-    },
-    "building": {
+    "characters": {
       "title": "Hell Maiden Characters",
-      "description": "Meet Dante, Virgil, Beatrice, and the Poets of Limbo. Learn their roles, stories, signature weapons, Spells, and unlock methods.",
-      "metaTitle": "Hell Maiden Characters - Poets, Weapons & Unlocks",
-      "metaDescription": "Complete Hell Maiden character guide covering Dante, Virgil, Beatrice, Horace, Homer, Ovid, and the Poets of Limbo with their signature weapons, Spells, and unlock methods.",
+      "description": "Hell Maiden character guides for Dante, Virgil, Beatrice, Ovid, and the Poets of Limbo, with backstories, abilities, and unlock conditions.",
+      "metaTitle": "Hell Maiden Characters - Dante, Virgil & Poets",
+      "metaDescription": "Explore every Hell Maiden character including Dante, Virgil, Beatrice, Ovid, and the Poets of Limbo, with lore, abilities, blessings, and how to rescue them.",
       "categoryLabel": "CHARACTERS",
-      "whatIs": "What are Characters?",
-      "whatIsDescription": "Hell Maiden follows Dante's renewed journey through Hell alongside Virgil and Beatrice. Rescuing the Poets of Limbo unlocks signature Weapons, Blessings, perks, Spells, ultimate attacks, and new dialogue.",
-      "why": "Why rescue Poets?",
+      "whatIs": "Who are the Characters?",
+      "whatIsDescription": "Profiles of Hell Maiden's cast including Dante, Virgil, Beatrice, Ovid, and the Poets of Limbo, covering their backstories, abilities, blessings, and rescue conditions.",
+      "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Expand Your Card Pool",
-        "step1Description": "Each rescued Poet adds five new abilities and a signature Weapon line",
-        "step2Title": "Unlock Spells",
-        "step2Description": "Gain emergency Spells for dense waves and dangerous boss phases",
-        "step3Title": "Progress the Story",
-        "step3Description": "Open new Forum dialogue and salvation-related story chapters"
+        "step1Title": "Learn the Lore",
+        "step1Description": "Understand the gothic story and how each character connects to the Little Goody Two Shoes universe",
+        "step2Title": "Unlock Abilities",
+        "step2Description": "Discover each Poet's blessings and the conditions to recruit them",
+        "step3Title": "Plan Rescues",
+        "step3Description": "Find where and how to save every Poet of Limbo across the Circles"
       },
       "featured": "Featured & Essential",
-      "all": "All Character Guides"
+      "all": "All Characters"
     },
-    "support": {
-      "title": "Hell Maiden Updates",
-      "description": "Track Early Access patches, hotfixes, balance changes, the roadmap, new Circles, and future content plans.",
-      "metaTitle": "Hell Maiden Updates - Roadmap, Patches & News",
-      "metaDescription": "Follow Hell Maiden Early Access updates including patch notes, hotfixes, balance changes, the roadmap toward all nine Circles, Endless Mode, and the full release.",
-      "categoryLabel": "UPDATES & ROADMAP",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Hell Maiden receives regular hotfixes, balance changes, and content updates during Early Access. Track patches, the roadmap toward all nine Circles, new Poets, cards, bosses, and the planned Endless Mode.",
-      "why": "Why follow updates?",
+    "release": {
+      "title": "Hell Maiden Release",
+      "description": "Hell Maiden release info including Early Access date, full release roadmap, demo details, and where to play on Steam and itch.io.",
+      "metaTitle": "Hell Maiden Release - Early Access & Roadmap",
+      "metaDescription": "Track Hell Maiden's release timeline including the Early Access launch, full release date, demo, roadmap, and availability on Steam and itch.io.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Everything about Hell Maiden's launch and roadmap, including the Steam Early Access start, full release plans, playable demo, and ongoing update schedule from AstralShift.",
+      "why": "Why follow the release?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "Keep up with hotfixes, balance changes, and quality-of-life improvements",
-        "step2Title": "Plan Ahead",
-        "step2Description": "See which Circles, Poets, and cards are coming next on the roadmap",
-        "step3Title": "Prepare for Changes",
-        "step3Description": "Adjust your builds as stats, mechanics, and content evolve"
+        "step1Title": "Know the Dates",
+        "step1Description": "Track the Early Access launch, full release window, and demo availability",
+        "step2Title": "Follow the Roadmap",
+        "step3Title": "Play the Demo",
+        "step2Description": "See upcoming Circles, characters, weapons, abilities, and Endless Mode plans",
+        "step3Description": "Find where to download the demo and what content it includes before buying"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Articles"
+      "all": "All Release Info"
+    },
+    "platforms": {
+      "title": "Hell Maiden Platforms",
+      "description": "Hell Maiden platform availability and release dates for PC, PS5, Nintendo Switch, Xbox, and Steam Deck, with compatibility details.",
+      "metaTitle": "Hell Maiden Platforms - PS5, Switch, Xbox & Steam Deck",
+      "metaDescription": "Find out which platforms Hell Maiden is on, including PC, PS5, Nintendo Switch, Xbox, and Steam Deck support, release dates, and verified status.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is it on?",
+      "whatIsDescription": "Hell Maiden platform coverage across PC, Steam Deck, PS5, Nintendo Switch, and Xbox, with release timing, verified status, and cross-platform details as the game expands beyond Early Access.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare availability and release dates across PC, PS5, Switch, and Xbox",
+        "step2Title": "Check Steam Deck",
+        "step2Description": "Confirm Steam Deck verified status and handheld performance before playing",
+        "step3Title": "Track Console Releases",
+        "step3Description": "Follow the roadmap for when each console version launches"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms"
+    },
+    "media": {
+      "title": "Hell Maiden Media",
+      "description": "Hell Maiden media including the EA launch trailer, opening theme, and original soundtrack (OST) from AstralShift's gothic deckbuilder.",
+      "metaTitle": "Hell Maiden Media - Trailer, Theme & OST",
+      "metaDescription": "Watch the Hell Maiden trailers, listen to the opening theme and original soundtrack, and explore media from AstralShift's gothic survival deckbuilder.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is here?",
+      "whatIsDescription": "Hell Maiden media coverage including the official trailers, opening theme song, and original soundtrack that set the gothic atmosphere of the Circles of Hell.",
+      "why": "Why watch and listen?",
+      "whySteps": {
+        "step1Title": "Watch the Trailers",
+        "step1Description": "Catch the EA launch and gameplay trailers to preview the art and combat",
+        "step2Title": "Hear the Theme",
+        "step2Description": "Listen to the opening theme that defines the game's gothic tone",
+        "step3Title": "Enjoy the OST",
+        "step3Description": "Explore the original soundtrack behind the Circles of Hell"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }

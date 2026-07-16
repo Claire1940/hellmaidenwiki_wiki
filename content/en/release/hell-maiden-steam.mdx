@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden: Gameplay Guide and Deck Building Strategy",
+  description: "Master the abyss in Hell Maiden with our expert guide on deck building, survival tactics, and legendary ally management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell Maiden** is a strategic deck-building survival game inspired by Dante's Divine Comedy.
+- **Card synergy** is vital; focus on merging and evolving your attacks to survive enemy waves.
+- **Legendary allies** like Virgil provide essential guidance and tactical advantages during your descent.
+- **Strategic positioning** against bosses like Queen Minos determines your success in the deep abyss.
+</Callout>
+
+<Section icon={Map} title="Mastering the Abyss">
+
+To survive the relentless waves in Hell Maiden, you must treat every run as a lesson in adaptation. The game's mechanics rely heavily on how you manage your deck composition while descending through the layers of the underworld.
+
+**Video Highlights:**
+- Understanding the influence of Dante's Divine Comedy on game progression.
+- Core mechanics of card merging and attack evolution.
+- Introducing legendary allies as key support units.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Gameplay Trailer" />
+
+Survival depends on your ability to balance offensive pressure with efficient resource management. As you progress, the enemy density increases, requiring you to refine your card library constantly.
+
+| Mechanic | Description | Priority |
+| :--- | :--- | :--- |
+| Card Merging | Combine duplicates to evolve stats | High |
+| Wave Survival | Managing enemy spawn density | Critical |
+| Ally Support | Utilizing Virgil for tactical buffs | Medium |
+| Abyss Depth | Scaling difficulty based on floor | High |
+
+<Callout type="tip" title="Strategic Insight">
+Always prioritize card evolution early in your run. A few high-level cards are significantly more effective than a large deck of base-level attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Deck Building Strategies">
+
+Building an effective deck in Hell Maiden requires a deep understanding of card synergy. You aren't just picking cards; you are crafting a survival engine that must handle both single-target bosses and massive swarms.
+
+<CardGrid cols={3}>
+  <Card title="Aggressive Build">
+    - Focuses on high-damage output
+    - Ideal for clearing swarms quickly
+    - Riskier playstyle
+  </Card>
+  <Card title="Control Build">
+    - Utilizes crowd control effects
+    - Better for boss encounters
+    - Requires precise timing
+  </Card>
+  <Card title="Hybrid Build">
+    - Balanced damage and sustainability
+    - Most consistent for long runs
+    - Beginner friendly
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Deck Warning">
+Avoid over-bloating your deck. Having too many low-utility cards will prevent you from drawing your essential evolution pieces when you need them most.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactics and Bosses">
+
+Combat in Hell Maiden is fast-paced. Bosses like Queen Minos serve as major skill checks. Understanding their attack patterns is the only way to progress deeper into the abyss.
+
+| Boss Name | Primary Threat | Recommended Strategy |
+| :--- | :--- | :--- |
+| Queen Minos | High-damage AoE strikes | Maintain distance and focus on card cycling |
+| The Lost Souls | Swarm overwhelming | Use area-of-effect evolution cards |
+| Abyss Warden | High armor/defense | Use debuff cards to strip protection |
+
+<Steps>
+  <Step num="1" title="Analyze the Wave">
+    Before engaging, observe the enemy composition to decide which cards to prioritize for your current hand.
+  </Step>
+  <Step num="2" title="Execute Evolution">
+    Merge your cards immediately when the opportunity arises to maximize your damage-per-second output.
+  </Step>
+  <Step num="3" title="Deploy Allies">
+    Save your Legendary Ally abilities for critical moments, such as boss transitions or when you are cornered.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combat Tip">
+Keep an eye on your card rotation. If you find yourself holding useless cards, use the discard or refresh mechanics to cycle into your core damage dealers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+Tracking your performance is essential for long-term improvement. Use this checklist to ensure you are hitting the necessary benchmarks for a successful run.
+
+<Checklist
+  id="hell-maiden-goals"
+  title="Progression Checklist:"
+  items={[
+    "Clear the first layer of the abyss",
+    "Successfully evolve three core cards to max level",
+    "Defeat Queen Minos without losing a legendary ally",
+    "Unlock all starting card archetypes"
+  ]}
+/>
+
+<Callout type="info" title="Milestone Note">
+Focusing on these goals will not only improve your gameplay but also reward you with resources needed for permanent upgrades between runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Hell Maiden difficult for beginners?",
+    answer: "Hell Maiden features a steep learning curve, but the card-merging mechanics are intuitive. Beginners should focus on small, consistent decks first."
+  },
+  {
+    question: "How do I unlock new legendary allies?",
+    answer: "Allies are unlocked by reaching specific depth milestones in the abyss and completing unique challenges tied to their lore."
+  },
+  {
+    question: "Can I reset my deck during a run?",
+    answer: "No, your deck is locked once a run begins. Strategy must be planned during the selection phase at the start of each floor."
+  },
+  {
+    question: "What is the best way to farm resources?",
+    answer: "The most efficient way is to push as deep as possible into the abyss, as higher-level layers provide significantly better rewards."
+  }
+]} />
+
+</Section>

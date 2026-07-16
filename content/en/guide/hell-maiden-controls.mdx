@@ -1,0 +1,174 @@
+import { MousePointer2, Gamepad2, Swords, Target, Shield, Sparkles, Keyboard, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hell Maiden Controls: Setup Guide & Combat Input Tips",
+  description: "Master the Hell Maiden controls for PC and controller. Learn how to aim, dash, and manage Spirit Cards to survive the 12-minute runs in Limbo and Lust.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/230c12/fff?text=Hell+Maiden+Controls",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell Maiden controls** combine automatic attacking with manual aiming and active dodging for a tactical survival experience.
+- **Manual Aiming** is mandatory; Dante fires toward your cursor (Mouse) or Right Stick (Controller) regardless of movement direction.
+- **Dash Mechanic** provides invulnerability frames, allowing you to cross enemy lines and dodge telegraphed boss attacks.
+- **Deck Management** requires using the mouse or controller to rearrange Spirit Cards for optimal positional bonuses.
+- **Controller Support** is fully implemented for Early Access, including a DirectX 11 launch option for better stability.
+</Callout>
+
+<Section icon={Keyboard} title="Keyboard and Mouse Input Layout">
+
+Understanding the **Hell Maiden controls** is the first step toward surviving the depths of Limbo. Unlike many traditional horde-survival games where attacks are purely automated based on proximity, this title requires players to actively point their weapons toward the threat. This "twin-stick" approach on a keyboard and mouse setup offers the highest precision for focused damage builds like the Blazing Quill or Winged Lyric.
+
+| Key | Action | Description |
+| :--- | :--- | :--- |
+| **W, A, S, D** | Movement | Move Dante in eight directions across the Circle. |
+| **Mouse Cursor** | Aiming | Directs all automatic attacks toward the pointer. |
+| **Spacebar** | Dash | A quick burst of speed with temporary invincibility. |
+| **E / Right Click** | Use Spell | Activates the signature Poet Spell (e.g., Dante's Inferno). |
+| **Tab / I** | Open Deck | View and rearrange your current Spirit and Mod Cards. |
+| **Esc** | Pause Menu | Access settings, check achievements, or quit the run. |
+
+<Callout type="tip" title="Aiming Strategy">
+Because Dante attacks automatically, your primary focus should be "kiting." Keep your mouse cursor pointed at the densest part of the enemy wave while moving Dante in the opposite direction to maintain a safe distance.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Controller and Gamepad Configuration">
+
+For players who prefer a more relaxed or "bullet-hell" style experience, the **Hell Maiden controls** for gamepads are highly intuitive. The game uses a standard twin-stick shooter layout. This is particularly effective for "Projectile Pressure" builds where you need to constantly rotate your fire to clear surrounding mobs.
+
+| Button (Xbox/PS) | Action | Priority |
+| :--- | :--- | :--- |
+| **Left Stick** | Character Movement | High |
+| **Right Stick** | Aiming Direction | High |
+| **RB / R1 / B** | Dash / Evade | Critical |
+| **LB / L1 / A** | Activate Spell | Moderate |
+| **View / Select** | Deck Management | Moderate |
+| **Menu / Start** | Pause Game | Low |
+
+<Callout type="warning" title="Controller Aiming">
+Ensure your Right Stick is always tilted in a direction. If the stick returns to the neutral position, Dante may stop firing accurately at specific targets, which can be fatal during the 12-minute wave peaks.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="KB+M Advantages">
+    - **Pinpoint Precision**: Better for single-target weapons like Winged Lyric.
+    - **Menu Navigation**: Faster card rearranging and Mod merging.
+    - **Quick Spells**: Dedicated keys prevent accidental activation.
+  </Card>
+  <Card title="Controller Advantages">
+    - **Ergonomic Movement**: Smoother 360-degree movement for dodging.
+    - **Vibration Feedback**: Tactile alerts for taking damage or low health.
+    - **Analog Control**: Variable movement speed helps in tight projectile gaps.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Mastering Combat and Movement Mechanics">
+
+Survival in Hell Maiden depends on how well you can balance movement and offensive aiming. The 12-minute timer in Circles like Limbo and Lust introduces increasingly dense waves that require more than just walking in circles. Mastering the **Hell Maiden controls** means learning the rhythm of the dash and the timing of your Poet's Spell.
+
+<Steps>
+  <Step num="1" title="The Defensive Dash">
+    The dash is your most important survival tool. It allows Dante to pass through enemies and projectiles without taking damage. Never use your last dash charge just to move faster; always keep one available for escaping a "surrounded" state or dodging Queen Minos's area-of-effect (AoE) attacks.
+  </Step>
+  <Step num="2" title="Manual Aiming Priority">
+    Priority targets like Elite Vipers or Succubi should be focused down first. Use your mouse or Right Stick to track these specific enemies while your movement (WASD/Left Stick) keeps you clear of the general horde.
+  </Step>
+  <Step num="3" title="Activating Temples">
+    While moving, you will encounter Temples. Activating these requires you to stay within their vicinity for a short duration. Use your movement controls to "orbit" the Temple, keeping enemies on the outside of your circle while staying close enough to trigger the progress bar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Advanced Tactic">
+You can dash *through* a boss. If Queen Minos traps you against the edge of the arena, dashing directly through her model is often safer than trying to run around the projectile wall.
+</Callout>
+
+| Mechanic | Input Type | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Dash I-Frames** | Active | Negates all incoming damage during the animation. |
+| **Auto-Fire** | Passive | Constant DPS as long as a target is in range/aim. |
+| **Spell Burst** | Active | Massive screen clear; use when movement is restricted. |
+| **Card Rearranging** | Menu | Optimizes damage via positional Mod bonuses. |
+
+</Section>
+
+<Section icon={Settings} title="Interface and Deck Management Controls">
+
+A unique aspect of the **Hell Maiden controls** is the ability to rearrange your "hand" of Spirit Cards during a run. This isn't just for organization; many Mod Cards provide bonuses based on their position (e.g., "increases damage of the weapon to the right").
+
+**Rearranging Cards:**
+- **PC**: Click and drag a Spirit Card or Mod to a different slot.
+- **Controller**: Use the d-pad or stick to highlight a card, press the confirm button to "pick up," and move it to the desired slot.
+
+<Callout type="info" title="Merging Mods">
+When you collect duplicate Mod Cards, the game will prompt you to merge them. This is usually done through the level-up screen, but keeping your deck organized via the Tab/Deck menu ensures you are always getting the maximum Level 3 bonuses on your primary weapon.
+</Callout>
+
+| Slot Type | Max Capacity | Control Interaction |
+| :--- | :--- | :--- |
+| **Weapon Cards** | 4 Slots | Primary damage sources; can be swapped/reordered. |
+| **Mod Cards** | 3 per Weapon | Attached to weapons; merging improves rarity/stats. |
+| **Spell Slot** | 1 Slot | Tied to the specific Poet (Dante, Virgil, etc.). |
+
+</Section>
+
+<Section icon={Shield} title="Optimization and Troubleshooting">
+
+As of the July 16, 2026 Early Access launch, some players may encounter performance issues that affect input latency. Proper configuration of the **Hell Maiden controls** and system settings can significantly improve your survival rate in the later minutes of a run.
+
+**Performance Tips for Better Control:**
+- **DirectX 11 Mode**: If you experience input lag, use the Steam launch option for DX11.
+- **Mouse Sensitivity**: Adjust this in the settings menu to ensure your aiming reticle moves at a speed that matches your reaction time.
+- **Visual Clarity**: Turn off unnecessary screen shake if it makes aiming difficult during high-intensity waves.
+
+<Checklist
+  id="control-mastery"
+  title="Control Mastery Checklist:"
+  items={[
+    "Successfully dashed through an enemy wave without taking damage",
+    "Reached Level 3 on a Mod by merging duplicates in the deck menu",
+    "Cleared a 12-minute run using only manual aiming for elites",
+    "Activated 12 different Temples in a single run",
+    "Defeated Queen Minos using a Poet Spell during her final phase"
+  ]}
+/>
+
+<Callout type="tip" title="Input Parity">
+The developers at AstralShift released Hotfix v0.2.31 to address progression issues. If your controls feel "stuck" after a boss transition, ensure your game is updated to the latest version.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I change the keybindings for Hell Maiden controls?",
+    answer: "Yes, the game allows for full key rebinding in the Settings menu for both keyboard and controller. This is highly recommended if you find the default Spacebar dash or E-key spell uncomfortable."
+  },
+  {
+    question: "Do I have to aim manually, or is there an auto-aim option?",
+    answer: "Hell Maiden is designed around manual aiming to differentiate it from other survivors-like games. While attacks fire automatically, you must direct them toward enemies using your mouse or right analog stick."
+  },
+  {
+    question: "How do I use the Spell in Hell Maiden?",
+    answer: "Once your Spell meter is full (indicated by the icon near your health bar), press E on keyboard or LB/L1 on controller to activate it. Each Poet has a unique Spell, such as Dante's screen-clearing Inferno."
+  },
+  {
+    question: "Is there a way to move cards without pausing the game?",
+    answer: "No, opening the Deck menu (Tab or View button) pauses the game, allowing you to safely rearrange your Spirit Cards and Mods to optimize positional bonuses without being attacked."
+  }
+]} />
+
+</Section>

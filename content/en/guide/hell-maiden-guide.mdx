@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Guide: Strategic Survival & Best Card Combos",
+  description: "Master the magical girl roguelite Hell Maiden with our 2026 guide. Learn card merging, weapon builds, and character unlock strategies for optimal runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Survival+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell maiden guide**: Focus on deck-building and card merging to scale damage into the late game.
+- **Card Merging**: Combine two identical cards of the same level to reach Level 3 for massive stat boosts.
+- **Character Synergy**: Utilize Dante for fire builds, Virgil for projectiles, and Horus for high-damage melee.
+- **Survival Mechanic**: Health is scarce; prioritize the Eternal Prestige mod or healing potions from destructible jars.
+- **Spell Management**: Save your Q ability (Dante's Inferno or similar) for boss phases or when surrounded by elite mobs.
+</Callout>
+
+<Section icon={Map} title="Hell Maiden Guide: Core Mechanics and Gameplay">
+
+Navigating the depths of Limbo requires a firm understanding of the unique card-based progression system. Unlike traditional survival roguelites, this title emphasizes deck-building where every level-up provides a choice between weapons and modifiers. Players must balance offensive output with tactical utility to survive the increasing waves of snakes, slimes, and armored skeletons.
+
+**Video Highlights:**
+- Detailed breakdown of the card modification system and deck-building.
+- Gameplay demonstration of the Blazing Quill and Wayfinder weapons.
+- Strategy for merging cards to reach Level 3 power spikes.
+- Walkthrough of the Horus rescue mission and character unlocking.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="Combine HUNDREDS of Spells in this INSANE Survival Roguelite! - Hell Maiden" />
+
+The primary loop involves collecting experience orbs to draw cards. These cards are categorized into weapons and modifiers. You can hold up to four unique weapons at a time, and each weapon can be augmented with several mod cards. Positioning matters, as some "Spread" cards affect adjacent weapons, requiring careful planning of your hand layout.
+
+| Card Category | Primary Function | Strategic Value |
+| :--- | :--- | :--- |
+| **Weapon** | Core attack method | Determines your primary damage type and range |
+| **Boost** | Stat enhancement | Increases flat damage, size, or projectile speed |
+| **Effect** | Status application | Adds Burn, Slow, or Poison to weapon hits |
+| **Spread** | Multi-target buff | Buffs multiple weapons based on hand position |
+| **Miracle** | Rare power-up | Provides multiple high-tier stat increases |
+| **Curse** | High risk/reward | Massive buffs at the cost of speed or health |
+
+<Callout type="tip" title="Early Game Priority">
+Focus on increasing your **Attack Size** and **Projectile Count** in the first five minutes. This allows you to clear the initial "snake" swarms efficiently and gather experience orbs without getting boxed in.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Card Modification and Merging System">
+
+The depth of any **hell maiden guide** lies in mastering the merging mechanic. When you possess two identical cards of the same level (indicated by the color of the card border), you can drag one onto the other to evolve it. This process not only increases the base stats of the mod but also changes its appearance and effectiveness significantly.
+
+| Mod Level | Border Color | Stat Multiplier | Merge Requirement |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | Bronze | Baseline | Found in standard level-up draws |
+| **Level 2** | Silver | 1.5x - 2.0x | Two Level 1 cards or rare drops |
+| **Level 3** | Gold | 3.0x+ | Two Level 2 cards |
+
+Modifiers like "Flare Up" provide a percentage chance to cause explosions on kill. At Level 1, this might be a 30% chance for 30% damage. By the time you reach Level 3, the proc rate jumps to 80%, turning every enemy death into a chain reaction of area-of-effect damage.
+
+<CardGrid cols={3}>
+  <Card title="Boost Cards">
+    - **Damage**: Flat % increase to weapon output.
+    - **Attack Speed**: Reduces cooldown between strikes.
+    - **Projectile Count**: Adds extra bullets or slashes.
+  </Card>
+  <Card title="Effect Cards">
+    - **Burn**: Deals damage over time to tanky elites.
+    - **Slow**: Essential for kitting fast-moving bosses.
+    - **Life Steal**: Rare chance to recover HP on hit.
+  </Card>
+  <Card title="Spread Cards">
+    - **Adjacent Buff**: Increases damage of cards to the left/right.
+    - **Global Boost**: Provides smaller buffs to all weapons.
+    - **Positioning**: Requires specific slot placement.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Merger Limits">
+You can only merge two cards of the same level. If you have a Level 2 card and draw a Level 1 version, they cannot be combined. Always keep an eye on your inventory space to avoid cluttering your hand with un-mergeable duplicates.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Character Unlocks and Signature Weapons">
+
+Progression in Limbo is marked by rescuing other "Poets of Limbo." Each character brings a unique signature weapon and a set of blessings that alter the pool of available cards for future runs. Dante is the starting character, but Virgil and Horus offer vastly different playstyles that are essential for tackling higher difficulty levels.
+
+<Steps>
+  <Step num="1" title="Master Dante">
+    Utilize the **Blazing Quill** to clear the first few levels. Focus on fire-based modifications and the "Flare Up" explosion mod to handle large crowds.
+  </Step>
+  <Step num="2" title="Unlock Virgil">
+    After surviving the initial boss encounter, Virgil's blessing becomes available. Virgil specializes in projectile-based combat with the **Wayfinder** weapon, which shoots swerving projectiles.
+  </Step>
+  <Step num="3" title="Rescue Horus">
+    Locate Horus on the map during a run. You must protect her from waves of enemies until the timer expires. Once rescued, she provides high-damage melee blessings and the **Eternal Prestige** mod.
+  </Step>
+</Steps>
+
+| Character | Signature Weapon | Playstyle | Key Blessing |
+| :--- | :--- | :--- | :--- |
+| **Dante** | Blazing Quill | Fire / AoE | Increased Burn damage and duration |
+| **Virgil** | Wayfinder | Projectile / Kiting | Extra projectile count for all weapons |
+| **Horus** | Spear / Melee | High Burst / Life Steal | HP absorption and Elite damage bonus |
+
+<Callout type="success" title="Horus Synergy">
+The **Eternal Prestige** mod from Horus is a game-changer. It grants a 5% to 15% chance to absorb HP from enemies. Pairing this with a high-attack-speed weapon like the lightning strike makes you nearly invincible in high-density waves.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics and Boss Strategies">
+
+Bosses in this magical girl survival game act as massive DPS checks. They often feature bullet-hell patterns and high movement speed. Survival depends on your ability to maintain distance while maximizing your "spell" uptime. Spells are powerful abilities triggered by the Q key that often clear the screen or provide temporary invulnerability.
+
+<Checklist
+  id="boss-prep"
+  title="Pre-Boss Checklist:"
+  items={[
+    "Merge at least two weapons to Level 3",
+    "Equip at least one 'Slow' or 'Burn' effect mod",
+    "Save a Spell Token for the second boss phase",
+    "Clear nearby jars to find hidden HP potions",
+    "Max out your Movement Speed charms"
+  ]}
+/>
+
+| Boss Phase | Mechanic | Counter Strategy |
+| :--- | :--- | :--- |
+| **Initial Spawn** | Melee rush / Projectiles | Use dash i-frames to move through bullets |
+| **Enraged State** | Increased speed / AoE circles | Focus on kiting and long-range weapons |
+| **Final Stand** | Bullet hell / Screen clear | Deploy your Spell (Q) to finish the fight |
+
+<Callout type="tip" title="The Jar Strategy">
+Don't ignore the destructible jars scattered across the map. While most contain experience orbs, some drop rare HP potions or temporary damage buffs. In a game where healing is this limited, these jars are your primary lifeline.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Build: The Moon and Lightning Combo">
+
+For players looking to break the meta, the "Selenic Bloom" (Moon) and Lightning strike combination offers unparalleled screen clearance. The Moon weapon creates a lingering AoE ring that heals the player if combined with Horus's blessings. Meanwhile, the Lightning strike can be modified with "Invigorate" to deal over 300% damage.
+
+| Weapon Combo | Mod Requirements | Result |
+| :--- | :--- | :--- |
+| **Selenic Bloom** | Projectile Count + Life Steal | Multiple healing zones on screen |
+| **Lightning Bolt** | Invigorate + Swift Strikes | High-speed, massive damage strikes |
+| **Wayfinder** | Size + Spread | Massive screen coverage for clearing mobs |
+
+The key to this build is the **Swift Strikes** mod, which negates the attack speed penalty of heavy damage modifiers like "Invigorate." This allows your lightning bolts to strike at standard speeds while maintaining a 300% damage multiplier, effectively melting elite enemies in seconds.
+
+<Callout type="info" title="Final Progression Note">
+As of the 2026 meta, stacking **Experience Gain** charms early in the run (first 10 levels) is more effective than taking immediate damage buffs. Reaching Level 50 before the final boss ensures you have enough card slots to maximize your build potential.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hell Maiden FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new characters in Hell Maiden?",
+    answer: "New characters like Virgil and Horus are unlocked by completing specific map objectives. Virgil is unlocked after your first successful run, while Horus requires you to complete a protection mission found on the map."
+  },
+  {
+    question: "What is the best way to heal during a run?",
+    answer: "Healing is rare. You can find potions in destructible jars, or use the Horus blessing 'Eternal Prestige' which gives a percentage chance to heal on hit. The Selenic Bloom weapon also provides healing zones."
+  },
+  {
+    question: "Can I merge different types of mod cards?",
+    answer: "No. You can only merge two identical cards of the same level. For example, two Level 1 'Attack Size' mods will create one Level 2 'Attack Size' mod."
+  },
+  {
+    question: "What does the 'Spread' card type do in this hell maiden guide?",
+    answer: "Spread cards apply their bonuses to the weapons positioned to their immediate left or right in your hand. Proper hand management is essential to maximize these buffs."
+  }
+]} />
+
+</Section>

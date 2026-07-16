@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden ovid: Card Merging & Survival Mechanics Guide",
+  description: "Master the deck-building survivors-like mechanics in Hell Maiden. Learn about Ovid, card merging strategies, and weapon loadouts for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Survival+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **hell maiden ovid**: A core narrative and mechanical focus involving the Poets of Limbo and deck-building survival.
+- **Card Merging**: Combine two identical Level 1 or Level 2 cards to reach the maximum Level 3 power spike.
+- **Weapon Slots**: You are limited to four unique weapon cards per run, each customizable with various Mod cards.
+- **Movement Strategy**: Continuous dashing and luring enemies into AoE zones like Scorching Path is essential for high-tier survival.
+- **Poet Blessings**: Unlocking signature weapons through narrative progression significantly alters your tactical approach.
+</Callout>
+
+<Section icon={Map} title="Introduction to Hell Maiden Survival Systems">
+
+The **hell maiden ovid** experience blends the frantic action of horde survival games with the strategic depth of card-based deck builders. Unlike traditional survivors-likes where upgrades are purely RNG-based level-ups, this title requires players to manage a "hand" of weapons and modifications. As you navigate the depths of Limbo, you must gather experience orbs to draw new cards, which can either be new offensive tools or passive modifiers that enhance your existing arsenal.
+
+**Video Highlights:**
+- **Deck-Building Mechanics**: Learn how to manage your hand and position cards for maximum efficiency.
+- **Mod Card Types**: A breakdown of the five distinct colors and their roles in combat.
+- **Merging Tutorial**: Visual guide on how to upgrade cards to Level 3.
+- **Boss Strategy**: How to handle the persistent Elite commanders that spawn at the 5 and 10-minute marks.
+
+<YouTubeEmbed videoId="oDESRhokkdE" title="Hell Maiden - Deck-building Horde Survival Gameplay" />
+
+The game draws heavy inspiration from classic literature, placing players in the role of Dante as they search for the "Poets of Limbo," including figures like Ovid. This narrative backdrop isn't just for show; it dictates the types of blessings and signature weapons you unlock as you progress through the nine circles of hell.
+
+<Callout type="tip" title="Early Game Priority">
+Focus on increasing your **Projectile Count** and **Attack Speed** in the first five minutes. The enemies in Limbo are faster than those in typical survival games, and you need high volume fire to keep the screen clear before the first Elite appears.
+</Callout>
+
+| Feature | Description | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Weapon Hand** | Up to 4 unique active weapons | Limits your offensive variety but allows deep specialization |
+| **Mod Cards** | Passive buffs attached to weapons | Changes projectile count, damage, and status effects |
+| **Charms** | Run-specific stat boosters | Provides global buffs to movement, luck, and experience gain |
+| **Inferno Spell** | A screen-clearing ultimate | Best saved for when Elites trap you in confined spaces |
+
+</Section>
+
+<Section icon={Swords} title="Mastering the Card and Mod System">
+
+The heart of **hell maiden ovid** lies in its sophisticated Mod card system. Every weapon you equip can be further enhanced by attaching Mod cards. These mods are color-coded, making it easier to identify their primary function during the chaotic heat of battle. Understanding how to layer these mods is the difference between a failed run and reaching Paradiso.
+
+<CardGrid cols={3}>
+  <Card title="Boost Cards (Red)">
+    - **Single Stat Buffs**
+    - Increases base damage or speed
+    - Essential for early-game scaling
+  </Card>
+  <Card title="Effect Cards (Green)">
+    - **Status Ailments**
+    - Applies Burn, Poison, or Slow
+    - Best used with high-frequency weapons
+  </Card>
+  <Card title="Spread Cards (Blue)">
+    - **Multi-Weapon Buffs**
+    - Affects adjacent cards in your hand
+    - Requires careful hand positioning
+  </Card>
+</CardGrid>
+
+Hand management is a critical skill. Because Spread cards (Blue) affect weapons to the left or right, the order in which you place your weapons in the four available slots matters. For instance, placing a weapon that benefits from high attack speed in the slot affected by a "Dextral Charge" card (which buffs the weapon to the right) can create devastating synergies.
+
+| Mod Type | Background Color | Primary Function | Rarity Level |
+| :--- | :--- | :--- | :--- |
+| **Boost** | Red | Increases a single weapon stat | Common |
+| **Effect** | Green | Adds extra effects like explosions | Common/Uncommon |
+| **Spread** | Blue | Buffs multiple adjacent cards | Uncommon |
+| **Miracle** | Yellow/Gold | Multiple powerful boosts | Rare |
+| **Curse** | Purple | Massive power at a significant cost | Very Rare |
+
+<Callout type="warning" title="The Risk of Curses">
+Curse cards, like the **Curse of Dido**, can drastically increase your projectile count but may also randomly decrease it. Only take these if your current build has enough base damage to handle the occasional low-roll attack.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Card Merging and Evolution Strategy">
+
+To survive the later stages of a run, you cannot rely on Level 1 cards. The merging system allows you to consolidate your power. When you have two identical cards of the same level, you can drag one over the other in your hand UI to evolve it.
+
+<Steps>
+  <Step num="1" title="Collect Identical Cards">
+    Wait for the level-up screen to offer a card you already possess. Ensure it is the same level as the one in your hand.
+  </Step>
+  <Step num="2" title="Manual Merging">
+    Open your player hand (Tab or E) and drag the new card onto the existing one. An orange glow indicates a valid merge.
+  </Step>
+  <Step num="3" title="Stat Eruption">
+    Level 2 cards typically double the base stat, while Level 3 cards often add unique properties, such as a massive increase in projectile size or duration.
+  </Step>
+  <Step num="4" title="Hand Optimization">
+    Once a card is Level 3, it can no longer be merged. Use the free slot to start building a new synergy or a second Level 3 mod.
+  </Step>
+</Steps>
+
+| Evolution Level | Visual Change | Typical Stat Bonus | Max Limit |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | Standard Art | Base stats (e.g., +40% Damage) | N/A |
+| **Level 2** | Silver Border | Enhanced stats (e.g., +60% Damage) | Requires 2x Lvl 1 |
+| **Level 3** | Golden Glow | Elite stats (e.g., +100% Damage) | Requires 2x Lvl 2 |
+
+<Callout type="success" title="The Power of Level 3 Mods">
+A Level 3 **Proliferation** card adds three extra projectiles to a weapon. On a weapon like the Blazing Quill, this transforms a single shot into a wide-area volley that can clear entire waves of skeletons instantly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Poets of Limbo and Narrative Progression">
+
+The search for the poets, specifically the **hell maiden ovid** lore, is central to unlocking the game's full potential. As Dante, you interact with Virgil to recover lost memories. These interactions are not just flavor text; they serve as the gateway to the "Beatrice's Blessing" system, which functions as the game's meta-progression.
+
+Finding poets like Ovid in the Limbo circle unlocks signature weapon cards. These weapons are significantly more powerful than the standard drops and often feature unique mechanics, such as swerving projectiles or area-of-effect stars that orbit the player.
+
+| Character | Role in Narrative | Mechanical Unlock |
+| :--- | :--- | :--- |
+| **Dante** | The Protagonist | Default fire-based weapon set |
+| **Virgil** | The Guide | Unlocks the Blessing Altar |
+| **Beatrice** | The Muse | Provides the Inferno screen-clear |
+| **Ovid** | Poet of Limbo | Unlocks swerving AoE projectiles |
+
+<Callout type="info" title="Lore and Mechanics">
+The game suggests that Dante is "different" in this iteration of the journey, being less emotional and more focused on combat. This change is reflected in the aggressive nature of the survival gameplay compared to the original literary source.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics and Elite Boss Encounters">
+
+Survival in **hell maiden ovid** requires more than just high damage; it requires spatial awareness. The environment in Limbo is cluttered with obstacles like stones and pillars that can snag your character. If you get stuck while a group of charging fire-worms or an Elite commander is nearby, your run will end abruptly.
+
+**Key Survival Milestones:**
+- **0-5 Minutes**: Focus on XP gain and movement speed.
+- **5-10 Minutes**: Secure at least one Level 2 weapon and a defensive mod (like Slow or Knockback).
+- **10+ Minutes**: You must have a Level 3 weapon or a full 4-weapon hand to handle the increased density of projectile-firing enemies.
+
+<Checklist
+  id="survival-checklist"
+  title="End-Game Readiness Checklist:"
+  items={[
+    "At least one Level 3 Projectile Count mod equipped",
+    "Movement Speed increased by at least 20% via Charms",
+    "Inferno Spell (Q) fully charged for Elite spawns",
+    "Magnetic Pull stat upgraded to collect XP from a distance",
+    "At least 150 Maximum HP to survive accidental hits"
+  ]}
+/>
+
+| Enemy Type | Spawn Window | Best Counter | Danger Level |
+| :--- | :--- | :--- | :--- |
+| **Lesser Worms** | 0-3 Minutes | Basic Auto-attack | Low |
+| **Winged Demons** | 4-7 Minutes | Piercing Fireballs | Medium |
+| **Elite Commanders** | 5 & 10 Minutes | Inferno Spell + Dashing | High |
+| **Projectile Casters** | 8+ Minutes | High Movement Speed | Very High |
+
+<Callout type="warning" title="Elite Aura Warning">
+Elite enemies often possess a purple flame aura that deals massive damage. Never attempt to "tank" these hits; instead, use the **Wayfinder** or **Blazing Trio** to deal damage while staying at the maximum possible distance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new characters in hell maiden ovid?",
+    answer: "Characters are unlocked by progressing through the story circles and completing specific protection missions, such as the quest to rescue the poets in Limbo."
+  },
+  {
+    question: "Can I change the position of cards in my hand mid-run?",
+    answer: "Yes, you can reorganize your hand during the level-up screen. Press E to move card stacks to different slots to optimize your 'Adjacent Weapon' bonuses."
+  },
+  {
+    question: "What is the maximum level for a weapon or mod card?",
+    answer: "The current maximum level for any card in Hell Maiden is Level 3. Reaching this level requires merging two Level 2 copies of the same card."
+  },
+  {
+    question: "Do Charms persist between different game runs?",
+    answer: "No, Charms are temporary power-ups that only last for the duration of your current run. Permanent progression is handled through the Beatrice's Blessing altar."
+  }
+]} />
+
+</Section>

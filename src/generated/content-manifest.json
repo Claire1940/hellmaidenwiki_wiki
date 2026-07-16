@@ -1,1 +1,186 @@
-{}
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "hell-maiden-boss-guide",
+        "file": "hell-maiden-boss-guide"
+      },
+      {
+        "slug": "hell-maiden-libicocco",
+        "file": "hell-maiden-libicocco"
+      },
+      {
+        "slug": "hell-maiden-minos",
+        "file": "hell-maiden-minos"
+      },
+      {
+        "slug": "hell-maiden-scarmiglione",
+        "file": "hell-maiden-scarmiglione"
+      }
+    ],
+    "builds": [
+      {
+        "slug": "hell-maiden-best-builds",
+        "file": "hell-maiden-best-builds"
+      },
+      {
+        "slug": "hell-maiden-blazing-quill-build",
+        "file": "hell-maiden-blazing-quill-build"
+      },
+      {
+        "slug": "hell-maiden-mod-cards",
+        "file": "hell-maiden-mod-cards"
+      },
+      {
+        "slug": "hell-maiden-spell-combinations",
+        "file": "hell-maiden-spell-combinations"
+      },
+      {
+        "slug": "hell-maiden-spirit-cards",
+        "file": "hell-maiden-spirit-cards"
+      },
+      {
+        "slug": "hell-maiden-tier-list",
+        "file": "hell-maiden-tier-list"
+      },
+      {
+        "slug": "hell-maiden-weapon-cards",
+        "file": "hell-maiden-weapon-cards"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "hell-maiden-beatrice",
+        "file": "hell-maiden-beatrice"
+      },
+      {
+        "slug": "hell-maiden-characters",
+        "file": "hell-maiden-characters"
+      },
+      {
+        "slug": "hell-maiden-dante",
+        "file": "hell-maiden-dante"
+      },
+      {
+        "slug": "hell-maiden-little-goody-two-shoes-universe",
+        "file": "hell-maiden-little-goody-two-shoes-universe"
+      },
+      {
+        "slug": "hell-maiden-ovid",
+        "file": "hell-maiden-ovid"
+      },
+      {
+        "slug": "hell-maiden-virgil",
+        "file": "hell-maiden-virgil"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "hell-maiden-beginner-guide",
+        "file": "hell-maiden-beginner-guide"
+      },
+      {
+        "slug": "hell-maiden-controls",
+        "file": "hell-maiden-controls"
+      },
+      {
+        "slug": "hell-maiden-guide",
+        "file": "hell-maiden-guide"
+      },
+      {
+        "slug": "hell-maiden-progression-guide",
+        "file": "hell-maiden-progression-guide"
+      },
+      {
+        "slug": "hell-maiden-save-progress",
+        "file": "hell-maiden-save-progress"
+      }
+    ],
+    "media": [
+      {
+        "slug": "hell-maiden-opening-theme",
+        "file": "hell-maiden-opening-theme"
+      },
+      {
+        "slug": "hell-maiden-ost",
+        "file": "hell-maiden-ost"
+      },
+      {
+        "slug": "hell-maiden-trailer",
+        "file": "hell-maiden-trailer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "hell-maiden-ps5-release-date",
+        "file": "hell-maiden-ps5-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam-deck",
+        "file": "hell-maiden-steam-deck"
+      },
+      {
+        "slug": "hell-maiden-switch-release-date",
+        "file": "hell-maiden-switch-release-date"
+      },
+      {
+        "slug": "hell-maiden-xbox",
+        "file": "hell-maiden-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "hell-maiden-demo-download",
+        "file": "hell-maiden-demo-download"
+      },
+      {
+        "slug": "hell-maiden-demo",
+        "file": "hell-maiden-demo"
+      },
+      {
+        "slug": "hell-maiden-early-access",
+        "file": "hell-maiden-early-access"
+      },
+      {
+        "slug": "hell-maiden-full-release-date",
+        "file": "hell-maiden-full-release-date"
+      },
+      {
+        "slug": "hell-maiden-game-release-date",
+        "file": "hell-maiden-game-release-date"
+      },
+      {
+        "slug": "hell-maiden-itch-io",
+        "file": "hell-maiden-itch-io"
+      },
+      {
+        "slug": "hell-maiden-steam",
+        "file": "hell-maiden-steam"
+      }
+    ]
+  },
+  "es": {
+    "platforms": [
+      {
+        "slug": "hell-maiden-ps5-release-date",
+        "file": "hell-maiden-ps5-release-date"
+      }
+    ]
+  },
+  "ja": {
+    "platforms": [
+      {
+        "slug": "hell-maiden-ps5-release-date",
+        "file": "hell-maiden-ps5-release-date"
+      }
+    ]
+  },
+  "pt": {
+    "platforms": [
+      {
+        "slug": "hell-maiden-ps5-release-date",
+        "file": "hell-maiden-ps5-release-date"
+      }
+    ]
+  }
+}

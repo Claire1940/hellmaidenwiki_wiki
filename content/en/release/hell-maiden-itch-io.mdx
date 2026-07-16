@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden itch io: Best Card Builds & Progression Guide",
+  description: "Master hell maiden itch io with our guide to Spirit Cards, Poet rescues, Limbo and Lust walkthroughs, and the 2026 Early Access roadmap updates.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Hell+Maiden+Build+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **hell maiden itch io**: Originally a popular demo, the game has transitioned to a feature-rich **Steam Early Access** version as of July 2026.
+- **Spirit Cards**: The core mechanic involves building a hand of **four Weapon Cards** enhanced by positional **Mod Cards**.
+- **Poet Rescues**: Rescuing characters like **Horace, Homer, and Ovid** is essential for unlocking signature weapons and spells.
+- **Survival Loop**: Every run requires surviving a **12-minute wave** before facing the Circle's final boss encounter.
+- **Progression**: Use **Wails of the Abyss** to purchase permanent meta-upgrades between runs to increase your survival rate.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Hell Maiden itch io">
+
+Hell Maiden is a gothic horde-survival deckbuilder that combines the automatic firing of bullet-heaven titles with the strategic depth of card-based roguelites. While many players first discovered the project as a **hell maiden itch io** demo, the current Early Access release on Steam has significantly expanded the mechanics, adding deep meta-progression and a wider roster of Poets. Your primary goal is to navigate the Circles of Hell, starting with Limbo, while building a deck of Spirit Cards that can withstand increasingly dense enemy waves.
+
+**Video Highlights:**
+- Core gameplay loop involving experience collection and card selection.
+- Demonstration of the dash mechanic for avoiding projectile patterns.
+- Explanation of the 12-minute survival timer and boss transition.
+
+<Callout type="tip" title="Movement and Aiming">
+Dante attacks automatically based on your equipped Weapon Cards, but you must manually aim your cursor to prioritize high-threat targets. Always keep enemies on one side of Dante to ensure experience orbs are easy to collect without diving into the center of a horde.
+</Callout>
+
+| Mechanic | Description | Priority |
+| :--- | :--- | :--- |
+| **Dashing** | Brief invulnerability to cross enemy lines or escape gaps. | High |
+| **Experience** | Dropped by enemies to trigger level-ups and card choices. | Very High |
+| **Temples** | Interactive world objects that provide mid-run bonuses. | Medium |
+| **Spells** | Powerful signature abilities with long cooldowns. | Emergency |
+
+</Section>
+
+<Section icon={Swords} title="Best Builds and Spirit Card Strategies">
+
+The heart of **hell maiden itch io** lies in its Spirit Card system. Unlike traditional survivors where you simply stack stats, Hell Maiden requires you to manage a "hand" of cards. You have four slots for Weapon Cards, and each weapon can be augmented by Mod Cards. The positioning of these cards is vital, as many Mods provide bonuses to adjacent weapons or cards placed specifically to their right.
+
+<CardGrid cols={3}>
+  <Card title="Focused Damage">
+    - **Core Weapon**: Blazing Quill
+    - **Best For**: Single-target DPS
+    - **Key Mod**: Damage & Attack Speed
+  </Card>
+  <Card title="Projectile Pressure">
+    - **Core Weapon**: Wayfinder
+    - **Best For**: Screen clearing
+    - **Key Mod**: Projectile Count
+  </Card>
+  <Card title="Status Control">
+    - **Core Weapon**: Codex Amoris
+    - **Best For**: Managing elites
+    - **Key Mod**: Effect Duration
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Merging for Power">
+Never settle for a hand full of Level 1 Mods. Always prioritize **merging duplicate Mod Cards** to reach Level 3. A single Level 3 Mod is often more powerful than three separate Level 1 Mods because it frees up slots for additional utility or defensive cards.
+</Callout>
+
+| Card Type | Function | Max Level | Unlock Method |
+| :--- | :--- | :--- | :--- |
+| **Weapon Card** | Determines attack pattern and base damage. | N/A | Character/Poet Rescue |
+| **Mod Card** | Adds modifiers like speed, burn, or extra shots. | 3 | Level-up / Shops |
+| **Blessing** | Passive permanent buffs from rescued Poets. | N/A | Forum Dialogue |
+
+</Section>
+
+<Section icon={Target} title="Circle Walkthrough: Limbo and Lust">
+
+Progressing through the game requires clearing specific "Circles" of Hell. Currently, Early Access features **Circle 1: Limbo** and **Circle 2: Lust**. Each Circle has unique enemy families, environmental hazards, and a final boss that tests the strength of your build.
+
+<Steps>
+  <Step num="1" title="Survive the Limbo Wave">
+    Focus on filling your four Weapon slots within the first 5 minutes. Rescue Horace and Homer early to gain access to the Carpe Diem and Winged Lyric weapons.
+  </Step>
+  <Step num="2" title="Defeat Queen Minos">
+    At the 12-minute mark, Queen Minos appears. She uses telegraphed area attacks. Move laterally and save your dash for when her projectile circles close in.
+  </Step>
+  <Step num="3" title="Unlock the Winds of Desire">
+    Once Minos is defeated, interact with Virgil in the Forum to unlock Circle 2. You will need to spend some Wails of the Abyss to prepare for the increased difficulty.
+  </Step>
+  <Step num="4" title="Conquer the Lust Circle">
+    Lust introduces Succubi and Vipers. These enemies move faster and have higher health. Prioritize the Codex Amoris build to keep enemies slowed while you focus on the Malebranche bosses, Scarmiglione and Libicocco.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Boss Clones">
+In Circle 2, Libicocco can create clones of himself. Do not get distracted by the copies; focus your high-damage attacks on the main boss while using area-of-effect weapons to thin out the clones and the surrounding horde.
+</Callout>
+
+| Circle | Survival Time | Major Boss | Key Threat |
+| :--- | :--- | :--- | :--- |
+| **Limbo** | 12 Minutes | Queen Minos | Brotchi Hordes |
+| **Lust** | 12 Minutes | Scarmiglione & Libicocco | Elite Vipers |
+
+</Section>
+
+<Section icon={Trophy} title="Poet Rescues and Permanent Progression">
+
+Meta-progression distinguishes the full version from the original **hell maiden itch io** demo. By rescuing Poets trapped in the various Circles, you expand the pool of cards available in future runs and unlock powerful Spells.
+
+<Checklist
+  id="poet-unlocks"
+  title="Poet Rescue Checklist:"
+  items={[
+    "Rescue Horace in Limbo to unlock Carpe Diem",
+    "Rescue Homer in Limbo to unlock Winged Lyric",
+    "Rescue Ovid in Lust to unlock Codex Amoris",
+    "Exhaust Virgil's dialogue to maximize Wayfinder potential",
+    "Talk to Beatrice 3 times for the Pilgrim's Journey achievement"
+  ]}
+/>
+
+<Callout type="info" title="Wails of the Abyss">
+Wails of the Abyss are the primary currency for meta-progression. Spend them in the Poets' Forum to upgrade Dante's base stats. Prioritize health regeneration and movement speed first, as these are the most common points of failure for new players.
+</Callout>
+
+| Resource | Source | Primary Use | Priority |
+| :--- | :--- | :--- | :--- |
+| **Wails of the Abyss** | Enemy kills / Run completion | Meta-upgrades | ★★★★★ |
+| **Charms** | Rare drops / Progression | Run-specific buffs | ★★★★☆ |
+| **Soul Magister** | Defeating Queen Minos | Unlocking new abilities | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Sparkles} title="2026 Roadmap and Achievements">
+
+AstralShift has outlined an ambitious roadmap for the remainder of 2026. With 72 Steam achievements already available, completionists have plenty to hunt while waiting for the next major content drop.
+
+**Upcoming Content Highlights:**
+- **Circle 3: Gluttony**: Expected late 2026 with new enemy families and a major boss encounter.
+- **Endless Mode**: A highly requested feature that will allow players to test their builds beyond the standard 12-minute timer.
+- **New Poets**: Additional characters from antiquity are planned to join the Forum, each bringing unique signature weapons.
+
+<Callout type="tip" title="Achievement Hunting">
+For the "Perfect Hand" achievement, you must have a full hand of Level 3 Mod cards. To achieve this, focus on a single weapon and its mods early, and avoid taking new weapons until your core mods are maximized.
+</Callout>
+
+| Achievement | Requirement | Difficulty |
+| :--- | :--- | :--- |
+| **Hellish Mastery I** | Reach 100,000 score in Limbo | Hard |
+| **Vital Endurance I** | Beat Limbo with < 500 HP healed | Very Hard |
+| **Abyssal Spender** | Spend 5,000 Wails of the Abyss | Grind |
+| **Pious Pilgrim** | Activate 12 Temples in one run | Medium |
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the hell maiden itch io version different from the Steam version?",
+    answer: "Yes. The itch.io version was a demo. The Steam Early Access version includes more Circles, the meta-progression system using Wails of the Abyss, and the full roster of current Poets."
+  },
+  {
+    question: "How do I unlock Circle 2: Lust?",
+    answer: "You must survive the 12-minute timer in Limbo and defeat Queen Minos. Afterward, progress the story dialogue in the Poets' Forum to unlock the Winds of Desire."
+  },
+  {
+    question: "What is the maximum level for Mod Cards?",
+    answer: "Mod Cards can be upgraded to Level 3 by merging duplicate cards during your run. Reaching Level 3 often provides a significant power spike."
+  },
+  {
+    question: "What should I spend my Wails of the Abyss on first?",
+    answer: "Focus on permanent health increases and movement speed. These stats help you survive long enough to collect more experience and build a stronger card hand."
+  }
+]} />
+
+</Section>

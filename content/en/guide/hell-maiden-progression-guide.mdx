@@ -1,0 +1,163 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Progression Guide: 2026 Strategy & Mechanics",
+  description: "Master Hell Maiden with our 2026 progression guide. Learn deck-building, weapon synergies, and survival tips to conquer the Limbo levels.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell Maiden progression** relies on strategic deck-building and effective card merging.
+- **Weapon cards** are your primary source of damage; prioritize stacking mods for maximum efficiency.
+- **Mod cards** like Boost, Effect, and Miracle define your playstyle and survivability.
+- **Survival mechanics** involve dash-dodging and managing your health through careful exploration.
+- **Character unlocks** provide unique signature weapons and blessings to enhance your future runs.
+</Callout>
+
+<Section icon={Sparkles} title="Core Progression Mechanics">
+
+Success in Hell Maiden depends on how you manage your player hand and weapon modifications. As you explore Limbo, you will collect weapon cards and upgrade them through a unique deck-building system.
+
+**Video Highlights:**
+- Understanding the five mod card types: Boost, Effect, Spread, Miracle, and Curse.
+- How to merge duplicate cards to increase stats and evolve appearances.
+- Tactical positioning of mod cards to maximize damage output across your weapon loadout.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="Combine HUNDREDS of Spells in this INSANE Survival Roguelite! - Hell Maiden" />
+
+You can hold up to four unique cards per turn. Effectively swapping and discarding cards allows you to adapt to the increasing difficulty of enemy waves. Always look for opportunities to merge cards of the same level to unlock superior base stats and powerful new effects.
+
+| Mod Type | Benefit Provided | Tactical Use |
+| :--- | :--- | :--- |
+| **Boost** | Improves single stat | Use on primary weapons |
+| **Effect** | Adds unique status | Apply burn/slow to crowds |
+| **Spread** | Distributes effects | Best for multiple weapon slots |
+| **Miracle** | Rare, powerful buffs | Save for elite encounters |
+| **Curse** | High risk, high reward | Use when desperate for power |
+
+<Callout type="tip" title="Pro Tip">
+Always check your mod card rarity before merging. Combining level two mods can lead to significant power spikes, but ensure they align with your current build's synergy.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Progression Flow">
+
+Progression in this game is not just about raw damage; it is about managing your resources and map exploration. Follow these steps to improve your run efficiency.
+
+<Steps>
+  <Step num="1" title="Prioritize XP Gain">
+    Focus on picking up experience orbs early. Look for mods that grant experience bonuses to level up faster during the early game.
+  </Step>
+  <Step num="2" title="Define Your Build">
+    Choose a signature weapon and commit to a specific synergy, such as fire damage, critical hits, or projectile count, rather than spreading your upgrades too thin.
+  </Step>
+  <Step num="3" title="Master the Dash">
+    Use your dash's invincibility frames to maneuver through tight enemy clusters. This is essential for surviving boss encounters where damage output is high.
+  </Step>
+  <Step num="4" title="Optimize Card Merging">
+    Regularly check your hand for orange-glowing cards. Merge them immediately to clear space and boost your overall power level.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Strategy">
+Balancing your defensive stats—like damage reduction and max HP—with your offensive output is key to surviving the later stages of a run.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon and Mod Synergies">
+
+Your loadout defines your ability to clear Limbo. The following table summarizes how to choose the right gear for your playstyle.
+
+| Weapon Type | Best Mod Synergy | Role |
+| :--- | :--- | :--- |
+| **Blazing Quill** | Attack Size / Burn | Crowd Control |
+| **Lightning Bolt** | Attack Speed / Crit | Elite Snipe |
+| **Selenic Bloom** | Projectile Count | Sustained AoE |
+| **Wayfinder** | Damage Reduction | Balanced Utility |
+
+<CardGrid cols={3}>
+  <Card title="Crowd Control">
+    - Prioritize AoE effects.
+    - Focus on fire/burn damage.
+    - Ideal for snake/slug swarms.
+  </Card>
+  <Card title="Elite Hunting">
+    - Prioritize crit rate/damage.
+    - Use single-target lightning mods.
+    - Crucial for boss survival.
+  </Card>
+  <Card title="Survival Build">
+    - Prioritize max HP/regen.
+    - Use life-steal mod cards.
+    - Best for extended runs.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Watch Out">
+Avoid over-investing in Curse cards early in your run unless you have a high health pool to compensate for the significant costs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Resource Management">
+
+Staying alive in Hell Maiden requires more than just high damage. You must monitor your movement and the map's layout.
+
+| Resource | Primary Source | Usage |
+| :--- | :--- | :--- |
+| **Experience** | Enemy drops/pots | Leveling up & Card draws |
+| **Health** | Boss drops/shrines | Sustaining long-term runs |
+| **Spell Tokens** | Map exploration | Emergency clear/Panic button |
+| **Gold** | Elite kills | Purchasing shop upgrades |
+
+<Checklist
+  id="survival-goals"
+  title="Survival Checklist:"
+  items={[
+    "Clear all pots in the immediate area for hidden XP",
+    "Save Spell Tokens for boss transitions",
+    "Maintain high mobility during elite waves",
+    "Always identify health drop locations on the map"
+  ]}
+/>
+
+<Callout type="info" title="Note">
+The map is your best tool. Use it to navigate toward shrines and health drops when your health is low, rather than fighting in place.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new characters in Hell Maiden?",
+    answer: "You unlock characters like Virgil and Horus by completing specific events or progression goals during your runs in Limbo."
+  },
+  {
+    question: "Is merging cards always the best option?",
+    answer: "Merging is essential for scaling, but be mindful of your hand space. Sometimes keeping two separate cards is better if you have room to buff both simultaneously."
+  },
+  {
+    question: "What is the best way to deal with boss mechanics?",
+    answer: "Focus on dodging through them using your dash's i-frames. Save your spell tokens for the final phase of boss fights to secure the kill."
+  },
+  {
+    question: "Does Hell Maiden support different playstyles?",
+    answer: "Yes, by changing your signature weapon and prioritizing different mod cards, you can shift between high-damage burst builds and sustainable control builds."
+  }
+]} />
+
+</Section>
