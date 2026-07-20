@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden cards: Build Mechanics & Strategy Guide (2026)",
+  description: "Master the hell maiden cards system with our guide on Weapon and Mod cards, merging mechanics, and character-specific deck strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c0519/fff?text=Hell+Maiden+Cards+Guide",
+  date: "2026-07-19",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **hell maiden cards** are divided into two primary types: Weapon Cards for abilities and Mod Cards for stat enhancements.
+- **Merging system** allows players to combine duplicate Mod Cards of the same level to reach a maximum level of 3.
+- **Strategic positioning** is vital as certain Spread Cards provide buffs to adjacent cards in your deck.
+- **Signature Weapons** feature unique animated ultimate attacks (Spells) that can turn the tide of battle.
+- **Rerolls are limited** to three per run, so use them wisely to secure high-tier Gold rarity cards.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of hell maiden cards">
+
+Understanding the card system is the foundation of survival in the underworld. In **hell maiden**, your power is directly tied to the deck you build during each run. Unlike traditional deck-builders, these cards are physical slots in your UI that you can manipulate in real-time. Every poet starts with a Signature Weapon, but as you progress through levels, you will fill your hand with up to four Weapon Cards and various Mod Cards.
+
+**Video Highlights:**
+- Demonstrating the core loop of attaching Mod Cards to Weapon Cards.
+- Showcasing the level-up selection screen and card rearrangement.
+- Visualizing the impact of projectile count increases on basic attacks.
+- A look at Dante's Inferno ultimate skill animation.
+
+<YouTubeEmbed videoId="IO9wcjKmUFY" title="Hell Maiden Gameplay and Card Mechanics" />
+
+The synergy between these cards determines your damage output and survivability. When you level up, specifically on even levels and levels 3 and 5, you are presented with a choice of three unique cards. While Mod Cards can be skipped if they don't fit your build, Weapon Cards are mandatory additions to your arsenal.
+
+<Callout type="tip" title="Compatibility Check">
+When you are on the level-up screen, hover over a Mod Card. All Weapon Cards compatible with that specific modifier will glow, making it easy to see where your buffs can be applied.
+</Callout>
+
+| Stat Type | Icon Effect | Description |
+| :--- | :--- | :--- |
+| **Damage** | Attack Power | Increases the raw hit points removed from enemies. |
+| **Attack Speed** | Frequency | Reduces the interval between weapon activations. |
+| **Crit Chance** | Probability | Raises the likelihood of dealing extra critical damage. |
+| **Projectile Count** | Quantity | Adds additional bullets or slashes per attack cycle. |
+| **Attack Size** | Area of Effect | Increases the physical scale of the weapon's impact. |
+| **Duration** | Persistence | Extends how long a skill remains active on screen. |
+
+</Section>
+
+<Section icon={Swords} title="Weapon and Mod Card Classifications">
+
+Not all **hell maiden cards** are created equal. The game utilizes a rarity and type system to help players quickly identify the function of a card. Weapon Cards come in two distinct rarities: **Silver** (Common) and **Gold** (Rare). Gold cards typically offer more complex mechanics or higher base stats, such as Dante's *Dragon's Breath*.
+
+Mod Cards are further categorized into five types, each color-coded for easy identification during fast-paced runs.
+
+<CardGrid cols={3}>
+  <Card title="Boost & Effect Cards">
+    - **Boost (Blue)**: Enhances a single pre-existing stat.
+    - **Effect (Purple)**: Adds new status effects like Burn or Slow.
+    - **On-Hit triggers**: High utility for fast-attacking weapons.
+  </Card>
+  <Card title="Spread & Miracle Cards">
+    - **Spread (Green)**: Buffs adjacent cards in the deck layout.
+    - **Miracle (Yellow)**: Provides multiple stat boosts simultaneously.
+    - **Positioning**: Requires careful deck sorting to maximize.
+  </Card>
+  <Card title="Curse Cards">
+    - **Curse (Red)**: Offers massive buffs with a significant drawback.
+    - **Risk/Reward**: Example: +100% Damage but -30% Attack Speed.
+    - **Advanced Builds**: Best used when you have other cards to offset the penalty.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Curse Management">
+Only equip Curse Cards if your current build can handle the downside. For example, do not take an Attack Speed penalty if your primary weapon already has a long cooldown, or you may find yourself defenseless against hordes.
+</Callout>
+
+| Card Name | Type | Rarity | Primary Effect |
+| :--- | :--- | :--- | :--- |
+| **Blazing Quill** | Weapon | Gold | Close-range searing slash (Dante Signature). |
+| **Wayfinder** | Weapon | Gold | Swerving AOE projectile (Virgil Signature). |
+| **Cronus' Inertia** | Mod | Silver | 30-90% chance to apply Slow on-hit. |
+| **Dextral Charge** | Mod | Silver | Increases attack speed of weapons to the right. |
+| **Dragon's Breath** | Weapon | Gold | Spawns a blazing burst of flames. |
+
+</Section>
+
+<Section icon={Sparkles} title="The Merging and Leveling Process">
+
+One of the most unique aspects of **hell maiden cards** is the merging mechanic. You can upgrade Mod Cards up to Level 3 by combining duplicates. This process is essential for scaling your power to match the increasing difficulty of the Limbo circles.
+
+<Steps>
+  <Step num="1" title="Collect Duplicates">
+    Obtain a duplicate of a Mod Card you already possess from the level-up pool or a chest.
+  </Step>
+  <Step num="2" title="Match Levels">
+    Ensure the two cards are of the same level. Two Level 1 cards will merge into a Level 2 card.
+  </Step>
+  <Step num="3" title="Visual Evolution">
+    Observe the card border: Level 2 cards feature silver detailing, while Level 3 cards boast gold detailing and altered illustrations.
+  </Step>
+  <Step num="4" title="Automatic Combination">
+    If you move a card to a slot containing its duplicate of the same level, they will instantly merge to save space.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Deck Sorting">
+Pressing the **Tab** key allows you to sort your deck. You can move Mod Cards between different Weapon Cards freely while on the level-up screen to optimize your "Spread" card bonuses.
+</Callout>
+
+| Merge Level | Border Detail | Stat Multiplier (Approx) |
+| :--- | :--- | :--- |
+| **Level 1** | Standard | Base Value (e.g., +20% Speed) |
+| **Level 2** | Silver | 2x Base Value (e.g., +40% Speed) |
+| **Level 3** | Gold | 3x-4x Base Value (e.g., +80% Speed) |
+
+</Section>
+
+<Section icon={Target} title="Character Signature Cards & Spells">
+
+In the 2026 meta, choosing your poet is the first step in defining your card strategy. Each character comes with a Signature Weapon Card that cannot be discarded and includes a powerful "Spell" or ultimate attack. These spells trigger a fully animated cutscene and deal massive screen-clearing damage.
+
+**Dante's Strategy:**
+Dante focuses on fire and close-range combat. His signature *Blazing Quill* benefits immensely from Attack Size and Projectile Count mods. His spell, *Dante's Inferno*, is best saved for elite encounters where you are surrounded.
+
+**Virgil's Strategy:**
+Virgil utilizes the *Wayfinder*, which excels at long-range crowd control. Players using Virgil should focus on Duration and Projectile Speed to keep his swerving anchors active for as long as possible.
+
+<Callout type="success" title="Elite Rewards">
+Elite enemies drop chests that provide free Mod Card selections. These do not consume your level-up points, making them the most efficient way to reach Level 3 on your core modifiers.
+</Callout>
+
+| Poet | Signature Weapon | Attack Style | Ultimate Spell |
+| :--- | :--- | :--- | :--- |
+| **Dante** | Blazing Quill | Melee/Slash | Dante's Inferno |
+| **Virgil** | Wayfinder | Projectile/AOE | Spectral Tide |
+| **Horace** | TBD | TBD | TBD |
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist for Card Selection">
+
+Building a deck is not just about damage; it is about surviving the 10-12 minute onslaught of the Limbo stages. Use the following checklist to ensure your deck is balanced for the final boss encounter.
+
+<Checklist
+  id="card-survival-goals"
+  title="Essential Deck Milestones:"
+  items={[
+    "Equip at least one 'Effect' card for crowd control (Slow or Burn)",
+    "Merge core damage modifiers to Level 3 before the 8-minute mark",
+    "Position 'Spread' cards to buff your highest damage weapon",
+    "Secure a source of healing (e.g., HP absorption Mod Cards)",
+    "Retain at least one reroll for the late-game Gold Weapon drops"
+  ]}
+/>
+
+<Callout type="tip" title="The Magnet Item">
+Keep an eye out for the Magnet pickup on the battlefield. It pulls all loose experience gems to you, which can often result in 2-3 immediate level-ups, allowing you to quickly fix a weak card layout.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I have duplicate Weapon Cards in my hand?",
+    answer: "No, the player is not able to obtain duplicate Weapon Cards. You can hold up to four unique Weapon Cards at once, including your Signature Card."
+  },
+  {
+    question: "What happens if I use all my rerolls?",
+    answer: "Once all three rerolls are used, the option disappears for the remainder of the run. You must choose from the three cards initially presented."
+  },
+  {
+    question: "Do hell maiden cards carry over between runs?",
+    answer: "No, cards selected during a run are temporary and do not carry over. Each run starts fresh, though your meta-progression in the Forum may affect your starting stats."
+  },
+  {
+    question: "How do I discard a card I no longer want?",
+    answer: "You can discard Mod Cards from your hand at any time while on the level-up screen. However, Weapon Cards can never be removed once they are picked."
+  }
+]} />
+
+</Section>

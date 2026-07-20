@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "hell maiden astralshift: Guía de estrategia y builds de 2026",
+  description: "Domina hell maiden astralshift con nuestra guía de Cartas de Espíritu, las mejores builds de personajes, estrategias de jefes para el Limbo y la Lujuria, y la hoja de ruta del Acceso Anticipado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e0c0c/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-19",
+  author: "Equipo de Wiki de hell maiden",
+  keywords: "hell maiden astralshift, guía de estrategia, mejores builds, cartas de espíritu, limbo, lujuria"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Bucle principal**: Sobrevive a oleadas de 12 minutos, recolecta experiencia y derrota a los jefes usando ataques automáticos con apuntado manual.
+- **Estrategia de build**: Reúne una mano de cuatro armas y prioriza fusionar cartas de Mod duplicadas al Nivel 3 en tu fuente de daño principal.
+- **Rescate de poetas**: Rescata a Horacio, Homero y Ovidio para expandir tu repertorio de cartas con más de 15 habilidades nuevas y poderosas.
+- **Progresión**: Usa los Lamentos del Abismo (Wails of the Abyss) entre partidas para comprar mejoras permanentes y desbloquear el Círculo 2 (Lujuria).
+</Callout>
+
+<Section icon={Swords} title="Mecánicas principales de hell maiden astralshift">
+
+Desarrollado por AstralShift, **hell maiden astralshift** combina la acción rápida de supervivencia contra hordas con un sistema profundo y táctico de construcción de mazos inspirado en la Divina Comedia de Dante. Los jugadores controlan a Dante mientras desciende por los Círculos del Infierno, con sus ataques disparándose automáticamente mientras los jugadores apuntan manualmente con el cursor o el stick del mando. Este esquema de control dividido crea un techo de habilidad elevado donde el posicionamiento, el kiting y la esquiva activa son vitales para sobrevivir a las despiadadas oleadas de bullet-hell.
+
+El esquive (dash) sirve como tu herramienta defensiva principal, otorgando breves fotogramas de invulnerabilidad para cruzar líneas de proyectiles peligrosas o escapar de esquinas difíciles. A medida que los enemigos caen, sueltan orbes de experiencia que activan opciones de subida de nivel. Estas opciones te permiten elegir nuevas Cartas de Arma, equipar Cartas de Mod o mejorar las habilidades existentes en tu mano. Gestionar tu mano activa es crucial, ya que estás limitado a cuatro ranuras de Arma y debes organizar cuidadosamente tus cartas para beneficiarte de las sinergias posicionales.
+
+| Mecánica | Entrada / Sistema | Propósito táctico |
+| --- | --- | --- |
+| Movimiento | WASD / Stick izquierdo | Reposicionarse constantemente para evitar el daño por contacto y agrupar a las oleadas |
+| Apuntado | Ratón / Stick derecho | Dirigir los ataques automáticos hacia grupos de alta densidad o élites |
+| Esquive (Dash) | Barra espaciadora / Botón frontal | Moverse a través de las líneas enemigas de forma segura; evitar patrones de bullet-hell |
+| Nivelación | Orbes de experiencia | Subir de nivel a mitad de la partida para elegir nuevas Cartas de Arma o mejoras de Mod |
+
+<Callout type="warning" title="Conservación del esquive">
+No uses tu esquive para el movimiento general. Mantén siempre al menos una carga disponible para escapar de hordas que te rodeen o esquivar ataques telegrafiados de los jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Cartas de Espíritu y configuraciones de builds">
+
+Las Cartas de Espíritu en **hell maiden astralshift** se dividen en Cartas de Arma y Cartas de Mod. Las Cartas de Arma definen tus patrones de ataque, mientras que las Cartas de Mod mejoran esas armas con utilidad, velocidad y multiplicadores de daño. Una build confiable concentra sus mejoras más fuertes en un Arma insignia, usando las ranuras restantes para ataques complementarios, y fusiona los Mods duplicados hacia el Nivel 3 en lugar de acumular muchos efectos débiles.
+
+Para maximizar tu daño, presta mucha atención al posicionamiento de las cartas. Algunas Cartas de Mod ofrecen bonificaciones sustanciales a las armas adyacentes o a las armas colocadas a su derecha. Reorganizar tu mano de forma dinámica durante una partida asegura que tu fuente de daño principal reciba todas las bonificaciones posicionales activas.
+
+<CardGrid cols={3}>
+  <Card title="Build de Daño Concentrado">
+    - **Armas**: Blazing Quill, Carpe Diem
+    - **Prioridades de Mod**: Daño bruto, Velocidad de ataque, Crítico
+    - **Ideal para**: Daño directo, élites y limpieza confiable del Limbo
+  </Card>
+  <Card title="Build de Presión de Proyectiles">
+    - **Armas**: Wayfinder, Carpe Diem
+    - **Prioridades de Mod**: Cantidad de proyectiles, Velocidad de ataque, Área
+    - **Ideal para**: Grandes grupos de enemigos y cobertura continua de la pantalla
+  </Card>
+  <Card title="Build de Control de Estados">
+    - **Armas**: Blazing Quill, Codex Amoris
+    - **Prioridades de Mod**: Efectos de estado, Duración, Cantidad de proyectiles
+    - **Ideal para**: Controlar oleadas rápidas mientras se inflige daño continuo
+  </Card>
+</CardGrid>
+
+| Tipo de build | Arma principal | Mejores prioridades de Mod | Posición ideal en mano |
+| --- | --- | --- | --- |
+| Daño concentrado | Blazing Quill | Daño bruto, Velocidad de ataque, Multiplicadores de crítico | Extremo izquierdo, adyacente a mejoras orientadas a la derecha |
+| Presión de proyectiles | Wayfinder | Cantidad de proyectiles, Velocidad de ataque, Tamaño del área | Ranuras centrales para maximizar las bonificaciones adyacentes |
+| Control de estados | Codex Amoris | Aplicación de estados, Duración del efecto, Cantidad de proyectiles | Flexible, acoplado a armas con alta tasa de golpe |
+
+<Callout type="tip" title="Fusionar duplicados">
+Fusionar Cartas de Mod duplicadas al Nivel 3 es mucho más efectivo que tener múltiples copias de bajo nivel. Concéntrate primero en mejorar tu Arma principal de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de los Círculos del Limbo y la Lujuria">
+
+La versión de Acceso Anticipado de **hell maiden astralshift** cuenta con dos Círculos del Infierno completos: Limbo (Círculo 1) y Lujuria (Círculo 2). Ambos escenarios requieren que sobrevivas a una agotadora secuencia de oleadas de 12 minutos antes de pasar a los encuentros con sus jefes finales. Mientras sobrevives, debes explorar el mapa para localizar Templos, completar misiones opcionales y rescatar a los poetas atrapados.
+
+<Steps>
+  <Step num="1" title="Domina el Círculo 1: Limbo">
+    Sobrevive durante 12 minutos mientras controlas a diablillos, esqueletos y necrófagos. Concéntrate en construir una mano estable de cuatro armas y activar los Templos cercanos antes de que se agote el tiempo. Derrota a la Reina Minos al final de la partida para desbloquear la progresión posterior.
+  </Step>
+  <Step num="2" title="Desbloquea el Círculo 2: Lujuria">
+    Tras derrotar a la Reina Minos, regresa al Foro de los Poetas para avanzar en la historia. Interactúa con Virgilio y Beatriz para desbloquear la ruta de progresión de los Vientos del Deseo (Winds of Desire), lo que te permitirá seleccionar el Círculo 2 en el menú de selección de escenario.
+  </Step>
+  <Step num="3" title="Conquista el Círculo 2: Lujuria">
+    Lujuria presenta enemigos muy agresivos como súcubos y víboras. Prioriza el control de masas y los efectos de estado al principio para gestionar las oleadas densas, rescata a Ovidio para expandir tu repertorio de cartas y prepárate para la batalla doble contra Scarmiglione y Libicocco.
+  </Step>
+</Steps>
+
+| Círculo | Temporizador de supervivencia | Objetivo de rescate principal | Encuentro con jefe mayor | Enemigos peligrosos insignia |
+| --- | --- | --- | --- | --- |
+| Círculo 1: Limbo | 12 minutos | Horacio, Homero | Reina Minos | Diablillos, esqueletos, brotchies, necrófagos, limos |
+| Círculo 2: Lujuria | 12 minutos | Ovidio | Scarmiglione y Libicocco | Súcubos, víboras, pecadores de la lujuria, minas de lujuria |
+
+<Callout type="info" title="Mecánicas de jefes">
+La Reina Minos alterna entre patrones telegrafiados de bullet-hell. El parche de corrección rápida 1 (Hot Fix Patch 1) redujo su frecuencia de repetición, lo que te obliga a adaptarte a ataques cambiantes en lugar de un bucle fijo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Poetas del Limbo y desbloqueo de personajes">
+
+Rescatar a los Poetas del Limbo es la piedra angular de tu progresión permanente en **hell maiden astralshift**. Dante comienza su viaje con Virgilio guiándola y Beatriz ofreciéndole protección santificada. A medida que desciendas por el Limbo y la Lujuria, encontrarás a otros poetas históricos atrapados en el abismo. Rescatarlos añade de forma permanente sus armas, bendiciones, hechizos y cartas de Mod insignia a tu repertorio de elección.
+
+| Personaje | Método de desbloqueo | Arma insignia | Recompensas principales |
+| --- | --- | --- | --- |
+| Dante Alighieri | Disponible desde el inicio | Blazing Quill | Cartas de Arma/Mod de Dante, Hechizo del Infierno de Dante (Dante's Inferno) |
+| Virgilio | Encuentro en el Foro de los Poetas | Wayfinder | Cartas de Virgilio, Hechizo de Signo Estelar ☆ Pléyades (Star Sign ☆ Pleiades) |
+| Beatriz | Progresión de la historia | Ninguna | Guía narrativa, progreso del Viaje del Peregrino (Pilgrim's Journey) |
+| Horacio | Rescate en el Limbo | Carpe Diem | 5 nuevas habilidades, cartas de Horacio, arma Carpe Diem |
+| Homero | Rescate en el Limbo | Winged Lyric | 5 nuevas habilidades, cartas de Homero, arma Winged Lyric |
+| Ovidio | Rescate en la Lujuria | Codex Amoris | 5 nuevas habilidades, cartas de Ovidio, arma Codex Amoris |
+| Lucano | Próxima actualización de la hoja de ruta | Por anunciar (TBA) | Próximas cartas, expansión de la narrativa |
+
+<Checklist
+  id="poet-progression"
+  title="Lista de verificación de rescate y desbloqueo de poetas:"
+  items={[
+    "Agota todos los diálogos con Virgilio en el Foro de los Poetas",
+    "Rescata a Horacio en el Limbo para desbloquear la línea de cartas Carpe Diem",
+    "Rescata a Homero en el Limbo para obtener Winged Lyric de un solo objetivo",
+    "Desbloquea el Círculo 2 (Lujuria) derrotando a la Reina Minos",
+    "Rescata a Ovidio en la Lujuria para desbloquear la línea de cartas Codex Amoris"
+  ]}
+/>
+
+<Callout type="success" title="Expansión del repertorio de habilidades">
+Cada poeta que rescates añade de forma permanente cinco nuevas habilidades a tu repertorio de elección de cartas, aumentando significativamente la variedad de tus builds en las siguientes partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de logros y hoja de ruta">
+
+Con 72 logros de Steam disponibles actualmente, **hell maiden astralshift** ofrece desafíos sólidos para los completistas. Estos van desde hitos sencillos de progresión hasta desafíos de jugabilidad muy restrictivos, como superar Círculos con curación mínima o reunir una mano perfecta de Mods de Nivel 3.
+
+La metaprogresión se impulsa mediante los Lamentos del Abismo (Wails of the Abyss), un recurso canjeable que se recoge durante las partidas. Gastar Lamentos en el santuario del Foro mejora permanentemente los atributos base de Dante, haciendo que los logros de alta dificultad sean mucho más asequibles.
+
+| Logro | Categoría | Requisito oficial | Estrategia profesional |
+| --- | --- | --- | --- |
+| Mano perfecta (Perfect Hand) | Colección de cartas | Consigue una mano completa de cartas de Mod de Nivel 3 en una partida | Concéntrate en elegir Mods duplicados; evita dispersar las mejoras |
+| Resistencia vital I (Vital Endurance I) | Desafío de supervivencia | Supera el Círculo 1 sin curarte más de 500 HP | Evita el daño por contacto; utiliza builds de alta movilidad |
+| Maestría infernal I (Hellish Mastery I) | Hito de puntuación | Alcanza una puntuación alta de 100,000 en el Limbo | Maximiza la velocidad de eliminación y activa todos los Templos disponibles |
+| Comprador abisal (Abyssal Spender) | Metaprogresión | Gasta un total de 5,000 Lamentos del Abismo | Farmea Lamentos en el Limbo y gástalos en el santuario del Foro |
+
+<Callout type="info" title="Hoja de ruta del Acceso Anticipado">
+AstralShift planea expandir el juego desde los dos Círculos actuales hasta los nueve Círculos del Infierno. El Círculo 3 (Gula) está programado para lanzarse a finales de 2026, junto con nuevos poetas, cartas y un Modo Infinito.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Círculo 2 (Lujuria) en hell maiden astralshift?",
+    answer: "Para desbloquear el Círculo 2 (Lujuria), debes sobrevivir con éxito al temporizador de oleadas de 12 minutos en el Círculo 1 (Limbo), derrotar al jefe final, la Reina Minos, y completar las secuencias de diálogo posteriores con Virgilio y Beatriz en el Foro de los Poetas."
+  },
+  {
+    question: "¿Cuál es el beneficio de fusionar Cartas de Mod duplicadas?",
+    answer: "Fusionar Cartas de Mod idénticas las mejora hasta un máximo de Nivel 3. Esto amplifica significativamente sus bonificaciones de estadísticas y activa poderosas sinergias posicionales, haciendo que un solo Mod de Nivel 3 sea mucho más fuerte que múltiples copias de Nivel 1."
+  },
+  {
+    question: "¿Cómo rescato a los poetas atrapados como Horacio y Homero?",
+    answer: "Puedes encontrar a Horacio y Homero atrapados dentro del Círculo 1 (Limbo) durante tus partidas. Debes localizarlos en el mapa, activar sus secuencias de rescate y completar la partida o sobrevivir a las oleadas para desbloquearlos permanentemente en el Foro de los Poetas."
+  },
+  {
+    question: "¿Para qué se usan los Lamentos del Abismo?",
+    answer: "Los Lamentos del Abismo (Wails of the Abyss) son la moneda principal de metaprogresión en hell maiden astralshift. Los recolectas al derrotar enemigos y completar escenarios, y luego los gastas en el santuario del Foro para desbloquear mejoras permanentes de personaje."
+  }
+]} />
+
+<Callout type="tip" title="Opción de DirectX 11">
+Si experimentas problemas de rendimiento o bloqueos durante oleadas densas de enemigos, intenta iniciar el juego usando la opción beta de DirectX 11 disponible en los parámetros de lanzamiento de Steam.
+</Callout>
+
+</Section>

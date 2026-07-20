@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Jefes de Hell Maiden: Estrategia 2026 y Recorrido de Minos",
+  description: "Domina cada encuentro con nuestra guía de jefes de Hell Maiden. Aprende las mejores sinergias de armas, cartas de mods y estrategias para derrotar a la Reina Minos en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Boss+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "hell maiden, guía de jefes, reina minos, estrategia, 2026"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de jefes de Hell Maiden**: Céntrate en armas de largo alcance como Wayfinder y Kindle Embers para una máxima seguridad.
+- **Mecánica clave**: Utiliza el sistema de dash (2 cargas) para evitar los patrones de bullet hell de los jefes del final del juego.
+- **Mejor estrategia**: Acumula modificadores de cantidad de proyectiles y tamaño de ataque para aumentar la caja de colisión de tus habilidades principales.
+- **Consejo crítico**: Prioriza las mejoras permanentes de velocidad de movimiento que se encuentran en el mapa para superar al enjambre.
+- **Elección principal**: La Reina Minos requiere un DPS alto; usa las bendiciones de Horus para aumentar tu daño hasta en un 170%.
+</Callout>
+
+<Section icon={Map} title="Preparación y Primeros Encuentros">
+
+Para tener éxito en tu viaje por el Limbo, es esencial comprender las mecánicas principales descritas en esta **guía de jefes de Hell Maiden**. El juego pasa de simples criaturas de gusanos verdes a complejos encuentros de bullet hell muy rápidamente. El éxito depende de tu capacidad para equilibrar la ganancia de experiencia con las mejoras permanentes basadas en el mapa, como los PV máximos y la velocidad de movimiento.
+
+**Puntos destacados del video:**
+- **Intro de Personajes**: La relación entre Dante y Virgil prepara el escenario para la progresión narrativa.
+- **Selección de Armas**: Comenzar con Wayfinder proporciona una ventaja de alcance significativa sobre las opciones de corto alcance.
+- **Sistemas de Cartas de Mods**: Comprensión de los cinco tipos (Impulso, Efecto, Propagación, Milagro y Maldición).
+- **Mecánicas de Jefes**: Un vistazo detallado a la pelea con la Reina Minos y sus patrones de proyectiles únicos.
+
+<YouTubeEmbed videoId="cAstnIemjwo" title="Habilidades y Jugabilidad de los Jefes de Hell Maiden" />
+
+Antes de enfrentarte a cualquier jefe importante, asegúrate de haber explorado el mapa en busca de mejoras de estadísticas permanentes. Estas suelen estar custodiadas por mini-jefes o diablillos púrpuras de élite.
+
+| Tipo de Mejora | Efecto | Prioridad |
+| :--- | :--- | :--- |
+| **Daño Permanente** | Aumenta el poder de ataque base para todas las armas | **Alta** |
+| **PV Máximos** | Aumenta la supervivencia contra mecánicas de muerte instantánea | **Media** |
+| **Velocidad de Movimiento** | Permite un mejor kiting durante las fases de bullet hell | **Alta** |
+| **Área de Recolección** | Aumenta el rango de recolección de experiencia | **Baja** |
+
+<Callout type="success" title="Consejo para el Inicio del Juego">
+Céntrate en el arma Wayfinder al principio. Sus proyectiles giratorios proporcionan una cobertura de área (AoE) natural, lo que facilita reducir la horda mientras concentras el daño en los mini-jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas Principales de los Jefes y la Reina Minos">
+
+El punto culminante de la experiencia en el Limbo es la batalla contra la Reina Minos. Este encuentro es una pelea de múltiples fases que pone a prueba tu posicionamiento y tiempo de reacción. A diferencia de los enemigos estándar, los jefes en Hell Maiden tienen ataques telegrafiados que requieren un dash preciso.
+
+<CardGrid cols={3}>
+  <Card title="Fase 1: El Enjambre">
+    - **Aparición de Súbditos**: Minos invoca proyectiles y diablillos más pequeños.
+    - **Movimiento**: Mantén una distancia media para esquivar el bullet hell entrante.
+    - **Enfoque**: Elimina a los súbditos mientras reduces gradualmente los PV del jefe.
+  </Card>
+  <Card title="Fase 2: Confesión">
+    - **Daño Elevado**: Minos usa ataques de "Confesar" que infligen un daño de área masivo.
+    - **Telegrafía**: Observa los círculos brillantes en el suelo.
+    - **Estrategia**: Reserva tus cargas de dash específicamente para estos momentos.
+  </Card>
+  <Card title="Fase 3: Desesperación">
+    - **Velocidad Aumentada**: La frecuencia de ataque aumenta cuando sus PV bajan del 25%.
+    - **Bullet Hell**: La pantalla se llena de globos oculares rojos y proyectiles.
+    - **Estrategia**: Usa tu Ultimate (Q) para limpiar la pantalla y terminar la pelea.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia Crítica">
+Los jefes no tienen una mecánica de "aturdimiento" estándar. No intentes recibir daño directamente incluso si el jefe tiene poca vida, ya que su fase final suele ser la más letal.
+</Callout>
+
+| Ataque del Jefe | Tipo de Daño | Método de Esquiva |
+| :--- | :--- | :--- |
+| **Tumba Llameante** | Fuego en Área | Dash fuera del indicador rojo |
+| **Ráfaga de Balas** | Proyectil | Muévete entre los huecos |
+| **Invocar Diablillos** | Melé/Horda | Usa Kindle Embers para limpieza de área |
+| **Confesar** | Magia/Ráfaga | Mantente móvil y evita el centro |
+
+</Section>
+
+<Section icon={Target} title="Mejores Equipamientos para Derrotar Jefes">
+
+Elegir la combinación adecuada de armas y cartas de mods es la diferencia entre la victoria y una pantalla de "Game Over". Nuestra **guía de jefes de Hell Maiden** recomienda una build de "Alcance y Quemadura" para maximizar el daño manteniéndote a salvo.
+
+### Lista de Niveles de Armas Recomendadas
+
+| Arma | Rango | Mejor Para | Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Wayfinder** | **S** | Daño a Jefe de un Solo Objetivo | Cantidad de Proyectiles / Prob. Crítica |
+| **Kindle Embers** | **A** | AoE / Control de Súbditos | Tamaño de Ataque / Duración |
+| **Dragon's Breath** | **B** | Daño de Ráfaga | Velocidad de Ataque / Efecto de Quemadura |
+| **Whirling Spheres** | **B** | Utilidad Defensiva | Tamaño de Ataque / Empuje |
+
+### Sinergias de Cartas de Mods
+
+Las cartas de mods se pueden fusionar hasta el Nivel 3, aumentando significativamente su efectividad. Para las peleas contra jefes, prioriza las siguientes combinaciones:
+
+1.  **Cantidad de Proyectiles + Wayfinder**: Triplica tu producción de daño al disparar múltiples proyectiles giratorios.
+2.  **Tamaño de Ataque + Kindle Embers**: Crea una zona masiva estilo "Garlic" que te protege de proyectiles más pequeños.
+3.  **Vampirismo (8% Prob. de Acierto)**: Esencial para peleas largas contra jefes para recuperar PV sin depender de las raras apariciones de frascos.
+4.  **Cazador de Élite**: Un mod especializado que aumenta el daño contra los jefes hasta en un 30%.
+
+<Callout type="tip" title="Consejo Pro de Sinergia">
+Si encuentras el mod de "Maldición" que aumenta el daño en un 170% pero reduce la velocidad de ataque, emparéjalo con múltiples cartas de impulso de "Velocidad de Ataque" para anular la penalización mientras mantienes el enorme aumento de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia de Jefe Paso a Paso">
+
+Seguir un enfoque estructurado durante el encuentro asegurará que no te veas abrumado por el desorden visual de las etapas finales del juego.
+
+<Steps>
+  <Step num="1" title="Posicionamiento Inicial">
+    Entra en la arena del jefe e inmediatamente muévete hacia el borde exterior. Esto te da más espacio para ver los proyectiles entrantes y planificar tu ruta de movimiento.
+  </Step>
+  <Step num="2" title="Gestión de Recursos">
+    No uses tu Q (Ultimate) de inmediato. Guárdala para cuando el jefe invoque el enjambre de "Globos Oculares Rojos", que puede atraparte fácilmente en una esquina.
+  </Step>
+  <Step num="3" title="La Ventana de Dash">
+    Solo usa el dash cuando un ataque esté a punto de golpearte. Con solo 2 cargas, desperdiciarlas en movimiento general puede dejarte vulnerable durante una explosión de "Confesar".
+  </Step>
+  <Step num="4" title="Curación y Kiting">
+    Si tus PV son bajos, concéntrate en el kiting. Si tienes el mod de Vampirismo, tus Whirling Spheres te curarán pasivamente mientras golpean a los súbditos cercanos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Experto">
+El entorno puede ser tu enemigo. Ten cuidado de no quedarte atascado detrás de pilares o árboles en la arena del Limbo, ya que la caja de colisión de Dante incluye todo el modelo de su personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progresión Permanente y Bendiciones">
+
+Derrotar a los jefes y rescatar aliados como Horus y Virgil desbloquea "Bendiciones" permanentes. Estos son elementos de meta-progresión que persisten a través de las partidas, haciendo que los futuros encuentros con jefes sean significativamente más fáciles.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Verificación de Preparación para Jefes:"
+  items={[
+    "Desbloquea la Bendición de Virgil para aumentos de estadísticas iniciales",
+    "Rescata a Horus para habilitar las cartas de Maldición de 170% de daño",
+    "Recoge al menos 3 mejoras de Daño Permanente en el mapa",
+    "Alcanza el Nivel 25 antes de enfrentarte a la Reina Minos",
+    "Equipa al menos una Carta de Mod de Nivel 3 en tu arma principal"
+  ]}
+/>
+
+| Bendición | Origen | Efecto |
+| :--- | :--- | :--- |
+| **Guía de Virgil** | Tutorial | Desbloquea el Altar para mejoras iniciales |
+| **Poder de Horus** | Rescate a mitad del juego | Aumenta la probabilidad de obtener cartas de mod de nivel Oro |
+| **Favor de Beatrice** | Botín Aleatorio | Otorga amuletos de bronce/plata/oro para la partida |
+
+<Callout type="success" title="Consejo de Progresión">
+Prioriza siempre el rescate de NPCs. Las bendiciones que proporcionan son mucho más poderosas que cualquier carta de mod individual que puedas encontrar en una sola partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre el Jefe Final">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma para la estrategia de la guía de jefes de Hell Maiden?",
+    answer: "El Wayfinder es actualmente la mejor arma debido a su alto alcance y su capacidad para beneficiarse de múltiples mods de cantidad de proyectiles, lo que te permite golpear a los jefes desde una distancia segura."
+  },
+  {
+    question: "¿Cómo evito los ataques de bullet hell de la Reina Minos?",
+    answer: "Mantén tu distancia y observa las señales telegrafiadas. Usa tus cargas de dash solo para los grandes ataques de área 'Confesar', y muévete manualmente a través de los proyectiles más pequeños."
+  },
+  {
+    question: "¿Son permanentes las mejoras del mapa como los PV máximos?",
+    answer: "Sí, las mejoras de estadísticas encontradas en los altares y ubicaciones específicas del mapa persisten a lo largo de tu partida actual y contribuyen a tu nivel de poder general."
+  },
+  {
+    question: "¿Puedo curarme durante una pelea contra un jefe?",
+    answer: "La curación es rara. Debes confiar en los frascos de curación que caen de las vasijas rotas o usar la carta de mod de Vampirismo, que tiene una probabilidad de restaurar PV con cada golpe."
+  }
+]} />
+
+</Section>

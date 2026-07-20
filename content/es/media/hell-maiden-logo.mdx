@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Logo de Hell Maiden: Guía de Activos Visuales y Marca",
+  description: "Explora las variantes oficiales del logo de Hell Maiden, las pautas de marca y los activos visuales para el roguelike de construcción de mazos de acción de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Logo+and+Branding+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "Hell Maiden, logo, activos visuales, guía de marca, activos del juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acceso a activos**: Obtén el **logo oficial de hell maiden** directamente de los repositorios autorizados de la wiki para diseños comunitarios de alta calidad.
+- **Bucle principal**: Combina el movimiento trepidante de un bullet heaven con la construcción táctica de mazos para sobrevivir a los círculos del Limbo.
+- **Sinergia de cartas**: Coloca tus cartas de potenciación (boost) y propagación (spread) con cuidado para maximizar el daño del arma y el recuento de proyectiles.
+- **Progresión**: Completa misiones de rescate durante tus partidas para desbloquear bendiciones poderosas y expandir tu arsenal activo.
+</Callout>
+
+<Section icon={Sparkles} title="Marca y el Diseño del Logo de Hell Maiden">
+
+La identidad visual de Hell Maiden, desarrollada por AstralShiftPro, mezcla la estética clásica de la fantasía oscura con elementos temáticos inspirados en la Divina Comedia. El juego presenta un estilo artístico impactante que es inmediatamente evidente en sus activos promocionales y dentro del juego. El **logo oficial de hell maiden** es un componente central de esta identidad, disponible en variantes de modo oscuro y modo claro para adaptarse a diferentes diseños web y plataformas de contenido. Los creadores de la comunidad, editores de la wiki y fans a menudo requieren versiones de alta resolución de estos activos para mantener la consistencia visual en guías, superposiciones de stream y sitios de fans.
+
+**Puntos Destacados del Video:**
+- Recorrido detallado de las mecánicas de construcción de mazos en acceso anticipado.
+- Estrategias para sobrevivir a las hordas iniciales del Limbo usando la sinergia de armas.
+- Demostración de la fusión de cartas y mejoras pasivas de amuletos.
+
+<YouTubeEmbed videoId="8GSiX22v-KA" title="This Bullet Heaven Has a Brilliant Deckbuilding Twist | Hell Maiden Demo" />
+
+Comprender el uso correcto de estos elementos visuales es crucial para cualquiera que desee crear contenido o contribuir a la base de datos de la comunidad. El logo utiliza una tipografía gótica estilizada combinada con motivos temáticos de flores y espinas, reflejando el peligroso viaje de Dante a través de los círculos del Infierno para reunirse con Beatriz.
+
+| Nombre del Activo | Formato | Uso Recomendado | Dimensiones |
+| :--- | :--- | :--- | :--- |
+| Logo Alta Res (Oscuro) | PNG | Fondos oscuros, banners de Steam | 1920x1080 |
+| Logo Alta Res (Claro) | PNG | Wikis de tema claro, kits de prensa | 1920x1080 |
+| Icono de Corazón | PNG | Avatares de redes sociales, elementos de UI | 512x512 |
+| Gráficos Divisores | PNG | Separadores de artículos, saltos de diseño | 1024x128 |
+
+<Callout type="success" title="Acceso a Activos">
+Los archivos de marca oficiales de alta resolución son mantenidos por la comunidad bajo estrictas pautas de edición para garantizar una presentación de alta fidelidad en todas las plataformas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jugabilidad Principal y Mecánicas de Construcción de Mazos">
+
+En su esencia, el juego es una mezcla única de acción bullet heaven y estrategia de construcción de mazos. A diferencia de los juegos de supervivencia tradicionales donde las mejoras son totalmente pasivas, aquí los jugadores gestionan una mano de cartas de armas activas y cartas de modificación. Tu mano puede contener hasta cuatro cartas de armas únicas por partida, que pueden mejorarse dinámicamente usando varias cartas mod recolectadas a lo largo de los círculos del infierno.
+
+Entender cómo posicionar estas cartas en tu mano es la clave para maximizar tu producción de daño y supervivencia. Las cartas mod se dividen en cinco tipos distintos, cada uno representado por un color de fondo único para ayudar a los jugadores a tomar decisiones tácticas rápidas durante el combate intenso.
+
+<CardGrid cols={2}>
+  <Card title="Cartas de Potenciación (Boost)">
+    - **Mejoras de Estadísticas Individuales**
+    - Aumenta atributos específicos como el daño o la velocidad de ataque en una carta de arma individual.
+    - Ideal para hiper-enfocarse en tu arma principal de daño.
+  </Card>
+  <Card title="Cartas de Efecto (Effect)">
+    - **Estados Alterados**
+    - Aplica efectos de estado adicionales como quemadura o debilidad a tus ataques de arma.
+    - Esencial para configurar sinergias elementales de alto daño.
+  </Card>
+  <Card title="Cartas de Propagación (Spread)">
+    - **Mejoras para Múltiples Armas**
+    - Propaga potenciadores o efectos de estado a varias cartas de armas adyacentes en tu mano.
+    - El posicionamiento es crítico para maximizar el alcance de estas cartas.
+  </Card>
+  <Card title="Cartas de Milagro y Maldición">
+    - **Modificadores de Alto Riesgo**
+    - Las cartas de Milagro otorgan múltiples potenciadores poderosos, mientras que las de Maldición ofrecen ventajas masivas a un coste significativo.
+    - Es mejor reservarlas para construcciones avanzadas que puedan compensar las penalizaciones negativas.
+  </Card>
+</CardGrid>
+
+Para construir un mazo eficiente, los jugadores deben equilibrar sus capacidades ofensivas con utilidades defensivas. Combinar armas que cubran diferentes rangos asegura que nunca te veas abrumado por unidades cuerpo a cuerpo rápidas o amenazas de proyectiles a larga distancia.
+
+| Arma | Tipo Base | Efecto Primario | Estrategia |
+| :--- | :--- | :--- | :--- |
+| Buscavías (Wayfinder) | Proyectil Insignia | Daño de área de efecto | Alinear con el movimiento para golpear grupos densos |
+| Brasas Encendidas | Sigilo Circular | Aura de daño continuo | Ideal para un juego defensivo a corta distancia |
+| Estela Abrasadora | Esfera Giratoria | Defensa orbital | Mantiene alejados a los enemigos cuerpo a cuerpo rápidos |
+| Espada de Augusto | Tajo Cuerpo a Cuerpo | Alto daño crítico | Se combina mejor con potenciadores de tasa crítica |
+
+<Callout type="tip" title="Fusión de Cartas">
+Busca siempre el resplandor naranja en la interfaz de tu mano. Arrastrar dos cartas idénticas del mismo nivel juntas las fusionará, mejorando significativamente su efectividad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Personaje Paso a Paso y Guía de Partida">
+
+Sobrevivir a las profundidades del Limbo requiere más que reflejos rápidos; los jugadores deben seguir una ruta de progresión estructurada durante cada partida para ganar impulso antes de enfrentarse al desafío final de la zona. El bucle de meta-progresión recompensa a los jugadores que exploran el mapa, completan objetivos secundarios y mejoran sistemáticamente su mazo activo.
+
+Rescatar aliados perdidos como Horace durante tus partidas desbloquea bendiciones únicas que pueden alterar completamente tu enfoque táctico. Sigue estos pasos esenciales para optimizar tu progresión durante una partida estándar.
+
+<Steps>
+  <Step num="1" title="Seleccionar Arma Insignia">
+    Elige un arma inicial que se alinee con tu estilo de juego preferido. El Buscavías es excelente para los jugadores que prefieren apuntar activamente, mientras que las Brasas Encendidas ofrecen una zona defensiva pasiva más segura.
+  </Step>
+  <Step num="2" title="Gestionar y Fusionar tu Mano">
+    A medida que recolectas orbes de experiencia, prioriza la fusión de cartas duplicadas para liberar espacio en la mano y potenciar tus atributos activos. Mantén tus armas más poderosas en ranuras que se beneficien de las cartas de propagación adyacentes.
+  </Step>
+  <Step num="3" title="Completar Misiones de Zona">
+    Vigila el minimapa para encontrar marcadores de misión únicos, como defender a Horace. Completar estos objetivos otorga poderosas bendiciones de personaje que persisten durante el resto de la partida.
+  </Step>
+  <Step num="4" title="Derrotar al Jefe del Inframundo">
+    Prepara tu mazo para un alto daño a un solo objetivo antes de enfrentarte a la Reina Minos. Asegúrate de tener suficiente velocidad de movimiento o amuletos defensivos para esquivar sus rayos de juicio de alto daño.
+  </Step>
+</Steps>
+
+Los personajes que encuentres a lo largo de tu viaje proporcionan tanto profundidad narrativa como ventajas mecánicas. Desarrollar relaciones y comprender sus roles en la historia en curso desbloqueará más opciones de progresión.
+
+| Personaje | Rol en la Historia | Función en el Juego |
+| :--- | :--- | :--- |
+| Dante Alighieri | Protagonista | Personaje jugable principal que busca a Beatriz |
+| Virgilio | Guía | Ofrece estrellas, altares y consejos tácticos |
+| Beatriz Portinari | Amada | El objetivo final que reside en el Paradiso |
+| Horace | Amigo de toda la vida | Compañero rescatado durante las misiones iniciales |
+| Reina Minos | Gobernante del Inframundo | Primer gran encuentro con un jefe en el Limbo |
+
+<Callout type="warning" title="Aviso de Jefe">
+No subestimes el rayo de juicio de la Reina Minos. Mantén tu carga de desplazamiento lista para escapar de las zonas de alto daño inmediatamente cuando comience su animación de lanzamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión y Contribución a la Wiki">
+
+Lograr el éxito en la versión actual implica alcanzar hitos específicos y dominar el bucle de meta-progresión. Los jugadores pueden seguir su viaje a través de los logros del juego y contribuir con sus hallazgos a la creciente base de datos para ayudar a otros a navegar por los traicioneros círculos del Infierno.
+
+La wiki oficial sirve como un centro colaborativo donde los jugadores comparten guías de estrategia, datos de cartas y activos multimedia de alta resolución. Asegurar que estos recursos permanezcan precisos es vital para el crecimiento de la comunidad.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos Esenciales:"
+  items={[
+    "Desbloquear todas las cartas de armas primarias en el círculo del Limbo",
+    "Fusionar con éxito una carta mod al nivel tres durante una sola partida",
+    "Completar el evento de defensa de Horace sin que su salud baje de la mitad",
+    "Derrotar a la Reina Minos y desbloquear la narrativa de transición al siguiente círculo",
+    "Adquirir al menos un amuleto de nivel oro de las ofrendas de Beatriz"
+  ]}
+/>
+
+<Callout type="info" title="Contribuciones de la Comunidad">
+Si descubres nuevas combinaciones de cartas o interacciones de personajes ocultas, considera actualizar las páginas de la wiki oficial para ayudar a otros jugadores en su viaje a través del Paradiso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Para los jugadores que buscan respuestas rápidas sobre las mecánicas del juego, activos visuales o historia, esta sección aborda las consultas más comunes de la comunidad.
+
+<Callout type="tip" title="Mantente Actualizado">
+Vuelve a consultar regularmente, ya que el juego se encuentra en desarrollo activo durante su fase de acceso anticipado de 2026, trayendo nuevas cartas y personajes al elenco.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar el logo oficial de alta resolución de hell maiden?",
+    answer: "El logo oficial de alta resolución de hell maiden está disponible para descargar en el repositorio multimedia de la wiki oficial, con variantes tanto para modo claro como oscuro adecuadas para la creación de contenido comunitario."
+  },
+  {
+    question: "¿Cómo fusiono cartas durante una partida?",
+    answer: "Para fusionar cartas, arrastra una copia de una carta sobre otra carta idéntica del mismo nivel en tu mano de jugador. Un resplandor naranja y un símbolo de fusión indicarán cuándo están listas para combinarse."
+  },
+  {
+    question: "¿Cuál es la diferencia entre las cartas de arma y las cartas mod?",
+    answer: "Las cartas de arma representan los ataques activos que ejecutas durante una partida, mientras que las cartas mod se colocan junto a ellas para modificar, mejorar o añadir efectos de estado a esas armas específicas."
+  },
+  {
+    question: "¿Quién es el desarrollador de Hell Maiden?",
+    answer: "Hell Maiden es desarrollado por AstralShiftPro. Es un juego de supervivencia de hordas roguelike de acción que sirve como una secuela libre de la clásica Divina Comedia."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Plataformas de Hell Maiden: Requisitos do Sistema e Guia de Steam Deck",
+  description: "Explore todas as plataformas disponíveis de Hell Maiden, requisitos oficiais de sistema para PC, compatibilidade com Steam Deck e dicas de otimização de desempenho.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Hell+Maiden+Platforms",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Hell Maiden",
+  keywords: "Hell Maiden, plataformas, requisitos de sistema, Steam Deck, PC, guia de desempenho"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Plataforma Principal**: Atualmente, o PC via Steam é a principal opção entre todas as **plataformas de Hell Maiden**.
+- **Steam Deck**: Oficialmente marcado como "Desconhecido", mas perfeitamente jogável com pequenos ajustes de controle.
+- **Requisitos Mínimos**: Requer Windows 10, processador de 4 núcleos e 2,5 GHz, 8 GB de RAM e uma GTX 970 ou RX 570.
+- **Versão do Jogo**: Já disponível no Acesso Antecipado do Steam, com atualizações regulares rumo ao lançamento completo 1.0.
+</Callout>
+
+<Section icon={Shield} title="Plataformas Oficiais e Disponibilidade de Hell Maiden">
+
+O lançamento deste deck-builder de sobrevivência contra hordas repleto de ação deixou muitos jogadores curiosos sobre as **plataformas de Hell Maiden** disponíveis e onde podem vivenciar a mais recente descida de Dante ao submundo. Atualmente, os desenvolvedores focaram seus esforços iniciais de lançamento no ecossistema de PC, disponibilizando o jogo através do Steam.
+
+Como um título em Acesso Antecipado, este modelo de distribuição permite que a equipe de desenvolvimento colete ativamente o feedback da comunidade, refine as mecânicas centrais de construção de baralho e otimize o desempenho antes de expandir para outros ecossistemas de consoles.
+
+**Destaques em Vídeo:**
+- Gameplay de lançamento oficial mostrando a descida de Dante.
+- Mecânicas de sobrevivência contra hordas em alta velocidade e habilidades baseadas em cartas.
+- Estilo visual e design atmosférico inspirado na Divina Comédia.
+
+<YouTubeEmbed videoId="CiZWWT7miEM" title="Hell Maiden - Trailer Oficial da Data de Lançamento" />
+
+Embora o PC continue sendo a plataforma nativa exclusiva durante a fase de Acesso Antecipado, o motor leve do jogo e seu design flexível o tornam um candidato ideal para dispositivos portáteis de PC. Os desenvolvedores estruturaram o preço do jogo em um ponto de entrada acessível de US$ 9,99, juntamente com vários pacotes com desconto apresentando títulos populares como *Halls of Torment* e *Nimrods*. Este empacotamento cooperativo destaca o alinhamento do jogo com as comunidades populares de bullet-heaven e rogue-lite no PC.
+
+Para garantir a acessibilidade global, o jogo apresenta uma localização extensa em várias regiões importantes. Os jogadores podem aproveitar a interface e as legendas em vários idiomas, embora o áudio completo esteja atualmente limitado ao inglês.
+
+| Idioma | Interface | Áudio Completo | Legendas |
+| :--- | :--- | :--- | :--- |
+| Inglês | Sim | Sim | Sim |
+| Espanhol - Espanha | Sim | Não | Sim |
+| Japonês | Sim | Não | Sim |
+| Português - Brasil | Sim | Não | Sim |
+| Chinês Simplificado | Sim | Não | Sim |
+
+<Callout type="success" title="Dica de Disponibilidade">
+Adquirir o jogo durante a fase de Acesso Antecipado garante acesso total a todas as atualizações futuras, incluindo o lançamento 1.0, por um preço mais baixo. Os desenvolvedores confirmaram que o preço aumentará assim que o jogo sair do Acesso Antecipado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos de Sistema para PC e Análise de Hardware">
+
+Como o jogo força você a confrontar ondas massivas de demônios sedentos de sangue simultaneamente, entender os requisitos de hardware é essencial para manter uma taxa de quadros fluida. Jogos de sobrevivência contra hordas rogue-lite são notoriamente exigentes para a CPU devido ao grande volume de busca de caminho dos inimigos, rastreamento de projéteis e cálculos de dano ocorrendo a cada milissegundo.
+
+O jogo foi construído para rodar em sistemas operacionais modernos de 64 bits, exigindo especificamente o Windows 10 ou mais recente. Abaixo está o detalhamento dos requisitos mínimos e recomendados para ajudá-lo a avaliar sua configuração atual de hardware.
+
+| Requisito | Especificações Mínimas | Especificações Recomendadas |
+| :--- | :--- | :--- |
+| SO | Windows 10 ou superior (64 bits) | Windows 10 ou superior (64 bits) |
+| Processador | 4 Núcleos / 2,5 GHz+ | 4 Núcleos / 3,5 GHz+ |
+| Memória | 8 GB de RAM | 16 GB de RAM |
+| Gráficos | GTX 970 / AMD RX 570 | GTX 1070 / AMD RX 570 |
+| Armazenamento | 4 GB de espaço disponível | 4 GB de espaço disponível |
+
+Embora as demandas da GPU sejam relativamente modestas — permitindo que placas mais antigas como a Nvidia GTX 970 alcancem taxas de quadros jogáveis — investir em um processador multi-core mais rápido trará os ganhos de desempenho mais significativos. Ao utilizar combinações complexas de cartas, ataques supremos e efeitos de status que limpam a tela, uma CPU de alta frequência evita os micro-travamentos que frequentemente assolam os estágios finais de uma partida.
+
+<Callout type="tip" title="Recomendação de Hardware">
+Se você estiver rodando o jogo em um notebook com gráficos integrados, como o Intel Iris Xe, certifique-se de que a memória do sistema esteja operando em modo dual-channel. Isso aumenta significativamente a largura de banda da memória, da qual o jogo depende para renderizar hordas massivas de inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compatibilidade com Steam Deck e Portabilidade">
+
+O jogo portátil tornou-se um pilar da experiência rogue-lite moderna. Embora a classificação oficial de compatibilidade do Steam Deck para o jogo esteja atualmente listada como "Desconhecida" pela Valve, testes no mundo real revelam que o jogo tem um desempenho excepcionalmente bom em hardware portátil. O tamanho leve de 4 GB de armazenamento e o carregamento de ativos otimizado o tornam um título ideal para sessões em movimento.
+
+Para ajudá-lo a obter a melhor experiência portátil, analisamos como o jogo se comporta em três categorias críticas de desempenho em dispositivos portáteis:
+
+<CardGrid cols={3}>
+  <Card title="Controles e Layout">
+    - **Suporte total a controle** integrado nativamente.
+    - Menus são fáceis de navegar usando os analógicos.
+    - Configurações personalizadas do trackpad podem ser mapeadas para seleção de cartas.
+  </Card>
+  <Card title="Desempenho e FPS">
+    - Alcança **60 FPS** estáveis na resolução nativa.
+    - Pequenas quedas de quadros podem ocorrer durante efeitos intensos na tela.
+    - Reduzir a qualidade das sombras estabiliza o desempenho nas ondas finais.
+  </Card>
+  <Card title="Otimização de Bateria">
+    - O baixo consumo de energia permite de **3 a 4 horas** de jogo contínuo.
+    - Limitar o TDP para 8W preserva a bateria sem sacrificar quadros.
+    - As temperaturas do sistema permanecem baixas durante sessões prolongadas.
+  </Card>
+</CardGrid>
+
+Como o jogo depende de uma mecânica de construção de baralho onde você gerencia Cartas de Espírito, Cartas de Arma e Cartas de Mod, o espaço na tela é altamente valioso. A interface do usuário do jogo escala de forma limpa para a proporção de 1280x800 do Steam Deck, garantindo que o texto das cartas e as descrições de melhorias permaneçam perfeitamente legíveis sem causar fadiga ocular.
+
+<Callout type="warning" title="Aviso de Entrada no Steam Deck">
+Como o jogo está em Acesso Antecipado, ocasionalmente você pode precisar usar a tela sensível ao toque do Steam Deck ou o atalho de teclado Steam+X para inserir texto, como nomear perfis de personagens ou pesquisar em filtros específicos da biblioteca.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Otimização de Desempenho Passo a Passo">
+
+Se você estiver enfrentando quedas de desempenho em hardware mais antigo ou quiser maximizar a vida útil da bateria do seu dispositivo portátil, seguir um processo de otimização estruturado pode melhorar drasticamente sua experiência de jogo. Use estes passos para configurar seu sistema para o equilíbrio perfeito entre clareza visual e desempenho fluido.
+
+<Steps>
+  <Step num="1" title="Ajuste as Configurações de Vídeo no Jogo">
+    Inicie o jogo e navegue até o menu de opções. Defina o modo de exibição como Tela Cheia em vez de Janela Sem Bordas para dar ao jogo prioridade direta sobre os recursos do sistema. Desative o V-Sync se estiver usando um monitor com taxa de atualização variável e reduza a densidade de partículas para médio.
+  </Step>
+  <Step num="2" title="Configure as Opções de Inicialização do Steam">
+    Clique com o botão direito no jogo em sua Biblioteca Steam, selecione Propriedades e encontre o campo Opções de Inicialização. Insira argumentos de otimização como `-high` para forçar sua CPU a priorizar as threads do jogo, ou `-force-d3d11` se tiver problemas de estabilidade em placas de vídeo mais antigas.
+  </Step>
+  <Step num="3" title="Otimize os Limites de Energia do Portátil">
+    No Steam Deck ou portáteis semelhantes, abra a sobreposição de desempenho de acesso rápido. Ative um limite manual de controle de clock da GPU de 1200MHz e defina o limite de TDP para 9 Watts. Isso mantém o processador funcionando com eficiência máxima, evitando o estrangulamento térmico durante lutas intensas contra chefes.
+  </Step>
+  <Step num="4" title="Atualize os Drivers de Gráficos">
+    Certifique-se de que seus drivers de gráficos estejam atualizados para a versão mais recente. Tanto a Nvidia quanto a AMD lançam frequentemente correções que otimizam a alocação de memória para títulos independentes que utilizam pipelines de renderização DirectX 11 e DirectX 12.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Impacto no Desempenho">
+Ao limitar sua taxa de quadros a 60 FPS em dispositivos portáteis, você pode reduzir o consumo de energia em até 25%, mantendo uma experiência de jogo completamente fluida durante fases de combate de alta densidade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Roteiro de Conteúdo e Objetivos do Acesso Antecipado">
+
+A jornada pelo Inferno é atualmente um trabalho em progresso, com os desenvolvedores planejando um roteiro extenso ao longo do próximo ano de desenvolvimento. Atualmente, os jogadores podem explorar uma fatia sólida da visão final, apresentando designs de níveis intrincados e um ciclo altamente rejogável. Entender o que está disponível atualmente versus o que está planejado para o lançamento completo pode ajudá-lo a decidir se a versão atual da plataforma PC é ideal para você.
+
+| Recurso do Jogo | Estado do Acesso Antecipado | Plano para o Lançamento Completo |
+| :--- | :--- | :--- |
+| Círculos do Inferno | 2 níveis únicos concluídos | Todos os 9 Círculos do Inferno |
+| Poetas do Limbo | 4 poetas para resgatar | Elenco expandido de poetas históricos |
+| Armas e Cartas | 4 armas exclusivas, 40+ habilidades | Dezenas de novas variantes de armas e mods |
+| Modos de Jogo | Campanha padrão | Modo Infinito e desafios personalizados |
+| Missões Secundárias | Introdução narrativa central | Missões secundárias de personagens e lore profundo |
+
+Para aproveitar ao máximo seu tempo na build atual, recomendamos focar nos principais marcos de progressão que serão mantidos e prepararão você para futuras adições de conteúdo.
+
+<Checklist
+  id="progression-goals"
+  title="Marcos do Acesso Antecipado:"
+  items={[
+    "Derrote os chefes dos dois primeiros Círculos do Inferno",
+    "Resgate todos os 4 Poetas do Limbo disponíveis para desbloquear suas vantagens exclusivas",
+    "Experimente mais de 40 habilidades distintas para encontrar sua sinergia preferida",
+    "Colete e aprimore Cartas de Espírito para construir um baralho inicial confiável",
+    "Familiarize-se com a velocidade de movimento e as mecânicas de esquiva de Dante"
+  ]}
+/>
+
+<Callout type="success" title="Feedback da Comunidade">
+Os desenvolvedores monitoram ativamente os Fóruns da Comunidade Steam e os canais sociais oficiais. Os jogadores que participam da fase de Acesso Antecipado no PC têm voz direta no equilíbrio das cartas, comportamentos das armas e prioridades de futuras versões para consoles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são as plataformas suportadas de Hell Maiden?",
+    answer: "Atualmente, o jogo é oficialmente suportado no PC via Steam. Ele é jogável no Windows 10 e 11, e roda notavelmente bem em ambientes Linux e Steam Deck através das camadas de compatibilidade Proton."
+  },
+  {
+    question: "O jogo será lançado para Nintendo Switch, PlayStation ou Xbox?",
+    answer: "Os desenvolvedores estão focando todos os recursos na versão de Acesso Antecipado para PC para refinar a jogabilidade. Embora as versões para console sejam muito solicitadas e tecnicamente viáveis devido ao motor do jogo, anúncios oficiais sobre plataformas de console provavelmente ocorrerão mais perto do lançamento completo 1.0."
+  },
+  {
+    question: "Existe suporte para controle no PC?",
+    answer: "Sim, o jogo possui suporte total e nativo para controles. Você pode jogar usando controles de Xbox, PlayStation ou controles genéricos sem a necessidade de software de mapeamento de terceiros."
+  },
+  {
+    question: "O jogo suporta salvamento em nuvem entre diferentes PCs?",
+    answer: "Sim, a sincronização do Steam Cloud está totalmente integrada, permitindo que você transicione seu progresso sem problemas entre seu PC de mesa e dispositivos portáteis como o Steam Deck."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+Para fãs de ação com construção de baralhos e sobrevivência contra hordas, a versão atual para PC oferece uma experiência incrivelmente polida que supera as expectativas pelo seu preço. Garanta o jogo no Steam hoje para começar a dominar seu baralho antes que a descida para os Círculos do Inferno restantes comece.
+</Callout>
+
+</Section>

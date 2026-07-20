@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personajes de Hell Maiden: Arquetipos y Guía de Construcción de Mazos",
+  description: "Aprende a dominar los personajes, las evoluciones de cartas y los encuentros con jefes en el roguelike de acción y construcción de mazos Hell Maiden.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Hell+Maiden+Characters+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "Hell Maiden, personajes, guía, arquetipos, mazos, jefes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los personajes de Hell Maiden** consisten en héroes jugables, guías tácticos y poderosos jefes que se encuentran a lo largo de los círculos del Infierno.
+- **La evolución de cartas** sirve como la mecánica central de progresión para aumentar tu daño contra hordas masivas de enemigos.
+- **La sinergia estratégica** entre Dante y aliados de apoyo como Virgilio dicta tus capacidades defensivas.
+- **Las estrategias contra jefes** requieren memorizar patrones de movimiento y zonas de peligro durante los encuentros principales.
+</Callout>
+
+<Section icon={Map} title="Personajes de Hell Maiden: Descripción General y Roles">
+
+Navegar por las profundidades del inframundo en Hell Maiden requiere una comprensión profunda de su elenco. En este roguelike de acción y construcción de mazos inspirado en la Divina Comedia de Dante Alighieri, los jugadores controlan a Dante mientras lucha a través de oleadas de tormento. A lo largo del viaje, encontrarás figuras históricas legendarias y feroces guardianes mitológicos que darán forma a tus partidas. Comprender cómo interactúan estos personajes con tu mazo es la clave para sobrevivir al abismo.
+
+**Puntos Destacados del Video:**
+- Jugabilidad de supervivencia contra hordas llena de acción con mecánicas de fusión de cartas.
+- Interacciones con guías históricos como Virgilio y Ovidio.
+- Batallas contra jefes que muestran la ardiente arena de la Reina Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Tráiler de Jugabilidad" />
+
+Los personajes que conozcas durante tu descenso proporcionan bonificaciones pasivas, mejoras de cartas o actúan como grandes obstáculos. Elegir con qué personajes alinearte determina el camino del desarrollo de tu mazo.
+
+| Personaje | Rol | Atributo Clave | Condición de Desbloqueo |
+| :--- | :--- | :--- | :--- |
+| Dante | Protagonista | Combate basado en cartas | Disponible por defecto |
+| Virgilio | Guía | Mejoras de estadísticas pasivas | Completar el tutorial |
+| Ovidio | Aliado | Mejoras de daño de hechizos | Superar la etapa del Limbo |
+| Reina Minos | Jefe | Daño de fuego | Derrotar en el Círculo 2 |
+
+<Callout type="info" title="Lore del Inframundo">
+Encontrar a Virgilio temprano en tu partida es fundamental para estabilizar la curva de maná de tu mazo antes de entrar en círculos más difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Personajes y Estilos de Combate">
+
+Cada personaje en el juego influye en cómo se comportan las cartas durante el combate. Mientras Dante ejecuta los ataques físicos y mágicos, tus compañeros elegidos alteran las propiedades de tu mazo, creando distintos estilos de juego. Equilibrar estos estilos de combate te permite prepararte tanto para la limpieza de oleadas de alta densidad como para encuentros con jefes de un solo objetivo.
+
+<CardGrid cols={3}>
+  <Card title="Dante (El Superviviente)">
+    - **Estadísticas equilibradas**
+    - Opciones de mazo versátiles
+    - Alta adaptabilidad
+  </Card>
+  <Card title="Virgilio (El Guía)">
+    - **Enfoque defensivo**
+    - Aumenta la generación de escudos
+    - Reduce el tiempo de reutilización de las cartas
+  </Card>
+  <Card title="Ovidio (El Poeta)">
+    - **Amplificador de magia**
+    - Mejora los efectos de estado elementales
+    - Aumenta la velocidad de robo de cartas
+  </Card>
+</CardGrid>
+
+Elegir el modificador de arquetipo adecuado cambia tus estadísticas base. Los jugadores que prefieren una defensa lenta y metódica encontrarán en Virgilio al compañero ideal, mientras que los jugadores agresivos se beneficiarán de los multiplicadores mágicos de Ovidio.
+
+| Arquetipo | Modificador de Salud | Salida de Daño | Modificador de Utilidad |
+| :--- | :--- | :--- | :--- |
+| Defensor | 120% | -10% físico | Recuperación de escudo |
+| Elementalista | 85% | +20% mágico | Duración de quemadura |
+| Superviviente | 100% | Base | Robo estándar |
+
+<Callout type="tip" title="Sinergia de Mazo">
+Combinar las mejoras mágicas de Ovidio con cartas de hechizos de fuego te permite limpiar rápidamente hordas masivas de cáscaras menores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolución de Cartas y Sinergia de Personajes">
+
+Sobrevivir a las capas profundas del Infierno requiere más que ataques básicos. Los jugadores deben fusionar cartas duplicadas o compatibles para crear formas evolucionadas. Este proceso aumenta el daño, añade efectos de estado y reduce los costes de recursos, haciendo que tu mazo sea lo suficientemente eficiente como para manejar los desafíos del juego avanzado.
+
+<Steps>
+  <Step num="1" title="Reunir Duplicados">
+    Consigue cartas idénticas durante las oleadas de combate o cómpraselas al mercader del río.
+  </Step>
+  <Step num="2" title="Acceder a la Compilación">
+    Abre el menú de compilación de mazos entre rondas de combate para ver las combinaciones disponibles.
+  </Step>
+  <Step num="3" title="Combinar Cartas">
+    Fusiona las cartas compatibles para desbloquear sus variantes evolucionadas de mayor nivel.
+  </Step>
+  <Step num="4" title="Equipar Mejoras">
+    Equipa las cartas recién evolucionadas en tus ranuras de combate activas para su uso inmediato.
+  </Step>
+</Steps>
+
+La matriz de evolución a continuación detalla algunas de las combinaciones más poderosas del inicio del juego que puedes crear para aumentar tu efectividad en combate.
+
+| Carta Base A | Carta Base B | Carta Evolucionada | Efecto |
+| :--- | :--- | :--- | :--- |
+| Tajo | Runa de Fuego | Tajo de Llama | Añade quemadura con el tiempo |
+| Escudo | Runa de Hielo | Barrera de Escarcha | Congela a los enemigos atacantes |
+| Paso Veloz | Runa de Viento | Desplazamiento de Vendaval | Aumenta la velocidad de movimiento |
+
+<Callout type="success" title="Evolución Exitosa">
+Las cartas evolucionadas conservan su estado mejorado durante el resto de la partida. Prioriza mejorar las cartas defensivas primero para asegurar la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Encuentros con Jefes: Derrotar a la Reina Minos">
+
+Como la ardiente jueza del Infierno, la Reina Minos representa el primer gran obstáculo para los jugadores. Su arena restringe el movimiento, obligándote a equilibrar el esquivar peligros de fuego mientras infliges daño constante. Derrotarla requiere un mazo que cuente con alta movilidad y daño de ráfaga rápido.
+
+Para derrotar a la Reina Minos, debes aprender a navegar por sus distintas fases de combate. Cada fase introduce nuevos peligros ambientales que pueden terminar rápidamente una partida si te pillan fuera de posición.
+
+| Fase | Nivel de Peligro | Ataque Principal | Estrategia |
+| :--- | :--- | :--- | :--- |
+| Fase 1 | Moderado | Latigazo | Esquivar lateralmente |
+| Fase 2 | Alto | Géisers de lava | Moverse a casillas seguras |
+| Fase 3 | Extremo | Lluvia de fuego infernal | Mantenerse en movimiento constante |
+
+<Callout type="warning" title="Advertencia de Jefe">
+No te quedes en el centro de la arena durante la Fase 3. La Reina Minos ataca esta área con columnas de fuego de gran daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión e Hitos">
+
+Desbloquear todo el potencial de tus personajes requiere completar logros específicos. Estos hitos desbloquean cartas iniciales, mejoras de estadísticas permanentes y opciones de compañeros adicionales. Centrarse en estos objetivos temprano hará que las partidas posteriores sean mucho más fáciles de gestionar.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos Esenciales:"
+  items={[
+    "Superar la etapa del Limbo",
+    "Desbloquear la ruta de apoyo secundaria de Virgilio",
+    "Evolucionar 10 cartas en una sola partida",
+    "Derrotar a la Reina Minos sin perder la mitad de la vida"
+  ]}
+/>
+
+Cada hito completado proporciona una recompensa permanente que influye en tus futuras partidas. Consulta la tabla a continuación para planificar tu ruta de progresión.
+
+| Hito | Recompensa | Impacto |
+| :--- | :--- | :--- |
+| Superar Limbo | Ovidio desbloqueado | Compañero jugable |
+| 10 Evoluciones | Mazo Maestro | Comienza las partidas con una carta evolucionada |
+| Derrotar a Minos | Núcleo Ardiente | Aumento permanente del daño de fuego |
+
+<Callout type="info" title="Prioridad de Hitos">
+Desbloquear a Ovidio debería ser tu primer gran objetivo. Su amplificación mágica acelera las partidas de farmeo posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Aquí tienes algunas de las preguntas más comunes sobre las mecánicas del juego, los personajes y las rutas de progresión.
+
+<FAQ items={[
+  {
+    question: "¿Quiénes son los principales personajes jugables de Hell Maiden?",
+    answer: "Dante es el combatante principal, mientras que compañeros como Virgilio y Ovidio proporcionan bonificaciones pasivas y modificaciones de cartas."
+  },
+  {
+    question: "¿Cómo se desbloquea a Ovidio en el juego?",
+    answer: "Ovidio se desbloquea superando con éxito la etapa del Limbo y completando sus encuentros narrativos asociados."
+  },
+  {
+    question: "¿Se pueden cambiar los compañeros a mitad de una partida?",
+    answer: "No, la selección de compañero se bloquea al inicio de cada partida. Elige un compañero que se alinee con el arquetipo de tu mazo."
+  }
+]} />
+
+<Callout type="tip" title="Cambio Rápido">
+Si tienes dificultades con las batallas contra jefes, cambia tu compañero a Virgilio para mejorar la generación de escudos y los estilos de juego defensivos.
+</Callout>
+
+</Section>

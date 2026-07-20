@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "hell maiden minos: Estrategia del Jefe Paso a Paso y Recompensas",
+  description: "Domina la batalla contra el jefe hell maiden minos en el Círculo 1: Limbo. Aprende las mejores builds de Cartas de Espíritu, patrones de ataque y cómo desbloquear el logro Soul Magister.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Hell+Maiden+Minos+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de hell maiden",
+  keywords: "hell maiden minos, estrategia de jefe, limbo, cartas de espíritu, guía de supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **hell maiden minos**: El encuentro final del Círculo 1 (Limbo) que requiere una supervivencia de 12 minutos.
+- **Mecánica Clave**: Patrones de proyectiles tipo bullet-hell y ataques de área de efecto (AoE) telegrafiados.
+- **Mejor Estrategia**: Centrarse en la fusión de Mods de Nivel 3 y el movimiento lateral para evitar patrones recursivos.
+- **Consejo Crítico**: Guarda tu Hechizo de Poeta para la fase en la que Minos restringe los límites de la arena.
+- **Mejor Opción**: Las armas Pluma Ardiente o Lírica Alada ofrecen el escalado de daño más confiable para esta pelea.
+</Callout>
+
+<Section icon={Target} title="La Guardiana del Limbo: hell maiden minos">
+
+En el mundo gótico de Hell Maiden, **hell maiden minos** (Reina Minos) sirve como la principal guardiana del progreso dentro del primer Círculo, el Limbo. Como un juego de construcción de mazos y supervivencia de hordas, el desafío no es solo sobrevivir a las implacables oleadas de Imps y Ghouls durante 12 minutos, sino también mantener suficiente salud y potencia de fuego para derrotar a este jefe mayor. La Reina Minos representa la primera prueba verdadera de tu sinergia de Cartas de Espíritu y precisión de movimiento.
+
+El encuentro está diseñado como un desafío tradicional de bullet-hell, donde el posicionamiento es tan importante como tu producción de daño. Tras el **Hotfix v0.2.31** del 16 de julio de 2026, el desarrollador AstralShift ajustó el comportamiento del jefe para evitar que repitiera los mismos movimientos telegrafiados demasiado rápido. Esto significa que los jugadores ahora deben adaptarse a una secuencia de ataques más variada en lugar de memorizar un solo ciclo. El éxito requiere una mano equilibrada de cartas de Arma y Mod, específicamente aquellas que permitan una alta presión sobre un solo objetivo mientras se mantiene la movilidad.
+
+<Callout type="success" title="Actualización Hotfix v0.2.31">
+El último parche ha mejorado la IA del jefe, haciendo que la lucha contra la Reina Minos sea más dinámica. Los jugadores ya no pueden confiar en las "zonas muertas" en sus patrones de ataque, ya que ahora alterna sus habilidades con mayor varianza.
+</Callout>
+
+| Detalle del Jefe | Información |
+| :--- | :--- |
+| **Ubicación** | Círculo 1 — Limbo |
+| **Requisito de Supervivencia** | 12 Minutos |
+| **Tipo de Encuentro** | Jefe Mayor |
+| **Amenazas Principales** | Paredes de Proyectiles, AoE Telegrafiado |
+| **Logro** | Soul Magister |
+
+</Section>
+
+<Section icon={Swords} title="Las Mejores Builds de Cartas de Espíritu para Minos">
+
+Para derrotar a **hell maiden minos**, tu mazo debe transicionar del control de multitudes (necesario para los primeros 12 minutos) al daño de alta precisión contra jefes. Las Cartas de Espíritu se dividen en Cartas de Arma y Cartas de Mod. La estrategia más efectiva es concentrar tus mejoras más fuertes en una sola arma principal mientras usas las ranuras secundarias para utilidad y cobertura.
+
+<CardGrid cols={3}>
+  <Card title="Build de Daño Concentrado">
+    - **Arma Principal**: Pluma Ardiente
+    - **Prioridad de Mod**: Daño, Velocidad de Ataque
+    - **Ideal para**: Presión directa al jefe y limpieza de élites.
+  </Card>
+  <Card title="Build de Presión de Proyectiles">
+    - **Arma Principal**: Buscavías
+    - **Prioridad de Mod**: Cantidad de Proyectiles, Duración
+    - **Ideal para**: Cobertura continua de pantalla durante fases de bullet-hell.
+  </Card>
+  <Card title="Build Enfocada en Jefes">
+    - **Arma Principal**: Lírica Alada
+    - **Prioridad de Mod**: Daño Crítico, Mods de Nivel 3
+    - **Ideal para**: Objetivos de mucha salud que requieren fuego concentrado.
+  </Card>
+</CardGrid>
+
+Al construir tu mano, recuerda que los efectos posicionales son vitales. Algunas cartas de Mod proporcionan bonificaciones a las armas adyacentes o a las armas a su derecha. Reorganiza siempre tu mano para asegurar que tu arma principal para matar jefes reciba las máximas mejoras posibles de tus cartas de Mod.
+
+<Callout type="tip" title="Estrategia de Fusión de Mods">
+Intenta siempre fusionar cartas de Mod duplicadas en una versión de **Nivel 3**. Un solo Mod de Nivel 3 es significativamente más poderoso que tres copias de Nivel 1 repartidas en diferentes armas. Para la pelea contra Minos, prioriza los mods de Daño y Cantidad de Proyectiles de Nivel 3.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de Supervivencia y Jefe Paso a Paso">
+
+Llegar a **hell maiden minos** es un viaje que comienza en el momento en que apareces en el Limbo. Debes utilizar la ventana de supervivencia de 12 minutos para maximizar tu poder.
+
+<Steps>
+  <Step num="1" title="Recolección Temprana de Recursos">
+    Concéntrate en recoger orbes de experiencia de los Imps y esqueletos derrotados. Tu prioridad en los primeros 3 minutos es llenar las cuatro ranuras de Arma para asegurar que tengas una gama diversa de ataques.
+  </Step>
+  <Step num="2" title="Rescate de Poetas y Desbloqueos">
+    Localiza y rescata a Horacio y Homero dentro del Limbo. Salvar a estos poetas expande tu grupo de cartas, añadiendo las armas Carpe Diem y Lírica Alada a tus opciones de subida de nivel.
+  </Step>
+  <Step num="3" title="Activación de Templos">
+    Explora el mapa para encontrar y activar Templos. Activarlos proporciona beneficios para la partida y es necesario para el logro Peregrino Piadoso (12 Templos en una partida). Haz esto antes de la marca de los 10 minutos, cuando la densidad de enemigos alcanza su punto máximo.
+  </Step>
+  <Step num="4" title="Optimización de Mods">
+    Para la marca de los 10 minutos, deberías tener al menos una carta de Arma equipada con tres Mods de Nivel 3. Esta configuración de "Mano Perfecta" es esencial para reducir la alta barra de salud de Minos.
+  </Step>
+  <Step num="5" title="El Enfrentamiento Final">
+    Una vez que el temporizador llegue a los 12 minutos, aparecerá la Reina Minos. Mantén tu distancia, vigila los avisos rojos en el suelo y solo usa tu deslizamiento cuando una pared de proyectiles no deje otro hueco.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Preservación de Salud">
+Evita el daño por contacto innecesario durante la fase de supervivencia de 12 minutos. Entrar en la pelea contra Minos con poca salud es extremadamente peligroso, ya que sus patrones de proyectiles pueden ser difíciles de navegar sin un margen de seguridad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Patrones de Ataque y Contraataques de la Reina Minos">
+
+Comprender el comportamiento telegrafiado de **hell maiden minos** es la diferencia entre la victoria y una partida fallida. Ella alterna entre varias fases distintas que ponen a prueba tus reflejos y posicionamiento.
+
+| Patrón de Ataque | Descripción | Contraataque Recomendado |
+| :--- | :--- | :--- |
+| **Espiral Infernal** | Ondas circulares de proyectiles | Muévete lateralmente / rodea al jefe |
+| **Golpe del Limbo** | Grandes avisos de AoE en el suelo | Deslízate fuera de la zona roja inmediatamente |
+| **Invocación de Almas** | Invoca enemigos menores para distraer | Usa armas secundarias de limpieza de área |
+| **Puerta Abisal** | Restringe el movimiento en la arena | Guarda el Hechizo de Poeta para esta fase |
+
+La parte más peligrosa de la pelea ocurre cuando Minos combina sus espirales de proyectiles con los golpes en el suelo. Durante estos momentos, no te deslices por pánico. En su lugar, busca los "carriles seguros" entre los proyectiles y solo usa tu deslizamiento para cruzar una zona de ataque telegrafiada.
+
+<Callout type="info" title="Hechizos de Poeta">
+Inferno de Dante o Signo Estelar de Virgilio ☆ Pléyades pueden limpiar la pantalla de proyectiles. Úsalos defensivamente cuando te sientas abrumado por los patrones de bullet-hell.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Logros y Progresión">
+
+Derrotar a **hell maiden minos** no se trata solo de la victoria inmediata; desbloquea una progresión permanente significativa para tus futuros descensos al Infierno.
+
+| Recompensa/Hito | Requisito | Efecto |
+| :--- | :--- | :--- |
+| **Soul Magister** | Derrotar a la Reina Minos | Desbloquea Logro de Steam |
+| **Artes Tabú I** | Derrotar a Minos 3 veces | Expansión permanente del grupo de cartas |
+| **Vientos del Deseo** | Completar el Limbo | Desbloquea el Círculo 2: Lujuria |
+| **Nuevas Habilidades** | Victoria sobre el Jefe | Añade 2 nuevas habilidades al grupo |
+
+Más allá de estas recompensas, derrotar a Minos te permite progresar en la historia en el Foro de los Poetas. Interactuar con Virgilio y Beatriz después de la pelea desbloqueará nuevos capítulos de diálogo y proporcionará contexto para los recuerdos perdidos de Dante.
+
+<Checklist
+  id="minos-completion"
+  title="Lista de Verificación de Maestría del Limbo:"
+  items={[
+    "Derrota a la Reina Minos para el logro Soul Magister",
+    "Rescata tanto a Horacio como a Homero en una sola partida",
+    "Alcanza el nivel 50 durante la fase de supervivencia del Limbo",
+    "Activa 12 templos diferentes en una sola partida",
+    "Derrota a Minos tres veces para desbloquear Artes Tabú I"
+  ]}
+/>
+
+<Callout type="tip" title="Lamentos del Abismo">
+Usa los Lamentos del Abismo ganados en tus incursiones al Limbo para comprar mejoras de metaprogresión. Prioriza las mejoras que aumentan tu salud inicial y la ganancia de experiencia para que los futuros encuentros con jefes sean más manejables.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo la batalla contra hell maiden minos?",
+    answer: "Debes sobrevivir durante 12 minutos en el Círculo 1, Limbo. Una vez que expire el temporizador, las oleadas normales de enemigos se detendrán y la Reina Minos aparecerá como el jefe final de la etapa."
+  },
+  {
+    question: "¿Cuál es la mejor arma para usar contra la Reina Minos?",
+    answer: "Lírica Alada (el arma distintiva de Homero) es excelente porque concentra el daño en un solo objetivo y no falla. Pluma Ardiente también es una opción de primer nivel por su daño y alcance equilibrados."
+  },
+  {
+    question: "¿Puedo saltarme la fase de supervivencia de 12 minutos?",
+    answer: "No, la fase de supervivencia de 12 minutos es obligatoria. Este tiempo está destinado a que construyas tu mano de Cartas de Espíritu y actives Templos para prepararte para el encuentro con el jefe."
+  },
+  {
+    question: "¿Qué sucede después de derrotar a Minos?",
+    answer: "Ganarás el logro Soul Magister, desbloquearás nuevas habilidades permanentes y obtendrás acceso al Círculo 2, Lujuria, a través del hito de progresión Vientos del Deseo."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Dominar el encuentro con **hell maiden minos** es tu primer paso para conquistar los nueve Círculos del Infierno. Concéntrate en la sinergia de tu build, respeta los avisos visuales y mantén tus deslizamientos listos para emergencias. ¡Buena suerte, Peregrino!
+</Callout>
+
+</Section>

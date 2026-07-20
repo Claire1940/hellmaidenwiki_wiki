@@ -1,0 +1,174 @@
+import { MousePointer2, Gamepad2, Swords, Target, Shield, Sparkles, Keyboard, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Hell Maiden: Guía de Configuración y Consejos de Combate",
+  description: "Domina los controles de Hell Maiden para PC y mando. Aprende a apuntar, esquivar y gestionar las Cartas de Espíritu para sobrevivir a las incursiones de 12 minutos en el Limbo y la Lujuria.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/230c12/fff?text=Hell+Maiden+Controls",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los controles de Hell Maiden** combinan el ataque automático con el apuntado manual y la esquiva activa para una experiencia de supervivencia táctica.
+- **El apuntado manual** es obligatorio; Dante dispara hacia tu cursor (Ratón) o el Stick Derecho (Mando) independientemente de la dirección del movimiento.
+- **La mecánica de Dash (Esquiva)** proporciona marcos de invulnerabilidad (i-frames), lo que te permite atravesar líneas enemigas y esquivar ataques telegrafiados de los jefes.
+- **La gestión del mazo** requiere usar el ratón o el mando para reorganizar las Cartas de Espíritu y obtener bonificaciones posicionales óptimas.
+- **El soporte para mando** está totalmente implementado para el Acceso Anticipado, incluyendo una opción de lanzamiento con DirectX 11 para una mejor estabilidad.
+</Callout>
+
+<Section icon={Keyboard} title="Distribución de Entrada de Teclado y Ratón">
+
+Comprender los **controles de Hell Maiden** es el primer paso para sobrevivir en las profundidades del Limbo. A diferencia de muchos juegos tradicionales de supervivencia contra hordas donde los ataques son puramente automáticos basados en la proximidad, este título requiere que los jugadores apunten activamente sus armas hacia la amenaza. Este enfoque de "twin-stick" en una configuración de teclado y ratón ofrece la mayor precisión para builds de daño concentrado como la Pluma Ardiente (Blazing Quill) o la Lírica Alada (Winged Lyric).
+
+| Tecla | Acción | Descripción |
+| :--- | :--- | :--- |
+| **W, A, S, D** | Movimiento | Mueve a Dante en ocho direcciones a través del Círculo. |
+| **Cursor del Ratón** | Apuntado | Dirige todos los ataques automáticos hacia el puntero. |
+| **Espacio** | Dash (Esquiva) | Una ráfaga rápida de velocidad con invencibilidad temporal. |
+| **E / Clic Derecho** | Usar Hechizo | Activa el Hechizo de Poeta característico (ej. el Inferno de Dante). |
+| **Tab / I** | Abrir Mazo | Mira y reorganiza tus Cartas de Espíritu y Mods actuales. |
+| **Esc** | Menú de Pausa | Accede a los ajustes, revisa logros o abandona la partida. |
+
+<Callout type="tip" title="Estrategia de Apuntado">
+Debido a que Dante ataca automáticamente, tu enfoque principal debe ser el "kiting". Mantén el cursor del ratón apuntando a la parte más densa de la horda enemiga mientras mueves a Dante en la dirección opuesta para mantener una distancia segura.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Configuración de Mando y Gamepad">
+
+Para los jugadores que prefieren una experiencia más relajada o de estilo "bullet-hell", los **controles de Hell Maiden** para gamepads son muy intuitivos. El juego utiliza un diseño estándar de shooter de doble stick. Esto es particularmente efectivo para builds de "Presión de Proyectiles" donde necesitas rotar constantemente tu fuego para limpiar a los enemigos que te rodean.
+
+| Botón (Xbox/PS) | Acción | Prioridad |
+| :--- | :--- | :--- |
+| **Stick Izquierdo** | Movimiento del Personaje | Alta |
+| **Stick Derecho** | Dirección de Apuntado | Alta |
+| **RB / R1 / B** | Dash / Esquiva | Crítica |
+| **LB / L1 / A** | Activar Hechizo | Moderada |
+| **View / Select** | Gestión del Mazo | Moderada |
+| **Menu / Start** | Pausar Juego | Baja |
+
+<Callout type="warning" title="Apuntado con Mando">
+Asegúrate de que tu Stick Derecho esté siempre inclinado en una dirección. Si el stick vuelve a la posición neutral, es posible que Dante deje de disparar con precisión a objetivos específicos, lo que puede ser fatal durante los picos de oleadas del minuto 12.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Ventajas de Teclado y Ratón">
+    - **Precisión Milimétrica**: Mejor para armas de un solo objetivo como la Lírica Alada.
+    - **Navegación de Menús**: Reorganización de cartas y fusión de Mods más rápida.
+    - **Hechizos Rápidos**: Las teclas dedicadas evitan la activación accidental.
+  </Card>
+  <Card title="Ventajas de Mando">
+    - **Movimiento Ergonómico**: Movimiento de 360 grados más fluido para esquivar.
+    - **Vibración**: Alertas táctiles al recibir daño o tener poca salud.
+    - **Control Analógico**: La velocidad de movimiento variable ayuda en huecos estrechos de proyectiles.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Dominando las Mecánicas de Combate y Movimiento">
+
+La supervivencia en Hell Maiden depende de qué tan bien puedas equilibrar el movimiento y el apuntado ofensivo. El temporizador de 12 minutos en Círculos como el Limbo y la Lujuria introduce oleadas cada vez más densas que requieren más que simplemente caminar en círculos. Dominar los **controles de Hell Maiden** significa aprender el ritmo del dash y el tiempo de activación del Hechizo de tu Poeta.
+
+<Steps>
+  <Step num="1" title="El Dash Defensivo">
+    El dash es tu herramienta de supervivencia más importante. Permite a Dante pasar a través de enemigos y proyectiles sin recibir daño. Nunca uses tu última carga de dash solo para moverte más rápido; mantén siempre una disponible para escapar de un estado de "emboscada" o para esquivar los ataques de área (AoE) de la Reina Minos.
+  </Step>
+  <Step num="2" title="Prioridad de Apuntado Manual">
+    Los objetivos prioritarios como las Víboras de Élite o las Súcubos deben ser eliminados primero. Usa tu ratón o el Stick Derecho para rastrear a estos enemigos específicos mientras tu movimiento (WASD/Stick Izquierdo) te mantiene alejado de la horda general.
+  </Step>
+  <Step num="3" title="Activación de Templos">
+    Mientras te mueves, encontrarás Templos. Activarlos requiere que permanezcas en su vecindad durante un corto periodo. Usa tus controles de movimiento para "orbitar" el Templo, manteniendo a los enemigos en el exterior de tu círculo mientras permaneces lo suficientemente cerca para activar la barra de progreso.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Táctica Avanzada">
+Puedes realizar un dash *a través* de un jefe. Si la Reina Minos te atrapa contra el borde de la arena, hacer un dash directamente a través de su modelo suele ser más seguro que intentar correr alrededor de la pared de proyectiles.
+</Callout>
+
+| Mecánica | Tipo de Entrada | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **I-Frames del Dash** | Activa | Niega todo el daño entrante durante la animación. |
+| **Fuego Automático** | Pasiva | DPS constante siempre que un objetivo esté en rango/punto de mira. |
+| **Ráfaga de Hechizo** | Activa | Limpieza masiva de pantalla; úsala cuando el movimiento esté restringido. |
+| **Reorganización de Cartas** | Menú | Optimiza el daño mediante bonificaciones posicionales de Mods. |
+
+</Section>
+
+<Section icon={Settings} title="Controles de Interfaz y Gestión del Mazo">
+
+Un aspecto único de los **controles de Hell Maiden** es la capacidad de reorganizar tu "mano" de Cartas de Espíritu durante una partida. Esto no es solo por organización; muchas Cartas de Mod proporcionan bonificaciones basadas en su posición (ej. "aumenta el daño del arma a la derecha").
+
+**Reorganización de Cartas:**
+- **PC**: Haz clic y arrastra una Carta de Espíritu o Mod a una ranura diferente.
+- **Mando**: Usa el D-pad o el stick para resaltar una carta, presiona el botón de confirmar para "recogerla" y muévela a la ranura deseada.
+
+<Callout type="info" title="Fusión de Mods">
+Cuando recojas Cartas de Mod duplicadas, el juego te pedirá que las fusiones. Esto se hace normalmente a través de la pantalla de subida de nivel, pero mantener tu mazo organizado a través del menú de Tab/Mazo asegura que siempre obtengas las bonificaciones máximas de Nivel 3 en tu arma principal.
+</Callout>
+
+| Tipo de Ranura | Capacidad Máxima | Interacción de Control |
+| :--- | :--- | :--- |
+| **Cartas de Arma** | 4 Ranuras | Fuentes de daño primario; se pueden intercambiar/reordenar. |
+| **Cartas de Mod** | 3 por Arma | Acopladas a las armas; la fusión mejora la rareza/estadísticas. |
+| **Ranura de Hechizo** | 1 Ranura | Vinculada al Poeta específico (Dante, Virgilio, etc.). |
+
+</Section>
+
+<Section icon={Shield} title="Optimización y Resolución de Problemas">
+
+Desde el lanzamiento del Acceso Anticipado el 16 de julio de 2026, algunos jugadores pueden experimentar problemas de rendimiento que afectan la latencia de entrada. Una configuración adecuada de los **controles de Hell Maiden** y los ajustes del sistema puede mejorar significativamente tu tasa de supervivencia en los últimos minutos de una partida.
+
+**Consejos de Rendimiento para un Mejor Control:**
+- **Modo DirectX 11**: Si experimentas retraso en la entrada (input lag), usa la opción de lanzamiento de Steam para DX11.
+- **Sensibilidad del Ratón**: Ajusta esto en el menú de configuración para asegurar que tu retícula de apuntado se mueva a una velocidad que coincida con tu tiempo de reacción.
+- **Claridad Visual**: Desactiva el movimiento innecesario de la pantalla (screen shake) si dificulta el apuntado durante las oleadas de alta intensidad.
+
+<Checklist
+  id="control-mastery"
+  title="Lista de Verificación de Dominio de Controles:"
+  items={[
+    "Haber realizado un dash con éxito a través de una horda enemiga sin recibir daño",
+    "Haber alcanzado el Nivel 3 en un Mod fusionando duplicados en el menú del mazo",
+    "Haber completado una partida de 12 minutos usando solo apuntado manual para élites",
+    "Haber activado 12 Templos diferentes en una sola partida",
+    "Haber derrotado a la Reina Minos usando un Hechizo de Poeta durante su fase final"
+  ]}
+/>
+
+<Callout type="tip" title="Paridad de Entrada">
+Los desarrolladores de AstralShift lanzaron el Hotfix v0.2.31 para abordar problemas de progresión. Si tus controles se sienten "atascados" después de una transición de jefe, asegúrate de que tu juego esté actualizado a la última versión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar las asignaciones de teclas para los controles de Hell Maiden?",
+    answer: "Sí, el juego permite la reasignación completa de teclas en el menú de Ajustes tanto para teclado como para mando. Esto es muy recomendable si encuentras incómodo el dash predeterminado en la barra espaciadora o el hechizo en la tecla E."
+  },
+  {
+    question: "¿Tengo que apuntar manualmente o hay una opción de auto-apuntado?",
+    answer: "Hell Maiden está diseñado en torno al apuntado manual para diferenciarse de otros juegos de estilo survivors. Aunque los ataques se disparan automáticamente, debes dirigirlos hacia los enemigos usando tu ratón o el stick analógico derecho."
+  },
+  {
+    question: "¿Cómo uso el Hechizo en Hell Maiden?",
+    answer: "Una vez que tu medidor de Hechizo esté lleno (indicado por el icono cerca de tu barra de salud), presiona E en el teclado o LB/L1 en el mando para activarlo. Cada Poeta tiene un Hechizo único, como el Inferno de Dante que limpia la pantalla."
+  },
+  {
+    question: "¿Hay alguna forma de mover las cartas sin pausar el juego?",
+    answer: "No, abrir el menú del Mazo (tecla Tab o botón View) pausa el juego, permitiéndote reorganizar de forma segura tus Cartas de Espíritu y Mods para optimizar las bonificaciones posicionales sin ser atacado."
+  }
+]} />
+
+</Section>

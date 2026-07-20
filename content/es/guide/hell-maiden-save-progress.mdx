@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Progreso de guardado en Hell Maiden: Guía de metaprogresión y desbloqueos",
+  description: "Domina las mecánicas de progreso de guardado en Hell Maiden. Aprende cómo desbloquear personajes, guardar la metaprogresión y optimizar tus partidas roguelite de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Save+Progress+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "hell maiden, progreso de guardado, metaprogresión, desbloqueos, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Progreso de guardado en Hell Maiden**: El progreso se guarda automáticamente para metadesbloqueos, personajes y bendiciones después de cada partida.
+- **Desbloqueos permanentes**: Los personajes como Virgil y Horus permanecen disponibles una vez que se cumplen los requisitos específicos de su misión.
+- **Metaprogresión**: Céntrate en reunir \"Bendiciones\" y \"Dinero\" para mejorar las estadísticas de los personajes en todos los intentos futuros.
+- **Guardados a mitad de partida**: Como roguelite de supervivencia tradicional, el progreso a mitad de partida generalmente no se guarda; la muerte reinicia el nivel actual.
+- **Sinergia de personajes**: Usa armas distintivas específicas para activar poderosos efectos de área (AoE) como la Luna o cadenas de rayos.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo las mecánicas de progreso de guardado en Hell Maiden">
+
+En el panorama de los roguelite de supervivencia de 2026, el **progreso de guardado en Hell Maiden** funciona a través de un robusto sistema de metaprogresión. A diferencia de los RPG tradicionales donde podrías guardar manualmente en un punto de control, este título utiliza una función de \"Auto-guardado\" que se activa cada vez que concluye una partida, ya sea por victoria o derrota. Esto asegura que cualquier moneda ganada, personajes rescatados o bendiciones permanentes desbloqueadas se guarden inmediatamente en tu perfil.
+
+**Puntos destacados del vídeo:**
+- **Construcción de mazos**: Cómo combinar cientos de hechizos en una estrategia de supervivencia cohesiva.
+- **Misiones de personajes**: El proceso de encontrar y proteger nuevos aliados como Horus en el Limbo.
+- **Sistema de fusión**: Guía visual sobre cómo mejorar las cartas de mod del Nivel 1 al Nivel 3.
+- **Tácticas contra jefes**: Sobrevivir a las fases de bullet-hell de los encuentros finales en el Limbo.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="¡Combina CIENTOS de hechizos en este INCREÍBLE roguelite de supervivencia! - Hell Maiden" />
+
+Aunque las partidas individuales son transitorias, tu nivel general de cuenta y los \"Poetas del Limbo\" desbloqueados representan el núcleo de tu progreso a largo plazo. Comprender cómo maximizar estas ganancias permanentes es esencial para enfrentar niveles de dificultad más altos.
+
+<Callout type="tip" title="Consejo Pro">
+Termina siempre una partida en lugar de salir al menú principal. Morir asegura que el oro y la experiencia ganados se calculen y se guarden en tu progresión permanente.
+</Callout>
+
+| Característica | Tipo de guardado | Permanencia |
+| :--- | :--- | :--- |
+| **Desbloqueo de personajes** | Guardado de perfil | Permanente |
+| **Bendiciones/Altares** | Guardado de perfil | Permanente |
+| **Mazo de la partida actual** | Solo sesión | Se pierde al morir |
+| **Experiencia en partida** | Solo sesión | Se reinicia por nivel |
+| **Moneda (Oro)** | Guardado de perfil | Permanente |
+
+</Section>
+
+<Section icon={Target} title="Desbloqueo de personajes permanentes y bendiciones">
+
+Expandir tu elenco es la forma más significativa de **progreso de guardado en Hell Maiden**. Cada personaje, o \"Poeta\", trae un arma distintiva única que cambia por completo el ciclo de juego. Virgil y Horus son los principales desbloqueos que los jugadores encontrarán temprano en su viaje por el Limbo.
+
+<Steps>
+  <Step num="1" title="Partida inicial con Dante">
+    Comienza con Dante y su Pluma Ardiente. Céntrate en sobrevivir los primeros 5 minutos para activar el primer evento narrativo.
+  </Step>
+  <Step num="2" title="Desbloquear la bendición de Virgil">
+    Después de tu primera muerte significativa o encuentro con un jefe, Virgil aparece en el Altar. La interacción aquí desbloquea su bendición y el arma de proyectiles Wayfinder.
+  </Step>
+  <Step num="3" title="Rescatar a Horus en el Limbo">
+    Durante una partida, aparecerá un marcador de misión para \"Encontrar a Horus\". Debes navegar hasta su ubicación y protegerla de oleadas de enemigos hasta que el temporizador expire.
+  </Step>
+  <Step num="4" title="Finalizar la bendición">
+    Una vez rescatada, Horus otorga su bendición \"Arsenal Glorioso\", añadiendo modificadores de alto daño/baja velocidad a tu reserva de cartas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Importante">
+Si fallas la misión de rescate de Horus, debes esperar a que la misión reaparezca en una partida posterior. Su desbloqueo no se guarda hasta que la misión se completa con éxito.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Dante">
+    - **Arma**: Pluma Ardiente
+    - **Estilo**: AoE de fuego equilibrado
+    - **Mejor para**: Principiantes
+  </Card>
+  <Card title="Virgil">
+    - **Arma**: Wayfinder
+    - **Estilo**: Proyectiles serpenteantes
+    - **Mejor para**: Control de masas
+  </Card>
+  <Card title="Horus">
+    - **Arma**: Selenic Bloom
+    - **Estilo**: AoE de Luna/Curación
+    - **Mejor para**: Alta supervivencia
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Fusión de cartas y estrategias de meta-mazos">
+
+Un componente clave del **progreso de guardado en Hell Maiden** es dominar el sistema de cartas. Aunque las cartas en sí se reinician en cada partida, tu conocimiento sobre qué combinaciones funcionan mejor permite una progresión más rápida en etapas posteriores. El juego presenta cinco tipos distintos de cartas de mod que pueden evolucionar hasta el Nivel 3 mediante la fusión.
+
+| Tipo de Mod | Efecto Principal | Uso Estratégico |
+| :--- | :--- | :--- |
+| **Boost** | Aumento de estadísticas | Potencia directa del arma |
+| **Effect** | Estados alterados | Quemadura, Ralentización, Veneno |
+| **Spread** | Mejoras multi-arma | Construcciones de sinergia |
+| **Miracle** | Múltiples potenciadores poderosos | Raro, alto impacto |
+| **Curse** | Potenciador fuerte / Coste elevado | Riesgo vs. Recompensa |
+
+La fusión requiere dos cartas del mismo nivel y tipo. Por ejemplo, arrastrar un mod de \"Tamaño de ataque\" de Nivel 1 sobre otro mod de \"Tamaño de ataque\" de Nivel 1 crea una versión de Nivel 2 con visuales y estadísticas mejoradas. Esta es la única forma de escalar tu daño de manera efectiva contra los jefes de final de juego.
+
+<Callout type="info" title="Mecánicas de Fusión">
+Solo puedes modificar tu mazo durante la pantalla de subida de nivel. Usa este tiempo para intercambiar cartas de mod entre diferentes armas para optimizar tu habilidad \"Distintiva\".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de supervivencia para la retención del progreso">
+
+Para asegurarte de aprovechar al máximo tu **progreso de guardado en Hell Maiden**, debes intentar alcanzar hitos específicos en cada partida. Incluso si no llegas al jefe final, completar estos objetivos aumenta tu rendimiento de meta-moneda.
+
+<Checklist
+  id="run-milestones"
+  title="Objetivos esenciales de la partida:"
+  items={[
+    "Alcanzar el nivel de jugador 30+ para desbloquear niveles de mods avanzados",
+    "Localizar al menos un Altar permanente para puntos de Bendición",
+    "Fusionar con éxito una carta de mod al Nivel 3",
+    "Derrotar al menos a un enemigo Élite para obtener un amuleto garantizado",
+    "Recoger más de 1,000 de Oro para mejoras permanentes de estadísticas"
+  ]}
+/>
+
+Los Amuletos, ofrecidos por Beatrice, proporcionan potenciadores específicos para la partida, pero son cruciales para sobrevivir lo suficiente como para asegurar desbloqueos permanentes. Céntrate en el \"Amuleto de Crecimiento\" (ganancia de XP) al principio de una partida para acelerar tu curva de poder, luego transiciona al \"Amuleto de Poder\" (daño) para las fases de jefes.
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de estadísticas de metaprogresión">
+
+Una vez que hayas acumulado suficiente moneda y bendiciones, puedes invertir en aumentos de estadísticas permanentes. Este es el núcleo del ciclo de **progreso de guardado en Hell Maiden**, haciendo que cada intento posterior sea más fácil que el anterior.
+
+| Estadística | Prioridad | Impacto |
+| :--- | :--- | :--- |
+| **Ganancia de Experiencia** | Alta | Subida de nivel más rápida, más cartas |
+| **Tasa Crítica** | Alta | Picos masivos de DPS |
+| **HP Máximo** | Media | Margen de error para jefes |
+| **Tamaño de Ataque** | Media | Mejor limpieza de pantalla |
+| **Distancia de Deslizamiento** | Baja | Utilidad de movilidad de nicho |
+
+Centrarse primero en la Ganancia de Experiencia es el camino más eficiente. Al subir de nivel más rápido, ves más cartas por partida, lo que te permite completar fusiones de Nivel 3 antes y asegurar las eliminaciones necesarias para obtener más oro.
+
+<Callout type="success" title="Meta Objetivo">
+Intenta alcanzar un 20% de Ganancia de Experiencia permanente lo antes posible. Esto reduce drásticamente el \"farmeo\" necesario para desbloquear los niveles finales de las habilidades de los Poetas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes sobre el progreso de guardado en Hell Maiden">
+
+<FAQ items={[
+  {
+    question: "¿Cómo guardo mi progreso en Hell Maiden?",
+    answer: "El progreso se guarda automáticamente después de cada partida. Los desbloqueos permanentes como personajes, oro y bendiciones están vinculados a tu perfil, mientras que los mazos de cartas de la partida se reinician al morir."
+  },
+  {
+    question: "¿Puedo desbloquear a Horus y Virgil en la misma partida?",
+    answer: "Sí, si logras activar el evento de bendición de Virgil y completar con éxito la misión de rescate de Horus dentro de una sola sesión de 15-20 minutos."
+  },
+  {
+    question: "¿Las cartas de mod permanecen en mi inventario después de morir?",
+    answer: "No. Las cartas de mod y los niveles de armas son parte de las mecánicas de 'partida' del roguelite. Solo se guardan la capacidad de encontrar cartas de mayor rareza y los potenciadores permanentes de estadísticas de los personajes."
+  },
+  {
+    question: "¿Cuál es la mejor forma de farmear meta-moneda?",
+    answer: "Invierte fuertemente en el 'Amuleto de Crecimiento' durante tus partidas para subir de nivel rápidamente, y céntrate en derrotar enemigos Élite (marcados en el mapa), ya que sueltan la mayor cantidad de oro y objetos de progresión permanente."
+  }
+]} />
+
+</Section>

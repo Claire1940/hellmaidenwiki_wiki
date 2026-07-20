@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden ovid: Guia de Fusão de Cartas e Mecânicas de Sobrevivência",
+  description: "Domine as mecânicas de deck-building survivors-like em Hell Maiden. Aprenda sobre Ovid, estratégias de fusão de cartas e builds de armas para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Survival+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de hell maiden",
+  keywords: "hell maiden, ovid, fusão de cartas, guia de sobrevivência, deck-building"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **hell maiden ovid**: Um foco central narrativo e mecânico envolvendo os Poetas do Limbo e sobrevivência com construção de baralho.
+- **Fusão de Cartas**: Combine duas cartas idênticas de Nível 1 ou Nível 2 para atingir o pico de poder máximo do Nível 3.
+- **Slots de Armas**: Você está limitado a quatro cartas de armas únicas por partida, cada uma customizável com várias cartas de Mod.
+- **Estratégia de Movimentação**: Dash contínuo e atrair inimigos para zonas de PdE (AoE) como o Caminho Escaldante é essencial para a sobrevivência em níveis altos.
+- **Bênçãos dos Poetas**: Desbloquear armas exclusivas através da progressão narrativa altera significativamente sua abordagem tática.
+</Callout>
+
+<Section icon={Map} title="Introdução aos Sistemas de Sobrevivência de Hell Maiden">
+
+A experiência **hell maiden ovid** mistura a ação frenética de jogos de sobrevivência contra hordas com a profundidade estratégica de construtores de baralhos (deck builders). Diferente de tradicionais survivors-likes onde as melhorias são baseadas puramente em RNG ao subir de nível, este título exige que os jogadores gerenciem uma "mão" de armas e modificações. Enquanto você navega pelas profundezas do Limbo, deve coletar orbes de experiência para comprar novas cartas, que podem ser novas ferramentas ofensivas ou modificadores passivos que aprimoram seu arsenal existente.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Deck-Building**: Aprenda a gerenciar sua mão e posicionar as cartas para máxima eficiência.
+- **Tipos de Cartas de Mod**: Uma análise das cinco cores distintas e seus papéis no combate.
+- **Tutorial de Fusão**: Guia visual sobre como atualizar cartas para o Nível 3.
+- **Estratégia de Chefes**: Como lidar com os persistentes comandantes Elites que surgem aos 5 e 10 minutos.
+
+<YouTubeEmbed videoId="oDESRhokkdE" title="Hell Maiden - Deck-building Horde Survival Gameplay" />
+
+O jogo busca forte inspiração na literatura clássica, colocando os jogadores no papel de Dante enquanto procuram pelos "Poetas do Limbo", incluindo figuras como Ovid. Este pano de fundo narrativo não é apenas decorativo; ele dita os tipos de bênçãos e armas exclusivas que você desbloqueia ao progredir pelos nove círculos do inferno.
+
+<Callout type="tip" title="Prioridade no Início do Jogo">
+Foque em aumentar sua **Quantidade de Projéteis** e **Velocidade de Ataque** nos primeiros cinco minutos. Os inimigos no Limbo são mais rápidos do que em jogos de sobrevivência típicos, e você precisa de um alto volume de fogo para manter a tela limpa antes que o primeiro Elite apareça.
+</Callout>
+
+| Recurso | Descrição | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Mão de Armas** | Até 4 armas ativas únicas | Limita sua variedade ofensiva, mas permite especialização profunda |
+| **Cartas de Mod** | Buffs passivos anexados às armas | Altera contagem de projéteis, dano e efeitos de status |
+| **Amuletos** | Potencializadores de atributos por partida | Fornece buffs globais de movimento, sorte e ganho de experiência |
+| **Feitiço Inferno** | Uma habilidade suprema que limpa a tela | Melhor guardado para quando os Elites te encurralarem |
+
+</Section>
+
+<Section icon={Swords} title="Dominando o Sistema de Cartas e Mods">
+
+O coração de **hell maiden ovid** reside em seu sofisticado sistema de cartas de Mod. Cada arma que você equipa pode ser aprimorada ao anexar cartas de Mod. Esses mods são codificados por cores, facilitando a identificação de sua função principal durante o calor caótico da batalha. Entender como sobrepor esses mods é a diferença entre uma partida fracassada e alcançar o Paradiso.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Impulso (Vermelho)">
+    - **Buffs de Atributo Único**
+    - Aumenta o dano base ou velocidade
+    - Essencial para o escalonamento inicial
+  </Card>
+  <Card title="Cartas de Efeito (Verde)">
+    - **Efeitos de Status**
+    - Aplica Queimadura, Veneno ou Lentidão
+    - Melhor usado com armas de alta frequência
+  </Card>
+  <Card title="Cartas de Dispersão (Azul)">
+    - **Buffs Multi-Armas**
+    - Afeta cartas adjacentes na sua mão
+    - Requer posicionamento cuidadoso das cartas
+  </Card>
+</CardGrid>
+
+O gerenciamento da mão é uma habilidade crítica. Como as cartas de Dispersão (Azul) afetam as armas à esquerda ou à direita, a ordem em que você coloca suas armas nos quatro slots disponíveis importa. Por exemplo, colocar uma arma que se beneficia de alta velocidade de ataque no slot afetado por uma carta "Carga Destra" (que buffa a arma à direita) pode criar sinergias devastadoras.
+
+| Tipo de Mod | Cor de Fundo | Função Principal | Nível de Raridade |
+| :--- | :--- | :--- | :--- |
+| **Impulso** | Vermelho | Aumenta um único atributo da arma | Comum |
+| **Efeito** | Verde | Adiciona efeitos extras como explosões | Comum/Incomum |
+| **Dispersão** | Azul | Buffa múltiplas cartas adjacentes | Incomum |
+| **Milagre** | Amarelo/Ouro | Múltiplos impulsos poderosos | Raro |
+| **Maldição** | Roxo | Poder massivo a um custo significativo | Muito Raro |
+
+<Callout type="warning" title="O Risco das Maldições">
+Cartas de Maldição, como a **Maldição de Dido**, podem aumentar drasticamente sua contagem de projéteis, mas também podem diminuí-la aleatoriamente. Só as escolha se sua build atual tiver dano base suficiente para lidar com ataques ocasionais de baixo valor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Fusão e Evolução de Cartas">
+
+Para sobreviver aos estágios finais de uma partida, você não pode confiar em cartas de Nível 1. O sistema de fusão permite consolidar seu poder. Quando você tem duas cartas idênticas do mesmo nível, pode arrastar uma sobre a outra na interface da sua mão para evoluí-la.
+
+<Steps>
+  <Step num="1" title="Coletar Cartas Idênticas">
+    Espere a tela de subida de nível oferecer uma carta que você já possui. Certifique-se de que é do mesmo nível da que está na sua mão.
+  </Step>
+  <Step num="2" title="Fusão Manual">
+    Abra a mão do jogador (Tab ou E) e arraste a nova carta sobre a existente. Um brilho laranja indica uma fusão válida.
+  </Step>
+  <Step num="3" title="Erupção de Atributos">
+    Cartas de Nível 2 geralmente dobram o atributo base, enquanto cartas de Nível 3 frequentemente adicionam propriedades únicas, como um aumento massivo no tamanho ou duração do projétil.
+  </Step>
+  <Step num="4" title="Otimização da Mão">
+    Uma vez que uma carta atinge o Nível 3, ela não pode mais ser fundida. Use o slot livre para começar a construir uma nova sinergia ou um segundo mod de Nível 3.
+  </Step>
+</Steps>
+
+| Nível de Evolução | Mudança Visual | Bônus de Atributo Típico | Limite Máximo |
+| :--- | :--- | :--- | :--- |
+| **Nível 1** | Arte Padrão | Atributos base (ex: +40% Dano) | N/A |
+| **Nível 2** | Borda Prateada | Atributos aprimorados (ex: +60% Dano) | Requer 2x Nvl 1 |
+| **Nível 3** | Brilho Dourado | Atributos Elite (ex: +100% Dano) | Requer 2x Nvl 2 |
+
+<Callout type="success" title="O Poder dos Mods de Nível 3">
+Uma carta de **Proliferação** de Nível 3 adiciona três projéteis extras a uma arma. Em uma arma como a Pena Flamejante, isso transforma um único tiro em uma saraivada de área ampla que pode limpar ondas inteiras de esqueletos instantaneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Os Poetas do Limbo e Progressão Narrativa">
+
+A busca pelos poetas, especificamente a lore de **hell maiden ovid**, é central para desbloquear todo o potencial do jogo. Como Dante, você interage com Virgílio para recuperar memórias perdidas. Essas interações não são apenas texto de sabor; elas servem como porta de entrada para o sistema "Bênção de Beatriz", que funciona como a meta-progressão do jogo.
+
+Encontrar poetas como Ovid no círculo do Limbo desbloqueia cartas de armas exclusivas. Essas armas são significativamente mais poderosas que os drops padrão e frequentemente apresentam mecânicas únicas, como projéteis que mudam de direção ou estrelas de efeito em área que orbitam o jogador.
+
+| Personagem | Papel na Narrativa | Desbloqueio Mecânico |
+| :--- | :--- | :--- |
+| **Dante** | O Protagonista | Conjunto inicial de armas de fogo |
+| **Virgílio** | O Guia | Desbloqueia o Altar de Bênçãos |
+| **Beatriz** | A Musa | Fornece o feitiço Inferno (limpa tela) |
+| **Ovid** | Poeta do Limbo | Desbloqueia projéteis de PdE curvos |
+
+<Callout type="info" title="Lore e Mecânicas">
+O jogo sugere que Dante está "diferente" nesta iteração da jornada, sendo menos emocional e mais focado no combate. Essa mudança se reflete na natureza agressiva da jogabilidade de sobrevivência em comparação com a fonte literária original.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Sobrevivência e Encontros com Chefes Elites">
+
+A sobrevivência em **hell maiden ovid** requer mais do que apenas dano alto; requer consciência espacial. O ambiente no Limbo está repleto de obstáculos como pedras e pilares que podem prender seu personagem. Se você ficar preso enquanto um grupo de vermes de fogo ou um comandante Elite estiver por perto, sua partida terminará abruptamente.
+
+**Marcos Importantes de Sobrevivência:**
+- **0-5 Minutos**: Foque no ganho de XP e velocidade de movimento.
+- **5-10 Minutos**: Garanta pelo menos uma arma de Nível 2 e um mod defensivo (como Lentidão ou Repulsão).
+- **10+ Minutos**: Você deve ter uma arma de Nível 3 ou uma mão completa de 4 armas para lidar com o aumento da densidade de inimigos que disparam projéteis.
+
+<Checklist
+  id="survival-checklist"
+  title="Lista de Verificação de Prontidão para o Final do Jogo:"
+  items={[
+    "Pelo menos um mod de Quantidade de Projéteis de Nível 3 equipado",
+    "Velocidade de Movimento aumentada em pelo menos 20% via Amuletos",
+    "Feitiço Inferno (Q) totalmente carregado para surgimento de Elites",
+    "Atributo de Atração Magnética atualizado para coletar XP à distância",
+    "Pelo menos 150 de Vida Máxima para sobreviver a golpes acidentais"
+  ]}
+/>
+
+| Tipo de Inimigo | Janela de Surgimento | Melhor Contra-ataque | Nível de Perigo |
+| :--- | :--- | :--- | :--- |
+| **Vermes Menores** | 0-3 Minutos | Auto-ataque básico | Baixo |
+| **Demônios Alados** | 4-7 Minutos | Bolas de Fogo Perfurantes | Médio |
+| **Comandantes Elite** | 5 & 10 Minutos | Feitiço Inferno + Dashing | Alto |
+| **Conjuradores de Projéteis** | 8+ Minutos | Alta Velocidade de Movimento | Muito Alto |
+
+<Callout type="warning" title="Aviso de Aura Elite">
+Inimigos Elite frequentemente possuem uma aura de chama roxa que causa dano massivo. Nunca tente "tankar" esses golpes; em vez disso, use o **Wayfinder** ou o **Trio Flamejante** para causar dano mantendo-se na maior distância possível.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio novos personagens em hell maiden ovid?",
+    answer: "Os personagens são desbloqueados ao progredir pelos círculos da história e completar missões específicas de proteção, como a missão para resgatar os poetas no Limbo."
+  },
+  {
+    question: "Posso mudar a posição das cartas na minha mão durante a partida?",
+    answer: "Sim, você pode reorganizar sua mão durante a tela de subida de nível. Pressione E para mover pilhas de cartas para slots diferentes e otimizar seus bônus de 'Arma Adjacente'."
+  },
+  {
+    question: "Qual é o nível máximo para uma arma ou carta de mod?",
+    answer: "O nível máximo atual para qualquer carta em Hell Maiden é o Nível 3. Alcançar este nível requer a fusão de duas cópias de Nível 2 da mesma carta."
+  },
+  {
+    question: "Os Amuletos persistem entre diferentes partidas?",
+    answer: "Não, os Amuletos são melhorias temporárias que duram apenas durante a partida atual. A progressão permanente é gerenciada através do altar Bênção de Beatriz."
+  }
+]} />
+
+</Section>

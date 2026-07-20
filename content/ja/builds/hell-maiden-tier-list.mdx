@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden ティアリスト：2026年版武器ランキング＆メタガイド",
+  description: "Hell Maidenの最新ティアリストで2026年のメタをマスターしよう。最新デモ版における群衆制御やボス戦に最適なカードを紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Tier+List",
+  date: "2026-07-17",
+  author: "Hell Maiden Wikiチーム",
+  keywords: "Hell Maiden, ティアリスト, 攻略, 武器ランキング, メタ"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Hell Maiden ティアリスト**: 現在のメタでは、「Carpe Diem」や「Selenic Bloom」のような高弾数武器が、広範囲をカバーできるため高く評価されています。
+- **群衆制御 (Crowd Control)**: 後半の押し寄せる敵を生き残るには、AoE（範囲攻撃）やバリア能力を持つ武器が不可欠です。
+- **ボス攻略**: 「Erichthos」のような単体追尾型の武器は、ボス「Minnos」に対して最も安定したダメージを与えられます。
+- **改造ルール**: 武器の基本性能だけで判断してはいけません。武器の真価は「改造カード（Mod）」によって決まります。
+- **トップピック**: 「Carpe Diem」は、その圧倒的な殲滅力により、2026年デモ版メタにおける不動の王者です。
+</Callout>
+
+<Section icon={Map} title="Hell Maiden メタ概要">
+
+**Hell Maiden ティアリスト**を理解するには、本作独自のデッキ構築メカニズムを深く知る必要があります。Astral Shiftが開発した本作は、『Vampire Survivors』の混沌とした群衆制御と、『Hades』の洗練された成長要素を融合させています。ダンテの『神曲』をスタイリッシュに解釈した世界観の中で、プレイヤーは武器カードと改造カードを組み合わせて敵の群れを切り抜けます。武器の性能は、大規模な群衆を管理する能力、ボス戦での効率、そしてプレイスタイルの楽しさという3つの基準で測定されます。
+
+**動画のハイライト:**
+- **開発者の経歴**: 『Little Goodie Two Shoes』などで知られるAstral Shiftの歴史的背景。
+- **基本ゲームプレイ**: 武器カードが「弾数（Projectile）」や「サイズ倍率（Size Multiplier）」とどのように作用するか。
+- **ティアの定義**: なぜ特定の「非専用」カードがキャラクター固有の初期装備を上回るのか。
+- **ボス戦の戦術**: デモ版のメインボス「Minnos」に対する自動追尾武器の具体的な使用戦略。
+
+<YouTubeEmbed videoId="fpZVoBq1Qog" title="The Correct Hell Maiden (demo) Tier List" />
+
+<Callout type="tip" title="メタの考察">
+2026年のメタは「弾数倍率」を非常に重視しています。Cティアの武器であっても、画面を覆うほど弾数を積み重ねればAティアに跳ね上がることがあります。
+</Callout>
+
+| 評価 | 説明 | メタでの役割 |
+| :--- | :--- | :--- |
+| **Sティア** | 超強力 | 最小限の改造で画面を一掃し、ボスを溶かす能力がある。 |
+| **Aティア** | 強力 | 非常に信頼性が高いが、真価を発揮するには特定のシナジーが必要。 |
+| **Bティア** | バランス型 | 序盤や特定のニッチなビルドには良いが、上位ティアには劣る。 |
+| **C/Dティア** | 弱い | 狙いを定めるのが難しく、後半のウェーブに対する防御手段として不十分。 |
+
+</Section>
+
+<Section icon={Swords} title="Sティア：最強の武器">
+
+Sティアは、防御的な安全性と攻撃的な支配力の両方を提供する武器のために予約されています。これらの武器はしばしば「画面一掃」の可能性を秘めており、精密なエイムよりも移動に集中することを可能にします。現在の**Hell Maiden ティアリスト**では、以下の5つの武器が群を抜いています。
+
+<CardGrid cols={2}>
+  <Card title="Carpe Diem">
+    - **タイプ**: ブーメランソード
+    - **強み**: 群衆とボスの両方に対して比類なき殲滅力。
+    - **最適Mod**: 弾数倍率。
+  </Card>
+  <Card title="Selenic Bloom">
+    - **タイプ**: 月の爆発
+    - **強み**: プレイヤーを守る「星の要塞」を作り出す。
+    - **最適Mod**: ライフスティール＆弾数。
+  </Card>
+  <Card title="Dragon's Breath">
+    - **タイプ**: 方向指定火炎
+    - **強み**: キャラクター前方に巨大なAoEダメージ。
+    - **最適Mod**: サイズ倍率＆ダメージ。
+  </Card>
+  <Card title="Pirate Dance">
+    - **タイプ**: 周回する球体
+    - **強み**: 最高の防御バリア。アグレッシブなダッシュが報われる。
+    - **最適Mod**: 弾数倍率。
+  </Card>
+</CardGrid>
+
+**Erichthos（スパイクトラップ）**もSティアにしっかりと食い込んでいます。Pirate Danceのような純粋な群衆制御力には欠けますが、その自動追尾する棘はボス暗殺のための究極のツールです。Erichthosに「スロウ」や「毒」の効果を付与することで、ボスを効果的に足止めしつつ、絶え間なく高頻度のダメージを与えることができます。
+
+| 武器 | 群衆殲滅 | ボス火力 | 楽しさ |
+| :--- | :--- | :--- | :--- |
+| **Carpe Diem** | 5/5 | 5/5 | 5/5 |
+| **Selenic Bloom** | 5/5 | 4/5 | 5/5 |
+| **Erichthos** | 3/5 | 5/5 | 4/5 |
+| **Dragon's Breath** | 5/5 | 4/5 | 5/5 |
+
+<Callout type="success" title="推奨プロビルド">
+**Pirate Dance**と**Carpe Diem**を組み合わせましょう。このセットアップは360度の防御シールドを提供し、その一方でブーメランソードが周囲のあらゆるものを広範囲で一掃します。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="A・Bティア：頼れる代替案">
+
+すべてのランで最初からSティアのカードが手に入るわけではありません。**Hell Maiden ティアリスト**を極めるには、ビルドが完成するまでのつなぎとしてA・Bティアの武器をどう活用するかを知ることが重要です。Aティアの武器は総じて強力ですが、Sティアのような「配置するだけで良い」手軽さには欠けます。
+
+**Wrath of Astrap**はAティア武器の好例です。敵を自動的に狙う強力な雷撃を放ちます。小さな敵の群れを一掃したりボスを狙い撃ちにするには非常に効果的ですが、Pirate Danceのような防御的な有用性はありません。同様に、**Blistering Wake**はダッシュの跡に炎を残すことで、ダッシュそのものを武器に変えます。群衆制御には非常に有効ですが、プレイヤーは常にアリーナを走り回る必要があり、長いセッションでは退屈に感じるかもしれません。
+
+<Callout type="warning" title="エイムの難しさ">
+**Blade of Augustus**（Bティア）には独特のヒットボックスの問題があります。剣のサイズを大きくすると、ダメージが刃の先端や縁に集中するため、逆にすぐ近くにいる敵に当たりにくくなることがあります。
+</Callout>
+
+| 武器 | ティア | 評価理由 |
+| :--- | :--- | :--- |
+| **Wrath of Astrap** | A | 優れた自動追尾だが防御力に欠ける。 |
+| **Cradle of Stars** | A | 美しい螺旋エフェクト。スロウModと相性抜群。 |
+| **Blazing Quill** | B | 初期装備。信頼性は高いが他に見劣りする。 |
+| **Blade of Augustus** | B | ボスへの火力は高いが、群衆相手にはヒットボックスが扱いづらい。 |
+
+</Section>
+
+<Section icon={Target} title="神ビルド（God-Run）の構築方法">
+
+Hell Maidenのデモ版でエンドゲームに到達するには、武器と改造カードのシナジーを理解する必要があります。武器の基本ステータスは単なる出発点に過ぎません。
+
+<Steps>
+  <Step num="1" title="コアとなる武器を選択">
+    序盤は**Carpe Diem**や**Selenic Bloom**のようなSティアの選択肢を探しましょう。もし手に入らなければ、**Wrath of Astrap**で妥協します。
+  </Step>
+  <Step num="2" title="弾数Modを優先">
+    ほぼすべてのトップティア武器は、弾数が増えることで指数関数的に強化されます。弾数倍率カードが現れたら必ず取得しましょう。
+  </Step>
+  <Step num="3" title="状態異常を付与">
+    メイン武器に**毒**や**スロウ**を追加しましょう。これは、素早い敵の動きを制御し、ボスをダメージゾーン内に留めておくために不可欠です。
+  </Step>
+  <Step num="4" title="サイズと範囲を最適化">
+    **Dragon's Breath**や**Erichthos**のような武器では、「AoE（範囲）」を広げることで、敵がダメージ範囲から逃げられないようにします。
+  </Step>
+</Steps>
+
+<Callout type="info" title="Modの優先度">
+2026年現在、コミュニティのコンセンサスとして、**速度倍率**は**サイズ**や**弾数**よりも価値が低いとされています。速くて小さい攻撃よりも、より広範囲をカバーする攻撃の方が常に優れています。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dティア：避けるべき武器">
+
+Hell Maidenのようなバランスの取れたゲームであっても、いくつかの武器は期待外れです。これらは通常、狙いを定めるのが難しすぎるか、使用する労力に対して得られるダメージが微々たるものです。
+
+**Wayfinder**は、現在のデモ版で最も弱い武器と広く認識されています。曲がった弾道で発射されるため、正確に狙いを定めるのが非常に困難です。強力なModを付けても、一貫性のない飛行軌道のため、激しいウェーブの中ではお荷物になります。同様に、**Kindled Embers**はプレイヤーの周囲に魔法の炎の輪を作り出しますが、ダメージ出力が低すぎて、敵がそのまま通り抜けてくるのを防げないことが多いです。
+
+<Checklist
+  id="avoidance-list"
+  title="避けるべきミス:"
+  items={[
+    "Wayfinderを初期武器として選ぶ",
+    "Kindled Embersを防御の頼りにする",
+    "Blade of Augustusのサイズを過剰に強化する",
+    "自動追尾武器に状態異常Modを付けない"
+  ]}
+/>
+
+<Callout type="warning" title="リロール戦略">
+もし最初の武器選択がDティアばかりであれば、迷わずすぐにリロール（再抽選）を使いましょう。Hell Maidenにおいて悪いスタートを切ると、ウェーブの強度が上がった瞬間に敗北してしまいます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="結論＆FAQ">
+
+**Hell Maiden ティアリスト**は、実験を推奨するダイナミックなシステムです。Carpe DiemやSelenic Bloomが2026年現在最も強力な選択肢ですが、ゲームのモジュール的な性質により、適切な「神ビルド」用のModがあれば、ほぼどんな武器でも実用レベルに引き上げることが可能です。防御的なバリアと高出力の飛び道具をバランスよく組み合わせて、地獄の深淵を攻略しましょう。
+
+<FAQ items={[
+  {
+    question: "Hell Maidenの初心者にはどの武器がおすすめですか？",
+    answer: "Pirate Danceが初心者には最適です。周回する球体がシールドの役割を果たすため、身を守りながら敵のパターンを学ぶことに集中できます。"
+  },
+  {
+    question: "ボス「Minnos」を安定して倒すには？",
+    answer: "ErichthosかWrath of Astrapを使いましょう。これらの武器は自動追尾するため、Minnosの弾を避けることに集中しつつ、常にDPSを維持できます。"
+  },
+  {
+    question: "初期武器のBlazing Quillは強化する価値がありますか？",
+    answer: "Bティアにランク付けされています。序盤には信頼できますが、できるだけ早くCarpe DiemのようなSティア武器への乗り換えを検討すべきです。"
+  },
+  {
+    question: "Hell Maiden ティアリストにおいて最も重要なModは何ですか？",
+    answer: "弾数倍率が最も重要なModです。攻撃のボリュームを増やすことが、大量の群衆を処理する最も効果的な方法です。"
+  }
+]} />
+
+<Callout type="success" title="最後のアドバイス">
+Astral Shiftの公式アップデートに注目してください。2026年後半の正式リリースに向けて武器のバランスは変化する可能性がありますが、弾数スケーリングという核となるメカニズムは今後も最強であり続けるでしょう。
+</Callout>
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jefes de hell maiden: Estrategia de combate 2026 y desbloqueo de armas",
+  description: "Domina cada encuentro con jefes en hell maiden. Desglose detallado de las mecánicas de los jefes, recompensas de armas insignia y consejos de construcción de mazos para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Boss+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de hell maiden",
+  keywords: "hell maiden bosses, jefes, guía de combate, armas insignia, deck-building"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **hell maiden bosses**: Derrotar a estos grandes enemigos es la única forma de desbloquear armas insignia y progresar a través de los 9 Círculos.
+- **Mecánicas de combate**: El éxito depende de la colocación estratégica de las cartas y de la gestión del tiempo de reutilización del dash para evitar ataques láser en toda el área.
+- **Adquisición de armas**: Cada jefe derrotado añade habilidades únicas a tu mazo, convirtiendo efectivamente a tus enemigos en tu futuro arsenal.
+- **Progresión narrativa**: Los encuentros con los jefes están ligados a los recuerdos perdidos de Dante y al rescate de los Poetas del Limbo.
+- **Estado del Acceso Anticipado**: La versión actual de 2026 cuenta con dos Círculos del Infierno completos, cada uno con un encuentro final de jefe único.
+</Callout>
+
+<Section icon={Flame} title="Dominando el encuentro con los hell maiden bosses">
+
+Derrotar a los **hell maiden bosses** requiere más que solo una gran salida de daño; exige una comprensión profunda de los sistemas únicos de construcción de mazos y posicionamiento del juego. En la versión actual de Acceso Anticipado de 2026, los jugadores deben navegar por los dos primeros Círculos del Infierno, enfrentándose a jefes que ponen a prueba su capacidad para gestionar el espacio y activar efectos de curación constantes. A diferencia de los juegos tradicionales de "bullet heaven", estos encuentros son batallas rítmicas donde los patrones de ataque del jefe dictan tu movimiento y la utilidad de tu mazo.
+
+**Puntos destacados del video:**
+- **Secretos mecánicos**: Por qué jugar como un juego de supervivencia estándar llevará al colapso de tu build.
+- **Colocación de cartas**: Cómo la disposición de las cartas en tu mazo influye en las habilidades adyacentes.
+- **Gestión del Dash**: La importancia crítica de guardar tu dash para las rejillas láser inevitables.
+- **Contexto narrativo**: Entender por qué Dante regresa al infierno después de alcanzar el Paradiso.
+
+<YouTubeEmbed videoId="_VVEN5mb394" title="Hell Maiden: 10 cosas que el juego NO te dice!" />
+
+La transición de la demo al lanzamiento completo del Acceso Anticipado en 2026 ha introducido cambios significativos en el equilibrio, particularmente en cómo las recompensas de los jefes se integran en tu progresión permanente. Los jugadores deben centrarse en la interacción entre sus armas activas y los modificadores pasivos que se activan al golpear, ya que muchos jefes cuentan con grandes reservas de salud que requieren un combate sostenido en lugar de daño explosivo.
+
+| Categoría de Jefe | Amenaza Principal | Tipo de Recompensa | Estrategia Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Guardián del Círculo** | Láseres en toda el área | Arma insignia | Guarda el dash para transiciones de fase |
+| **Élite del Limbo** | Invocación de enjambres | Cartas de espíritu | Usa armas de múltiples golpes como el Orbe |
+| **Carcelero de Poetas** | Proyectiles dirigidos | Rescate de poeta | Enfócate en cartas de control de campo |
+| **Fragmento de Memoria** | Confusión de identidad | Desbloqueo de habilidades | Construye para curación por golpe |
+
+<Callout type="tip" title="Estrategia Pro">
+No uses tu dash para el reposicionamiento general. En hell maiden, el dash es una herramienta de supervivencia diseñada específicamente para evadir ataques de jefes que cubren toda la pantalla. Si lo usas para moverte más rápido, quedarás vulnerable cuando el jefe active su habilidad definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Recompensas de Jefes y Armas Insignia">
+
+La razón más convincente para cazar a los **hell maiden bosses** es la adquisición de armas insignia. En esta actualización de 2026, los desarrolladores han enfatizado que "aquello que intenta borrar tu barra de salud está efectivamente audicionando para un puesto en tu mazo". Cuando derrotas a un jefe importante, no solo obtienes botín; ganas la habilidad de empuñar sus poderes específicos en futuras partidas. Esto crea un bucle de progresión donde la dificultad del primer encuentro se mitiga con el poder ganado para el segundo.
+
+<CardGrid cols={3}>
+  <Card title="Orbe y Esferas Lunares">
+    - **Tipo**: Proyectiles de múltiples golpes
+    - **Beneficio**: Alta frecuencia de activación
+    - **Sinergia**: Mejor emparejado con curación por golpe
+  </Card>
+  <Card title="Rayos y Púas">
+    - **Tipo**: Control del campo de batalla
+    - **Beneficio**: Ralentiza el acercamiento enemigo
+    - **Sinergia**: Crea espacio para cartas de alto daño
+  </Card>
+  <Card title="Poderes Insignia">
+    - **Tipo**: Ataques específicos de jefe
+    - **Beneficio**: Limpieza masiva de pantalla
+    - **Sinergia**: Requiere colocación específica de cartas
+  </Card>
+</CardGrid>
+
+Las armas insignia no son simplemente versiones más fuertes del equipo inicial. A menudo introducen mecánicas completamente nuevas, como cartas que influyen en la efectividad de las ranuras adyacentes. Por ejemplo, un arma insignia colocada en la ranura 2 podría proporcionar un aumento de daño del 20% a cualquier carta en las ranuras 1 y 3. Esto hace que la disposición de tu mazo sea tan importante como las cartas mismas.
+
+| Nombre del Arma | Mecánica Base | Origen del Jefe | Mejor Carta Mod |
+| :--- | :--- | :--- | :--- |
+| **Resolución de Dante** | Ataque lineal | Equipo inicial | Velocidad de ataque |
+| **Guía de Virgilio** | Espíritus rastreadores | Rescate de poeta | Cantidad de proyectiles |
+| **Alcance del Infierno** | Cadena de rayos | Jefe del Círculo 1 | Distancia de cadena |
+| **Paraíso Perdido** | Explosión sagrada | Jefe del Círculo 2 | Área de efecto |
+
+<Callout type="warning" title="La Colocación Importa">
+Evita colocar dos armas insignia de alto tiempo de reutilización una al lado de la otra. En su lugar, coloca una carta de apoyo entre ellas para maximizar la mecánica de "influencia adyacente" que se encuentra en la versión de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preparación para Jefes Paso a Paso">
+
+La preparación para los **hell maiden bosses** comienza mucho antes de entrar en la arena del jefe. Debes rescatar a los Poetas del Limbo para ampliar tus opciones técnicas. Cada poeta —Homero, Ovidio, Horacio y Lucano— añade ventajas específicas y ataques definitivos a tu reserva. Si intentas apresurar a un jefe sin estos rescates, esencialmente estás jugando una versión más difícil del juego sin las herramientas necesarias.
+
+<Steps>
+  <Step num="1" title="Rescata a los Poetas">
+    Navega por los Círculos para encontrar a los cuatro Poetas del Limbo. Cada rescate desbloquea 5 nuevas habilidades y ataques definitivos únicos que son críticos para las fases finales de los jefes.
+  </Step>
+  <Step num="2" title="Optimiza la Colocación del Mazo">
+    Revisa la disposición de tus cartas. Asegúrate de que tus principales fuentes de daño estén colocadas en ranuras donde reciban bonificaciones de las cartas de apoyo adyacentes.
+  </Step>
+  <Step num="3" title="Construye un Motor de Sustento">
+    Equipa armas de múltiples golpes y emparéjalas con efectos de "curación por golpe". Esta es la forma más confiable de sobrevivir a las fases de daño de alta intensidad de los jefes de Círculo.
+  </Step>
+  <Step num="4" title="Identifica Patrones de Ataque">
+    Observa las señales del jefe. La mayoría de los jefes en hell maiden siguen una secuencia específica: invocación de enjambres, seguida de ataques dirigidos, terminando en una habilidad definitiva en toda el área.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Build">
+Si tienes dificultades para sobrevivir, concéntrate en la "frecuencia de activación" en lugar de los "números grandes". Un arma que golpea 10 veces por 5 de daño suele ser mejor que un arma que golpea una vez por 50, ya que activa la curación por golpe y los efectos de estado 10 veces más a menudo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión del Círculo y Requisitos">
+
+El viaje a través de los 9 Círculos del Infierno es un maratón, no un sprint. La versión de Acceso Anticipado de 2026 proporciona una hoja de ruta de lo que los jugadores pueden esperar a medida que descienden más profundo. Cada Círculo introduce nuevos peligros ambientales que complementan a los **hell maiden bosses** que se encuentran en ellos. Por ejemplo, el primer Círculo se centra en la gestión de enjambres, mientras que el segundo introduce complejos rompecabezas de movimiento.
+
+| Círculo | Tema | Cantidad de Jefes | Desbloqueo Clave |
+| :--- | :--- | :--- | :--- |
+| **Círculo 1** | Limbo / Poetas | 1 Mayor | Armas insignia |
+| **Círculo 2** | Lujuria / Tormentas | 1 Mayor | Personalización de cartas Mod |
+| **Círculo 3-9** | Contenido planeado | Por determinar | Modo infinito / Conclusión de la historia |
+
+Para navegar con éxito por estas áreas, debes cumplir con ciertos requisitos mínimos del sistema para asegurar que el combate cargado de proyectiles siga siendo fluido. Una caída en la tasa de fotogramas durante una pelea de jefe suele ser fatal.
+
+| Requisito | Mínimo | Recomendado |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 11 |
+| **Procesador** | 4 Núcleos / 2.5 GHz+ | 4 Núcleos / 3.5 GHz+ |
+| **Memoria** | 8 GB RAM | 16 GB RAM |
+| **Gráficos** | Nvidia GTX 970 | Nvidia GTX 1070 |
+
+<Callout type="info" title="Optimización del Sistema">
+El hotfix de 2026 añadió una opción de DirectX 11. Si experimentas bloqueos durante las transiciones de jefes, se recomienda encarecidamente cambiar a este modo en el menú de ajustes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión para 2026">
+
+Para asegurarte de estar completamente preparado para los desafíos del más allá, usa esta lista para seguir tu progreso a través del contenido actual de hell maiden. Completar estos hitos te proporcionará el poder necesario para enfrentar a los **hell maiden bosses** más difíciles.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Objetivos Esenciales de Progresión:"
+  items={[
+    "Rescatar a los 4 Poetas del Limbo (Homero, Ovidio, Horacio, Lucano)",
+    "Desbloquear al menos 2 armas insignia de los jefes de Círculo",
+    "Coleccionar más de 40 habilidades únicas para maximizar la variedad del mazo",
+    "Llegar al final del arco narrativo actual en el Círculo 2",
+    "Activar con éxito un motor de curación de más de 10 golpes en una sola partida",
+    "Completar el 50% de los 72 logros de Steam disponibles"
+  ]}
+/>
+
+Construir una partida exitosa se trata de entender las conexiones entre los sistemas. La historia desbloquea a los poetas, los poetas desbloquean las habilidades, y las habilidades te permiten derrotar a los jefes que proporcionan las armas. Es un ecosistema deliberado donde ninguna elección existe de forma aislada.
+
+<Callout type="tip" title="Consejo Final">
+Siempre verifica la versión de la guía que estás leyendo. La versión de Acceso Anticipado de 2026 tiene diferencias significativas de equilibrio con respecto a la demo de 2025. Las estrategias que dependían de combinaciones de cartas "imbatibles" pueden ya no funcionar debido a los recientes hotfixes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo las armas insignia de los hell maiden bosses?",
+    answer: "Las armas insignia se desbloquean derrotando al jefe mayor de cada Círculo. Una vez derrotado, su poder único se convierte en una carta que puede añadirse a tu mazo en futuras partidas."
+  },
+  {
+    question: "¿Por qué mi build sigue fallando durante las peleas de jefes?",
+    answer: "La mayoría de los fallos ocurren debido a una mala gestión del espacio o a la falta de sustento. Asegúrate de tener efectos de 'curación por golpe' y de guardar tu dash para ataques inevitables en toda el área."
+  },
+  {
+    question: "¿Cuál es el beneficio de rescatar a los Poetas del Limbo?",
+    answer: "Cada poeta rescatado añade 5 nuevas habilidades, ventajas únicas y ataques definitivos a tu colección, aumentando significativamente tus opciones tácticas contra los jefes."
+  },
+  {
+    question: "¿Cuántos hell maiden bosses hay en la versión de Acceso Anticipado de 2026?",
+    answer: "Actualmente, hay dos jefes mayores únicos, uno para cada uno de los dos Círculos del Infierno completados disponibles en el juego."
+  }
+]} />
+
+</Section>

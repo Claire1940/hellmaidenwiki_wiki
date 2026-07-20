@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Hell Maiden: Consejos de creación de mazos y guía de supervivencia",
+  description: "Domina la jugabilidad de Hell Maiden con nuestra guía completa. Aprende sinergias de cartas, cómo rescatar a los poetas del Limbo y sobrevivir a los círculos del Infierno.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Hell+Maiden+Gameplay",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La jugabilidad de Hell Maiden** combina mecánicas de supervivencia contra hordas de ritmo rápido con una creación de mazos estratégica en tiempo real.
+- **Roba habilidades de enemigos** al derrotar a jefes y enemigos de élite para añadir permanentemente sus poderes únicos a tu mazo activo.
+- **Rescata a poetas antiguos** atrapados en el Limbo para desbloquear armas emblemáticas legendarias, poderosas ventajas y ataques definitivos.
+- **Personaliza cartas de armas** usando cartas de modificación (Mod Cards) especializadas para adaptar tu estrategia ofensiva a las diferentes oleadas demoníacas.
+- **Prioriza la sinergia** entre las cartas de espíritu (Spirit Cards) pasivas y las armas activas para sobrevivir a la dificultad escalonada de los círculos del Infierno.
+</Callout>
+
+<Section icon={Swords} title="Dominando el flujo de juego de Hell Maiden">
+
+Navegar por las traicioneras profundidades del inframundo en este juego de acción, supervivencia contra hordas y creación de mazos exige tanto reflejos rápidos como previsión táctica. A diferencia de los juegos tradicionales de tipo "bullet-heaven" donde las mejoras están dictadas en gran medida por la generación de números aleatorios, dominar el bucle de **jugabilidad de Hell Maiden** requiere que los jugadores construyan, depuren y adapten activamente sus mazos de cartas a mitad de la partida. Controlas a Dante, quien ha regresado inexplicablemente al Infierno sin recuerdos después de haber alcanzado previamente el Paraíso. Armada con armas míticas y asistida por el poeta romano Virgilio, debes abrirte paso a cortes a través de implacables oleadas de demonios para escalar de regreso a la salvación.
+
+**Puntos destacados del video:**
+- **Creación de mazos dinámica**: Aprende a seleccionar y modificar tu mazo de armas y habilidades durante el combate activo.
+- **Efectos visuales impresionantes**: Echa un vistazo a los entornos de fantasía oscura bellamente animados, inspirados en la *Divina Comedia* de Dante Alighieri.
+- **Exhibición de jefes**: Observa encuentros de alto riesgo contra formidables jefes del inframundo como la Reina Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Tráiler de jugabilidad" />
+
+El bucle de juego principal se centra en entrar en un círculo del Infierno, sobrevivir a oleadas cronometradas de enemigos cada vez más agresivos y recolectar fragmentos de alma (Soul Shards) para seleccionar nuevas cartas. A medida que avanzas, puedes conservar y usar las habilidades emblemáticas de tus oponentes, volviendo sus propios poderes infernales en su contra. Esta mecánica permite estilos de juego altamente personalizados que evolucionan dinámicamente con cada partida.
+
+| Característica | Estado del acceso anticipado | Lanzamiento completo planeado |
+| --- | --- | --- |
+| Círculos del Infierno | 2 niveles únicos | Los 9 círculos del Infierno |
+| Poetas del Limbo | 4 poetas rescatables | Más poetas y misiones secundarias |
+| Armas y cartas | 4 armas, más de 40 habilidades | Arsenal ampliado y ataques definitivos |
+| Modos de juego | Campaña narrativa | Campaña + Modo infinito |
+
+<Callout type="info" title="Conexión narrativa">
+El juego continúa directamente desde el final de la Divina Comedia original. La misteriosa pérdida de memoria de Dante y su repentino regreso al Infierno sirven como el motor narrativo detrás de tu descenso.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Creación de mazos y sinergia de cartas">
+
+La característica definitoria del combate es tu mazo. Tu mazo determina tu capacidad ofensiva, tus capacidades defensivas y tus acciones de utilidad. Las cartas se dividen en tres categorías principales: cartas de armas (Weapon Cards), cartas de modificación (Mod Cards) y cartas de espíritu (Spirit Cards). Comprender cómo interactúan estas categorías es la clave para sobrevivir a oleadas de enemigos de alta densidad.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de armas (Weapon Cards)">
+    - **Ofensiva principal**: Define tu estilo de ataque principal y el daño base infligido.
+    - **Armas emblemáticas**: Elige entre 4 armas iniciales distintas en el acceso anticipado.
+    - **Mejorable**: Se pueden mejorar directamente durante las partidas.
+  </Card>
+  <Card title="Cartas de modificación (Mod Cards)">
+    - **Modificación de comportamiento**: Altera el comportamiento de tus cartas de armas.
+    - **Mejoras de estadísticas**: Añade daño elemental, proyectiles adicionales o efectos de perforación.
+    - **Adaptabilidad**: Intercambia modificaciones sobre la marcha para contrarrestar tipos de enemigos específicos.
+  </Card>
+  <Card title="Cartas de espíritu (Spirit Cards)">
+    - **Ventajas pasivas**: Proporciona bonificaciones pasivas y utilidad defensiva.
+    - **Efectos de estado**: Infunde quemadura, congelación o vulnerabilidad en los objetivos.
+    - **Facilitadores de sinergia**: Aumenta la efectividad de los atributos de armas coincidentes.
+  </Card>
+</CardGrid>
+
+Para construir un mazo efectivo, debes evitar simplemente elegir las cartas más raras. En su lugar, concéntrate en crear sinergias cohesivas. Por ejemplo, emparejar una carta de arma de ataque rápido con cartas de modificación que apliquen efectos de estado al golpear, como congelación o quemadura, puede congelar pantallas enteras de demonios en segundos.
+
+| Tipo de carta | Función principal | Mejor combinada con | Calificación de sinergia |
+| --- | --- | --- | --- |
+| Cartas de armas | Entrega de daño directo | Cartas de modificación de alto daño | ★★★★★ |
+| Cartas de modificación | Alteración del patrón de ataque | Armas de alta cadencia de fuego | ★★★★☆ |
+| Cartas de espíritu | Mejora pasiva de estadísticas | Ventajas de utilidad defensiva | ★★★★☆ |
+
+<Callout type="tip" title="Optimización del mazo">
+No infles demasiado tu mazo con demasiadas cartas diferentes. Mantener tu mazo optimizado asegura que tus combinaciones de armas y modificaciones más poderosas se roben con mayor frecuencia durante las fases de combate intenso.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rescatando a los poetas del Limbo">
+
+El viaje de Dante por el inframundo no es solitario. A lo largo de los diversos círculos del Infierno, te encontrarás con los legendarios poetas del Limbo. Atrapados por los señores supremos demoníacos, estas figuras históricas (incluidos Virgilio, Homero, Ovidio, Horacio y Lucano) ofrecen una asistencia invaluable una vez rescatados.
+
+Entablar amistad con estos poetas desbloquea recompensas de progresión permanente que persisten en todas tus partidas, facilitando significativamente el ascenso de regreso al Cielo.
+
+<Steps>
+  <Step num="1" title="Localiza al poeta">
+    Explora el círculo activo del Infierno para encontrar la ubicación del poeta atrapado, marcada en tu minimapa.
+  </Step>
+  <Step num="2" title="Sobrevive a la emboscada">
+    Activar la secuencia de rescate inicia un evento de supervivencia de alta intensidad donde debes proteger al poeta de oleadas de demonios de élite.
+  </Step>
+  <Step num="3" title="Derrota al guardián">
+    Supera al minijefe o al jefe principal de la zona para romper las cadenas espirituales que atan al poeta.
+  </Step>
+  <Step num="4" title="Desbloquea nuevas habilidades">
+    Regresa al nexo del Limbo para hablar con el poeta rescatado, desbloqueando 5 nuevas habilidades únicas y armas emblemáticas para tu mazo.
+  </Step>
+</Steps>
+
+Cada poeta que rescatas amplía tus opciones estratégicas. Por ejemplo, rescatar a Ovidio introduce cartas versátiles basadas en ilusiones en tu grupo de selección, mientras que Virgilio ofrece cartas centradas en ataques de corte precisos y de alto daño.
+
+| Poeta del Limbo | Rol en la historia | Desbloqueos de jugabilidad | Inclinación de estilo de juego |
+| --- | --- | --- | --- |
+| Virgilio | Guía fiel | Cartas de navegación principal y de corte | Precisión y golpes críticos |
+| Ovidio | Poeta legendario | Cartas de espíritu especializadas | Ilusión y control de masas |
+| Beatriz | Protectora santificada | Ataques defensivos definitivos | Escudos y supervivencia |
+| Homero | Narrador épico | Armas físicas de alto daño | Daño bruto y área de efecto |
+
+<Callout type="success" title="Impulso de progresión">
+Rescatar a los 4 poetas disponibles en el acceso anticipado otorga un total de 20 cartas adicionales, lo que aumenta drásticamente la variedad de tu configuración y tu tasa de supervivencia general en los círculos más difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobreviviendo a los círculos del Infierno">
+
+Cada círculo del Infierno sirve como un nivel distinto con sus propios peligros temáticos, comportamientos únicos de enemigos y desafiantes combates contra jefes. En la versión de acceso anticipado del juego, los jugadores pueden poner a prueba su temple en los dos primeros círculos. El éxito requiere adaptar tu configuración a las amenazas específicas de cada zona.
+
+El primer círculo, el Limbo, presenta senderos boscosos claustrofóbicos y oponentes ágiles que intentan rodearte rápidamente. El segundo círculo introduce una verticalidad extrema, peligros ambientales ardientes y cruzados demoníacos fuertemente armados.
+
+| Círculo | Peligros principales | Encuentro con jefe | Estrategia de configuración recomendada |
+| --- | --- | --- | --- |
+| Círculo 1: Limbo | Senderos estrechos, hordas de enemigos | Reina Minos | Alto daño de área de efecto, velocidad de movimiento |
+| Círculo 2: Lujuria | Géiseres de fuego, unidades blindadas | Juez Infernal | Alto DPS a un solo objetivo, modificaciones de perforación de armadura |
+
+Para asegurarte de estar completamente preparado antes de sumergirte en una partida, utiliza esta lista de verificación de preparación para auditar tu equipamiento y estrategia.
+
+<Checklist
+  id="run-preparation"
+  title="Lista de verificación de supervivencia antes de la partida:"
+  items={[
+    "Selecciona un arma inicial que complemente tu configuración final deseada.",
+    "Verifica que tu mazo inicial tenga un equilibrio saludable de cartas ofensivas y defensivas.",
+    "Prioriza localizar a los poetas del Limbo atrapados para desbloquear ventajas pasivas permanentes.",
+    "Guarda tus ataques definitivos para las oleadas de enemigos de élite y las fases de transición de los jefes."
+  ]}
+/>
+
+<Callout type="warning" title="Transiciones de fase de jefes">
+Los jefes como la Reina Minos presentan encuentros de múltiples fases. Cuando la barra de salud de un jefe se agota hasta ciertos umbrales, desatarán ataques devastadores que cubren toda la pantalla. Mantén listas tus cartas defensivas definitivas para estas transiciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos del sistema para PC">
+
+Para disfrutar de una jugabilidad fluida y de alta tasa de fotogramas durante escenas de combate intensas con cientos de sprites activos en pantalla, asegúrate de que tu PC cumpla con las especificaciones de hardware recomendadas. Los cálculos de creación de mazos del juego y la física de los proyectiles se benefician enormemente de un procesador multinúcleo moderno.
+
+| Requisito | Especificaciones mínimas | Especificaciones recomendadas |
+| --- | --- | --- |
+| Sistema operativo | Windows 10 o más reciente (64 bits) | Windows 10 o más reciente (64 bits) |
+| Procesador | 4 núcleos / 2.5 GHz+ | 4 núcleos / 3.5 GHz+ |
+| Memoria del sistema | 8 GB de RAM | 16 GB de RAM |
+| Tarjeta gráfica | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 / AMD RX 570 |
+| Espacio de almacenamiento | 4 GB de espacio disponible | 4 GB de espacio disponible |
+
+<Callout type="tip" title="Optimización del rendimiento">
+Si experimentas caídas de fotogramas durante las oleadas del final del juego con un alto número de proyectiles, intenta desactivar la vibración de la pantalla y reducir los efectos de partículas en el menú de opciones gráficas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿En qué se diferencia la jugabilidad de Hell Maiden de otros juegos de supervivencia contra hordas?",
+    answer: "A diferencia de los juegos tradicionales de tipo 'bullet-heaven' donde las mejoras son semi-aleatorias, la jugabilidad de Hell Maiden incorpora la creación activa de mazos. Coleccionas, organizas y modificas cartas de armas, modificaciones y espíritus a mitad de la partida para dar forma de manera dinámica a tus capacidades ofensivas y defensivas."
+  },
+  {
+    question: "¿Puedo cambiar mi mazo durante una partida?",
+    answer: "Sí. Puedes equipar cartas de modificación (Mod Cards) para mejorar y modificar tus cartas de armas, lo que te permite editar, experimentar y reformular tus combinaciones de cartas sobre la marcha a medida que escala la dificultad."
+  },
+  {
+    question: "¿Qué pasa cuando rescato a un poeta del Limbo?",
+    answer: "Rescatar a un poeta del Limbo desbloquea permanentemente 5 nuevas habilidades únicas en tu grupo de selección de cartas, junto con ventajas especiales, ataques definitivos y armas emblemáticas que persisten en todas las partidas posteriores."
+  },
+  {
+    question: "¿Cuánto contenido hay disponible en la versión de acceso anticipado?",
+    answer: "La versión de acceso anticipado cuenta con 2 círculos completos del Infierno con combates contra jefes únicos, 4 poetas del Limbo rescatables, 4 armas emblemáticas y más de 40 habilidades distintas para coleccionar y experimentar."
+  }
+]} />
+
+<Callout type="success" title="Asciende a la salvación">
+Con tu mazo optimizado, tus armas modificadas y los legendarios poetas de la antigüedad a tu lado, estás completamente equipado para conquistar las profundidades del Infierno. ¡Adapta tu estrategia, domina tus sinergias de cartas y ayuda a Dante a encontrar su camino de regreso al Cielo!
+</Callout>
+
+</Section>

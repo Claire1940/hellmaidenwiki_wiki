@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Engine: Deck-Building & Survival Mechanics Guide",
+  description: "Master the hell maiden engine with our guide on deck positioning, poet rescues, and survival tactics for Dante's journey through the nine circles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Engine+Guide",
+  date: "2026-07-19",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell Maiden Engine**: A unique hybrid of horde survival and tactical deck-building where card placement dictates power.
+- **Card Positioning**: Adjacent cards influence each other; never place high-damage cards in isolation without support mods.
+- **Poet Rescues**: Rescuing legendary poets like Homer and Ovid is mandatory for unlocking ultimate attacks and signature weapons.
+- **Dash Discipline**: Save your dash for unavoidable boss patterns rather than using it for general movement speed.
+- **Boss Synergies**: Defeated bosses drop abilities that can be integrated into your deck, turning enemy threats into player assets.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Hell Maiden Engine">
+
+The **hell maiden engine** represents a sophisticated fusion of traditional bullet-heaven mechanics and deep, tactical deck-building. Unlike standard survival games where upgrades are purely linear, Hell Maiden requires players to treat their ability loadout as a living system. Following the events of the Divine Comedy, Dante finds herself back in the depths of hell with her memories erased. This narrative amnesia serves as more than just a plot device; it mirrors the player's journey of rediscovering combat mechanics and rebuilding a lost arsenal from the ground up.
+
+**Video Highlights:**
+- **Strategic Placement**: Learn why card adjacency is the most overlooked mechanic in the early game.
+- **Progression Loops**: How rescuing poets directly translates into mechanical power spikes.
+- **Boss Mechanics**: A breakdown of how boss abilities become part of your permanent deck.
+
+<YouTubeEmbed videoId="_VVEN5mb394" title="Hell Maiden: 10 Things the Game DOESN’T Tell You!" />
+
+Survival in this engine is not just about dodging projectiles; it is about understanding the "why" behind your build. Each run provides an opportunity to experiment with over 40 distinct abilities, but the real depth lies in how these abilities interact within the deck grid. The game challenges the player to look past high damage numbers and focus on sustain, battlefield control, and the synergistic relationships between Spirit Cards and Mod Cards.
+
+<Callout type="tip" title="Narrative Progression">
+Pay close attention to the dialogue during reunions. The story explains why Dante is back in hell, and these narrative clues often hint at which poets you should prioritize for your specific playstyle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mastering the Hell Maiden Engine: Deck Synergies">
+
+At the core of the **hell maiden engine** is the deck-building interface. Players often make the mistake of filling every slot with high-damage weapons, leading to builds that collapse under pressure. The engine rewards a balanced approach that considers weapon speed, projectile count, and support mods.
+
+| Card Type | Primary Function | Adjacency Benefit |
+| :--- | :--- | :--- |
+| **Weapon Cards** | Direct damage output | Receives buffs from Mod Cards |
+| **Spirit Cards** | Passive stat increases | Can trigger secondary effects |
+| **Mod Cards** | Enhances Weapon Cards | Must be adjacent to a weapon |
+| **Ultimate Cards** | High-impact screen clears | Requires Poet rescue to unlock |
+| **Signature Weapons** | Unique playstyle anchors | Scaled by specific Poet perks |
+
+The placement of these cards is critical. Some Mod Cards only affect the weapon directly to their left or right. If you place a powerful "Multi-Shot" mod in a slot that isn't touching a compatible weapon, you are effectively wasting a slot. The engine is designed to make you constantly re-evaluate your hand as you progress through the circles of hell.
+
+<CardGrid cols={2}>
+  <Card title="The Sustain Build">
+    Focuses on high-frequency, low-damage attacks like **Orb** or **Moon Spheres**. When paired with healing-per-hit mods, this creates a "healing engine" that keeps Dante alive during crowded encounters.
+  </Card>
+  <Card title="The Control Build">
+    Utilizes **Earth Spikes** and **Lightning** to stun or slow enemies. This build prioritizes battlefield management, ensuring that Dante is never cornered by the encroaching hordes.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Deck Organization">
+Do not ignore the "Rearrange" feature. As you pick up new cards mid-run, you must frequently pause and optimize your layout to ensure your mods are boosting your strongest weapons.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Poet Rescue System">
+
+Progression in Hell Maiden is inextricably linked to the Poets of Limbo. You are not just fighting to survive; you are fighting to liberate the great thinkers of antiquity. Rescuing these characters is the only way to expand your tactical options in the **hell maiden engine**.
+
+<Steps>
+  <Step num="1" title="Locate the Poet">
+    Each level contains a specific quest or hidden area where a poet is held. Keep an eye on the mini-map for unique icons indicating their location.
+  </Step>
+  <Step num="2" title="Clear the Challenge">
+    Poets are usually guarded by elite "Fiends" or require a specific survival time to unlock. You must defeat these guardians to initiate the rescue.
+  </Step>
+  <Step num="3" title="Befriend and Unlock">
+    Once rescued, poets return to your hub. Talking to them unlocks 5 new abilities per poet, as well as unique perks that modify your base stats.
+  </Step>
+  <Step num="4" title="Integrate Signature Gear">
+    After reaching certain friendship milestones, poets grant access to their signature weapons, which often define high-level meta builds.
+  </Step>
+</Steps>
+
+| Poet | Historical Role | Key Unlock | Playstyle Focus |
+| :--- | :--- | :--- | :--- |
+| **Homer** | Epic Poet | Legendary Bow | Long-range precision |
+| **Ovid** | Metamorphoses | Transformation Mod | Adaptive ability shifting |
+| **Horace** | Satirist | Critical Strike Perk | High-risk, high-reward |
+| **Lucan** | Pharsalia | Bleed/DoT Effects | Sustained pressure |
+
+<Callout type="success" title="Unlock Priority">
+New players should prioritize rescuing **Homer** first. His unlocks provide the most consistent early-game damage buffs, making subsequent runs through the first circle much smoother.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics and Boss Mechanics">
+
+The **hell maiden engine** features two primary circles of hell in its current Early Access state, each culminating in a brutal boss fight. These bosses are not just obstacles; they are the sources of your most powerful abilities. When you defeat a boss, you have the opportunity to take their signature power and add it to your own deck.
+
+| Boss Name | Circle | Primary Threat | Reward Ability |
+| :--- | :--- | :--- | :--- |
+| **Minos** | Limbo | Screen-wide lasers | Judgment Beam |
+| **Cerberus** | Gluttony | Triple-lane charges | Triple-Strike Mod |
+| **Elite Fiends** | Various | Rapid projectiles | Homing Spirit |
+
+Effective combat requires mastering the dash. The most common cause of death is "dash exhaustion"—using the dash to move faster when no danger is present, only to have it on cooldown when a boss launches an unavoidable attack. Treat the dash as a defensive tool, not a mobility tool.
+
+<Checklist
+  id="combat-goals"
+  title="Combat Mastery Checklist:"
+  items={[
+    "Save the dash for red-zone indicators only",
+    "Identify which enemy types drop health orbs",
+    "Prioritize killing 'Spawners' before they flood the screen",
+    "Test every new boss ability in a practice run",
+    "Maintain a 2:1 ratio of Weapons to Mod Cards"
+  ]}
+/>
+
+<Callout type="info" title="Space Management">
+Damage is secondary to space. If you can control the arena with slows or knockbacks, your damage will eventually win the fight. If you are surrounded, even the highest DPS build will fail.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Technical Specifications and Early Access">
+
+As of 2026, Hell Maiden continues to evolve through its Early Access phase. The developers at Astral Shift have committed to a roadmap that includes all nine circles of hell, additional poets, and an endless mode. Understanding the technical requirements is essential for maintaining the high frame rates necessary for the **hell maiden engine** to function smoothly during high-density waves.
+
+| Requirement | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | 4 Cores / 2.5 GHz+ | 4 Cores / 3.5 GHz+ |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 / AMD RX 580 |
+| **DirectX** | Version 11 | Version 12 |
+
+The game has recently seen hotfixes addressing DirectX 11 stability and progression bugs. If you are experiencing crashes during intense boss fights, ensure your "DirectX 11" option is selected in the settings menu, as this provides better compatibility for older hardware.
+
+<Callout type="tip" title="Future Content">
+The full version plans to include all 9 Circles, more weapons, and a continuation of the amnesia storyline. Prices are expected to increase upon full release, making the Early Access version a high-value entry point.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the most important part of the hell maiden engine?",
+    answer: "Card positioning. Adjacent cards can buff or trigger each other, meaning a well-organized deck of 'weak' cards can outperform a disorganized deck of 'strong' cards."
+  },
+  {
+    question: "How do I unlock new ultimate attacks?",
+    answer: "Ultimate attacks are unlocked by rescuing the Poets of Limbo (such as Homer or Ovid) and completing their specific side quests or friendship milestones."
+  },
+  {
+    question: "Should I use my dash to travel faster?",
+    answer: "No. The dash should be saved for dodging specific boss patterns or escaping tight corners. Using it for travel often leaves you vulnerable when you actually need it."
+  },
+  {
+    question: "Can I use boss attacks against other enemies?",
+    answer: "Yes. One of the core features of the engine is the ability to keep and use your opponents' signature abilities in your own deck after defeating them."
+  }
+]} />
+
+</Section>

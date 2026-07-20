@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden steam deck: Guia de Configuração e Ajustes de Desempenho",
+  description: "Otimize sua experiência de hell maiden no steam deck. Obtenha as melhores configurações gráficas, layouts de controle e ajustes de desempenho para uma jogabilidade fluida.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Steam+Deck+Setup",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de hell maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Desempenho no Steam Deck**: Funciona perfeitamente com pequenos ajustes do Proton e modificações de configurações específicas.
+- **Taxas de Quadros Alvo**: Alcance 60 FPS constantes ou um limite de 40 FPS para economizar bateria.
+- **Seleção do Proton**: Use o Proton Experimental ou Proton GE para melhor compatibilidade.
+- **Controles Otimizados**: Personalize o layout para mapear ações de combate intensas nos botões traseiros (paddles).
+- **Otimização de Bateria**: Limite o TDP para estender o tempo de jogo no modo portátil durante sessões longas.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral de Compatibilidade de hell maiden no steam deck">
+
+Configurar a jogabilidade de **hell maiden no steam deck** corretamente garante uma jornada suave pelos níveis desafiadores do jogo. Por ser um título em acesso antecipado, a otimização requer ajustes de configuração específicos para manter taxas de quadros estáveis e evitar falhas de compatibilidade. O jogo funciona de forma aceitável por padrão, mas a aplicação de métodos de otimização testados pela comunidade melhora o desempenho significativamente.
+
+**Destaques do Vídeo:**
+- Apresentação oficial do lançamento em Acesso Antecipado demonstrando os loops de jogabilidade.
+- Visão geral do estilo visual retratando sequências de ação rápidas.
+- Interações de personagens destacando Virgil, Dante e Lily Coco.
+- Prévias cinematográficas das mecânicas de combate e cenários.
+
+<YouTubeEmbed videoId="kvBO_wNPCL0" title="Hell Maiden - Trailer Oficial de Lançamento em Acesso Antecipado" />
+
+| Aspecto de Compatibilidade | Status | Notas |
+|---|---|---|
+| Categoria de Jogabilidade | Jogável | Requer pequenos ajustes de configuração |
+| Proton Padrão | Proton 8.0-5 | Funciona, mas o desempenho varia |
+| Proton Recomendado | Proton Experimental | Melhora o tempo de quadro (frame pacing) e a estabilidade |
+| Legibilidade do Texto | Boa | A interface se ajusta adequadamente à tela de 7 polegadas |
+| Suporte a Controle | Completo | Detecção nativa do Steam Input |
+
+<Callout type="tip" title="Dica de Mestre">
+Force o uso do Proton Experimental no menu de propriedades do jogo antes de iniciar pela primeira vez. Isso resolve telas pretas na inicialização e problemas de sincronização de áudio relatados no SteamOS.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configurações Gráficas e de Desempenho">
+
+Otimizar as opções visuais equilibra a duração da bateria e a fidelidade visual. Embora o jogo apresente visuais estilizados, efeitos de partículas intensos durante confrontos de combate podem causar quedas na taxa de quadros se as configurações forem deixadas nos valores padrão.
+
+| Opção de Configuração | Perfil de Bateria | Perfil de Desempenho | Perfil Visual |
+|---|---|---|---|
+| Resolução | 1280x800 | 1280x800 | 1280x800 |
+| Limite de Taxa de Quadros | 40 FPS | 60 FPS | 60 FPS |
+| Taxa de Atualização | 40 Hz | 60 Hz | 60 Hz |
+| Qualidade das Sombras | Baixa | Média | Alta |
+| Texturas | Média | Alta | Alta |
+| Anti-Aliasing | FXAA | SMAA | SMAA |
+| Pós-Processamento | Baixo | Médio | Alto |
+| Limite de TDP | 8 Watts | 12 Watts | Desativado |
+
+Ajustar essas configurações permite personalizar sua experiência com base na sua prioridade: longevidade da bateria ou fluidez máxima.
+
+| Perfil Predefinido | Duração Esperada da Bateria | Taxa de Quadros Média | Carga Térmica |
+|---|---|---|---|
+| Economia de Bateria | 3,5 a 4 Horas | 40 FPS Estável | Baixa |
+| Equilibrado | 2,5 a 3 Horas | 60 FPS Estável | Moderada |
+| Ultra Desempenho | 1,5 a 2 Horas | 60+ FPS Desbloqueado | Alta |
+
+<Callout type="warning" title="Aviso">
+Ativar pós-processamento alto junto com taxas de quadros desbloqueadas pode fazer com que a ventoinha do Steam Deck funcione na velocidade máxima, aumentando a temperatura geral.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Layouts de Controle e Mapeamento Personalizado">
+
+O combate dinâmico exige comandos responsivos. Configurar as opções do Steam Input permite mapear ações cruciais para os botões traseiros do Steam Deck, reduzindo o movimento dos polegares para fora das alavancas analógicas.
+
+<CardGrid cols={3}>
+  <Card title="Layout Padrão">
+    - Configuração padrão de controle
+    - Usa botões frontais para ataques
+    - Botões de gatilho cuidam da esquiva
+    - Bom para jogadas casuais
+  </Card>
+  <Card title="Focado em Combate">
+    - Mapeamento personalizado de botões traseiros
+    - Pulo e esquiva no L4/R4
+    - Seleção rápida de itens no L5/R5
+    - Mantém os polegares nas alavancas
+  </Card>
+  <Card title="Layout de Conforto">
+    - Ativação de gatilho modificada
+    - Ações de toque leve configuradas
+    - Redução da fadiga nas mãos
+    - Ideal para sessões longas
+  </Card>
+</CardGrid>
+
+| Ação no Jogo | Botão Padrão | Mapeamento Recomendado no Deck | Benefício |
+|---|---|---|---|
+| Ataque Primário | X | X | Fluxo de ataque padrão |
+| Ataque Secundário | Y | Y | Acesso a ataque forte |
+| Esquiva / Dash | B | R4 (Botão Traseiro) | Mantém o polegar na alavanca da câmera |
+| Pulo | A | L4 (Botão Traseiro) | Permite mira aérea |
+| Interagir | Left Bumper | Left Bumper | Navegação rápida de menu |
+| Usar Item | Right Bumper | R5 (Botão Traseiro) | Uso instantâneo de itens |
+
+<Callout type="success" title="Sucesso">
+Mapear o Dash para R4 e o Pulo para L4 permite que você manobre através de densos grupos de inimigos sem perder o controle da câmera.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Otimização Passo a Passo">
+
+Siga estes passos para configurar seu Steam Deck para uma jogabilidade ideal.
+
+<Steps>
+  <Step num="1" title="Selecionar a Versão do Proton">
+    Navegue até o menu de propriedades do jogo no seu Steam Deck. Na aba de compatibilidade, marque a caixa para forçar uma ferramenta de compatibilidade específica e selecione Proton Experimental no menu suspenso.
+  </Step>
+  <Step num="2" title="Configurar o TDP do Sistema">
+    Abra o Menu de Acesso Rápido do Steam Deck pressionando o botão de três pontos. Vá para a aba de Desempenho, ative o limite manual de TDP e defina-o para 10 ou 12 Watts para equilibrar o consumo de bateria e o poder de processamento.
+  </Step>
+  <Step num="3" title="Ajustar as Configurações do Jogo">
+    Inicie o jogo e acesse o menu de opções. Defina a resolução para 1280x800, diminua a Qualidade das Sombras para Média e defina o Anti-Aliasing para SMAA para bordas nítidas sem alto custo de desempenho.
+  </Step>
+  <Step num="4" title="Mapear os Botões Traseiros">
+    Pressione o botão Steam, selecione Configurações de Controle e ative os botões traseiros. Mapeie L4 para Pulo (botão A) e R4 para Dash (botão B) para melhorar a mobilidade em combate.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota do Sistema">
+Se você encontrar travamentos após atualizar o SteamOS, limpar o cache de shaders do jogo através das configurações de armazenamento do Steam Deck pode resolver o problema.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Solução de Problemas Comuns do SteamOS">
+
+Embora as configurações de otimização resolvam a maioria dos problemas de desempenho, os jogadores podem encontrar bugs específicos durante as versões de acesso antecipado. Use este guia para identificar e resolver problemas técnicos comuns.
+
+| Problema | Causa Potencial | Correção Recomendada |
+|---|---|---|
+| Tela preta ao iniciar | Incompatibilidade de codec de vídeo | Mude para o Proton GE via ProtonUp-Qt |
+| Áudio estalando | Incompatibilidade de buffer de áudio | Adicione a opção de inicialização: `PULSE_LATENCY_MSEC=60 %command%` |
+| Erro de sincronização de salvamento em nuvem | Conflito do Steam Cloud | Reinicie o Steam ou alterne para o modo offline |
+| Travamentos na taxa de quadros | Compilação de shaders | Jogue por 10 minutos para permitir a compilação do cache |
+| Controle não responde | Conflito do Steam Input | Reative o Steam Input nas configurações de controle |
+
+<Callout type="warning" title="Aviso de Desempenho">
+Não use escala de resolução abaixo de 70%, pois isso torna os textos pequenos da interface e os números de dano ilegíveis na tela do portátil.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Otimização">
+
+Certifique-se de ter concluído todas as configurações antes de iniciar sua sessão de jogo.
+
+<Checklist
+  id="steam-deck-readiness"
+  title="Lista de Verificação de Configurações Pré-Voo:"
+  items={[
+    "Forçar a ferramenta de compatibilidade Proton Experimental",
+    "Definir a taxa de atualização do SteamOS para 60Hz ou 40Hz",
+    "Configurar o limite manual de TDP para 10-12 Watts",
+    "Aplicar as configurações gráficas recomendadas no jogo",
+    "Exportar o layout de controle personalizado dos botões traseiros (paddles)"
+  ]}
+/>
+
+<Callout type="success" title="Configuração Concluída">
+Com essas configurações aplicadas, você experimentará um tempo de quadro estável e uma duração de bateria otimizada durante suas sessões de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O hell maiden no steam deck suporta jogo offline?",
+    answer: "Sim, uma vez que o jogo esteja totalmente baixado e atualizado, você pode iniciar e jogar o jogo no Modo Offline do SteamOS sem uma conexão ativa com a internet."
+  },
+  {
+    question: "Qual versão do Proton oferece a melhor estabilidade?",
+    answer: "O Proton Experimental oferece a estabilidade mais consistente e resolve os problemas comuns de tela preta na inicialização presentes nos builds padrão do Proton."
+  },
+  {
+    question: "Como posso estender a duração da bateria para além de três horas?",
+    answer: "Defina a taxa de atualização da tela do Steam Deck para 40Hz, limite a taxa de quadros no jogo para 40 FPS e limite o TDP do sistema para 8 Watts no menu de desempenho de acesso rápido."
+  },
+  {
+    question: "Os layouts de controle personalizados são obrigatórios para jogar?",
+    answer: "Não, o layout de controle padrão funciona bem, mas mapear ações primárias como pulo e esquiva (dash) para os botões traseiros torna os cenários de combate de alta velocidade muito mais fáceis de gerenciar."
+  }
+]} />
+
+</Section>

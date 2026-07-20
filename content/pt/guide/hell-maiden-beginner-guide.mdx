@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para iniciantes de Hell Maiden: Melhores Builds Iniciais e Dicas de Combate",
+  description: "Domine Hell Maiden com nosso guia para iniciantes de 2026. Aprenda a build quebrada da Blazing Quill, mecânicas de fusão de cartas e estratégias contra o chefe Dante.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fbbf24?text=Hell+Maiden+Beginner+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Este **guia para iniciantes de Hell Maiden** cobre mecânicas essenciais para sobreviver aos primeiros círculos do inferno.
+- **Mecânica chave**: Domine a **Fusão de Cartas** para aumentar exponencialmente o dano e a utilidade da sua arma.
+- **Melhor estratégia**: Foque na build **Blazing Quill** usando o Sataris Path para trocar velocidade de ataque por um dano bruto massivo.
+- **Dica crítica**: Priorize sempre a **Velocidade de Movimento** e a Distância de Esquiva para evitar os inimigos explosivos "Caterpie" e os projéteis dos chefes.
+- **Melhor escolha**: O **Inferno Ultimate** é sua melhor ferramenta para limpar hordas que ocupam a tela quando você estiver encurralado.
+</Callout>
+
+<Section icon={Map} title="Começando em Hell Maiden">
+
+Entrar no submundo pela primeira vez pode ser intimidador, mas este **guia para iniciantes de Hell Maiden** foi projetado para otimizar sua progressão. Como Dante, seu objetivo principal é navegar pelos círculos do inferno, começando pelo Limbo, enquanto se defende de ondas de inimigos cada vez mais difíceis. O núcleo do jogo gira em torno de selecionar as armas certas e modificá-las com cartas encontradas em Santuários ou através de subidas de nível. Embora a arma inicial, a Blazing Quill, possa parecer fraca à primeira vista, sinergias específicas de cartas podem transformá-la em uma das ferramentas mais poderosas do seu arsenal.
+
+**Destaques do Vídeo:**
+- Análise detalhada da **Build Quebrada da Blazing Quill**.
+- Como gerenciar a troca entre **Velocidade de Ataque** e **Dano**.
+- Estratégias para derrotar o primeiro grande chefe, **Minos**.
+- Dicas essenciais de fusão de cartas para maximizar o ganho de XP e a sobrevivência.
+
+<YouTubeEmbed videoId="Lh8nab89jp0" title="The Blazing Quill Is Actually The MOST BROKEN! | Hell Maiden" />
+
+O sucesso no início do jogo depende da sua habilidade de manter distância dos inimigos (kite) e coletar gemas de experiência de forma eficiente. Você deve equilibrar melhorias ofensivas com atributos defensivos como Defesa Corpo a Corpo e Resistência a Projéteis, especialmente ao enfrentar as bolhas suicidas que aparecem nas ondas posteriores da demonstração.
+
+<Callout type="tip" title="Conselho Inicial">
+Não tenha medo de rolar novamente suas ofertas iniciais de cartas. Encontrar um modificador de dano forte como o **Sataris Path** logo no início pode tornar os primeiros cinco minutos de uma partida significativamente mais fáceis.
+</Callout>
+
+| Aspecto Inicial | Recomendação | Prioridade |
+| :--- | :--- | :--- |
+| **Escolha de Arma** | Blazing Quill (Dante) | Alta |
+| **Primeira Melhoria** | Aumento de Dano ou Ganho de XP | Crítica |
+| **Posicionamento Inicial** | Movimento circular constante | Alta |
+| **Foco no Santuário** | Aumentos de Atributos Permanentes | Média |
+
+</Section>
+
+<Section icon={Zap} title="Dominando a Fusão de Cartas e Modificadores">
+
+O aspecto mais único da experiência em Hell Maiden é o sistema de cartas. Ao contrário de roguelikes tradicionais onde você simplesmente escolhe uma vantagem, este jogo permite que você encaixe cartas de modificação em armas específicas e funda cartas duplicadas para aumentar o nível delas. Cada arma tem um número limitado de espaços, então você deve ser estratégico sobre quais efeitos aplica ao seu causador de dano principal versus suas armas de suporte secundárias.
+
+<Callout type="warning" title="Gestão de Recursos">
+Fundir cartas consome as cartas base para criar uma versão de nível superior. Certifique-se de ter uma fonte secundária de dano antes de fundir o único modificador de velocidade da sua arma principal.
+</Callout>
+
+| Nome da Carta | Efeito Principal | Melhor Sinergia |
+| :--- | :--- | :--- |
+| **Sataris Path** | +100% Dano / -Velocidade de Ataque | Swift Strikes |
+| **Swift Strikes** | Aumenta a Velocidade de Ataque | Sataris Path |
+| **Kindled Embers** | Aumenta a Contagem de Projéteis | Venus's Favor |
+| **Flare Up** | 30% de Chance de Explosões | Builds de Dano Alto |
+| **Eternal Prestige** | 5% de Chance de Absorver HP | Armas de Ataque Rápido |
+
+Ao montar seu equipamento, procure por **Cartas de Modificação** (geralmente azuis ou douradas). Elas podem ser colocadas entre cartas de arma para aplicar seus efeitos a múltiplos itens adjacentes. Por exemplo, **Venus's Favor** aumenta a contagem de projéteis de armas adjacentes, tornando-a "indispensável" para qualquer build que dependa da Blazing Quill ou Kindled Embers.
+
+<Steps>
+  <Step num="1" title="Colete Duplicadas">
+    Pegue a mesma carta várias vezes em subidas de nível ou baús para preparar uma fusão.
+  </Step>
+  <Step num="2" title="Abra o Inventário">
+    Acesse a tela de gerenciamento de cartas para ver seus espaços de arma e modificadores atuais.
+  </Step>
+  <Step num="3" title="Arrastar e Soltar">
+    Arraste uma carta sobre outra do mesmo tipo e nível para criar uma versão de Nível 2 ou Nível 3.
+  </Step>
+  <Step num="4" title="Otimize os Espaços">
+    Coloque seus modificadores de nível mais alto ao lado de suas armas mais fortes para maximizar os bônus de atributos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Flame} title="A Build Quebrada da Blazing Quill">
+
+A Blazing Quill é frequentemente ignorada por novos jogadores devido ao seu curto alcance e requisitos específicos de mira. No entanto, como descoberto por jogadores veteranos da comunidade, ela pode se tornar uma força absoluta quando construída corretamente. O segredo reside em acumular dano bruto e depois "corrigir" a penalidade de velocidade de ataque com modificadores secundários. Esta build permite que você derrote com um único golpe a maioria dos inimigos padrão, incluindo os irritantes Caterpies, bem cedo na partida.
+
+<CardGrid cols={3}>
+  <Card title="O Peso Pesado">
+    Foque no **Sataris Path Nível 3**. Isso fornece bônus de dano massivos que permitem que a Quill limpe ondas inteiras com um único golpe.
+  </Card>
+  <Card title="A Correção de Velocidade">
+    Contrarie a penalidade do Sataris com **Swift Strikes** e **Dextral Charge**. Isso mantém seu DPS alto apesar dos golpes pesados.
+  </Card>
+  <Card title="O Limpador de Tela">
+    Use **Flare Up** e **Dual Expansion**. Essas cartas adicionam procs explosivos e aumentam o tamanho físico dos seus ataques.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Build">
+Combinar **Venus's Favor** com a Blazing Quill adiciona projéteis extras. No Nível 3, você disparará múltiplas quills massivas que explodem ao impacto, criando efetivamente uma "parede de fogo" na frente de Dante.
+</Callout>
+
+| Componente da Build | Efeito no Nível Máximo | Importância |
+| :--- | :--- | :--- |
+| **Blazing Quill** | Dano base alto, perfurante | Essencial |
+| **Sataris Path** | +300% de Dano Total | Essencial |
+| **Swift Strikes** | Nega penalidades de velocidade | Essencial |
+| **Fatal Yield** | 90% de chance de puxar XP | Agricultura |
+| **Charm of Life** | Bônus massivo de HP Máximo | Sobrevivência |
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Sobrevivência e Comportamento dos Inimigos">
+
+Em Hell Maiden, a sobrevivência é tão importante quanto o dano. O jogo frequentemente lançará "Homens-Bomba" e "Assassinos de Elite" contra você, que podem encerrar uma partida em segundos se você for encurralado. Entender os indicadores dos inimigos e manter uma distância segura é a marca de um jogador profissional. Inimigos de projéteis são particularmente perigosos porque seus disparos podem ser difíceis de ver em meio ao caos visual dos seus próprios efeitos de fogo.
+
+<Callout type="info" title="Atributos Defensivos">
+Priorize **Defesa Geral** e **Resistência Corpo a Corpo** se você perceber que está sendo atingido por hordas. Um atributo de defesa de 13% ou superior aumenta significativamente sua margem de erro durante lutas contra chefes.
+</Callout>
+
+**Principais Estratégias Defensivas:**
+- **Kiting**: Mova-se sempre em um círculo amplo ao redor do centro do mapa para agrupar os inimigos para ataques de área (AOE).
+- **Gestão de Esquiva**: Guarde sua esquiva para escapar de bloqueios corporais onde os inimigos o cercam completamente.
+- **Timing da Ultimate**: Use o **Inferno Ultimate** de Dante não apenas para causar dano, mas pelo breve período de invulnerabilidade e limpeza de tela que ele proporciona.
+- **Coleta de XP**: Não deixe gemas de experiência no chão por muito tempo. Use um item **Magnet** ou a carta **Fatal Yield** para ficar à frente da curva de nível.
+
+| Tipo de Inimigo | Nível de Perigo | Melhor Contra-ataque |
+| :--- | :--- | :--- |
+| **Caterpies** | Baixo | Qualquer ataque AOE |
+| **Homens-Bomba** | Alto | Esquiva, fogo à distância |
+| **Imps de Longo Alcance** | Médio | Defesa de Projéteis, movimento constante |
+| **Assassinos de Elite** | Muito Alto | Habilidade ultimate, kiting |
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Chefe: Derrotando Minos">
+
+O ápice do círculo do Limbo é a batalha contra **Minos**, a Rainha do Submundo. Esta luta é um teste de seu posicionamento e qualidade de build. Minos usa uma variedade de ataques, incluindo disparos de projéteis estilo escopeta e lasers baseados no chão. Como a Blazing Quill exige que você esteja relativamente perto do alvo, você deve dominar a tática de "bater e correr" para evitar seus devastadores disparos de curto alcance.
+
+<Callout type="tip" title="Estratégia contra Minos">
+Fique levemente ao lado de Minos em vez de diretamente na frente dela. A maioria de seus ataques de projéteis dispara em um cone diretamente em direção à sua posição atual.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Fase Um: Projéteis">
+    Desvie dos disparos verdes de escopeta movendo-se lateralmente. Não avance em direção a ela durante esta fase.
+  </Step>
+  <Step num="2" title="Fase Dois: Lasers">
+    Fique atento aos indicadores no chão. Mova-se para as lacunas entre os feixes imediatamente.
+  </Step>
+  <Step num="3" title="Fase Três: Últimos Ritos">
+    Minos disparará uma série de projéteis de alto dano em um padrão circular. Fique a uma distância média para encontrar as lacunas facilmente.
+  </Step>
+  <Step num="4" title="O Final">
+    Assim que a saúde dela estiver baixa, ative seu **Inferno Ultimate** para queimar o HP restante dela enquanto ignora pequenos danos residuais.
+  </Step>
+</Steps>
+
+| Ataque de Minos | Tipo de Dano | Como Evitar |
+| :--- | :--- | :--- |
+| **Disparo de Escopeta** | Projétil | Movimento lateral |
+| **Lasers de Fogo Infernal** | AOE / Chão | Fique em zonas seguras |
+| **Invocar Hordas** | Corpo a Corpo | Use AOE/Explosões |
+| **Últimos Ritos** | Projétil Pesado | Kiting preciso à distância |
+
+</Section>
+
+<Section icon={Trophy} title="Metas de Progressão e Lista de Verificação">
+
+Para dominar verdadeiramente o jogo, você deve tentar completar marcos específicos que desbloqueiam maior potencial para Dante e Virgil. Seguir esta lista de verificação garantirá que você esteja preparado para a transição do conteúdo da demonstração para o lançamento completo em 2026.
+
+<Checklist
+  id="beginner-milestones"
+  title="Metas de Progressão para 2026:"
+  items={[
+    "Chegar ao Nível 40 em uma única partida no Limbo",
+    "Fundir com sucesso uma carta Sataris Path de Nível 3",
+    "Derrotar Minos sem usar uma poção de saúde",
+    "Desbloquear a arma de lança perfurante Carpe Diem",
+    "Maximizar a Defesa Geral para pelo menos 15%"
+  ]}
+/>
+
+<Callout type="success" title="Pensamento Final">
+O caminho para a salvação em Hell Maiden é pavimentado com escolhas inteligentes de cartas. Experimente diferentes combinações e lembre-se de que até uma arma "fraca" pode se tornar quebrada com os modificadores certos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A Blazing Quill é melhor que a espada inicial?",
+    answer: "Embora a espada seja mais fácil de usar inicialmente, a Blazing Quill tem um potencial de escala muito maior quando combinada com Sataris Path e Venus's Favor, tornando-a melhor para limpar ondas no final do jogo."
+  },
+  {
+    question: "Como obtenho mais cartas de modificação?",
+    answer: "Cartas de modificação são encontradas interagindo com Santuários espalhados pelo mapa ou como quedas raras de Assassinos de Elite. Você também pode rolar novamente suas recompensas de subida de nível para encontrá-las."
+  },
+  {
+    question: "Qual é o melhor atributo defensivo para melhorar?",
+    answer: "Defesa Geral é o mais versátil, mas se você tiver dificuldades com o chefe, a Resistência a Projéteis é altamente recomendada para mitigar o dano dos disparos de Minos."
+  },
+  {
+    question: "Posso jogar como Virgil na versão atual?",
+    answer: "Sim, Virgil está disponível e oferece um estilo de jogo diferente focado em ataques mais rápidos e precisos, embora este guia foque na build da Blazing Quill de Dante."
+  }
+]} />
+
+</Section>

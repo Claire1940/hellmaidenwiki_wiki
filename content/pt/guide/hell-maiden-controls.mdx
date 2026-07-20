@@ -1,0 +1,174 @@
+import { MousePointer2, Gamepad2, Swords, Target, Shield, Sparkles, Keyboard, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Hell Maiden: Guia de Configuração e Dicas de Entrada de Combate",
+  description: "Domine os controles de Hell Maiden para PC e controle. Aprenda a mirar, esquivar e gerenciar Cartas de Espírito para sobreviver às rodadas de 12 minutos em Limbo e Lust.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/230c12/fff?text=Hell+Maiden+Controls",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os controles de Hell Maiden** combinam ataque automático com mira manual e esquiva ativa para uma experiência de sobrevivência tática.
+- **A Mira Manual** é obrigatória; Dante atira em direção ao seu cursor (Mouse) ou Alavanca Direita (Controle), independentemente da direção do movimento.
+- **A Mecânica de Esquiva (Dash)** fornece frames de invulnerabilidade, permitindo atravessar linhas inimigas e desviar de ataques telegrafados de chefes.
+- **O Gerenciamento de Deck** requer o uso do mouse ou controle para reorganizar as Cartas de Espírito para bônus posicionais ideais.
+- **O Suporte para Controle** está totalmente implementado para o Acesso Antecipado, incluindo uma opção de inicialização DirectX 11 para melhor estabilidade.
+</Callout>
+
+<Section icon={Keyboard} title="Layout de Entrada de Teclado e Mouse">
+
+Entender os **controles de Hell Maiden** é o primeiro passo para sobreviver às profundezas do Limbo. Ao contrário de muitos jogos tradicionais de sobrevivência contra hordas, onde os ataques são puramente automatizados com base na proximidade, este título exige que os jogadores apontem ativamente suas armas para a ameaça. Essa abordagem "twin-stick" em uma configuração de teclado e mouse oferece a mais alta precisão para builds de dano focado, como o Blazing Quill ou Winged Lyric.
+
+| Tecla | Ação | Descrição |
+| :--- | :--- | :--- |
+| **W, A, S, D** | Movimento | Move Dante em oito direções pelo Círculo. |
+| **Cursor do Mouse** | Mira | Direciona todos os ataques automáticos para o ponteiro. |
+| **Espaço** | Esquiva (Dash) | Um rápido impulso de velocidade com invencibilidade temporária. |
+| **E / Clique Direito** | Usar Feitiço | Ativa o Feitiço de Poeta exclusivo (ex: Inferno de Dante). |
+| **Tab / I** | Abrir Deck | Visualize e reorganize suas Cartas de Espírito e Mods atuais. |
+| **Esc** | Menu de Pausa | Acesse configurações, verifique conquistas ou saia da partida. |
+
+<Callout type="tip" title="Estratégia de Mira">
+Como Dante ataca automaticamente, seu foco principal deve ser o "kiting". Mantenha o cursor do mouse apontado para a parte mais densa da onda inimiga enquanto move Dante na direção oposta para manter uma distância segura.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Configuração de Controle e Gamepad">
+
+Para jogadores que preferem uma experiência mais relaxada ou no estilo "bullet-hell", os **controles de Hell Maiden** para gamepads são altamente intuitivos. O jogo usa um layout padrão de shooter twin-stick. Isso é particularmente eficaz para builds de "Pressão de Projéteis", onde você precisa girar constantemente seu fogo para limpar as hordas ao redor.
+
+| Botão (Xbox/PS) | Ação | Prioridade |
+| :--- | :--- | :--- |
+| **Alavanca Esquerda** | Movimento do Personagem | Alta |
+| **Alavanca Direita** | Direção da Mira | Alta |
+| **RB / R1 / B** | Esquiva / Evasão | Crítica |
+| **LB / L1 / A** | Ativar Feitiço | Moderada |
+| **View / Select** | Gerenciamento de Deck | Moderada |
+| **Menu / Start** | Pausar Jogo | Baixa |
+
+<Callout type="warning" title="Mira no Controle">
+Certifique-se de que sua Alavanca Direita esteja sempre inclinada em uma direção. Se a alavanca retornar à posição neutra, Dante pode parar de atirar com precisão em alvos específicos, o que pode ser fatal durante os picos de ondas de 12 minutos.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Vantagens de Teclado + Mouse">
+    - **Precisão Cirúrgica**: Melhor para armas de alvo único como Winged Lyric.
+    - **Navegação de Menu**: Reorganização de cartas e fusão de Mods mais rápida.
+    - **Feitiços Rápidos**: Teclas dedicadas evitam ativação acidental.
+  </Card>
+  <Card title="Vantagens de Controle">
+    - **Movimento Ergonômico**: Movimentação de 360 graus mais suave para esquiva.
+    - **Feedback de Vibração**: Alertas táteis ao receber dano ou estar com vida baixa.
+    - **Controle Analógico**: Velocidade de movimento variável ajuda em brechas apertadas de projéteis.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Dominando as Mecânicas de Combate e Movimento">
+
+A sobrevivência em Hell Maiden depende de quão bem você consegue equilibrar o movimento e a mira ofensiva. O cronômetro de 12 minutos em Círculos como Limbo e Lust introduz ondas cada vez mais densas que exigem mais do que apenas andar em círculos. Dominar os **controles de Hell Maiden** significa aprender o ritmo da esquiva e o tempo do Feitiço do seu Poeta.
+
+<Steps>
+  <Step num="1" title="A Esquiva Defensiva">
+    A esquiva (dash) é sua ferramenta de sobrevivência mais importante. Ela permite que Dante passe por inimigos e projéteis sem sofrer dano. Nunca use sua última carga de esquiva apenas para se mover mais rápido; sempre mantenha uma disponível para escapar de um estado "cercado" ou para desviar dos ataques de área (AoE) da Rainha Minos.
+  </Step>
+  <Step num="2" title="Prioridade de Mira Manual">
+    Alvos prioritários como Víboras de Elite ou Súcubos devem ser focados primeiro. Use seu mouse ou Alavanca Direita para rastrear esses inimigos específicos enquanto seu movimento (WASD/Alavanca Esquerda) o mantém longe da horda geral.
+  </Step>
+  <Step num="3" title="Ativando Templos">
+    Enquanto se move, você encontrará Templos. Ativá-los exige que você permaneça em sua vizinhança por uma curta duração. Use seus controles de movimento para "orbitar" o Templo, mantendo os inimigos do lado de fora do seu círculo enquanto permanece perto o suficiente para acionar a barra de progresso.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tática Avançada">
+Você pode esquivar *através* de um chefe. Se a Rainha Minos te prender contra a borda da arena, esquivar diretamente através do modelo dela costuma ser mais seguro do que tentar correr ao redor da parede de projéteis.
+</Callout>
+
+| Mecânica | Tipo de Entrada | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **I-Frames da Esquiva** | Ativo | Nega todo o dano recebido durante a animação. |
+| **Fogo Automático** | Passivo | DPS constante enquanto um alvo estiver no alcance/mira. |
+| **Explosão de Feitiço** | Ativo | Limpeza de tela massiva; use quando o movimento estiver restrito. |
+| **Reorganização de Cartas** | Menu | Otimiza o dano via bônus posicionais de Mods. |
+
+</Section>
+
+<Section icon={Settings} title="Controles de Interface e Gerenciamento de Deck">
+
+Um aspecto único dos **controles de Hell Maiden** é a capacidade de reorganizar sua "mão" de Cartas de Espírito durante uma partida. Isso não é apenas para organização; muitas Cartas de Mod fornecem bônus com base em sua posição (ex: "aumenta o dano da arma à direita").
+
+**Reorganizando Cartas:**
+- **PC**: Clique e arraste uma Carta de Espírito ou Mod para um slot diferente.
+- **Controle**: Use o d-pad ou a alavanca para destacar uma carta, pressione o botão de confirmar para "pegar" e mova-a para o slot desejado.
+
+<Callout type="info" title="Fundindo Mods">
+Quando você coleta Cartas de Mod duplicadas, o jogo solicitará que você as funda. Isso geralmente é feito através da tela de subida de nível, mas manter seu deck organizado via menu Tab/Deck garante que você sempre obtenha os bônus máximos de Nível 3 em sua arma primária.
+</Callout>
+
+| Tipo de Slot | Capacidade Máxima | Interação de Controle |
+| :--- | :--- | :--- |
+| **Cartas de Arma** | 4 Slots | Fontes primárias de dano; podem ser trocadas/reordenadas. |
+| **Cartas de Mod** | 3 por Arma | Anexadas às armas; a fusão melhora a raridade/estatísticas. |
+| **Slot de Feitiço** | 1 Slot | Vinculado ao Poeta específico (Dante, Virgílio, etc.). |
+
+</Section>
+
+<Section icon={Shield} title="Otimização e Resolução de Problemas">
+
+A partir do lançamento do Acesso Antecipado em 16 de julho de 2026, alguns jogadores podem encontrar problemas de desempenho que afetam a latência de entrada. A configuração adequada dos **controles de Hell Maiden** e das definições do sistema pode melhorar significativamente sua taxa de sobrevivência nos minutos finais de uma partida.
+
+**Dicas de Desempenho para Melhor Controle:**
+- **Modo DirectX 11**: Se você sentir atraso na entrada (input lag), use a opção de inicialização da Steam para DX11.
+- **Sensibilidade do Mouse**: Ajuste isso no menu de configurações para garantir que sua retícula de mira se mova em uma velocidade que corresponda ao seu tempo de reação.
+- **Clareza Visual**: Desligue o tremor de tela desnecessário se isso dificultar a mira durante ondas de alta intensidade.
+
+<Checklist
+  id="control-mastery"
+  title="Lista de Verificação de Maestria de Controles:"
+  items={[
+    "Esquivou-se com sucesso através de uma onda inimiga sem sofrer dano",
+    "Alcançou o Nível 3 em um Mod fundindo duplicatas no menu de deck",
+    "Concluiu uma rodada de 12 minutos usando apenas mira manual para elites",
+    "Ativou 12 Templos diferentes em uma única partida",
+    "Derrotou a Rainha Minos usando um Feitiço de Poeta durante sua fase final"
+  ]}
+/>
+
+<Callout type="tip" title="Paridade de Entrada">
+Os desenvolvedores da AstralShift lançaram o Hotfix v0.2.31 para resolver problemas de progressão. Se seus controles parecerem "travados" após uma transição de chefe, certifique-se de que seu jogo esteja atualizado para a versão mais recente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Posso alterar os mapeamentos de teclas para os controles de Hell Maiden?",
+    answer: "Sim, o jogo permite o remapeamento total de teclas no menu de Configurações, tanto para teclado quanto para controle. Isso é altamente recomendado se você achar a esquiva no Espaço ou o feitiço na tecla E desconfortáveis."
+  },
+  {
+    question: "Tenho que mirar manualmente ou existe uma opção de mira automática?",
+    answer: "Hell Maiden foi projetado em torno da mira manual para se diferenciar de outros jogos estilo 'survivors'. Embora os ataques disparem automaticamente, você deve direcioná-los aos inimigos usando seu mouse ou alavanca analógica direita."
+  },
+  {
+    question: "Como uso o Feitiço em Hell Maiden?",
+    answer: "Assim que sua barra de Feitiço estiver cheia (indicada pelo ícone perto da sua barra de vida), pressione E no teclado ou LB/L1 no controle para ativá-lo. Cada Poeta tem um Feitiço único, como o Inferno de Dante que limpa a tela."
+  },
+  {
+    question: "Existe uma maneira de mover as cartas sem pausar o jogo?",
+    answer: "Não, abrir o menu de Deck (Tab ou botão View) pausa o jogo, permitindo que você reorganize com segurança suas Cartas de Espírito e Mods para otimizar os bônus posicionais sem ser atacado."
+  }
+]} />
+
+</Section>

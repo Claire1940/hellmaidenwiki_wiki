@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Hell Maiden: Supervivencia Estratégica y Mejores Combos de Cartas",
+  description: "Domina el roguelite de chicas mágicas Hell Maiden con nuestra guía de 2026. Aprende sobre la fusión de cartas, builds de armas y estrategias de desbloqueo de personajes para partidas óptimas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Survival+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "hell maiden, guía, supervivencia, combos de cartas, roguelite"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Hell Maiden**: Céntrate en la construcción de mazos y la fusión de cartas para escalar el daño hacia el final de la partida.
+- **Fusión de Cartas**: Combina dos cartas idénticas del mismo nivel para alcanzar el Nivel 3 y obtener aumentos masivos de estadísticas.
+- **Sinergia de Personajes**: Utiliza a Dante para builds de fuego, a Virgilio para proyectiles y a Horus para daño cuerpo a cuerpo elevado.
+- **Mecánica de Supervivencia**: La salud es escasa; prioriza el mod Eternal Prestige o las pociones de curación de los jarrones destructibles.
+- **Gestión de Hechizos**: Guarda tu habilidad Q (Inferno de Dante o similar) para las fases de jefes o cuando te rodeen turbas de élite.
+</Callout>
+
+<Section icon={Map} title="Guía de Hell Maiden: Mecánicas Básicas y Jugabilidad">
+
+Navegar por las profundidades del Limbo requiere una comprensión firme del sistema único de progresión basado en cartas. A diferencia de los roguelites de supervivencia tradicionales, este título enfatiza la construcción de mazos donde cada subida de nivel ofrece una elección entre armas y modificadores. Los jugadores deben equilibrar la potencia ofensiva con la utilidad táctica para sobrevivir a las crecientes oleadas de serpientes, limos y esqueletos acorazados.
+
+**Puntos destacados del video:**
+- Desglose detallado del sistema de modificación de cartas y construcción de mazos.
+- Demostración de jugabilidad de las armas Blazing Quill y Wayfinder.
+- Estrategia para fusionar cartas y alcanzar picos de poder de Nivel 3.
+- Recorrido por la misión de rescate de Horus y el desbloqueo de personajes.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="¡Combina CIENTOS de hechizos en este INCREÍBLE Roguelite de supervivencia! - Hell Maiden" />
+
+El ciclo principal consiste en recolectar orbes de experiencia para robar cartas. Estas cartas se clasifican en armas y modificadores. Puedes llevar hasta cuatro armas únicas a la vez, y cada arma puede aumentarse con varias cartas de mod. El posicionamiento importa, ya que algunas cartas de "Propagación" afectan a las armas adyacentes, lo que requiere una planificación cuidadosa del diseño de tu mano.
+
+| Categoría de Carta | Función Principal | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Arma** | Método de ataque principal | Determina tu tipo de daño principal y alcance |
+| **Potenciador** | Mejora de estadísticas | Aumenta el daño base, el tamaño o la velocidad de proyectiles |
+| **Efecto** | Aplicación de estado | Añade Quemadura, Lentitud o Veneno a los golpes del arma |
+| **Propagación** | Mejora multiobjetivo | Mejora varias armas según la posición en la mano |
+| **Milagro** | Mejora rara | Proporciona múltiples aumentos de estadísticas de alto nivel |
+| **Maldición** | Alto riesgo/recompensa | Mejoras masivas a costa de velocidad o salud |
+
+<Callout type="tip" title="Prioridad al Inicio del Juego">
+Céntrate en aumentar tu **Tamaño de Ataque** y **Cantidad de Proyectiles** en los primeros cinco minutos. Esto te permite limpiar las oleadas iniciales de "serpientes" de manera eficiente y recolectar orbes de experiencia sin quedar acorralado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema de Modificación y Fusión de Cartas">
+
+La profundidad de cualquier **guía de Hell Maiden** reside en dominar la mecánica de fusión. Cuando posees dos cartas idénticas del mismo nivel (indicado por el color del borde de la carta), puedes arrastrar una sobre la otra para evolucionarla. Este proceso no solo aumenta las estadísticas base del mod, sino que también cambia su apariencia y efectividad significativamente.
+
+| Nivel de Mod | Color del Borde | Multiplicador de Estadísticas | Requisito de Fusión |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1** | Bronce | Base | Se encuentra en sorteos estándar al subir de nivel |
+| **Nivel 2** | Plata | 1.5x - 2.0x | Dos cartas de Nivel 1 o botines raros |
+| **Nivel 3** | Oro | 3.0x+ | Dos cartas de Nivel 2 |
+
+Modificadores como "Flare Up" proporcionan una probabilidad porcentual de causar explosiones al matar. En el Nivel 1, esto podría ser un 30% de probabilidad para un 30% de daño. Para cuando alcanzas el Nivel 3, la tasa de activación salta al 80%, convirtiendo cada muerte enemiga en una reacción en cadena de daño de área de efecto.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Potenciador">
+    - **Daño**: Aumento porcentual fijo a la potencia del arma.
+    - **Velocidad de Ataque**: Reduce el enfriamiento entre golpes.
+    - **Cantidad de Proyectiles**: Añade balas o tajos adicionales.
+  </Card>
+  <Card title="Cartas de Efecto">
+    - **Quemadura**: Inflige daño con el tiempo a élites resistentes.
+    - **Lentitud**: Esencial para kitear jefes rápidos.
+    - **Robo de Vida**: Probabilidad rara de recuperar PS al golpear.
+  </Card>
+  <Card title="Cartas de Propagación">
+    - **Mejora Adyacente**: Aumenta el daño de las cartas a la izquierda/derecha.
+    - **Potenciador Global**: Proporciona mejoras menores a todas las armas.
+    - **Posicionamiento**: Requiere una colocación específica en las ranuras.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Límites de Fusión">
+Solo puedes fusionar dos cartas del mismo nivel. Si tienes una carta de Nivel 2 y robas una versión de Nivel 1, no se pueden combinar. Vigila siempre el espacio de tu inventario para evitar saturar tu mano con duplicados que no se pueden fusionar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desbloqueo de Personajes y Armas Insignia">
+
+La progresión en el Limbo está marcada por el rescate de otros "Poetas del Limbo". Cada personaje trae un arma insignia única y un conjunto de bendiciones que alteran el conjunto de cartas disponibles para futuras partidas. Dante es el personaje inicial, pero Virgilio y Horus ofrecen estilos de juego muy diferentes que son esenciales para abordar niveles de dificultad más altos.
+
+<Steps>
+  <Step num="1" title="Dominar a Dante">
+    Utiliza el **Blazing Quill** para limpiar los primeros niveles. Céntrate en modificaciones basadas en fuego y el mod de explosión "Flare Up" para manejar grandes multitudes.
+  </Step>
+  <Step num="2" title="Desbloquear a Virgilio">
+    Después de sobrevivir al primer encuentro con un jefe, la bendición de Virgilio estará disponible. Virgilio se especializa en combate basado en proyectiles con el arma **Wayfinder**, que dispara proyectiles que se desvían.
+  </Step>
+  <Step num="3" title="Rescatar a Horus">
+    Localiza a Horus en el mapa durante una partida. Debes protegerla de oleadas de enemigos hasta que expire el temporizador. Una vez rescatada, proporciona bendiciones de daño cuerpo a cuerpo elevado y el mod **Eternal Prestige**.
+  </Step>
+</Steps>
+
+| Personaje | Arma Insignia | Estilo de Juego | Bendición Clave |
+| :--- | :--- | :--- | :--- |
+| **Dante** | Blazing Quill | Fuego / AdE | Mayor daño y duración de Quemadura |
+| **Virgilio** | Wayfinder | Proyectil / Kiteo | Cantidad de proyectiles extra para todas las armas |
+| **Horus** | Lanza / Melee | Gran Ráfaga / Robo de Vida | Absorción de PS y bono de daño a élites |
+
+<Callout type="success" title="Sinergia de Horus">
+El mod **Eternal Prestige** de Horus cambia las reglas del juego. Otorga una probabilidad del 5% al 15% de absorber PS de los enemigos. Combinar esto con un arma de alta velocidad de ataque como el rayo te hace casi invencible en oleadas de alta densidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia y Estrategias contra Jefes">
+
+Los jefes en este juego de supervivencia de chicas mágicas actúan como controles masivos de DPS. A menudo presentan patrones de infierno de balas (bullet-hell) y alta velocidad de movimiento. La supervivencia depende de tu capacidad para mantener la distancia mientras maximizas el tiempo de actividad de tus "hechizos". Los hechizos son habilidades poderosas activadas por la tecla Q que a menudo limpian la pantalla o proporcionan invulnerabilidad temporal.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Verificación Pre-Jefe:"
+  items={[
+    "Fusionar al menos dos armas al Nivel 3",
+    "Equipar al menos un mod de efecto 'Lentitud' o 'Quemadura'",
+    "Guardar una Ficha de Hechizo para la segunda fase del jefe",
+    "Romper jarrones cercanos para encontrar pociones de PS ocultas",
+    "Maximizar tus amuletos de Velocidad de Movimiento"
+  ]}
+/>
+
+| Fase del Jefe | Mecánica | Contraestrategia |
+| :--- | :--- | :--- |
+| **Aparición Inicial** | Carga cuerpo a cuerpo / Proyectiles | Usa los frames de invulnerabilidad del dash para moverte entre balas |
+| **Estado Enfurecido** | Mayor velocidad / Círculos de AdE | Céntrate en el kiteo y armas de largo alcance |
+| **Última Resistencia** | Infierno de balas / Limpieza de pantalla | Despliega tu Hechizo (Q) para terminar el combate |
+
+<Callout type="tip" title="La Estrategia de los Jarrones">
+No ignores los jarrones destructibles esparcidos por el mapa. Aunque la mayoría contienen orbes de experiencia, algunos sueltan pociones de PS raras o potenciadores de daño temporales. En un juego donde la curación es tan limitada, estos jarrones son tu salvavidas principal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Build Avanzada: El Combo de Luna y Rayo">
+
+Para los jugadores que buscan romper el meta, la combinación de "Selenic Bloom" (Luna) y el ataque de Rayo ofrece una limpieza de pantalla sin igual. El arma Luna crea un anillo de AdE persistente que cura al jugador si se combina con las bendiciones de Horus. Mientras tanto, el ataque de Rayo puede modificarse con "Invigorate" para infligir más del 300% de daño.
+
+| Combo de Armas | Requisitos de Mod | Resultado |
+| :--- | :--- | :--- |
+| **Selenic Bloom** | Cantidad de Proyectiles + Robo de Vida | Múltiples zonas de curación en pantalla |
+| **Lightning Bolt** | Invigorate + Swift Strikes | Golpes de alta velocidad y daño masivo |
+| **Wayfinder** | Tamaño + Propagación | Cobertura de pantalla masiva para limpiar turbas |
+
+La clave de esta build es el mod **Swift Strikes**, que anula la penalización de velocidad de ataque de los modificadores de daño pesado como "Invigorate". Esto permite que tus rayos golpeen a velocidades estándar mientras mantienen un multiplicador de daño del 300%, derritiendo efectivamente a los enemigos élite en segundos.
+
+<Callout type="info" title="Nota Final de Progresión">
+A partir del meta de 2026, acumular amuletos de **Ganancia de Experiencia** al principio de la partida (primeros 10 niveles) es más efectivo que tomar mejoras de daño inmediatas. Alcanzar el Nivel 50 antes del jefe final asegura que tengas suficientes ranuras de cartas para maximizar el potencial de tu build.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes sobre Hell Maiden">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo nuevos personajes en Hell Maiden?",
+    answer: "Los nuevos personajes como Virgilio y Horus se desbloquean completando objetivos específicos del mapa. Virgilio se desbloquea tras tu primera partida exitosa, mientras que Horus requiere que completes una misión de protección que se encuentra en el mapa."
+  },
+  {
+    question: "¿Cuál es la mejor forma de curarse durante una partida?",
+    answer: "La curación es rara. Puedes encontrar pociones en jarrones destructibles, o usar la bendición de Horus 'Eternal Prestige' que da una probabilidad de curarse al golpear. El arma Selenic Bloom también proporciona zonas de curación."
+  },
+  {
+    question: "¿Puedo fusionar diferentes tipos de cartas de mod?",
+    answer: "No. Solo puedes fusionar dos cartas idénticas del mismo nivel. Por ejemplo, dos mods de 'Tamaño de Ataque' de Nivel 1 crearán un mod de 'Tamaño de Ataque' de Nivel 2."
+  },
+  {
+    question: "¿Qué hace el tipo de carta 'Propagación' en esta guía de Hell Maiden?",
+    answer: "Las cartas de Propagación aplican sus bonificaciones a las armas situadas inmediatamente a su izquierda o derecha en tu mano. La gestión adecuada de la mano es esencial para maximizar estas mejoras."
+  }
+]} />
+
+</Section>

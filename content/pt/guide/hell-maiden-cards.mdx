@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cartas de Hell Maiden: Guia de Estratégias e Mecânicas de Build (2026)",
+  description: "Domine o sistema de cartas de Hell Maiden com nosso guia sobre cartas de Arma e Modificadores, mecânicas de fusão e estratégias de deck para personagens em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c0519/fff?text=Hell+Maiden+Cards+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Hell Maiden",
+  keywords: "hell maiden, cartas, guia, builds, mecânicas, armas, modificadores"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As cartas de hell maiden** são divididas em dois tipos principais: Cartas de Arma para habilidades e Cartas de Mod (Modificadores) para melhorias de atributos.
+- **O sistema de fusão** permite que os jogadores combinem cartas de Mod duplicadas do mesmo nível para atingir um nível máximo de 3.
+- **O posicionamento estratégico** é vital, pois certas Cartas de Dispersão (Spread) fornecem bônus para as cartas adjacentes em seu deck.
+- **As Armas de Assinatura** apresentam ataques supremos animados exclusivos (Feitiços) que podem mudar o rumo da batalha.
+- **Os Rerolls são limitados** a três por partida, portanto, use-os com sabedoria para garantir cartas de raridade Ouro de alto nível.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais das Cartas de Hell Maiden">
+
+Entender o sistema de cartas é a base para a sobrevivência no submundo. Em **Hell Maiden**, seu poder está diretamente ligado ao deck que você constrói durante cada partida. Ao contrário dos deck-builders tradicionais, essas cartas são espaços físicos na sua interface que você pode manipular em tempo real. Cada poeta começa com uma Arma de Assinatura, mas conforme você avança pelos níveis, preencherá sua mão com até quatro Cartas de Arma e várias Cartas de Mod.
+
+**Destaques do Vídeo:**
+- Demonstração do ciclo principal de anexar Cartas de Mod a Cartas de Arma.
+- Exibição da tela de seleção de subida de nível e reorganização de cartas.
+- Visualização do impacto do aumento na contagem de projéteis nos ataques básicos.
+- Uma olhada na animação da habilidade suprema Dante's Inferno.
+
+<YouTubeEmbed videoId="IO9wcjKmUFY" title="Hell Maiden Gameplay and Card Mechanics" />
+
+A sinergia entre essas cartas determina seu dano e sobrevivência. Ao subir de nível, especificamente nos níveis pares e nos níveis 3 e 5, você terá a escolha entre três cartas exclusivas. Embora as Cartas de Mod possam ser ignoradas se não se encaixarem na sua build, as Cartas de Arma são adições obrigatórias ao seu arsenal.
+
+<Callout type="tip" title="Verificação de Compatibilidade">
+Quando estiver na tela de subida de nível, passe o mouse sobre uma Carta de Mod. Todas as Cartas de Arma compatíveis com esse modificador específico brilharão, facilitando a visualização de onde seus bônus podem ser aplicados.
+</Callout>
+
+| Tipo de Atributo | Efeito do Ícone | Descrição |
+| :--- | :--- | :--- |
+| **Dano** | Poder de Ataque | Aumenta os pontos de vida brutos removidos dos inimigos. |
+| **Vel. de Ataque** | Frequência | Reduz o intervalo entre as ativações da arma. |
+| **Chance de Crítico** | Probabilidade | Aumenta a chance de causar dano crítico extra. |
+| **Qtd. de Projéteis** | Quantidade | Adiciona balas ou cortes adicionais por ciclo de ataque. |
+| **Tam. do Ataque** | Área de Efeito | Aumenta a escala física do impacto da arma. |
+| **Duração** | Persistência | Prolonga o tempo que uma habilidade permanece ativa na tela. |
+
+</Section>
+
+<Section icon={Swords} title="Classificações de Cartas de Arma e Mod">
+
+Nem todas as **cartas de hell maiden** são criadas iguais. O jogo utiliza um sistema de raridade e tipo para ajudar os jogadores a identificar rapidamente a função de uma carta. As Cartas de Arma vêm em duas raridades distintas: **Prata** (Comum) e **Ouro** (Rara). As cartas de Ouro geralmente oferecem mecânicas mais complexas ou atributos básicos mais altos, como o *Dragon's Breath* de Dante.
+
+As Cartas de Mod são categorizadas em cinco tipos, cada uma codificada por cores para fácil identificação durante as partidas frenéticas.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Impulso e Efeito">
+    - **Impulso (Azul)**: Melhora um único atributo pré-existente.
+    - **Efeito (Roxo)**: Adiciona novos efeitos de status como Queimadura ou Lentidão.
+    - **Ativadores Ao Atingir**: Alta utilidade para armas de ataque rápido.
+  </Card>
+  <Card title="Cartas de Dispersão e Milagre">
+    - **Dispersão (Verde)**: Melhora as cartas adjacentes no layout do deck.
+    - **Milagre (Amarelo)**: Fornece múltiplos impulsos de atributos simultaneamente.
+    - **Posicionamento**: Requer organização cuidadosa do deck para maximizar.
+  </Card>
+  <Card title="Cartas de Maldição">
+    - **Maldição (Vermelho)**: Oferece bônus massivos com uma desvantagem significativa.
+    - **Risco/Recompensa**: Exemplo: +100% de Dano, mas -30% de Velocidade de Ataque.
+    - **Builds Avançadas**: Melhor usadas quando você tem outras cartas para compensar a penalidade.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gerenciamento de Maldições">
+Equipe Cartas de Maldição apenas se sua build atual puder lidar com a desvantagem. Por exemplo, não aceite uma penalidade de Velocidade de Ataque se sua arma principal já tiver um tempo de recarga longo, ou você poderá se ver indefeso contra hordas.
+</Callout>
+
+| Nome da Carta | Tipo | Raridade | Efeito Primário |
+| :--- | :--- | :--- | :--- |
+| **Blazing Quill** | Arma | Ouro | Corte ardente de curto alcance (Assinatura de Dante). |
+| **Wayfinder** | Arma | Ouro | Projétil em área que faz curvas (Assinatura de Virgílio). |
+| **Cronus' Inertia** | Mod | Prata | 30-90% de chance de aplicar Lentidão ao atingir. |
+| **Dextral Charge** | Mod | Prata | Aumenta a velocidade de ataque das armas à direita. |
+| **Dragon's Breath** | Arma | Ouro | Gera uma explosão de chamas ardentes. |
+
+</Section>
+
+<Section icon={Sparkles} title="O Processo de Fusão e Nível">
+
+Um dos aspectos mais exclusivos das **cartas de hell maiden** é a mecânica de fusão. Você pode atualizar as Cartas de Mod até o Nível 3 combinando duplicatas. Este processo é essencial para escalar seu poder e acompanhar a dificuldade crescente dos círculos do Limbo.
+
+<Steps>
+  <Step num="1" title="Coletar Duplicatas">
+    Obtenha uma duplicata de uma Carta de Mod que você já possui através do conjunto de subida de nível ou de um baú.
+  </Step>
+  <Step num="2" title="Igualar Níveis">
+    Certifique-se de que as duas cartas sejam do mesmo nível. Duas cartas de Nível 1 se fundirão em uma carta de Nível 2.
+  </Step>
+  <Step num="3" title="Evolução Visual">
+    Observe a borda da carta: as cartas de Nível 2 apresentam detalhes em prata, enquanto as cartas de Nível 3 ostentam detalhes em ouro e ilustrações alteradas.
+  </Step>
+  <Step num="4" title="Combinação Automática">
+    Se você mover uma carta para um espaço que contenha sua duplicata do mesmo nível, elas se fundirão instantaneamente para economizar espaço.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Organização do Deck">
+Pressionar a tecla **Tab** permite que você organize seu deck. Você pode mover Cartas de Mod entre diferentes Cartas de Arma livremente enquanto estiver na tela de subida de nível para otimizar seus bônus de cartas de "Dispersão".
+</Callout>
+
+| Nível de Fusão | Detalhe da Borda | Multiplicador de Atributo (Aprox) |
+| :--- | :--- | :--- |
+| **Nível 1** | Padrão | Valor Base (ex: +20% de Velocidade) |
+| **Nível 2** | Prata | 2x Valor Base (ex: +40% de Velocidade) |
+| **Nível 3** | Ouro | 3x-4x Valor Base (ex: +80% de Velocidade) |
+
+</Section>
+
+<Section icon={Target} title="Cartas de Assinatura e Feitiços dos Personagens">
+
+No meta de 2026, escolher seu poeta é o primeiro passo para definir sua estratégia de cartas. Cada personagem vem com uma Carta de Arma de Assinatura que não pode ser descartada e inclui um poderoso "Feitiço" ou ataque supremo. Esses feitiços ativam uma cena totalmente animada e causam dano massivo que limpa a tela.
+
+**Estratégia de Dante:**
+Dante foca em fogo e combate de curto alcance. Sua assinatura *Blazing Quill* beneficia-se imensamente de modificadores de Tamanho de Ataque e Contagem de Projéteis. Seu feitiço, *Dante's Inferno*, deve ser guardado para encontros de elite onde você estiver cercado.
+
+**Estratégia de Virgílio:**
+Virgílio utiliza o *Wayfinder*, que se destaca no controle de multidões à longa distância. Jogadores que usam Virgílio devem focar em Duração e Velocidade de Projétil para manter suas âncoras curvadas ativas pelo maior tempo possível.
+
+<Callout type="success" title="Recompensas de Elite">
+Inimigos de elite deixam cair baús que fornecem seleções gratuitas de Cartas de Mod. Estas não consomem seus pontos de subida de nível, tornando-as a maneira mais eficiente de alcançar o Nível 3 em seus modificadores principais.
+</Callout>
+
+| Poeta | Arma de Assinatura | Estilo de Ataque | Feitiço Supremo |
+| :--- | :--- | :--- | :--- |
+| **Dante** | Blazing Quill | Curto Alcance/Corte | Dante's Inferno |
+| **Virgílio** | Wayfinder | Projétil/Área | Spectral Tide |
+| **Horace** | A definir | A definir | A definir |
+
+</Section>
+
+<Section icon={Shield} title="Checklist de Sobrevivência para Seleção de Cartas">
+
+Construir um deck não é apenas sobre dano; é sobre sobreviver ao massacre de 10 a 12 minutos dos estágios do Limbo. Use a seguinte checklist para garantir que seu deck esteja equilibrado para o encontro com o chefe final.
+
+<Checklist
+  id="card-survival-goals"
+  title="Marcos Essenciais do Deck:"
+  items={[
+    "Equipe pelo menos uma carta de 'Efeito' para controle de multidão (Lentidão ou Queimadura)",
+    "Funda os modificadores de dano principais para o Nível 3 antes da marca de 8 minutos",
+    "Posicione cartas de 'Dispersão' para fortalecer sua arma de maior dano",
+    "Garanta uma fonte de cura (ex: Cartas de Mod de absorção de HP)",
+    "Guarde pelo menos um reroll para as armas de Ouro que surgem no final do jogo"
+  ]}
+/>
+
+<Callout type="tip" title="O Item Ímã">
+Fique de olho no item Ímã no campo de batalha. Ele atrai todas as gemas de experiência soltas para você, o que muitas vezes resulta em 2 a 3 subidas de nível imediatas, permitindo que você corrija rapidamente um layout de cartas fraco.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso ter cartas de Arma duplicadas na minha mão?",
+    answer: "Não, o jogador não pode obter cartas de Arma duplicadas. Você pode carregar até quatro cartas de Arma únicas ao mesmo tempo, incluindo sua Carta de Assinatura."
+  },
+  {
+    question: "O que acontece se eu usar todos os meus rerolls?",
+    answer: "Assim que os três rerolls forem usados, a opção desaparece pelo restante da partida. Você deve escolher entre as três cartas apresentadas inicialmente."
+  },
+  {
+    question: "As cartas de hell maiden são mantidas entre as partidas?",
+    answer: "Não, as cartas selecionadas durante uma partida são temporárias e não são mantidas. Cada partida começa do zero, embora sua progressão meta no Fórum possa afetar seus atributos iniciais."
+  },
+  {
+    question: "Como faço para descartar uma carta que não quero mais?",
+    answer: "Você pode descartar Cartas de Mod da sua mão a qualquer momento enquanto estiver na tela de subida de nível. No entanto, as Cartas de Arma nunca podem ser removidas depois de escolhidas."
+  }
+]} />
+
+</Section>

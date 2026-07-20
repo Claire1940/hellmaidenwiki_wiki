@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "ヘル・メイデン：初心者向け攻略＆デッキ構築ガイド",
+  description: "2026年最新の『ヘル・メイデン』（Hell Maiden）攻略ガイド。基本メカニクス、最適なスピリットカードのビルド、ボス対策、辺獄（Limbo）と愛欲（Lust）の効率的な進行ルートをマスターしましょう。",
+  category: "攻略ガイド",
+  image: "https://placehold.co/800x400/881337/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "ヘル・メイデン Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- 移動と能動的なエイムに集中し、**ヘル・メイデン**の群れサバイバル（horde-survival）のループをマスターしましょう。
+- 序盤に**4つの武器の手札**を構築し、ダメージとクラウドコントロールの効率を最大化しましょう。
+- **重複するModカードを合成**してレベル3に到達させ、戦闘能力を大幅に強化しましょう。
+- **詩人の救出**を最優先して、永続的な固有武器やキャラクター専用アビリティをアンロックしましょう。
+- 各階層（Circle）で**12分間**生存し、ミノス女王（Queen Minos）などの強力なボスに挑みましょう。
+</Callout>
+
+<Section icon={Map} title="ヘル・メイデンを始めよう">
+
+**ヘル・メイデン**の核となるゲームプレイのループでは、自動攻撃と精密な手動エイムのバランスを取る必要があります。プレイヤーはダンテとして、敵のウェーブを生き延び、経験値を集め、スピリットカードのデッキを戦略的に構築することを目指します。
+
+**動画のハイライト:**
+- 敵が密集するウェーブでのポジショニング技術。
+- 武器カードとModカードの相互作用の理解。
+- 初回の12分間のランを生き残るための不可欠なコツ。
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="ヘル・メイデン ゲームプレイ概要" />
+
+<CardGrid cols={3}>
+  <Card title="移動">
+    - 常に動き続けること。
+    - ダッシュを使って隙間を飛び越える。
+    - 敵を一方向に引きつける。
+  </Card>
+  <Card title="デッキ構築">
+    - 4つの武器を目指す。
+    - 重複するModを合成する。
+    - シナジーを重視する。
+  </Card>
+  <Card title="進行度">
+    - 早めに神殿（Temple）を活性化する。
+    - 辺獄（Limbo）の詩人を救出する。
+    - 深淵の嘆き（Wails of the Abyss）を消費する。
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="生存戦略">
+エリート敵の予兆攻撃や、弾幕に囲まれた時のために、常に少なくとも1回分のダッシュを温存しておきましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="おすすめビルドとスピリットカード">
+
+**ヘル・メイデン**における効率的なデッキ構築は、主要な固有武器にアップグレードを集中させることです。Modカードを4つのスロットすべてに薄く分散させるのは避けましょう。
+
+| ビルドタイプ | コア武器 | Mod優先度 | 最適な用途 |
+| :--- | :--- | :--- | :--- |
+| 火力特化型 | 燃え盛る羽ペン（Blazing Quill） | ダメージ、攻撃速度 | ボス戦 |
+| 弾幕制圧型 | ウェイファインダー（Wayfinder） | 弾数、弾速 | 雑魚敵の大群 |
+| 状態異常コントロール | コデックス・アモリス（Codex Amoris） | 効果時間、多段ヒット | エリート敵 |
+
+<Callout type="warning" title="位置取りの意識">
+位置効果が変化したときは、いつでも手札を並べ替えましょう。一部のModカードは、コア武器に対する配置場所に基づいてボーナスを提供します。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="辺獄（Limbo）ステップバイステップ攻略">
+
+<Steps>
+  <Step num="1" title="序盤のセットアップ">
+    すぐに経験値オーブを集めることに集中しましょう。最初の3分以内に最初の2つの武器カードを確保し、ダメージの基準値を確立します。
+  </Step>
+  <Step num="2" title="神殿の活性化">
+    マップを探索して神殿（Temple）を活性化しましょう。これにより、そのランにおいて重要な恩恵が得られ、12分間の生存タイマーの後半を乗り切りやすくなります。
+  </Step>
+  <Step num="3" title="ボス戦">
+    レベル3のModで強化された武器を揃えてミノス女王戦に挑みましょう。固有の呪文（Spell）は、彼女の最も回避しづらい弾幕パターンの間だけ使用してください。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="進行の節目（マイルストーン）">
+
+キャラクターの潜在能力を最大限に引き出すには、進行状況を把握することが重要です。以下の表を参考に、ランの合間に優先すべき目標を決めましょう。
+
+| マイルストーン | 条件 | 報酬 |
+| :--- | :--- | :--- |
+| 詩人の救出 | ホラティウス、ホメロス、オウィディウスを救出 | 詩人1人につき5つの新アビリティ |
+| レベル50 | キャラクターレベル50に到達 | 奈落の武勇 I（Infernal Prowess I） |
+| ハイスコア | 辺獄/愛欲で100,000スコア達成 | 地獄の熟達（Hellish Mastery） |
+| クリスタルチャーム | クリスタルレアリティを獲得 | 天界の贈り物（Heavenly Gift） |
+
+<Checklist
+  id="progression-goals"
+  title="重要な進行チェックリスト："
+  items={[
+    "辺獄（Limbo）のすべての詩人を救出する",
+    "第2階層：愛欲（Lust）をアンロックする",
+    "1つの武器に3枚のレベル3 Modカードを装備する",
+    "ミノス女王を3回撃破する",
+    "深淵の嘆き（Wails of the Abyss）を5,000消費する"
+  ]}
+/>
+
+<Callout type="success" title="メタ進行">
+詩人の救出が最優先事項です。救出した詩人はそれぞれ、カードプールを永続的に拡張し、今後のランでより強力なビルドを可能にします。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="ボス攻略">
+
+**ヘル・メイデン**のボス戦では、攻撃パターンの把握が必要です。以下のデータを利用して、辺獄（Limbo）と愛欲（Lust）での遭遇に備えましょう。
+
+| ボス | 階層 | 主な戦略 |
+| :--- | :--- | :--- |
+| ミノス女王（Queen Minos） | 辺獄（Limbo） | 横方向に移動し、隙を突く |
+| スカルミリョーネ（Scarmiglione） | 愛欲（Lust） | 距離を保ち、敵の攻撃後に瞬間火力を叩き込む |
+| リビコッコ（Libicocco） | 愛欲（Lust） | 最初に分身を処理し、中央での重複を避ける |
+
+<FAQ items={[
+  {
+    question: "第2階層（愛欲/Lust）をアンロックするにはどうすればよいですか？",
+    answer: "辺獄（Limbo）で12分間の生存目標を達成し、ミノス女王を撃破する必要があります。その後、フォーラム（Forum）でのストーリーイベントを進めることで進行します。"
+  },
+  {
+    question: "深淵の嘆き（Wails of the Abyss）の最も効果的な使い道は何ですか？",
+    answer: "特定のチャレンジ向けセットアップに投資する前に、生存力やダメージの安定性を高める永続的なメタアップグレードに消費するのが最適です。"
+  },
+  {
+    question: "『ヘル・メイデン』はローグライクゲームですか？",
+    answer: "はい、本作は群れサバイバル（horde-survival）ローグライトです。ランを通じてデッキ構築を行い、地獄の9つの階層にまたがる永続的な強化やキャラクターのアンロックを進めていきます。"
+  }
+]} />
+
+</Section>

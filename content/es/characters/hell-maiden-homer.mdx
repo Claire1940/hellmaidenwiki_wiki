@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "hell maiden homer: Guía de desbloqueo del Poeta y build de Lírica Alada",
+  description: "Domina la misión de rescate de homer en hell maiden en el Círculo 1. Aprende las mejores builds de Lírica Alada, las habilidades del Poeta y las estrategias contra la Reina Minos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Homer+Poet+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de hell maiden"
+}
+
+<Callout type="info" title="Guía rápida">
+- **hell maiden homer** es una compañera Poeta crucial rescatada en el Círculo 1 (Limbo) que desbloquea opciones de combate de alta precisión.
+- **Lírica Alada (Winged Lyric)** es su arma insignia, especializada en daño a un solo objetivo que nunca falla, lo que la hace ideal para combates contra jefes.
+- **Requisitos de rescate**: Implica sobrevivir al temporizador de 12 minutos del Limbo e interactuar con Homer durante activadores de misión específicos.
+- **Mejor estrategia de modificadores (Mods)**: Se centra en fusionar modificadores duplicados al Nivel 3 para maximizar la presión de proyectiles de su conjunto de cartas único.
+- **Objetivos de logros**: Incluyen el hito de Bardo de Ojos de Cristal y la colección de armas Alma de Poeta IV.
+</Callout>
+
+<Section icon={BookOpen} title="Introducción al Bardo de Ojos de Cristal">
+
+En el oscuro y gótico mundo de Hell Maiden, la narrativa sigue el misterioso regreso de Dante al abismo tras alcanzar el Paraíso. A medida que asciende por los nueve círculos una vez más, debe rescatar a los Poetas del Limbo para recuperar su fuerza y sus recuerdos. Entre estas figuras legendarias, **hell maiden homer** destaca como una aliada vital para los jugadores que tienen dificultades con enemigos de élite de gran salud y complejos patrones de jefes.
+
+Conocida como el Bardo de Ojos de Cristal, Homer ofrece un cambio táctico respecto al despeje de área amplia de Virgilio o de las armas iniciales de Dante. Su inclusión en tu mazo introduce la Lírica Alada, un arma que prioriza la precisión y la presión sostenida. En la versión actual de Acceso Anticipado de 2026, rescatar a Homer no es solo un requisito de la historia, sino una necesidad de juego para aquellos que aspiran a conquistar los desafíos más difíciles en el Círculo 2, la Lujuria.
+
+<Callout type="tip" title="Perspicacia del editor">
+Las cartas de Homer están diseñadas específicamente para contrarrestar los patrones de lluvia de balas (bullet-hell) de la Reina Minos. Si te encuentras fallando disparos mientras esquivas proyectiles, sus capacidades de autodirección cambian por completo el juego.
+</Callout>
+
+| Nombre del Poeta | Arma insignia | Rol de combate principal | Ubicación de desbloqueo |
+| :--- | :--- | :--- | :--- |
+| Dante | **Pluma Ardiente (Blazing Quill)** | Equilibrado / Área (AoE) | Personaje inicial |
+| Virgilio | **Senda (Wayfinder)** | Presión de proyectiles | Foro de los Poetas |
+| **Homer** | **Lírica Alada (Winged Lyric)** | **Un solo objetivo / Precisión** | **Círculo 1: Limbo** |
+| Horacio | **Carpe Diem** | Daño directo | Círculo 1: Limbo |
+| Ovidio | **Codex Amoris** | Control de estado | Círculo 2: Lujuria |
+
+</Section>
+
+<Section icon={Map} title="Cómo rescatar a Homer en el Limbo">
+
+Desbloquear a **hell maiden homer** requiere una incursión exitosa en el primer círculo del Infierno. A diferencia de Virgilio, a quien se conoce a través de la progresión inicial de la historia en el Foro, Homer está atrapada en las arenas movedizas del Limbo. Los jugadores deben equilibrar la necesidad de recolectar experiencia con la exploración requerida para encontrar el activador de su rescate.
+
+Para garantizar un rescate exitoso, debes concentrarte en la supervivencia durante los primeros seis minutos de la partida. Una vez que tengas una mano estable de cuatro armas, puedes comenzar a buscar el aura distintiva de la Poeta.
+
+<Steps>
+  <Step num="1" title="Entra al Círculo 1: Limbo">
+    Comienza una partida estándar en el Limbo. Asegúrate de usar un personaje con el que te sientas cómodo, como Dante o Virgilio, para mantener una alta movilidad durante las primeras oleadas.
+  </Step>
+  <Step num="2" title="Estabiliza tus Cartas de Espíritu">
+    Recolecta orbes de experiencia para llenar las cuatro ranuras de armas. Prioriza al menos un arma de efecto de área como Senda (Wayfinder) para mantener a raya a las hordas de Brotchi y esqueletos mientras exploras.
+  </Step>
+  <Step num="3" title="Localiza el activador de la Poeta">
+    Navega por el mapa para encontrar el marcador de misión asociado con los Poetas del Limbo. Debes interactuar con el entorno y sobrevivir a las oleadas intensificadas de enemigos que aparecen durante el evento de rescate.
+  </Step>
+  <Step num="4" title="Sobrevive al temporizador de 12 minutos">
+    El rescate solo se completa si sobrevives al temporizador completo de 12 minutos de oleadas en el Limbo. Si caes antes de que termine el tiempo, tendrás que intentar el rescate en una partida posterior.
+  </Step>
+  <Step num="5" title="Visita el Foro de los Poetas">
+    Después de una partida exitosa, regresa al área central (hub). Habla con Homer para agotar sus diálogos y añadir de forma permanente sus cinco habilidades únicas a tu conjunto de Cartas de Espíritu.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Prioridad de rescate">
+No intentes el rescate durante los dos últimos minutos del temporizador (10:00-12:00). La densidad de enemigos aumenta significativamente, lo que facilita quedar atrapado mientras interactúas con el alma de la Poeta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lírica Alada: Mejores builds y estrategias de modificadores">
+
+La Lírica Alada es la pieza central de cualquier build de **hell maiden homer**. Su característica definitoria es la capacidad de fijar objetivos, asegurando que cada proyectil contribuya al daño total infligido. Esto la convierte en la opción principal para la "Build centrada en jefes" utilizada para derrotar a la Reina Minos y al dúo Malebranche en la Lujuria.
+
+Al armar una build en torno a las habilidades de Homer, debes considerar la posición de tus Cartas de Espíritu. Colocar los modificadores de manera correcta puede amplificar la velocidad de disparo y el daño de la Lírica Alada a niveles que derriten a las Víboras de élite en segundos.
+
+<CardGrid cols={2}>
+  <Card title="El arquetipo de francotirador">
+    - **Arma principal**: Lírica Alada (Winged Lyric)
+    - **Modificadores principales**: Daño, Probabilidad de crítico, Velocidad de ataque
+    - **Estilo de juego**: Quédate en el borde de la pantalla y deja que los proyectiles teledirigidos hagan el trabajo mientras te concentras en esquivar.
+  </Card>
+  <Card title="La tormenta de proyectiles">
+    - **Arma principal**: Lírica Alada + Senda
+    - **Modificadores principales**: Cantidad de proyectiles, Duración, Efectos de estado
+    - **Estilo de juego**: Llena la pantalla con ataques teledirigidos y de área para controlar tanto a los jefes como a los enemigos comunes circundantes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimización de la build">
+Para lograr el logro **Mano Perfecta (Perfect Hand)**, concéntrate en fusionar cartas de modificadores duplicadas para la Lírica Alada. Un modificador de daño de Nivel 3 combinado con un modificador de velocidad de ataque de Nivel 3 superará el daño de una mano llena de cartas de Nivel 1 sin mejorar.
+</Callout>
+
+| Tipo de modificador | Efecto de Nivel 1 | Bonificación de Nivel 3 | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Daño** | +15% de poder base | **+50% de poder base** | Esencial |
+| **Velocidad de ataque** | +10% de cadencia de tiro | **+35% de cadencia de tiro** | Alta |
+| **Proyectil** | +1 proyectil | **+3 proyectiles** | Alta |
+| **Crítico** | +5% de probabilidad de crítico | **+20% de probabilidad de crítico** | Media |
+| **Duración** | +0.5s de vida | **+2.0s de vida** | Baja |
+
+</Section>
+
+<Section icon={Target} title="Tácticas de combate para la Reina Minos">
+
+Una vez que hayas asegurado a **hell maiden homer** y su Lírica Alada, tu siguiente gran obstáculo es la Reina Minos al final del Limbo. Este encuentro contra el jefe pone a prueba tu capacidad para mantener el daño mientras navegas por complejos patrones de lluvia de balas. La Lírica Alada es particularmente efectiva aquí porque te permite concentrar el 100% de tu atención en el movimiento de Dante.
+
+La Reina Minos alterna entre ataques de área telegrafiados. Con el arma de Homer, no necesitas apuntar al jefe; solo necesitas sobrevivir a los patrones.
+
+| Fase de ataque | Acción del jefe | Contramedida recomendada |
+| :--- | :--- | :--- |
+| **Fase 1** | Espirales de proyectiles | Movimiento circular alrededor del borde de la arena |
+| **Fase 2** | Golpes telegrafiados | Guarda el esprint (Dash) para el último segundo de la advertencia |
+| **Fase 3** | Esbirros invocados | Usa el Hechizo del Poeta para despejar espacio al instante |
+| **Enfurecido** | Patrones superpuestos | Movimiento lateral y fuego concentrado de la Lírica Alada |
+
+<Callout type="info" title="Uso de hechizos">
+Guarda el hechizo característico de Homer para la Fase 3. Proporciona una enorme ráfaga de daño a un solo objetivo que puede omitir las partes más peligrosas del ciclo de enfurecimiento final de la Reina.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Logros y metaprogresión">
+
+Rescatar a Homer y dominar su mazo está vinculado a varios logros clave de Steam. Para los completistas, la línea de misiones de **hell maiden homer** es una parte significativa del contenido del juego temprano. Más allá del rescate, necesitarás gastar Lamentos del Abismo (Wails of the Abyss) para mejorar las estadísticas permanentes que respaldan sus cartas de alto costo.
+
+<Checklist
+  id="homer-milestones"
+  title="Lista de verificación de finalización de Homer:"
+  items={[
+    "Rescata a Homer en el Círculo 1 (Logro: Bardo de Ojos de Cristal)",
+    "Equipa todas las cartas de armas de Homer (Alma de Poeta IV)",
+    "Equipa todas las cartas de modificadores de Homer (Esencia de Poeta IV)",
+    "Supera el Círculo 1 usando la Lírica Alada (Lírica Alada III)",
+    "Alcanza el nivel 50 en una sola partida con las habilidades de Homer"
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de recursos">
+Gasta tus primeros 5,000 Lamentos del Abismo en el hito "Consumidor del Abismo". Prioriza las mejoras que aumenten tu salud inicial y las cargas de esprint, ya que el estilo de juego de Homer requiere un posicionamiento preciso durante la ventana de supervivencia de 12 minutos.
+</Callout>
+
+| Nombre del logro | Requisito | Rareza |
+| :--- | :--- | :--- |
+| **Bardo de Ojos de Cristal** | Rescata a Homer en el Limbo | Común |
+| **Alma de Poeta IV** | Equipa todas las armas de Homer | Poco común |
+| **Lírica Alada II** | Usa el hechizo característico de Homer | Común |
+| **Mano Perfecta** | Mano completa de modificadores de Nivel 3 | Raro |
+| **Regalo Celestial** | Obtén un amuleto de rareza Cristal | Muy raro |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra exactamente Homer en el Limbo?",
+    answer: "Homer se encuentra siguiendo los marcadores de misión de Poeta que aparecen aleatoriamente durante una partida en el Limbo. Debes interactuar con su alma y sobrevivir a la oleada resultante para desbloquearla."
+  },
+  {
+    question: "¿Es la Lírica Alada mejor que la Pluma Ardiente?",
+    answer: "La Lírica Alada es superior para el daño a un solo objetivo contra jefes porque nunca falla. Sin embargo, la Pluma Ardiente suele ser mejor para despejar grupos densos de enemigos cuerpo a cuerpo."
+  },
+  {
+    question: "¿Cómo desbloqueo el hechizo característico de Homer?",
+    answer: "Once Homer is rescued and you have interacted with her in the Forum, her signature Spell will occasionally appear as a choice during level-ups in future runs."
+  },
+  {
+    question: "¿Cuáles son los mejores modificadores para hell maiden homer?",
+    answer: "Concéntrate en el Daño y la Cantidad de proyectiles. Dado que su arma es teledirigida, aumentar el número de proyectiles crea un efecto de 'enjambre' que despeja las pantallas de manera eficiente."
+  }
+]} />
+
+<Callout type="success" title="Nota final">
+La hoja de ruta del Acceso Anticipado de 2026 sugiere que Homer recibirá habilidades "Definitivas" adicionales en la actualización de la Gula. Rescatarla ahora te asegurará estar listo para la siguiente etapa del descenso.
+</Callout>
+
+</Section>

@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden: Guia de Estratégia para Iniciantes e Deck Building",
+  description: "Domine Hell Maiden com o nosso guia de 2026. Aprenda as mecânicas principais, as melhores builds de Cartas de Espírito, estratégias de chefes e rotas de progressão eficientes para o Limbo e Luxúria.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/881337/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "Equipe do Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Domine o ciclo de sobrevivência de horda de **Hell Maiden** focando na movimentação e na mira ativa.
+- Construa uma **mão de quatro Armas** cedo para maximizar o dano e a eficiência do controle de grupo.
+- **Combine Cartas de Modificação duplicadas** para alcançar o Nível 3, aumentando significativamente seu potencial de combate.
+- Priorize **resgatar Poetas** para desbloquear armas de assinatura permanentes e habilidades específicas de personagens.
+- Sobreviva por **12 minutos** em cada Círculo para enfrentar chefes desafiadores como a Rainha Minos.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos em Hell Maiden">
+
+O ciclo principal de jogabilidade de **Hell Maiden** exige que os jogadores equilibrem ataques automáticos com mira manual precisa. Como Dante, seu objetivo é sobreviver a ondas de inimigos, coletar experiência e construir estrategicamente seu deck de Cartas de Espírito.
+
+**Destaques do Vídeo:**
+- Técnicas de posicionamento para ondas de inimigos de alta densidade.
+- Entendendo a interação entre Cartas de Arma e Cartas de Modificação.
+- Dicas essenciais para sobreviver à primeira partida de 12 minutos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden Gameplay Overview" />
+
+<CardGrid cols={3}>
+  <Card title="Movimentação">
+    - Fique sempre em movimento.
+    - Use a esquiva (dash) para atravessar lacunas.
+    - Mantenha os inimigos de um lado só.
+  </Card>
+  <Card title="Construção de Deck">
+    - Busque ter quatro armas.
+    - Combine modificações duplicadas.
+    - Foque na sinergia.
+  </Card>
+  <Card title="Progressão">
+    - Ative os Templos cedo.
+    - Resgate os Poetas do Limbo.
+    - Gaste Lamentos do Abismo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia de Sobrevivência">
+Sempre guarde pelo menos uma esquiva para os ataques indicados dos inimigos elites ou quando se encontrar cercado por projéteis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds e Cartas de Espírito">
+
+A construção eficiente de decks em **Hell Maiden** depende da concentração de melhorias em uma arma de assinatura principal. Evite espalhar demais suas Cartas de Modificação entre todos os quatro espaços.
+
+| Tipo de Build | Arma Principal | Prioridade de Mod | Melhor Uso |
+| :--- | :--- | :--- | :--- |
+| Dano Focado | Pena Flamejante (Blazing Quill) | Dano, Velocidade de Ataque | Lutas contra Chefes |
+| Pressão de Projéteis | Desbravador (Wayfinder) | Quantidade de Projéteis, Velocidade | Grandes Grupos |
+| Controle de Efeito | Codex Amoris | Duração do Efeito, Golpes Múltiplos | Inimigos Elites |
+
+<Callout type="warning" title="Consciência Posicional">
+Reorganize sua mão sempre que um efeito posicional mudar. Algumas Cartas de Modificação concedem bônus com base em seu posicionamento em relação à sua arma principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo do Limbo">
+
+<Steps>
+  <Step num="1" title="Configuração Inicial do Jogo">
+    Foque em coletar orbes de experiência imediatamente. Garanta suas primeiras duas Cartas de Arma nos primeiros três minutos para estabelecer uma base de dano.
+  </Step>
+  <Step num="2" title="Ativação de Templos">
+    Explore o mapa para ativar Templos. Isso fornece benefícios cruciais para a partida que tornam os minutos finais do cronômetro de sobrevivência de 12 minutos gerenciáveis.
+  </Step>
+  <Step num="3" title="Encontro com o Chefe">
+    Entre na luta contra a Rainha Minos com uma mão cheia de armas aprimoradas com Modificações de Nível 3. Use seu Feitiço de assinatura apenas durante os padrões de projéteis mais restritivos dela.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão">
+
+Acompanhar seu progresso é vital para desbloquear todo o potencial de seus personagens. Use a tabela abaixo para priorizar seus objetivos entre as partidas.
+
+| Marco | Requisito | Recompensa |
+| :--- | :--- | :--- |
+| Resgate de Poeta | Salvar Horácio, Homero, Ovídio | 5 novas habilidades por Poeta |
+| Nível 50 | Alcançar o nível de personagem 50 | Destreza Infernal I |
+| Pontuação Alta | 100.000 no Limbo/Luxúria | Maestria Infernal |
+| Amuleto de Cristal | Obter raridade Cristal | Dádiva Celestial |
+
+<Checklist
+  id="progression-goals"
+  title="Lista de Verificação de Progressão Essencial:"
+  items={[
+    "Resgatar todos os Poetas do Limbo",
+    "Desbloquear o Círculo 2: Luxúria",
+    "Equipar três cartas de Modificação de Nível 3 em uma única arma",
+    "Derrotar a Rainha Minos três vezes",
+    "Gastar 5.000 Lamentos do Abismo"
+  ]}
+/>
+
+<Callout type="success" title="Meta-Progressão">
+Resgatar Poetas é sua prioridade máxima. Cada Poeta salvo expande permanentemente seu conjunto de cartas, permitindo builds mais poderosas em partidas futuras.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Chefes">
+
+Os chefes em **Hell Maiden** exigem reconhecimento de padrões. Use os dados a seguir para se preparar para seus encontros no Limbo e na Luxúria.
+
+| Chefe | Círculo | Estratégia Principal |
+| :--- | :--- | :--- |
+| Rainha Minos | Limbo | Mover-se lateralmente, aproveitar janelas de recuperação |
+| Scarmiglione | Luxúria | Manter distância, causar dano explosivo após os ataques |
+| Libicocco | Luxúria | Eliminar os clones primeiro, evitar a sobreposição no centro |
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o Círculo 2 (Luxúria)?",
+    answer: "Você deve completar o objetivo de sobrevivência de 12 minutos no Limbo e derrotar a Rainha Minos. Continue suas interações de história no Fórum para iniciar a progressão."
+  },
+  {
+    question: "Qual é a melhor maneira de gastar os Lamentos do Abismo?",
+    answer: "Gaste-os em meta-melhorias permanentes que aumentam sua sobrevivência ou consistência de dano antes de investir em configurações de desafios específicos."
+  },
+  {
+    question: "Hell Maiden é um roguelike?",
+    answer: "Sim, é um roguelite de sobrevivência de horda. As partidas envolvem construção de deck, progressão permanente e desbloqueio de personagens ao longo dos nove Círculos do Inferno."
+  }
+]} />
+
+</Section>

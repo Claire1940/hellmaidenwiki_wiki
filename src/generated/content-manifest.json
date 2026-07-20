@@ -6,6 +6,10 @@
         "file": "hell-maiden-boss-guide"
       },
       {
+        "slug": "hell-maiden-bosses",
+        "file": "hell-maiden-bosses"
+      },
+      {
         "slug": "hell-maiden-libicocco",
         "file": "hell-maiden-libicocco"
       },
@@ -26,6 +30,10 @@
       {
         "slug": "hell-maiden-blazing-quill-build",
         "file": "hell-maiden-blazing-quill-build"
+      },
+      {
+        "slug": "hell-maiden-builds",
+        "file": "hell-maiden-builds"
       },
       {
         "slug": "hell-maiden-mod-cards",
@@ -62,12 +70,32 @@
         "file": "hell-maiden-dante"
       },
       {
+        "slug": "hell-maiden-homer",
+        "file": "hell-maiden-homer"
+      },
+      {
+        "slug": "hell-maiden-horace",
+        "file": "hell-maiden-horace"
+      },
+      {
+        "slug": "hell-maiden-kat",
+        "file": "hell-maiden-kat"
+      },
+      {
         "slug": "hell-maiden-little-goody-two-shoes-universe",
         "file": "hell-maiden-little-goody-two-shoes-universe"
       },
       {
+        "slug": "hell-maiden-lucan",
+        "file": "hell-maiden-lucan"
+      },
+      {
         "slug": "hell-maiden-ovid",
         "file": "hell-maiden-ovid"
+      },
+      {
+        "slug": "hell-maiden-playable-characters",
+        "file": "hell-maiden-playable-characters"
       },
       {
         "slug": "hell-maiden-virgil",
@@ -76,20 +104,56 @@
     ],
     "guide": [
       {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
         "slug": "hell-maiden-beginner-guide",
         "file": "hell-maiden-beginner-guide"
+      },
+      {
+        "slug": "hell-maiden-bluesky",
+        "file": "hell-maiden-bluesky"
+      },
+      {
+        "slug": "hell-maiden-cards",
+        "file": "hell-maiden-cards"
+      },
+      {
+        "slug": "hell-maiden-co-op",
+        "file": "hell-maiden-co-op"
       },
       {
         "slug": "hell-maiden-controls",
         "file": "hell-maiden-controls"
       },
       {
+        "slug": "hell-maiden-discord",
+        "file": "hell-maiden-discord"
+      },
+      {
+        "slug": "hell-maiden-gameplay",
+        "file": "hell-maiden-gameplay"
+      },
+      {
         "slug": "hell-maiden-guide",
         "file": "hell-maiden-guide"
       },
       {
+        "slug": "hell-maiden-multiplayer",
+        "file": "hell-maiden-multiplayer"
+      },
+      {
+        "slug": "hell-maiden-patreon",
+        "file": "hell-maiden-patreon"
+      },
+      {
         "slug": "hell-maiden-progression-guide",
         "file": "hell-maiden-progression-guide"
+      },
+      {
+        "slug": "hell-maiden-reddit",
+        "file": "hell-maiden-reddit"
       },
       {
         "slug": "hell-maiden-save-progress",
@@ -97,6 +161,38 @@
       }
     ],
     "media": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-composer",
+        "file": "hell-maiden-composer"
+      },
+      {
+        "slug": "hell-maiden-developer",
+        "file": "hell-maiden-developer"
+      },
+      {
+        "slug": "hell-maiden-engine",
+        "file": "hell-maiden-engine"
+      },
+      {
+        "slug": "hell-maiden-fanart",
+        "file": "hell-maiden-fanart"
+      },
+      {
+        "slug": "hell-maiden-gif",
+        "file": "hell-maiden-gif"
+      },
+      {
+        "slug": "hell-maiden-interview",
+        "file": "hell-maiden-interview"
+      },
+      {
+        "slug": "hell-maiden-logo",
+        "file": "hell-maiden-logo"
+      },
       {
         "slug": "hell-maiden-opening-theme",
         "file": "hell-maiden-opening-theme"
@@ -108,9 +204,41 @@
       {
         "slug": "hell-maiden-trailer",
         "file": "hell-maiden-trailer"
+      },
+      {
+        "slug": "hell-maiden-voice-actors",
+        "file": "hell-maiden-voice-actors"
+      },
+      {
+        "slug": "hell-maiden-wallpaper",
+        "file": "hell-maiden-wallpaper"
       }
     ],
     "platforms": [
+      {
+        "slug": "hell-maiden-android",
+        "file": "hell-maiden-android"
+      },
+      {
+        "slug": "hell-maiden-mobile",
+        "file": "hell-maiden-mobile"
+      },
+      {
+        "slug": "hell-maiden-on-ps5",
+        "file": "hell-maiden-on-ps5"
+      },
+      {
+        "slug": "hell-maiden-on-switch",
+        "file": "hell-maiden-on-switch"
+      },
+      {
+        "slug": "hell-maiden-on-xbox",
+        "file": "hell-maiden-on-xbox"
+      },
+      {
+        "slug": "hell-maiden-platforms",
+        "file": "hell-maiden-platforms"
+      },
       {
         "slug": "hell-maiden-ps5-release-date",
         "file": "hell-maiden-ps5-release-date"
@@ -154,32 +282,904 @@
         "file": "hell-maiden-itch-io"
       },
       {
+        "slug": "hell-maiden-kickstarter",
+        "file": "hell-maiden-kickstarter"
+      },
+      {
+        "slug": "hell-maiden-release-date",
+        "file": "hell-maiden-release-date"
+      },
+      {
         "slug": "hell-maiden-steam",
         "file": "hell-maiden-steam"
       }
     ]
   },
   "es": {
+    "bosses": [
+      {
+        "slug": "hell-maiden-boss-guide",
+        "file": "hell-maiden-boss-guide"
+      },
+      {
+        "slug": "hell-maiden-bosses",
+        "file": "hell-maiden-bosses"
+      },
+      {
+        "slug": "hell-maiden-libicocco",
+        "file": "hell-maiden-libicocco"
+      },
+      {
+        "slug": "hell-maiden-minos",
+        "file": "hell-maiden-minos"
+      },
+      {
+        "slug": "hell-maiden-scarmiglione",
+        "file": "hell-maiden-scarmiglione"
+      }
+    ],
+    "builds": [
+      {
+        "slug": "hell-maiden-best-builds",
+        "file": "hell-maiden-best-builds"
+      },
+      {
+        "slug": "hell-maiden-blazing-quill-build",
+        "file": "hell-maiden-blazing-quill-build"
+      },
+      {
+        "slug": "hell-maiden-builds",
+        "file": "hell-maiden-builds"
+      },
+      {
+        "slug": "hell-maiden-mod-cards",
+        "file": "hell-maiden-mod-cards"
+      },
+      {
+        "slug": "hell-maiden-spell-combinations",
+        "file": "hell-maiden-spell-combinations"
+      },
+      {
+        "slug": "hell-maiden-spirit-cards",
+        "file": "hell-maiden-spirit-cards"
+      },
+      {
+        "slug": "hell-maiden-tier-list",
+        "file": "hell-maiden-tier-list"
+      },
+      {
+        "slug": "hell-maiden-weapon-cards",
+        "file": "hell-maiden-weapon-cards"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "hell-maiden-beatrice",
+        "file": "hell-maiden-beatrice"
+      },
+      {
+        "slug": "hell-maiden-characters",
+        "file": "hell-maiden-characters"
+      },
+      {
+        "slug": "hell-maiden-dante",
+        "file": "hell-maiden-dante"
+      },
+      {
+        "slug": "hell-maiden-homer",
+        "file": "hell-maiden-homer"
+      },
+      {
+        "slug": "hell-maiden-horace",
+        "file": "hell-maiden-horace"
+      },
+      {
+        "slug": "hell-maiden-kat",
+        "file": "hell-maiden-kat"
+      },
+      {
+        "slug": "hell-maiden-little-goody-two-shoes-universe",
+        "file": "hell-maiden-little-goody-two-shoes-universe"
+      },
+      {
+        "slug": "hell-maiden-lucan",
+        "file": "hell-maiden-lucan"
+      },
+      {
+        "slug": "hell-maiden-ovid",
+        "file": "hell-maiden-ovid"
+      },
+      {
+        "slug": "hell-maiden-playable-characters",
+        "file": "hell-maiden-playable-characters"
+      },
+      {
+        "slug": "hell-maiden-virgil",
+        "file": "hell-maiden-virgil"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-beginner-guide",
+        "file": "hell-maiden-beginner-guide"
+      },
+      {
+        "slug": "hell-maiden-bluesky",
+        "file": "hell-maiden-bluesky"
+      },
+      {
+        "slug": "hell-maiden-cards",
+        "file": "hell-maiden-cards"
+      },
+      {
+        "slug": "hell-maiden-co-op",
+        "file": "hell-maiden-co-op"
+      },
+      {
+        "slug": "hell-maiden-controls",
+        "file": "hell-maiden-controls"
+      },
+      {
+        "slug": "hell-maiden-discord",
+        "file": "hell-maiden-discord"
+      },
+      {
+        "slug": "hell-maiden-gameplay",
+        "file": "hell-maiden-gameplay"
+      },
+      {
+        "slug": "hell-maiden-guide",
+        "file": "hell-maiden-guide"
+      },
+      {
+        "slug": "hell-maiden-multiplayer",
+        "file": "hell-maiden-multiplayer"
+      },
+      {
+        "slug": "hell-maiden-patreon",
+        "file": "hell-maiden-patreon"
+      },
+      {
+        "slug": "hell-maiden-progression-guide",
+        "file": "hell-maiden-progression-guide"
+      },
+      {
+        "slug": "hell-maiden-reddit",
+        "file": "hell-maiden-reddit"
+      },
+      {
+        "slug": "hell-maiden-save-progress",
+        "file": "hell-maiden-save-progress"
+      }
+    ],
+    "media": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-composer",
+        "file": "hell-maiden-composer"
+      },
+      {
+        "slug": "hell-maiden-developer",
+        "file": "hell-maiden-developer"
+      },
+      {
+        "slug": "hell-maiden-engine",
+        "file": "hell-maiden-engine"
+      },
+      {
+        "slug": "hell-maiden-fanart",
+        "file": "hell-maiden-fanart"
+      },
+      {
+        "slug": "hell-maiden-gif",
+        "file": "hell-maiden-gif"
+      },
+      {
+        "slug": "hell-maiden-interview",
+        "file": "hell-maiden-interview"
+      },
+      {
+        "slug": "hell-maiden-logo",
+        "file": "hell-maiden-logo"
+      },
+      {
+        "slug": "hell-maiden-opening-theme",
+        "file": "hell-maiden-opening-theme"
+      },
+      {
+        "slug": "hell-maiden-ost",
+        "file": "hell-maiden-ost"
+      },
+      {
+        "slug": "hell-maiden-trailer",
+        "file": "hell-maiden-trailer"
+      },
+      {
+        "slug": "hell-maiden-voice-actors",
+        "file": "hell-maiden-voice-actors"
+      },
+      {
+        "slug": "hell-maiden-wallpaper",
+        "file": "hell-maiden-wallpaper"
+      }
+    ],
     "platforms": [
+      {
+        "slug": "hell-maiden-android",
+        "file": "hell-maiden-android"
+      },
+      {
+        "slug": "hell-maiden-mobile",
+        "file": "hell-maiden-mobile"
+      },
+      {
+        "slug": "hell-maiden-on-ps5",
+        "file": "hell-maiden-on-ps5"
+      },
+      {
+        "slug": "hell-maiden-on-switch",
+        "file": "hell-maiden-on-switch"
+      },
+      {
+        "slug": "hell-maiden-on-xbox",
+        "file": "hell-maiden-on-xbox"
+      },
+      {
+        "slug": "hell-maiden-platforms",
+        "file": "hell-maiden-platforms"
+      },
       {
         "slug": "hell-maiden-ps5-release-date",
         "file": "hell-maiden-ps5-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam-deck",
+        "file": "hell-maiden-steam-deck"
+      },
+      {
+        "slug": "hell-maiden-switch-release-date",
+        "file": "hell-maiden-switch-release-date"
+      },
+      {
+        "slug": "hell-maiden-xbox",
+        "file": "hell-maiden-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "hell-maiden-demo-download",
+        "file": "hell-maiden-demo-download"
+      },
+      {
+        "slug": "hell-maiden-demo",
+        "file": "hell-maiden-demo"
+      },
+      {
+        "slug": "hell-maiden-early-access",
+        "file": "hell-maiden-early-access"
+      },
+      {
+        "slug": "hell-maiden-full-release-date",
+        "file": "hell-maiden-full-release-date"
+      },
+      {
+        "slug": "hell-maiden-game-release-date",
+        "file": "hell-maiden-game-release-date"
+      },
+      {
+        "slug": "hell-maiden-itch-io",
+        "file": "hell-maiden-itch-io"
+      },
+      {
+        "slug": "hell-maiden-kickstarter",
+        "file": "hell-maiden-kickstarter"
+      },
+      {
+        "slug": "hell-maiden-release-date",
+        "file": "hell-maiden-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam",
+        "file": "hell-maiden-steam"
       }
     ]
   },
   "ja": {
+    "bosses": [
+      {
+        "slug": "hell-maiden-boss-guide",
+        "file": "hell-maiden-boss-guide"
+      },
+      {
+        "slug": "hell-maiden-bosses",
+        "file": "hell-maiden-bosses"
+      },
+      {
+        "slug": "hell-maiden-libicocco",
+        "file": "hell-maiden-libicocco"
+      },
+      {
+        "slug": "hell-maiden-minos",
+        "file": "hell-maiden-minos"
+      },
+      {
+        "slug": "hell-maiden-scarmiglione",
+        "file": "hell-maiden-scarmiglione"
+      }
+    ],
+    "builds": [
+      {
+        "slug": "hell-maiden-best-builds",
+        "file": "hell-maiden-best-builds"
+      },
+      {
+        "slug": "hell-maiden-blazing-quill-build",
+        "file": "hell-maiden-blazing-quill-build"
+      },
+      {
+        "slug": "hell-maiden-builds",
+        "file": "hell-maiden-builds"
+      },
+      {
+        "slug": "hell-maiden-mod-cards",
+        "file": "hell-maiden-mod-cards"
+      },
+      {
+        "slug": "hell-maiden-spell-combinations",
+        "file": "hell-maiden-spell-combinations"
+      },
+      {
+        "slug": "hell-maiden-spirit-cards",
+        "file": "hell-maiden-spirit-cards"
+      },
+      {
+        "slug": "hell-maiden-tier-list",
+        "file": "hell-maiden-tier-list"
+      },
+      {
+        "slug": "hell-maiden-weapon-cards",
+        "file": "hell-maiden-weapon-cards"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "hell-maiden-beatrice",
+        "file": "hell-maiden-beatrice"
+      },
+      {
+        "slug": "hell-maiden-characters",
+        "file": "hell-maiden-characters"
+      },
+      {
+        "slug": "hell-maiden-dante",
+        "file": "hell-maiden-dante"
+      },
+      {
+        "slug": "hell-maiden-homer",
+        "file": "hell-maiden-homer"
+      },
+      {
+        "slug": "hell-maiden-horace",
+        "file": "hell-maiden-horace"
+      },
+      {
+        "slug": "hell-maiden-kat",
+        "file": "hell-maiden-kat"
+      },
+      {
+        "slug": "hell-maiden-little-goody-two-shoes-universe",
+        "file": "hell-maiden-little-goody-two-shoes-universe"
+      },
+      {
+        "slug": "hell-maiden-lucan",
+        "file": "hell-maiden-lucan"
+      },
+      {
+        "slug": "hell-maiden-ovid",
+        "file": "hell-maiden-ovid"
+      },
+      {
+        "slug": "hell-maiden-playable-characters",
+        "file": "hell-maiden-playable-characters"
+      },
+      {
+        "slug": "hell-maiden-virgil",
+        "file": "hell-maiden-virgil"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-beginner-guide",
+        "file": "hell-maiden-beginner-guide"
+      },
+      {
+        "slug": "hell-maiden-bluesky",
+        "file": "hell-maiden-bluesky"
+      },
+      {
+        "slug": "hell-maiden-cards",
+        "file": "hell-maiden-cards"
+      },
+      {
+        "slug": "hell-maiden-co-op",
+        "file": "hell-maiden-co-op"
+      },
+      {
+        "slug": "hell-maiden-controls",
+        "file": "hell-maiden-controls"
+      },
+      {
+        "slug": "hell-maiden-discord",
+        "file": "hell-maiden-discord"
+      },
+      {
+        "slug": "hell-maiden-gameplay",
+        "file": "hell-maiden-gameplay"
+      },
+      {
+        "slug": "hell-maiden-guide",
+        "file": "hell-maiden-guide"
+      },
+      {
+        "slug": "hell-maiden-multiplayer",
+        "file": "hell-maiden-multiplayer"
+      },
+      {
+        "slug": "hell-maiden-patreon",
+        "file": "hell-maiden-patreon"
+      },
+      {
+        "slug": "hell-maiden-progression-guide",
+        "file": "hell-maiden-progression-guide"
+      },
+      {
+        "slug": "hell-maiden-reddit",
+        "file": "hell-maiden-reddit"
+      },
+      {
+        "slug": "hell-maiden-save-progress",
+        "file": "hell-maiden-save-progress"
+      }
+    ],
+    "media": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-composer",
+        "file": "hell-maiden-composer"
+      },
+      {
+        "slug": "hell-maiden-developer",
+        "file": "hell-maiden-developer"
+      },
+      {
+        "slug": "hell-maiden-engine",
+        "file": "hell-maiden-engine"
+      },
+      {
+        "slug": "hell-maiden-fanart",
+        "file": "hell-maiden-fanart"
+      },
+      {
+        "slug": "hell-maiden-gif",
+        "file": "hell-maiden-gif"
+      },
+      {
+        "slug": "hell-maiden-interview",
+        "file": "hell-maiden-interview"
+      },
+      {
+        "slug": "hell-maiden-logo",
+        "file": "hell-maiden-logo"
+      },
+      {
+        "slug": "hell-maiden-opening-theme",
+        "file": "hell-maiden-opening-theme"
+      },
+      {
+        "slug": "hell-maiden-ost",
+        "file": "hell-maiden-ost"
+      },
+      {
+        "slug": "hell-maiden-trailer",
+        "file": "hell-maiden-trailer"
+      },
+      {
+        "slug": "hell-maiden-voice-actors",
+        "file": "hell-maiden-voice-actors"
+      },
+      {
+        "slug": "hell-maiden-wallpaper",
+        "file": "hell-maiden-wallpaper"
+      }
+    ],
     "platforms": [
+      {
+        "slug": "hell-maiden-android",
+        "file": "hell-maiden-android"
+      },
+      {
+        "slug": "hell-maiden-mobile",
+        "file": "hell-maiden-mobile"
+      },
+      {
+        "slug": "hell-maiden-on-ps5",
+        "file": "hell-maiden-on-ps5"
+      },
+      {
+        "slug": "hell-maiden-on-switch",
+        "file": "hell-maiden-on-switch"
+      },
+      {
+        "slug": "hell-maiden-on-xbox",
+        "file": "hell-maiden-on-xbox"
+      },
+      {
+        "slug": "hell-maiden-platforms",
+        "file": "hell-maiden-platforms"
+      },
       {
         "slug": "hell-maiden-ps5-release-date",
         "file": "hell-maiden-ps5-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam-deck",
+        "file": "hell-maiden-steam-deck"
+      },
+      {
+        "slug": "hell-maiden-switch-release-date",
+        "file": "hell-maiden-switch-release-date"
+      },
+      {
+        "slug": "hell-maiden-xbox",
+        "file": "hell-maiden-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "hell-maiden-demo-download",
+        "file": "hell-maiden-demo-download"
+      },
+      {
+        "slug": "hell-maiden-demo",
+        "file": "hell-maiden-demo"
+      },
+      {
+        "slug": "hell-maiden-early-access",
+        "file": "hell-maiden-early-access"
+      },
+      {
+        "slug": "hell-maiden-full-release-date",
+        "file": "hell-maiden-full-release-date"
+      },
+      {
+        "slug": "hell-maiden-game-release-date",
+        "file": "hell-maiden-game-release-date"
+      },
+      {
+        "slug": "hell-maiden-itch-io",
+        "file": "hell-maiden-itch-io"
+      },
+      {
+        "slug": "hell-maiden-kickstarter",
+        "file": "hell-maiden-kickstarter"
+      },
+      {
+        "slug": "hell-maiden-release-date",
+        "file": "hell-maiden-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam",
+        "file": "hell-maiden-steam"
       }
     ]
   },
   "pt": {
+    "bosses": [
+      {
+        "slug": "hell-maiden-boss-guide",
+        "file": "hell-maiden-boss-guide"
+      },
+      {
+        "slug": "hell-maiden-bosses",
+        "file": "hell-maiden-bosses"
+      },
+      {
+        "slug": "hell-maiden-libicocco",
+        "file": "hell-maiden-libicocco"
+      },
+      {
+        "slug": "hell-maiden-minos",
+        "file": "hell-maiden-minos"
+      },
+      {
+        "slug": "hell-maiden-scarmiglione",
+        "file": "hell-maiden-scarmiglione"
+      }
+    ],
+    "builds": [
+      {
+        "slug": "hell-maiden-best-builds",
+        "file": "hell-maiden-best-builds"
+      },
+      {
+        "slug": "hell-maiden-blazing-quill-build",
+        "file": "hell-maiden-blazing-quill-build"
+      },
+      {
+        "slug": "hell-maiden-builds",
+        "file": "hell-maiden-builds"
+      },
+      {
+        "slug": "hell-maiden-mod-cards",
+        "file": "hell-maiden-mod-cards"
+      },
+      {
+        "slug": "hell-maiden-spell-combinations",
+        "file": "hell-maiden-spell-combinations"
+      },
+      {
+        "slug": "hell-maiden-spirit-cards",
+        "file": "hell-maiden-spirit-cards"
+      },
+      {
+        "slug": "hell-maiden-tier-list",
+        "file": "hell-maiden-tier-list"
+      },
+      {
+        "slug": "hell-maiden-weapon-cards",
+        "file": "hell-maiden-weapon-cards"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "hell-maiden-beatrice",
+        "file": "hell-maiden-beatrice"
+      },
+      {
+        "slug": "hell-maiden-characters",
+        "file": "hell-maiden-characters"
+      },
+      {
+        "slug": "hell-maiden-dante",
+        "file": "hell-maiden-dante"
+      },
+      {
+        "slug": "hell-maiden-homer",
+        "file": "hell-maiden-homer"
+      },
+      {
+        "slug": "hell-maiden-horace",
+        "file": "hell-maiden-horace"
+      },
+      {
+        "slug": "hell-maiden-kat",
+        "file": "hell-maiden-kat"
+      },
+      {
+        "slug": "hell-maiden-little-goody-two-shoes-universe",
+        "file": "hell-maiden-little-goody-two-shoes-universe"
+      },
+      {
+        "slug": "hell-maiden-lucan",
+        "file": "hell-maiden-lucan"
+      },
+      {
+        "slug": "hell-maiden-ovid",
+        "file": "hell-maiden-ovid"
+      },
+      {
+        "slug": "hell-maiden-playable-characters",
+        "file": "hell-maiden-playable-characters"
+      },
+      {
+        "slug": "hell-maiden-virgil",
+        "file": "hell-maiden-virgil"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-beginner-guide",
+        "file": "hell-maiden-beginner-guide"
+      },
+      {
+        "slug": "hell-maiden-bluesky",
+        "file": "hell-maiden-bluesky"
+      },
+      {
+        "slug": "hell-maiden-cards",
+        "file": "hell-maiden-cards"
+      },
+      {
+        "slug": "hell-maiden-co-op",
+        "file": "hell-maiden-co-op"
+      },
+      {
+        "slug": "hell-maiden-controls",
+        "file": "hell-maiden-controls"
+      },
+      {
+        "slug": "hell-maiden-discord",
+        "file": "hell-maiden-discord"
+      },
+      {
+        "slug": "hell-maiden-gameplay",
+        "file": "hell-maiden-gameplay"
+      },
+      {
+        "slug": "hell-maiden-guide",
+        "file": "hell-maiden-guide"
+      },
+      {
+        "slug": "hell-maiden-multiplayer",
+        "file": "hell-maiden-multiplayer"
+      },
+      {
+        "slug": "hell-maiden-patreon",
+        "file": "hell-maiden-patreon"
+      },
+      {
+        "slug": "hell-maiden-progression-guide",
+        "file": "hell-maiden-progression-guide"
+      },
+      {
+        "slug": "hell-maiden-reddit",
+        "file": "hell-maiden-reddit"
+      },
+      {
+        "slug": "hell-maiden-save-progress",
+        "file": "hell-maiden-save-progress"
+      }
+    ],
+    "media": [
+      {
+        "slug": "hell-maiden-astralshift",
+        "file": "hell-maiden-astralshift"
+      },
+      {
+        "slug": "hell-maiden-composer",
+        "file": "hell-maiden-composer"
+      },
+      {
+        "slug": "hell-maiden-developer",
+        "file": "hell-maiden-developer"
+      },
+      {
+        "slug": "hell-maiden-engine",
+        "file": "hell-maiden-engine"
+      },
+      {
+        "slug": "hell-maiden-fanart",
+        "file": "hell-maiden-fanart"
+      },
+      {
+        "slug": "hell-maiden-gif",
+        "file": "hell-maiden-gif"
+      },
+      {
+        "slug": "hell-maiden-interview",
+        "file": "hell-maiden-interview"
+      },
+      {
+        "slug": "hell-maiden-logo",
+        "file": "hell-maiden-logo"
+      },
+      {
+        "slug": "hell-maiden-opening-theme",
+        "file": "hell-maiden-opening-theme"
+      },
+      {
+        "slug": "hell-maiden-ost",
+        "file": "hell-maiden-ost"
+      },
+      {
+        "slug": "hell-maiden-trailer",
+        "file": "hell-maiden-trailer"
+      },
+      {
+        "slug": "hell-maiden-voice-actors",
+        "file": "hell-maiden-voice-actors"
+      },
+      {
+        "slug": "hell-maiden-wallpaper",
+        "file": "hell-maiden-wallpaper"
+      }
+    ],
     "platforms": [
+      {
+        "slug": "hell-maiden-android",
+        "file": "hell-maiden-android"
+      },
+      {
+        "slug": "hell-maiden-mobile",
+        "file": "hell-maiden-mobile"
+      },
+      {
+        "slug": "hell-maiden-on-ps5",
+        "file": "hell-maiden-on-ps5"
+      },
+      {
+        "slug": "hell-maiden-on-switch",
+        "file": "hell-maiden-on-switch"
+      },
+      {
+        "slug": "hell-maiden-on-xbox",
+        "file": "hell-maiden-on-xbox"
+      },
+      {
+        "slug": "hell-maiden-platforms",
+        "file": "hell-maiden-platforms"
+      },
       {
         "slug": "hell-maiden-ps5-release-date",
         "file": "hell-maiden-ps5-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam-deck",
+        "file": "hell-maiden-steam-deck"
+      },
+      {
+        "slug": "hell-maiden-switch-release-date",
+        "file": "hell-maiden-switch-release-date"
+      },
+      {
+        "slug": "hell-maiden-xbox",
+        "file": "hell-maiden-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "hell-maiden-demo-download",
+        "file": "hell-maiden-demo-download"
+      },
+      {
+        "slug": "hell-maiden-demo",
+        "file": "hell-maiden-demo"
+      },
+      {
+        "slug": "hell-maiden-early-access",
+        "file": "hell-maiden-early-access"
+      },
+      {
+        "slug": "hell-maiden-full-release-date",
+        "file": "hell-maiden-full-release-date"
+      },
+      {
+        "slug": "hell-maiden-game-release-date",
+        "file": "hell-maiden-game-release-date"
+      },
+      {
+        "slug": "hell-maiden-itch-io",
+        "file": "hell-maiden-itch-io"
+      },
+      {
+        "slug": "hell-maiden-kickstarter",
+        "file": "hell-maiden-kickstarter"
+      },
+      {
+        "slug": "hell-maiden-release-date",
+        "file": "hell-maiden-release-date"
+      },
+      {
+        "slug": "hell-maiden-steam",
+        "file": "hell-maiden-steam"
       }
     ]
   }

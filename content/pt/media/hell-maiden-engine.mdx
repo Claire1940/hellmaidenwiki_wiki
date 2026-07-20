@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Engine: Guia de Deck-Building e Mecânicas de Sobrevivência",
+  description: "Domine o hell maiden engine com nosso guia sobre posicionamento de deck, resgate de poetas e táticas de sobrevivência para a jornada de Dante pelos nove círculos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Engine+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Hell Maiden",
+  keywords: "hell maiden, engine, deck-building, guia, sobrevivência, dante, poetas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Hell Maiden Engine**: Um híbrido único de sobrevivência contra hordas e deck-building tático onde o posicionamento das cartas dita o poder.
+- **Posicionamento de Cartas**: Cartas adjacentes influenciam umas às outras; nunca coloque cartas de alto dano isoladas sem mods de suporte.
+- **Resgate de Poetas**: Resgatar poetas lendários como Homero e Ovídio é obrigatório para desbloquear ataques supremos e armas exclusivas.
+- **Disciplina de Dash**: Economize sua esquiva (dash) para padrões inevitáveis de chefes, em vez de usá-la para velocidade de movimento geral.
+- **Sinergias de Chefes**: Chefes derrotados deixam cair habilidades que podem ser integradas ao seu deck, transformando ameaças inimigas em recursos do jogador.
+</Callout>
+
+<Section icon={Map} title="Introdução ao Hell Maiden Engine">
+
+O **hell maiden engine** representa uma fusão sofisticada de mecânicas tradicionais de "bullet-heaven" e um deck-building tático profundo. Ao contrário dos jogos de sobrevivência padrão onde as melhorias são puramente lineares, Hell Maiden exige que os jogadores tratem seu conjunto de habilidades como um sistema vivo. Seguindo os eventos da Divina Comédia, Dante se encontra de volta às profundezas do inferno com suas memórias apagadas. Essa amnésia narrativa serve como mais do que apenas um recurso de roteiro; ela espelha a jornada do jogador de redescobrir mecânicas de combate e reconstruir um arsenal perdido do zero.
+
+**Destaques do Vídeo:**
+- **Posicionamento Estratégico**: Saiba por que a adjacência das cartas é a mecânica mais ignorada no início do jogo.
+- **Ciclos de Progressão**: Como resgatar poetas se traduz diretamente em picos de poder mecânico.
+- **Mecânicas de Chefes**: Uma análise de como as habilidades dos chefes se tornam parte do seu deck permanente.
+
+<YouTubeEmbed videoId="_VVEN5mb394" title="Hell Maiden: 10 Coisas que o Jogo NÃO te Conta!" />
+
+A sobrevivência neste motor não se trata apenas de esquivar de projéteis; trata-se de entender o "porquê" por trás da sua build. Cada partida oferece uma oportunidade de experimentar mais de 40 habilidades distintas, mas a verdadeira profundidade reside em como essas habilidades interagem dentro da grade do deck. O jogo desafia o jogador a olhar além dos altos números de dano e focar na sustentação, no controle do campo de batalha e nas relações sinérgicas entre Cartas de Espírito e Cartas de Mod.
+
+<Callout type="tip" title="Progressão Narrativa">
+Preste muita atenção aos diálogos durante os reencontros. A história explica por que Dante está de volta ao inferno, e essas pistas narrativas frequentemente indicam quais poetas você deve priorizar para o seu estilo de jogo específico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando o Hell Maiden Engine: Sinergias de Deck">
+
+No cerne do **hell maiden engine** está a interface de construção de deck. Os jogadores frequentemente cometem o erro de preencher cada espaço com armas de alto dano, levando a builds que colapsam sob pressão. O motor recompensa uma abordagem equilibrada que considera a velocidade da arma, a contagem de projéteis e os mods de suporte.
+
+| Tipo de Carta | Função Primária | Benefício de Adjacência |
+| :--- | :--- | :--- |
+| **Weapon Cards** | Saída de dano direto | Recebe buffs de Mod Cards |
+| **Spirit Cards** | Aumentos passivos de atributos | Pode ativar efeitos secundários |
+| **Mod Cards** | Melhora as Weapon Cards | Deve estar adjacente a uma arma |
+| **Ultimate Cards** | Limpeza de tela de alto impacto | Requer resgate de Poeta para desbloquear |
+| **Signature Weapons** | Âncoras de estilo de jogo único | Escalonado por vantagens específicas de Poetas |
+
+O posicionamento dessas cartas é crítico. Algumas Cartas de Mod afetam apenas a arma diretamente à sua esquerda ou direita. Se você colocar um mod poderoso de "Multi-Shot" em um slot que não está tocando uma arma compatível, você está efetivamente desperdiçando um espaço. O motor foi projetado para fazer você reavaliar constantemente sua mão conforme progride pelos círculos do inferno.
+
+<CardGrid cols={2}>
+  <Card title="A Build de Sustentação">
+    Foca em ataques de alta frequência e baixo dano, como **Orb** ou **Moon Spheres**. Quando combinado com mods de cura por acerto, cria um "motor de cura" que mantém Dante viva durante encontros lotados.
+  </Card>
+  <Card title="A Build de Controle">
+    Utiliza **Earth Spikes** e **Lightning** para atordoar ou desacelerar inimigos. Esta build prioriza o gerenciamento do campo de batalha, garantindo que Dante nunca seja encurralada pelas hordas invasoras.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Organização do Deck">
+Não ignore o recurso "Rearrange" (Reorganizar). Ao pegar novas cartas no meio da partida, você deve pausar frequentemente e otimizar seu layout para garantir que seus mods estejam impulsionando suas armas mais fortes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Sistema de Resgate de Poetas">
+
+A progressão em Hell Maiden está intrinsecamente ligada aos Poetas do Limbo. Você não está apenas lutando para sobreviver; você está lutando para libertar os grandes pensadores da antiguidade. Resgatar esses personagens é a única maneira de expandir suas opções táticas no **hell maiden engine**.
+
+<Steps>
+  <Step num="1" title="Localize o Poeta">
+    Cada nível contém uma missão específica ou área oculta onde um poeta é mantido. Fique de olho no minimapa para ícones exclusivos que indicam sua localização.
+  </Step>
+  <Step num="2" title="Vença o Desafio">
+    Os poetas geralmente são guardados por "Fiends" (Demônios) de elite ou exigem um tempo específico de sobrevivência para serem desbloqueados. Você deve derrotar esses guardiões para iniciar o resgate.
+  </Step>
+  <Step num="3" title="Faça Amizade e Desbloqueie">
+    Uma vez resgatados, os poetas retornam ao seu hub. Conversar com eles desbloqueia 5 novas habilidades por poeta, bem como vantagens únicas que modificam seus atributos básicos.
+  </Step>
+  <Step num="4" title="Integre Equipamento de Assinatura">
+    Após atingir certos marcos de amizade, os poetas concedem acesso às suas armas de assinatura, que frequentemente definem builds de alto nível (meta).
+  </Step>
+</Steps>
+
+| Poeta | Papel Histórico | Desbloqueio Chave | Foco de Estilo de Jogo |
+| :--- | :--- | :--- | :--- |
+| **Homero** | Poeta Épico | Arco Lendário | Precisão de longo alcance |
+| **Ovídio** | Metamorfoses | Mod de Transformação | Mudança adaptativa de habilidade |
+| **Horácio** | Satírico | Vantagem de Acerto Crítico | Alto risco, alta recompensa |
+| **Lucano** | Farsália | Efeitos de Sangramento/DoT | Pressão sustentada |
+
+<Callout type="success" title="Prioridade de Desbloqueio">
+Novos jogadores devem priorizar o resgate de **Homero** primeiro. Seus desbloqueios fornecem os buffs de dano mais consistentes para o início do jogo, tornando as corridas subsequentes pelo primeiro círculo muito mais tranquilas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Sobrevivência e Mecânicas de Chefes">
+
+O **hell maiden engine** apresenta dois círculos primários do inferno em seu estado atual de Acesso Antecipado, cada um culminando em uma luta de chefe brutal. Esses chefes não são apenas obstáculos; eles são as fontes de suas habilidades mais poderosas. Quando você derrota um chefe, você tem a oportunidade de pegar seu poder de assinatura e adicioná-lo ao seu próprio deck.
+
+| Nome do Chefe | Círculo | Ameaça Principal | Habilidade de Recompensa |
+| :--- | :--- | :--- | :--- |
+| **Minos** | Limbo | Lasers que ocupam a tela | Judgment Beam |
+| **Cérbero** | Gula | Investidas em três pistas | Triple-Strike Mod |
+| **Elite Fiends** | Vários | Projéteis rápidos | Homing Spirit |
+
+O combate eficaz requer o domínio do dash (esquiva). A causa mais comum de morte é a "exaustão de dash" — usar a esquiva para se mover mais rápido quando não há perigo presente, apenas para tê-la em recarga quando um chefe lança um ataque inevitável. Trate o dash como uma ferramenta defensiva, não como uma ferramenta de mobilidade.
+
+<Checklist
+  id="combat-goals"
+  title="Checklist de Maestria de Combate:"
+  items={[
+    "Reserve o dash apenas para indicadores de zona vermelha",
+    "Identifique quais tipos de inimigos deixam cair orbes de vida",
+    "Priorize matar os 'Spawners' antes que eles inundem a tela",
+    "Teste cada nova habilidade de chefe em uma partida de prática",
+    "Mantenha uma proporção de 2:1 de Weapons para Mod Cards"
+  ]}
+/>
+
+<Callout type="info" title="Gerenciamento de Espaço">
+O dano é secundário ao espaço. Se você conseguir controlar a arena com lentidão ou repulsão (knockbacks), seu dano eventualmente vencerá a luta. Se você estiver cercado, mesmo a build com o maior DPS falhará.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Especificações Técnicas e Acesso Antecipado">
+
+A partir de 2026, Hell Maiden continua a evoluir através de sua fase de Acesso Antecipado. Os desenvolvedores da Astral Shift se comprometeram com um cronograma que inclui todos os nove círculos do inferno, poetas adicionais e um modo infinito. Entender os requisitos técnicos é essencial para manter as altas taxas de quadros necessárias para que o **hell maiden engine** funcione suavemente durante ondas de alta densidade.
+
+| Requisito | Especificação Mínima | Especificação Recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processador** | 4 Cores / 2.5 GHz+ | 4 Cores / 3.5 GHz+ |
+| **Memória** | 8 GB RAM | 16 GB RAM |
+| **Gráficos** | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 / AMD RX 580 |
+| **DirectX** | Versão 11 | Versão 12 |
+
+O jogo recebeu recentemente correções urgentes (hotfixes) abordando a estabilidade do DirectX 11 e bugs de progressão. Se você estiver enfrentando travamentos durante lutas intensas contra chefes, certifique-se de que a opção "DirectX 11" esteja selecionada no menu de configurações, pois isso oferece melhor compatibilidade para hardwares mais antigos.
+
+<Callout type="tip" title="Conteúdo Futuro">
+A versão completa planeja incluir todos os 9 Círculos, mais armas e uma continuação da história da amnésia. Espera-se que os preços aumentem no lançamento completo, tornando a versão de Acesso Antecipado um ponto de entrada de alto valor.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a parte mais importante do hell maiden engine?",
+    answer: "O posicionamento das cartas. Cartas adjacentes podem buffar ou ativar umas às outras, o que significa que um deck bem organizado de cartas 'fracas' pode superar um deck desorganizado de cartas 'fortes'."
+  },
+  {
+    question: "Como desbloqueio novos ataques supremos (ultimates)?",
+    answer: "Os ataques supremos são desbloqueados ao resgatar os Poetas do Limbo (como Homero ou Ovídio) e completar suas missões secundárias específicas ou marcos de amizade."
+  },
+  {
+    question: "Devo usar meu dash para viajar mais rápido?",
+    answer: "Não. O dash deve ser guardado para esquivar de padrões específicos de chefes ou escapar de cantos apertados. Usá-lo para viajar frequentemente deixa você vulnerável quando realmente precisa dele."
+  },
+  {
+    question: "Posso usar ataques de chefes contra outros inimigos?",
+    answer: "Sim. Uma das características centrais do motor é a capacidade de manter e usar as habilidades de assinatura de seus oponentes em seu próprio deck após derrotá-los."
+  }
+]} />
+
+</Section>

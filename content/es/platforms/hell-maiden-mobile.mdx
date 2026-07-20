@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hell Maiden Mobile: Guía de Portabilidad y Consejos de Supervivencia con Creación de Mazos",
+  description: "Domina el descenso de Dante en Hell Maiden Mobile. Aprende estrategias de supervivencia con creación de mazos, combos de cartas y cómo jugar en dispositivos móviles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Hell+Maiden+Mobile+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "Hell Maiden, móvil, creación de mazos, supervivencia, guía, Dante"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Hell Maiden Mobile** lleva el juego de creación de mazos y supervivencia contra hordas de acción de Dante a las pantallas portátiles mediante configuraciones avanzadas de transmisión en la nube.
+- **La creación estratégica de mazos** requiere equilibrar las Cartas de Arma con Cartas de Espíritu y de Modificación para sobrevivir a oleadas demoníacas interminables.
+- **Rescata a poetas históricos** como Homero y Virgilio para desbloquear poderosas ventajas y ataques definitivos para Dante.
+- **Adáptate sobre la marcha** robando y equipando las habilidades distintivas de tus oponentes derrotados durante las partidas.
+</Callout>
+
+<Section icon={Map} title="Descripción General de Hell Maiden Mobile y el Bucle de Supervivencia contra Hordas">
+
+Con el auge de los juegos portátiles, los jugadores buscan formas de experimentar **Hell Maiden Mobile** sobre la marcha, combinando intensas mecánicas de acción roguelike con una profunda creación estratégica de mazos. Inspirado en la Divina Comedia de Dante, el juego sigue a Dante en un peligroso viaje por el Infierno en busca de la salvación. Después de caer inexplicablemente de nuevo al Infierno desde el Paraíso y perder todos sus recuerdos, Dante debe utilizar un sistema de combate único basado en cartas para volver a subir al Cielo.
+
+El bucle de juego principal combina las mecánicas de supervivencia de lluvia de balas (bullet-heaven) popularizadas por los roguelikes modernos con un sistema de creación de mazos altamente táctico. En lugar de depender únicamente de opciones aleatorias al subir de nivel, tu supervivencia depende de cómo construyas, modifiques y optimices tu mazo de Cartas de Arma, Espíritu y Modificación antes y durante cada partida.
+
+| Aspecto del Sistema | Requisitos Mínimos | Configuración Recomendada |
+| --- | --- | --- |
+| Sistema Operativo | Windows 10 (64 bits) | Windows 10 o posterior |
+| Procesador | 4 Núcleos / 2.5 GHz+ | 4 Núcleos / 3.5 GHz+ |
+| Memoria | 8 GB de RAM | 16 GB de RAM |
+| Gráficos | Intel Iris Xe / GTX 970 | Nvidia GTX 1070 / RX 570 |
+| Almacenamiento | 4 GB de espacio disponible | 4 GB de espacio disponible |
+
+<Callout type="success" title="Estrategia de Supervivencia">
+Para tener éxito en los círculos inferiores del Infierno, prioriza las mejoras de velocidad de movimiento al principio de tu partida. Atraer y esquivar (kiting) a los enemigos es esencial mientras tu mazo desarrolla sus sinergias ofensivas principales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Descifrando las Mecánicas de Creación de Mazos: Armas, Espíritus y Modificaciones">
+
+En el corazón de **Hell Maiden Mobile** se encuentra su sistema de cartas de múltiples capas. A diferencia de los creadores de mazos tradicionales donde las cartas se juegan desde la mano con costes de recursos, este juego utiliza un sistema de equipamiento de cartas pasivo y activo que se activa continuamente mientras luchas contra hordas de demonios sedientos de sangre.
+
+Comprender cómo superponer estos tipos de cartas es la clave para crear construcciones (builds) extremadamente poderosas que puedan despejar oleadas de enemigos que llenan la pantalla en cuestión de segundos.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Arma">
+    - **Ofensiva Principal**: Dicta tus patrones de ataque principales y tipos de daño base.
+    - **Estilos Distintivos**: Elige entre cuatro armas iniciales diferentes.
+    - **Mejorables**: Se pueden mejorar directamente durante las partidas.
+  </Card>
+  <Card title="Cartas de Espíritu">
+    - **Mejoras Pasivas**: Proporcionan aumentos de estadísticas y bonificaciones de utilidad.
+    - **Efectos de Estado**: Añaden daño elemental como quemadura, congelación o descarga eléctrica.
+    - **Creadores de Sinergias**: Combina diferentes espíritus para obtener reacciones de combate únicas.
+  </Card>
+  <Card title="Cartas de Modificación">
+    - **Alteración de Armas**: Se acoplan directamente a las Cartas de Arma para cambiar su forma de disparar.
+    - **Modificación de Comportamiento**: Añade perforación, proyectiles adicionales o trayectorias de disparo dividido.
+    - **Experimentación**: Intercambia modificaciones dinámicamente para adaptarte a las batallas contra jefes.
+  </Card>
+</CardGrid>
+
+Para maximizar tu daño, debes alinear tus Cartas de Espíritu con los atributos específicos de tus Cartas de Arma. For ejemplo, acoplar una Carta de Modificación de división de proyectiles a una Carta de Arma de un solo objetivo de alto daño, y luego potenciarla con una Carta de Espíritu elemental, puede transformar un ataque mediocre en una ventisca que despeja salas enteras.
+
+| Combo de Cartas | Tipo de Arma | Mejora de Espíritu | Efecto Principal |
+| --- | --- | --- | --- |
+| Pirómano | Fuego Rápido | Espíritu de Fuego | Daño por quemadura continuo y explosiones en área |
+| Ventisca | Arco Perforante | Espíritu de Escarcha | Ralentiza a los enemigos y fragmenta a los objetivos congelados |
+| Cadena de Rayos | Espada Cuerpo a Cuerpo | Espíritu de Tormenta | Rayos encadenados que saltan entre los objetivos |
+
+<Callout type="tip" title="Consejo Pro de Creación de Mazos">
+No dudes en robar las habilidades distintivas de tus oponentes. Derrotar a enemigos de élite y jefes te permite conservar e integrar sus habilidades únicas en tu propio mazo, dándote acceso a poderes que normalmente no se pueden elegir en la selección.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo Jugar a Hell Maiden Mobile mediante Transmisión (Streaming)">
+
+Aunque actualmente el juego se está desarrollando como un título de Acceso Anticipado en Steam, los jugadores pueden disfrutar fácilmente de **Hell Maiden Mobile** en dispositivos iOS y Android utilizando tecnología de transmisión moderna. Dado que el juego cuenta con un movimiento direccional intuitivo y mecánicas de disparo automatizadas, se adapta perfectamente a las pantallas táctiles y a los gamepads móviles.
+
+Sigue estos pasos para configurar tu dispositivo móvil para un juego portátil óptimo.
+
+<Steps>
+  <Step num="1" title="Configura Steam Link o Moonlight">
+    Instala la aplicación Steam Link en tu dispositivo móvil. Asegúrate de que tu PC host y tu dispositivo móvil estén conectados a la misma red local, o utiliza una conexión 5G de alta velocidad para el juego remoto. Vincula los dispositivos utilizando el código de autorización seguro.
+  </Step>
+  <Step num="2" title="Optimiza la Distribución de los Controles">
+    Una vez conectado, accede a la configuración del mando de Steam Link. Elige una distribución de controles táctiles que coloque el joystick analógico virtual a la izquierda y los botones de utilidad (como los ataques definitivos y el intercambio de cartas) a la derecha.
+  </Step>
+  <Step num="3" title="Ajusta la Configuración de Vídeo y Ancho de Banda">
+    Para minimizar el retraso de entrada (input lag), establece la calidad de transmisión de vídeo en \"Rápida\" o \"Equilibrada\" dentro de los ajustes de la aplicación. Bloquea la resolución de la transmisión a 1080p a 60 fotogramas por segundo para garantizar un juego fluido y con capacidad de respuesta durante las oleadas densas de hordas.
+  </Step>
+</Steps>
+
+| Plataforma | Latencia de Entrada | Dificultad de Configuración | Mando Recomendado |
+| --- | --- | --- | --- |
+| Steam Link | Baja | Fácil | Controles Táctiles o Mando Bluetooth |
+| Moonlight | Muy Baja | Media | Backbone One o Razer Kishi |
+| GeForce NOW | Baja | Fácil | Mando Inalámbrico de Xbox |
+
+<Callout type="warning" title="Aviso de Red">
+Los juegos de supervivencia de acción contra hordas requieren esquivar con precisión. Si transmites a través de una red móvil, asegúrate de tener al menos 15 Mbps de velocidad de descarga para evitar picos de retraso repentinos al enfrentarte a jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando por los Círculos del Infierno y Rescatando a los Poetas del Limbo">
+
+La progresión en el juego se estructura en torno a los clásicos 9 Círculos del Infierno. En la versión actual de Acceso Anticipado, los jugadores pueden explorar dos Círculos únicos, cada uno con distintos arquetipos de enemigos, peligros ambientales y desafiantes batallas contra jefes.
+
+Para ayudar a Dante en su ascenso, debes rescatar a los legendarios Poetas del Limbo que están atrapados por los niveles. Rescatar a estos personajes históricos no es solo un objetivo narrativo; es una mecánica de juego vital que desbloquea mejoras permanentes y conjuntos de cartas ampliados.
+
+<Checklist
+  id="hell-maiden-progression"
+  title="Hitos Esenciales de Progresión:"
+  items={[
+    "Derrotar a los jefes únicos de los dos primeros Círculos del Infierno",
+    "Rescatar y entablar amistad con los cuatro Poetas del Limbo disponibles",
+    "Desbloquear las cuatro armas distintivas de Dante",
+    "Coleccionar y experimentar con más de 40 habilidades diferentes",
+    "Adquirir ventajas permanentes para aumentar tu supervivencia base"
+  ]}
+/>
+
+Cada poeta rescatado regresa a tu campamento base, ofreciendo valiosos servicios, detalles de la historia (lore) y poderosas mejoras.
+
+| Poeta del Limbo | Rol en la Historia | Desbloqueo de Juego | Valor Estratégico |
+| --- | --- | --- | --- |
+| Virgilio | Guía Principal | Ataques Definitivos | Alta capacidad de control de masas |
+| Homero | Poeta de la Antigüedad | 5 Nuevas Habilidades | Aumenta la cantidad y el alcance de los proyectiles |
+| Ovidio | Poeta de la Antigüedad | 5 Nuevas Habilidades | Otorga barreras defensivas y escudos |
+| Horacio | Poeta de la Antigüedad | 5 Nuevas Habilidades | Aumenta la probabilidad de golpe crítico y la velocidad |
+
+<Callout type="info" title="Nota de Progresión">
+Cada Poeta del Limbo que rescates añade de forma permanente cinco nuevas habilidades únicas a tu conjunto general de selección de cartas, aumentando significativamente la variedad de tus construcciones para futuras partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias Avanzadas de Supervivencia y Preguntas Frecuentes">
+
+Para sobrevivir de manera constante en los círculos más profundos del Infierno, debes dominar el arte de refinar tu mazo. No te limites a recoger cada carta que se te ofrezca. Mantener tu mazo reducido garantiza que robes tus cartas mejoradas de alto nivel con más frecuencia. Concéntrate en mejorar tu arma principal y sus modificaciones acopladas antes de repartir tus recursos en demasiados espíritus pasivos.
+
+<FAQ items={[
+  {
+    question: "¿Existe una versión nativa oficial de Hell Maiden Mobile?",
+    answer: "Actualmente, el juego está en Acceso Anticipado en PC. Sin embargo, puedes jugar a Hell Maiden Mobile sin problemas transmitiéndolo a tu dispositivo iOS o Android mediante Steam Link, Moonlight o GeForce NOW con controles móviles totalmente optimizados."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevas habilidades y cartas?",
+    answer: "Las nuevas cartas y habilidades se desbloquean rescatando a los Poetas del Limbo (Homero, Ovidio, Horacio y Lucano) y derrotando a los jefes únicos que custodian el final de cada Círculo del Infierno."
+  },
+  {
+    question: "¿Qué ocurre cuando derroto a un jefe?",
+    answer: "Derrotar a un jefe desbloquea dos nuevas habilidades permanentes para tu conjunto de mazo y te otorga acceso a sus habilidades distintivas, que se pueden equipar en partidas posteriores para crear sinergias devastadoras."
+  },
+  {
+    question: "¿Se mantendrá mi progreso cuando el juego salga del Acceso Anticipado?",
+    answer: "Sí, los desarrolladores planean mantener la compatibilidad de los archivos de guardado durante todo el período de Acceso Anticipado a medida que introducen los Círculos del Infierno restantes, más armas y el muy esperado Modo Infinito."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Ya sea que juegues en un PC de gama alta o transmitas a un dispositivo móvil, las profundas mecánicas de creación de mazos y el frenético juego de supervivencia contra hordas ofrecen una experiencia roguelike muy gratificante. ¡Comienza tu descenso, rescata a los poetas y reclama la salvación de Dante hoy mismo!
+</Callout>
+
+</Section>

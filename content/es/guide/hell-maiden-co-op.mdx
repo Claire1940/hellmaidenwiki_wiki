@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden co op: Guía de Jugabilidad y Funciones Multijugador",
+  description: "Explora el estado actual del juego cooperativo en hell maiden, estrategias de construcción de mazos y cómo sobrevivir a los 9 círculos del infierno en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Co-op+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de hell maiden"
+}
+
+<Callout type="info" title="Guía rápida">
+- **hell maiden co op**: Actualmente, el juego se centra en una sólida experiencia de **supervivencia contra hordas para un solo jugador** con una profunda construcción de mazos.
+- **Mecánica principal**: Organiza estratégicamente tus **cartas de Armas, Espíritus y Modificaciones** para maximizar las bonificaciones adyacentes y el daño.
+- **Progresión**: Rescata a los **Poetas del Limbo** para desbloquear habilidades únicas, ataques definitivos y mejoras específicas de cada personaje.
+- **Consejo de supervivencia**: Concéntrate en el **Tamaño del ataque y la Cantidad de proyectiles** al principio para gestionar grandes oleadas de limos y enemigos de élite.
+- **Contenido futuro**: Los desarrolladores planean expandir el juego a lo largo de 2026, agregando los **9 círculos del infierno** y un modo infinito.
+</Callout>
+
+<Section icon={Map} title="Hell Maiden Co-op: Características actuales y expectativas multijugador">
+
+El interés de la comunidad en **hell maiden co op** ha crecido significativamente a medida que los jugadores se sumergen en la combinación única del juego de supervivencia al estilo "Garlic-like" y construcción de mazos estratégica. Aunque muchos títulos de supervivencia se están expandiendo al territorio multijugador, Hell Maiden prioriza actualmente una experiencia en solitario refinada en la que los jugadores deben navegar por el inframundo como una versión reinventada de Dante. El juego se inspira en gran medida en la *Divina Comedia*, poniéndote en la piel de una protagonista chica mágica que ha perdido sus recuerdos y debe subir de regreso al Paraíso.
+
+**Puntos destacados del video:**
+- **Identificación del género**: Análisis de las mecánicas "Garlic-like" (estilo superviviente) y en qué se diferencian de los roguelikes tradicionales.
+- **Estrategia contra jefes**: Una mirada detallada a la lucha contra la Reina Minos y la importancia de la velocidad de movimiento.
+- **Sinergia de mazos**: Cómo colocar cartas adyacentes a armas específicas puede duplicar tu cantidad de proyectiles o el tamaño del ataque.
+
+<YouTubeEmbed videoId="YuW9g25eeS0" title="¡Este juego es MUY divertido! - Hell Maiden - VOD de la Demo" />
+
+En la versión actual de acceso anticipado de 2026, la atención se centra en dominar las sinergias internas de tu mazo. Aunque el juego cooperativo en línea directo no es una función nativa en el lanzamiento, la profundidad del sistema de cartas proporciona una complejidad que mantiene entretenido el bucle de juego en solitario. Los jugadores que buscan una experiencia compartida suelen utilizar las funciones comunitarias de Steam para compartir configuraciones de puntuación alta o tiempos de supervivencia en los primeros círculos del infierno.
+
+<Callout type="tip" title="Soluciones temporales para multijugador">
+Aunque el cooperativo nativo de **hell maiden co op** aún no está implementado, algunos jugadores usan Steam Remote Play Together para compartir su pantalla y planificar la colocación de las cartas con amigos en tiempo real.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando las mecánicas de construcción de mazos">
+
+El éxito en el inframundo depende de cómo manejes tu mano. A diferencia de otros juegos de supervivencia donde las mejoras son puramente aleatorias, Hell Maiden introduce un sistema de **construcción de mazos** que requiere conciencia espacial. Tus cartas no son solo estadísticas; su posición relativa entre sí determina su efectividad. Por ejemplo, algunas cartas de Modificación solo otorgan bonificaciones a las armas colocadas inmediatamente a su derecha o izquierda.
+
+| Categoría de carta | Funcionalidad | Importancia estratégica |
+| :--- | :--- | :--- |
+| **Cartas de Arma** | Principales fuentes de daño | Determina tu patrón de ataque (Pluma, Arpón, Espada) |
+| **Cartas de Espíritu** | Potenciadores de estadísticas pasivas | Crítico para escalar salud, ganancia de PE y velocidad de movimiento |
+| **Cartas de Modificación** | Mejoras de armas | Deben colocarse adyacentes a las armas para activar mejoras específicas |
+| **Cartas Definitivas** | Habilidades para limpiar la pantalla | Movimientos con alto tiempo de recarga como **Cielos Estelares** o **Infierno** |
+
+<Callout type="warning" title="La colocación importa">
+Comprueba siempre la descripción de tus cartas de Modificación. Muchas cartas de "Sobrecarga" solo afectan a las **armas adyacentes**. Colocar una carta de Modificación en la casilla incorrecta puede resultar en cero beneficio para tu fuente de daño principal.
+</Callout>
+
+La sinergia entre armas como la **Pluma** y las modificaciones que aumentan la **Cantidad de proyectiles** es esencial para sobrevivir a las etapas posteriores del Limbo. A medida que progreses, desbloquearás la "Bendición de Virgilio", que introduce nuevos niveles de cartas y patrones de interacción más complejos que pueden convertir una partida difícil en una configuración ultrapoderosa.
+
+</Section>
+
+<Section icon={Target} title="Progresión de personajes y rescate de poetas">
+
+La narrativa de Hell Maiden está impulsada por tus interacciones con los **Poetas del Limbo**. Estas figuras legendarias de la antigüedad están dispersas por los círculos del infierno. Rescatarlos no es solo un elemento de la historia; es la forma principal de expandir tu arsenal y desbloquear las mejoras más poderosas del juego.
+
+<Steps>
+  <Step num="1" title="Localiza al poeta">
+    Explora el mapa para encontrar el icono dorado que representa a un poeta como **Horacio** o **Homero**. A menudo están custodiados por enemigos de élite o trampas.
+  </Step>
+  <Step num="2" title="La fase de protección">
+    Una vez que alcances a un poeta, debes sobrevivir a una oleada cronometrada de enemigos mientras permaneces en su vecindad. Esto pone a prueba tus capacidades de daño en área (AoE).
+  </Step>
+  <Step num="3" title="Desbloquea bendiciones">
+    Tras un rescate exitoso, el poeta regresa al Foro, desbloqueando **5 nuevas habilidades** y un arma distintiva para tus futuras partidas.
+  </Step>
+  <Step num="4" title="Mejora habilidades definitivas">
+    Rescatar a múltiples poetas te permite combinar sus espíritus, lo que lleva a ataques definitivos avanzados que utilizan diferentes tipos de daño elemental.
+  </Step>
+</Steps>
+
+<Callout type="info" title="El Foro">
+El Foro sirve como tu base central. Aquí puedes hablar con Virgilio y Beatriz para revisar la historia que has recopilado y preparar tu mazo inicial para el próximo descenso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de supervivencia para los nueve círculos">
+
+Cada círculo del infierno presenta peligros ambientales y tipos de enemigos únicos. En los dos primeros círculos disponibles en la versión de 2026 (el Limbo y el siguiente círculo), la amenaza principal es el gran volumen de enemigos. Gestionar tu "Algoritmo de Dante" (tu ruta de desarrollo) es vital para la supervivencia a largo plazo.
+
+<CardGrid cols={3}>
+  <Card title="El especialista en área (AoE)">
+    - **Enfoque**: Tamaño de ataque y modificaciones de explosión
+    - **Mejor arma**: Bola de fuego o Estrellas giratorias
+    - **Pros**: Limpia grandes grupos de limos rápidamente
+  </Card>
+  <Card title="El cazador de élites">
+    - **Enfoque**: Daño crítico y estado de debilidad
+    - **Mejor arma**: Arpón perforador
+    - **Pros**: Derrite las barras de salud de los jefes en segundos
+  </Card>
+  <Card title="El veloz">
+    - **Enfoque**: Velocidad de movimiento y distancia de desplazamiento (dash)
+    - **Mejor arma**: Desplazamiento de rastro de fuego
+    - **Pros**: Evita fácilmente los rayos de juicio de la Reina Minos
+  </Card>
+</CardGrid>
+
+| Jefe / Élite | Peligro principal | Contramedida recomendada |
+| :--- | :--- | :--- |
+| **Reina Minos** | Rayo de Juicio (Daño alto) | Alta velocidad de movimiento o mejora antibalas |
+| **Limos explosivos** | Explosión en área tras morir | Armas a distancia o efectos de empuje |
+| **Bestias de tentáculos** | Mecánicas de atracción | Desplazamientos continuos y alta duración de ataque |
+
+<Callout type="success" title="Gestión de la salud">
+Busca el "Amuleto de crecimiento" o cartas que permitan la **absorción de PS**. Dado que los objetos de curación aparecen raramente, las mecánicas de robo de vida son la forma más confiable de mantener partidas largas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hoja de ruta de 2026 y lista de verificación para completacionistas">
+
+Hell Maiden se encuentra actualmente en acceso anticipado, y los desarrolladores proyectan al menos otro año de desarrollo activo para completar los 9 círculos. Se planea que la versión completa incluya un **modo infinito**, más misiones secundarias y una historia significativamente ampliada que involucra el papel de Beatriz en la segunda oportunidad de salvación de Dante.
+
+<Checklist
+  id="hell-maiden-goals"
+  title="Hitos para completacionistas:"
+  items={[
+    "Rescatar a los 4 poetas actuales del Limbo",
+    "Alcanzar el nivel 50 en una sola partida",
+    "Derrotar a la Reina Minos sin recibir daño",
+    "Desbloquear los 72 logros de Steam",
+    "Dominar una configuración con 100% de probabilidad crítica",
+    "Completar una partida usando solo armas iniciales"
+  ]}
+/>
+
+<Callout type="info" title="Requisitos del sistema">
+Asegúrate de que tu equipo pueda manejar los efectos de partículas del final de la partida. Las especificaciones recomendadas sugieren **16 GB de RAM** y una **Nvidia GTX 1070** o equivalente para la experiencia más fluida durante las oleadas de alta densidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Admite Hell Maiden el modo cooperativo en línea?",
+    answer: "Actualmente, hell maiden co op no es una función nativa en la versión de acceso anticipado. El juego está diseñado como un constructor de mazos de supervivencia contra hordas para un solo jugador, aunque la demanda de la comunidad por funciones multijugador es alta."
+  },
+  {
+    question: "¿Cómo desbloqueo más cartas para mi mazo?",
+    answer: "Las nuevas cartas se desbloquean rescatando a los Poetas del Limbo (como Horacio y Ovidio) y derrotando a los jefes en los diferentes círculos del infierno."
+  },
+  {
+    question: "¿Qué es el 'Algoritmo de Dante' mencionado en el juego?",
+    answer: "Se refiere a la configuración específica y la ruta de sinergia de cartas que elijas durante una partida. Optimizar tu algoritmo es clave para sobrevivir en los círculos de mayor dificultad."
+  },
+  {
+    question: "¿Cuánto tiempo permanecerá el juego en acceso anticipado?",
+    answer: "Los desarrolladores esperan que el juego permanezca en acceso anticipado durante aproximadamente un año, con el lanzamiento de la versión 1.0 completa previsto para finales de 2026 o principios de 2027."
+  }
+]} />
+
+</Section>

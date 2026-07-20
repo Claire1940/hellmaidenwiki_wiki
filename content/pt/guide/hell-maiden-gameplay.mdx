@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gameplay de Hell Maiden: Dicas de Construção de Deck e Guia de Sobrevivência",
+  description: "Domine a jogabilidade de Hell Maiden com nosso guia completo. Aprenda sinergias de cartas, como resgatar os Poetas do Limbo e sobreviva aos Círculos do Inferno.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Hell+Maiden+Gameplay",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Hell Maiden",
+  keywords: "hell maiden, gameplay, construção de deck, guia de sobrevivência, poetas do limbo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A jogabilidade de Hell Maiden** combina mecânicas de sobrevivência contra hordas de ritmo acelerado com a construção estratégica de decks em tempo real.
+- **Roube habilidades inimigas** ao derrotar chefes e inimigos de elite para adicionar permanentemente seus poderes únicos ao seu deck ativo.
+- **Resgate poetas antigos** presos no Limbo para desbloquear armas lendárias exclusivas, vantagens poderosas e ataques supremos.
+- **Personalize cartas de armas** usando Cartas de Modificação especializadas para adaptar sua estratégia ofensiva a diferentes ondas demoníacas.
+- **Prioritize a sinergia** entre Cartas de Espírito passivas e armas ativas para sobreviver à dificuldade crescente dos círculos do Inferno.
+</Callout>
+
+<Section icon={Swords} title="Dominando o Fluxo de Gameplay de Hell Maiden">
+
+Navegar pelas profundezas traiçoeiras do submundo neste jogo de sobrevivência de horda com construção de deck exige reflexos rápidos e visão tática. Diferente dos jogos tradicionais de "bullet-heaven", onde as melhorias são ditadas em grande parte pela geração de números aleatórios, dominar o ciclo de **gameplay de Hell Maiden** exige que os jogadores construam, filtrem e adaptem ativamente seus decks de cartas durante a partida. Você controla Dante, que retornou inexplicavelmente ao Inferno sem memórias após ter alcançado o Paraíso. Armado com armas míticas e auxiliado pelo poeta romano Virgílio, você deve fatiar ondas implacáveis de demônios para subir de volta à salvação.
+
+**Destaques do Vídeo:**
+- **Construção Dinâmica de Deck**: Aprenda como selecionar e modificar seu deck de armas e habilidades durante o combate ativo.
+- **Visuais Impressionantes**: Veja os ambientes de fantasia sombria lindamente animados, inspirados na *Divina Comédia* de Dante Alighieri.
+- **Demonstração de Chefes**: Assista a encontros de alto risco contra chefes formidáveis do submundo, como a Rainha Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Trailer de Gameplay" />
+
+O ciclo principal de jogabilidade centra-se em entrar em um Círculo do Inferno, sobreviver a ondas cronometradas de inimigos cada vez mais agressivos e coletar Fragmentos de Alma para selecionar novas cartas. Conforme você progride, pode manter e usar as habilidades exclusivas de seus oponentes, voltando seus próprios poderes infernais contra eles. Essa mecânica permite estilos de jogo altamente personalizados que evoluem dinamicamente a cada partida.
+
+| Recurso | Estado do Acesso Antecipado | Lançamento Completo Planejado |
+| --- | --- | --- |
+| Círculos do Inferno | 2 níveis únicos | Todos os 9 Círculos do Inferno |
+| Poetas do Limbo | 4 poetas resgatáveis | Mais poetas e missões secundárias |
+| Armas e Cartas | 4 armas, 40+ habilidades | Arsenal expandido e ataques supremos |
+| Modos de Jogo | Campanha narrativa | Campanha + Modo Infinito |
+
+<Callout type="info" title="Conexão Narrativa">
+O jogo começa diretamente após o final da Divina Comédia original. A misteriosa perda de memória de Dante e seu retorno repentino ao Inferno servem como a força motriz narrativa por trás de sua descida.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Construção de Deck e Sinergia de Cartas">
+
+A característica definidora do combate é o seu deck. Seu deck determina sua produção ofensiva, capacidades defensivas e ações de utilidade. As cartas são divididas em três categorias principais: Cartas de Arma, Cartas de Modificação e Cartas de Espírito. Entender como essas categorias interagem é a chave para sobreviver a ondas de inimigos de alta densidade.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Arma">
+    - **Ofensiva Principal**: Define seu estilo de ataque primário e produção de dano base.
+    - **Armas Exclusivas**: Escolha entre 4 armas iniciais distintas no Acesso Antecipado.
+    - **Atualizável**: Pode ser aprimorada diretamente durante as partidas.
+  </Card>
+  <Card title="Cartas de Modificação">
+    - **Modificação de Comportamento**: Altera como suas Cartas de Arma se comportam.
+    - **Bônus de Atributos**: Adiciona dano elemental, projéteis extras ou efeitos de perfuração.
+    - **Adaptabilidade**: Troque modificadores rapidamente para combater tipos específicos de inimigos.
+  </Card>
+  <Card title="Cartas de Espírito">
+    - **Vantagens Passivas**: Oferece bônus passivos e utilidade defensiva.
+    - **Efeitos de Status**: Aplica queimadura, congelamento ou vulnerabilidade aos alvos.
+    - **Facilitadores de Sinergia**: Aumenta a eficácia de atributos de armas correspondentes.
+  </Card>
+</CardGrid>
+
+Para construir um deck eficaz, você deve evitar simplesmente escolher as cartas mais raras. Em vez disso, concentre-se em criar sinergias coesas. Por exemplo, combinar uma Carta de Arma de ataque rápido com Cartas de Modificação que aplicam efeitos de status ao atingir, como congelamento ou queimadura, pode congelar telas inteiras de demônios em segundos.
+
+| Tipo de Carta | Função Principal | Melhor Combinado Com | Avaliação de Sinergia |
+| --- | --- | --- | --- |
+| Cartas de Arma | Entrega de dano direto | Cartas de Modificação de alto dano | ★★★★★ |
+| Cartas de Modificação | Alteração do padrão de ataque | Armas de alta cadência de tiro | ★★★★☆ |
+| Cartas de Espírito | Melhoria de atributos passivos | Vantagens de utilidade defensiva | ★★★★☆ |
+
+<Callout type="tip" title="Otimização de Deck">
+Não infle demais seu deck com muitas cartas diferentes. Manter seu deck enxuto garante que suas combinações mais poderosas de armas e modificadores sejam compradas com mais frequência durante as fases intensas de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Resgatando os Poetas do Limbo">
+
+A jornada de Dante pelo submundo não é solitária. Ao longo dos vários Círculos do Inferno, você encontrará os lendários Poetas do Limbo. Presos pelos senhores demoníacos, essas figuras históricas — incluindo Virgílio, Homero, Ovídio, Horácio e Lucano — oferecem assistência inestimável uma vez resgatados.
+
+Tornar-se amigo desses poetas desbloqueia recompensas de progressão permanente que persistem entre suas partidas, facilitando significativamente a subida de volta ao Paraíso.
+
+<Steps>
+  <Step num="1" title="Localize o Poeta">
+    Explore o Círculo do Inferno ativo para encontrar a localização do poeta aprisionado, marcada em seu minimapa.
+  </Step>
+  <Step num="2" title="Sobreviva à Emboscada">
+    Acionar a sequência de resgate inicia um evento de sobrevivência de alta intensidade, onde você deve proteger o poeta de ondas de demônios de elite.
+  </Step>
+  <Step num="3" title="Derrote o Guardião">
+    Vença o mini-chefe ou o chefe principal da zona para quebrar as correntes espirituais que prendem o poeta.
+  </Step>
+  <Step num="4" title="Desbloqueie Novas Habilidades">
+    Retorne ao hub do Limbo para falar com o poeta resgatado, desbloqueando 5 novas habilidades únicas e armas exclusivas para seu deck.
+  </Step>
+</Steps>
+
+Cada poeta que você resgata expande suas opções estratégicas. Por exemplo, resgatar Ovídio introduz cartas versáteis baseadas em ilusão em seu conjunto de escolhas, enquanto Virgílio oferece cartas focadas em ataques de corte precisos e de alto dano.
+
+| Poeta do Limbo | Papel na História | Desbloqueios de Jogabilidade | Tendência de Estilo de Jogo |
+| --- | --- | --- | --- |
+| Virgílio | Guia Fiel | Cartas de navegação e corte | Precisão e Acertos Críticos |
+| Ovídio | Poeta Lendário | Cartas de Espírito especializadas | Ilusão e Controle de Grupo |
+| Beatriz | Protetora Santificada | Ataques defensivos supremos | Proteção e Sobrevivência |
+| Homero | Contador de Histórias Épicas | Armas físicas de alto dano | Dano Bruto e Área de Efeito |
+
+<Callout type="success" title="Impulso na Progressão">
+Resgatar todos os 4 poetas disponíveis no Acesso Antecipado rende um total de 20 cartas adicionais, aumentando drasticamente a variedade de sua build e sua taxa geral de sobrevivência em círculos mais difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivendo aos Círculos do Inferno">
+
+Cada Círculo do Inferno serve como um nível distinto com seus próprios perigos temáticos, comportamentos únicos de inimigos e lutas contra chefes desafiadoras. Na versão de Acesso Antecipado do jogo, os jogadores podem testar sua coragem nos dois primeiros círculos. O sucesso requer adaptar sua build às ameaças específicas de cada zona.
+
+O primeiro círculo, Limbo, apresenta caminhos florestais claustrofóbicos e oponentes ágeis que tentam cercá-lo rapidamente. O segundo círculo introduz verticalidade extrema, perigos ambientais de fogo e cruzados demoníacos pesadamente blindados.
+
+| Círculo | Perigos Principais | Encontro com Chefe | Estratégia de Build Recomendada |
+| --- | --- | --- | --- |
+| Círculo 1: Limbo | Caminhos estreitos, hordas de mobs | Rainha Minos | Alto dano em Área de Efeito, velocidade de movimento |
+| Círculo 2: Luxúria | Gueiseres de fogo, unidades blindadas | Juiz Infernal | Alto DPS em alvo único, mods de perfuração de armadura |
+
+Para garantir que você esteja totalmente preparado antes de mergulhar em uma partida, utilize este checklist de preparação para auditar seu equipamento e estratégia.
+
+<Checklist
+  id="run-preparation"
+  title="Checklist de Sobrevivência Pré-Partida:"
+  items={[
+    "Selecione uma arma inicial que complemente sua build final desejada.",
+    "Verifique se o seu deck inicial tem um equilíbrio saudável de cartas ofensivas e defensivas.",
+    "Priorize a localização de Poetas do Limbo presos para desbloquear vantagens passivas permanentes.",
+    "Guarde seus ataques supremos para ondas de inimigos de elite e fases de transição de chefes."
+  ]}
+/>
+
+<Callout type="warning" title="Transições de Fase de Chefes">
+Chefes como a Rainha Minos apresentam encontros de várias fases. Quando a barra de saúde de um chefe atinge certos limites, eles desencadeiam ataques devastadores que ocupam toda a tela. Mantenha suas cartas defensivas supremas prontas para essas transições.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Sistema para PC">
+
+Para desfrutar de uma jogabilidade suave e com alta taxa de quadros durante cenas de combate intensas com centenas de sprites ativos na tela, certifique-se de que seu PC atenda às especificações de hardware recomendadas. Os cálculos de construção de deck e a física de projéteis do jogo se beneficiam muito de um processador multi-core moderno.
+
+| Requisito | Especificações Mínimas | Especificações Recomendadas |
+| --- | --- | --- |
+| Sistema Operacional | Windows 10 ou superior (64 bits) | Windows 10 ou superior (64 bits) |
+| Processador | 4 Cores / 2.5 GHz+ | 4 Cores / 3.5 GHz+ |
+| Memória do Sistema | 8 GB RAM | 16 GB RAM |
+| Placa de Vídeo | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 / AMD RX 570 |
+| Espaço de Armazenamento | 4 GB de espaço disponível | 4 GB de espaço disponível |
+
+<Callout type="tip" title="Otimização de Desempenho">
+Se você tiver quedas de quadros durante as ondas de fim de jogo com alta contagem de projéteis, tente desativar o tremor de tela e diminuir os efeitos de partículas no menu de opções gráficas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como a jogabilidade de Hell Maiden difere de outros jogos de sobrevivência de horda?",
+    answer: "Diferente dos jogos tradicionais de 'bullet-heaven' onde as melhorias são semi-aleatórias, a jogabilidade de Hell Maiden incorpora a construção ativa de decks. Você coleta, organiza e modifica Cartas de Arma, Modificação e Espírito durante a partida para moldar dinamicamente suas capacidades ofensivas e defensivas."
+  },
+  {
+    question: "Posso mudar meu deck durante uma partida?",
+    answer: "Sim. Você pode equipar Cartas de Modificação para aprimorar e modificar suas Cartas de Arma, permitindo editar, experimentar e reformular suas combinações de cartas rapidamente conforme a dificuldade aumenta."
+  },
+  {
+    question: "O que acontece quando resgato um Poeta do Limbo?",
+    answer: "Resgatar um Poeta do Limbo desbloqueia permanentemente 5 novas habilidades únicas em seu conjunto de cartas, junto com vantagens especiais, ataques supremos e armas exclusivas que persistem em todas as partidas subsequentes."
+  },
+  {
+    question: "Quanto conteúdo está disponível na versão de Acesso Antecipado?",
+    answer: "A versão de Acesso Antecipado apresenta 2 Círculos do Inferno completos com lutas contra chefes únicas, 4 Poetas do Limbo resgatáveis, 4 armas exclusivas e mais de 40 habilidades distintas para coletar e experimentar."
+  }
+]} />
+
+<Callout type="success" title="Ascenda à Salvação">
+Com seu deck otimizado, suas armas modificadas e os lendários poetas da antiguidade ao seu lado, você está totalmente equipado para conquistar as profundezas do Inferno. Adapte sua estratégia, domine suas sinergias de cartas e ajude Dante a encontrar o caminho de volta ao Paraíso!
+</Callout>
+
+</Section>

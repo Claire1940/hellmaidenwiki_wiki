@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden itch io: Guía de las Mejores Builds de Cartas y Progresión",
+  description: "Domina hell maiden itch io con nuestra guía sobre Cartas de Espíritu, rescate de Poetas, recorridos de Limbo y Lujuria, y actualizaciones de la hoja de ruta de Early Access 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Hell+Maiden+Build+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de hell maiden",
+  keywords: "hell maiden itch io, cartas de espíritu, guía de supervivencia, builds de armas, lamentos del abismo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **hell maiden itch io**: Originalmente una demo popular, el juego ha evolucionado a una versión de **Steam Early Access** completa y rica en funciones desde julio de 2026.
+- **Cartas de Espíritu**: La mecánica principal consiste en construir una mano de **cuatro Cartas de Arma** potenciadas por **Cartas de Modificación** posicionales.
+- **Rescate de Poetas**: Rescatar a personajes como **Horacio, Homero y Ovidio** es fundamental para desbloquear armas y hechizos distintivos.
+- **Bucle de Supervivencia**: Cada partida requiere sobrevivir a una **oleada de 12 minutos** antes de enfrentarse al jefe final del Círculo.
+- **Progresión**: Utiliza los **Lamentos del Abismo** (Wails of the Abyss) para adquirir mejoras permanentes entre partidas y aumentar tu tasa de supervivencia.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos con Hell Maiden itch io">
+
+Hell Maiden es un juego de supervivencia contra hordas y construcción de mazos de estilo gótico que combina el disparo automático de los títulos "bullet-heaven" con la profundidad estratégica de los roguelites de cartas. Aunque muchos jugadores descubrieron el proyecto como una demo de **hell maiden itch io**, el lanzamiento actual de Early Access en Steam ha expandido significativamente las mecánicas, añadiendo una profunda meta-progresión y un elenco más amplio de Poetas. Tu objetivo principal es navegar por los Círculos del Infierno, comenzando por el Limbo, mientras construyes un mazo de Cartas de Espíritu capaz de resistir oleadas de enemigos cada vez más densas.
+
+**Puntos Destacados del Video:**
+- Bucle de juego principal que incluye la recolección de experiencia y selección de cartas.
+- Demostración de la mecánica de deslizamiento (dash) para evitar patrones de proyectiles.
+- Explicación del temporizador de supervivencia de 12 minutos y la transición al jefe.
+
+<Callout type="tip" title="Movimiento y Puntería">
+Dante ataca automáticamente basándose en tus Cartas de Arma equipadas, pero debes apuntar manualmente el cursor para priorizar los objetivos de alta amenaza. Mantén siempre a los enemigos en un lado de Dante para asegurar que los orbes de experiencia sean fáciles de recoger sin tener que lanzarte al centro de una horda.
+</Callout>
+
+| Mecánica | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Deslizamiento** | Breve invulnerabilidad para atravesar líneas enemigas o escapar de encerronas. | Alta |
+| **Experiencia** | Soltada por enemigos para activar subidas de nivel y elección de cartas. | Muy Alta |
+| **Templos** | Objetos interactivos en el mundo que otorgan bonificaciones durante la partida. | Media |
+| **Hechizos** | Habilidades distintivas poderosas con tiempos de enfriamiento largos. | Emergencia |
+
+</Section>
+
+<Section icon={Swords} title="Mejores Builds y Estrategias de Cartas de Espíritu">
+
+El corazón de **hell maiden itch io** reside en su sistema de Cartas de Espíritu. A diferencia de los juegos de supervivencia tradicionales donde simplemente acumulas estadísticas, Hell Maiden requiere que gestiones una "mano" de cartas. Tienes cuatro ranuras para Cartas de Arma, y cada arma puede ser aumentada por Cartas de Modificación (Mods). La posición de estas cartas es vital, ya que muchos Mods otorgan bonificaciones a las armas adyacentes o a las cartas colocadas específicamente a su derecha.
+
+<CardGrid cols={3}>
+  <Card title="Daño Concentrado">
+    - **Arma Principal**: Pluma Ardiente (Blazing Quill)
+    - **Ideal Para**: DPS a un solo objetivo
+    - **Mod Clave**: Daño y Velocidad de Ataque
+  </Card>
+  <Card title="Presión de Proyectiles">
+    - **Arma Principal**: Buscador (Wayfinder)
+    - **Ideal Para**: Limpieza de pantalla
+    - **Mod Clave**: Cantidad de Proyectiles
+  </Card>
+  <Card title="Control de Estado">
+    - **Arma Principal**: Codex Amoris
+    - **Ideal Para**: Gestión de élites
+    - **Mod Clave**: Duración de Efecto
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Fusión para el Poder">
+Nunca te conformes con una mano llena de Mods de Nivel 1. Prioriza siempre la **fusión de Cartas de Modificación duplicadas** para alcanzar el Nivel 3. Un solo Mod de Nivel 3 suele ser más poderoso que tres Mods de Nivel 1 separados, ya que libera ranuras para cartas adicionales de utilidad o defensa.
+</Callout>
+
+| Tipo de Carta | Función | Nivel Máx. | Método de Desbloqueo |
+| :--- | :--- | :--- | :--- |
+| **Carta de Arma** | Determina el patrón de ataque y el daño base. | N/A | Rescate de Personaje/Poeta |
+| **Carta de Mod** | Añade modificadores como velocidad, quemadura o disparos extra. | 3 | Subida de nivel / Tiendas |
+| **Bendición** | Mejoras pasivas permanentes de Poetas rescatados. | N/A | Diálogo en el Foro |
+
+</Section>
+
+<Section icon={Target} title="Recorrido de los Círculos: Limbo y Lujuria">
+
+Progresar en el juego requiere superar "Círculos" específicos del Infierno. Actualmente, el Early Access presenta el **Círculo 1: Limbo** y el **Círculo 2: Lujuria**. Cada Círculo tiene familias de enemigos únicas, peligros ambientales y un jefe final que pone a prueba la fuerza de tu build.
+
+<Steps>
+  <Step num="1" title="Sobrevive a la Oleada de Limbo">
+    Concéntrate en llenar tus cuatro ranuras de Arma dentro de los primeros 5 minutos. Rescata a Horacio y Homero pronto para obtener acceso a las armas Carpe Diem y Lírica Alada (Winged Lyric).
+  </Step>
+  <Step num="2" title="Derrota a la Reina Minos">
+    Al llegar al minuto 12, aparece la Reina Minos. Utiliza ataques de área telegrafiados. Muévete lateralmente y reserva tu deslizamiento para cuando sus círculos de proyectiles se cierren.
+  </Step>
+  <Step num="3" title="Desbloquea los Vientos del Deseo">
+    Una vez derrotada Minos, interactúa con Virgilio en el Foro para desbloquear el Círculo 2. Necesitarás gastar algunos Lamentos del Abismo para prepararte para el aumento de dificultad.
+  </Step>
+  <Step num="4" title="Conquista el Círculo de la Lujuria">
+    Lujuria introduce Súcubos y Víboras. Estos enemigos se mueven más rápido y tienen más salud. Prioriza la build de Codex Amoris para mantener a los enemigos ralentizados mientras te concentras en los jefes Malebranche, Scarmiglione y Libicocco.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Clones del Jefe">
+En el Círculo 2, Libicocco puede crear clones de sí mismo. No te distraigas con las copias; enfoca tus ataques de alto daño en el jefe principal mientras usas armas de efecto de área para diezmar a los clones y a la horda circundante.
+</Callout>
+
+| Círculo | Tiempo de Supervivencia | Jefe Principal | Amenaza Clave |
+| :--- | :--- | :--- | :--- |
+| **Limbo** | 12 Minutos | Reina Minos | Hordas de Brotchi |
+| **Lujuria** | 12 Minutos | Scarmiglione y Libicocco | Víboras Élite |
+
+</Section>
+
+<Section icon={Trophy} title="Rescate de Poetas y Progresión Permanente">
+
+La meta-progresión distingue la versión completa de la demo original de **hell maiden itch io**. Al rescatar a los Poetas atrapados en los diversos Círculos, expandes el conjunto de cartas disponibles en futuras partidas y desbloqueas Hechizos poderosos.
+
+<Checklist
+  id="poet-unlocks"
+  title="Lista de Rescate de Poetas:"
+  items={[
+    "Rescata a Horacio en Limbo para desbloquear Carpe Diem",
+    "Rescata a Homero en Limbo para desbloquear Lírica Alada",
+    "Rescata a Ovidio en Lujuria para desbloquear Codex Amoris",
+    "Agota el diálogo de Virgilio para maximizar el potencial del Buscador",
+    "Habla con Beatriz 3 veces para el logro 'Viaje del Peregrino'"
+  ]}
+/>
+
+<Callout type="info" title="Lamentos del Abismo">
+Los Lamentos del Abismo (Wails of the Abyss) son la moneda principal para la meta-progresión. Gástalos en el Foro de los Poetas para mejorar las estadísticas base de Dante. Prioriza primero la regeneración de salud y la velocidad de movimiento, ya que estos son los puntos de fallo más comunes para los nuevos jugadores.
+</Callout>
+
+| Recurso | Fuente | Uso Principal | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Lamentos del Abismo** | Muertes de enemigos / Completar partida | Meta-mejoras | ★★★★★ |
+| **Amuletos** | Botín raro / Progresión | Mejoras específicas de la partida | ★★★★☆ |
+| **Soul Magister** | Derrotar a la Reina Minos | Desbloquear nuevas habilidades | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Sparkles} title="Hoja de Ruta 2026 y Logros">
+
+AstralShift ha trazado una ambiciosa hoja de ruta para lo que queda de 2026. Con 72 logros de Steam ya disponibles, los coleccionistas tienen mucho que cazar mientras esperan la próxima gran actualización de contenido.
+
+**Próximos Contenidos Destacados:**
+- **Círculo 3: Gula**: Previsto para finales de 2026 con nuevas familias de enemigos y un gran encuentro con un jefe.
+- **Modo Infinito**: Una función muy solicitada que permitirá a los jugadores probar sus builds más allá del temporizador estándar de 12 minutos.
+- **Nuevos Poetas**: Se planea que personajes adicionales de la antigüedad se unan al Foro, cada uno con armas distintivas únicas.
+
+<Callout type="tip" title="Caza de Logros">
+Para el logro "Mano Perfecta", debes tener una mano completa de cartas de Mod de Nivel 3. Para lograrlo, concéntrate pronto en una sola arma y sus mods, y evita tomar nuevas armas hasta que tus mods principales estén al máximo.
+</Callout>
+
+| Logro | Requisito | Dificultad |
+| :--- | :--- | :--- |
+| **Maestría Infernal I** | Alcanza 100,000 puntos en Limbo | Difícil |
+| **Resistencia Vital I** | Supera Limbo con menos de 500 HP curados | Muy Difícil |
+| **Gastador Abismal** | Gasta 5,000 Lamentos del Abismo | Acumulativo |
+| **Peregrino Piadoso** | Activa 12 Templos en una sola partida | Media |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es diferente la versión de hell maiden itch io de la versión de Steam?",
+    answer: "Sí. La versión de itch.io era una demo. La versión de Steam Early Access incluye más Círculos, el sistema de meta-progresión usando Lamentos del Abismo y el elenco completo de Poetas actuales."
+  },
+  {
+    question: "¿Cómo desbloqueo el Círculo 2: Lujuria?",
+    answer: "Debes sobrevivir el temporizador de 12 minutos en Limbo y derrotar a la Reina Minos. Después, avanza en los diálogos de la historia en el Foro de los Poetas para desbloquear los Vientos del Deseo."
+  },
+  {
+    question: "¿Cuál es el nivel máximo de las Cartas de Mod?",
+    answer: "Las Cartas de Mod se pueden mejorar hasta el Nivel 3 fusionando cartas duplicadas durante tu partida. Alcanzar el Nivel 3 suele proporcionar un aumento significativo de poder."
+  },
+  {
+    question: "¿En qué debería gastar mis Lamentos del Abismo primero?",
+    answer: "Céntrate en aumentos permanentes de salud y velocidad de movimiento. Estas estadísticas te ayudan a sobrevivir lo suficiente para recolectar más experiencia y construir una mano de cartas más fuerte."
+  }
+]} />
+
+</Section>

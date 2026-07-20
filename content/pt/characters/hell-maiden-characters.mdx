@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personagens de Hell Maiden: Guia de Arquétipos e Construção de Baralho",
+  description: "Aprenda a dominar os personagens, evoluções de cartas e confrontos contra chefes no roguelike de ação com construção de baralho Hell Maiden.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Hell+Maiden+Characters+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os personagens de Hell Maiden** consistem em heróis jogáveis, guias táticos e chefes poderosos encontrados ao longo dos círculos do Inferno.
+- **A evolução de cartas** serve como a mecânica central de progressão para aumentar seu dano contra hordas massivas de inimigos.
+- **A sinergia estratégica** entre Dante e aliados de suporte como Virgílio dita suas capacidades defensivas.
+- **As estratégias de chefe** exigem memorizar padrões de movimento e zonas de perigo durante grandes confrontos.
+</Callout>
+
+<Section icon={Map} title="Personagens de Hell Maiden: Visão Geral e Funções">
+
+Navegar pelas profundezas do submundo em Hell Maiden exige uma compreensão profunda de seu elenco. Neste roguelike de ação com construção de baralho inspirado na Divina Comédia de Dante Alighieri, os jogadores controlam Dante enquanto ele luta contra ondas de tormento. Ao longo da jornada, você encontrará figuras históricas lendárias e guardiões mitológicos ferozes que moldam suas partidas. Entender como esses personagens interagem com seu baralho é a chave para sobreviver ao abismo.
+
+**Destaques do Vídeo:**
+- Jogabilidade de sobrevivência de horda cheia de ação com mecânicas de fusão de cartas.
+- Interações com guias históricos como Virgílio e Ovídio.
+- Lutas contra chefes mostrando a arena ardente da Rainha Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Trailer de Jogabilidade" />
+
+Os personagens que você encontra durante sua descida concedem bônus passivos, melhorias de cartas ou agem como grandes obstáculos. Escolher com quais personagens se alinhar determina o caminho do desenvolvimento do seu baralho.
+
+| Personagem | Função | Atributo-Chave | Condição de Desbloqueio |
+| Dante | Protagonista | Combate baseado em cartas | Disponível por padrão |
+| Virgílio | Guia | Bônus de atributos passivos | Conclua o tutorial |
+| Ovídio | Aliado | Bônus de dano de feitiço | Conclua a fase do Limbo |
+| Rainha Minos | Chefe | Dano de fogo | Derrote no Círculo 2 |
+
+<Callout type="info" title="Lore do Submundo">
+Encontrar Virgílio cedo em sua partida é crítico para estabilizar a curva de mana do seu baralho antes de entrar em círculos mais difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquétipos de Personagens e Estilos de Combate">
+
+Cada personagem no jogo influencia como as cartas se comportam durante o combate. Enquanto Dante executa os ataques físicos e mágicos, seus companheiros escolhidos alteram as propriedades do seu baralho, criando estilos de jogo distintos. Equilibrar esses estilos de combate permite que você se prepare tanto para a limpeza de hordas de alta densidade quanto para confrontos contra chefes de alvo único.
+
+<CardGrid cols={3}>
+  <Card title="Dante (O Sobrevivente)">
+    - **Atributos equilibrados**
+    - Opções de baralho versáteis
+    - Alta adaptabilidade
+  </Card>
+  <Card title="Virgílio (O Guia)">
+    - **Foco defensivo**
+    - Aumenta a geração de escudo
+    - Reduz o tempo de recarga das cartas
+  </Card>
+  <Card title="Ovídio (O Poeta)">
+    - **Amplificador de magia**
+    - Melhora os efeitos de status elementais
+    - Aumenta a velocidade de compra de cartas
+  </Card>
+</CardGrid>
+
+Escolher o modificador de arquétipo correto altera seus atributos básicos. Jogadores que preferem uma defesa lenta e metódica acharão Virgílio o companheiro ideal, enquanto jogadores agressivos se beneficiarão dos multiplicadores mágicos de Ovídio.
+
+| Arquétipo | Modificador de Vida | Dano Causado | Modificador de Utilidade |
+| Defensor | 120% | -10% físico | Recuperação de escudo |
+| Elementalista | 85% | +20% mágico | Duração de queimadura |
+| Sobrevivente | 100% | Base | Compra padrão |
+
+<Callout type="tip" title="Sinergia de Baralho">
+Combinar as melhorias mágicas de Ovídio com cartas de feitiço baseadas em fogo permite que você limpe hordas massivas de carcaças menores rapidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolução de Cartas e Sinergia de Personagens">
+
+Sobreviver às camadas profundas do Inferno exige mais do que ataques básicos. Os jogadores devem fundir cartas duplicadas ou compatíveis para criar formas evoluídas. Esse processo aumenta o dano, adiciona efeitos de status e reduz os custos de recursos, tornando seu baralho eficiente o suficiente para lidar com os desafios do fim de jogo.
+
+<Steps>
+  <Step num="1" title="Coletar Duplicatas">
+    Reúna cartas idênticas durante as ondas de combate ou compre-as do mercador do rio.
+  </Step>
+  <Step num="2" title="Acessar Compilação">
+    Abra o menu de compilação de baralho entre as rodadas de combate para ver as combinações elegíveis.
+  </Step>
+  <Step num="3" title="Combinar Cartas">
+    Funda as cartas compatíveis para desbloquear suas variantes evoluídas de nível superior.
+  </Step>
+  <Step num="4" title="Equipar Melhorias">
+    Equipe as cartas recém-evoluídas em seus slots de combate ativos para uso imediato.
+  </Step>
+</Steps>
+
+A matriz de evolução abaixo descreve algumas das combinações mais poderosas do início do jogo que você pode criar para aumentar sua eficácia em combate.
+
+| Carta Base A | Carta Base B | Carta Evoluída | Efeito |
+| Corte | Runa de Fogo | Corte de Chamas | Adiciona queimadura contínua |
+| Escudo | Runa de Gelo | Barreira de Gelo | Congela inimigos atacantes |
+| Passo Rápido | Runa de Vento | Investida de Vendaval | Aumenta a velocidade de movimento |
+
+<Callout type="success" title="Sucesso na Evolução">
+As cartas evoluídas mantêm seu status aprimorado pelo resto da partida. Priorize a melhoria de cartas defensivas primeiro para garantir a sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Confrontos de Chefe: Derrotando a Rainha Minos">
+
+Como a juíza ardente do Inferno, a Rainha Minos representa o primeiro grande obstáculo para os jogadores. Sua arena restringe o movimento, forçando você a equilibrar a esquiva de perigos de fogo enquanto causa dano constante. Derrotá-la exige um baralho que apresente alta mobilidade e dano de explosão rápido.
+
+Para derrotar a Rainha Minos, você deve aprender a navegar por suas diferentes fases de combate. Cada fase introduz novos perigos ambientais que podem encerrar rapidamente uma partida se você for pego fora de posição.
+
+| Fase | Nível de Perigo | Ataque Principal | Estratégia |
+| Fase 1 | Moderado | Golpe de chicote | Esquive-se lateralmente |
+| Fase 2 | Alto | Gêiseres de lava | Mova-se para blocos seguros |
+| Fase 3 | Extremo | Chuva de fogo do inferno | Continue se movendo constantemente |
+
+<Callout type="warning" title="Aviso de Chefe">
+Não fique no centro da arena durante a Fase 3. A Rainha Minos atinge essa área com colunas de fogo de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progressão e Marcos">
+
+Desbloquear todo o potencial dos seus personagens exige a conclusão de conquistas específicas. Esses marcos desbloqueiam cartas iniciais, melhorias permanentes de atributos e opções adicionais de companheiros. Focar nesses objetivos cedo tornará as partidas subsequentes muito mais fáceis de gerenciar.
+
+<Checklist
+  id="progression-goals"
+  title="Marcos Essenciais:"
+  items={[
+    "Concluir a fase do Limbo",
+    "Desbloquear o caminho de suporte secundário de Virgílio",
+    "Evoluir 10 cartas em uma única partida",
+    "Derrotar a Rainha Minos sem perder metade da vida"
+  ]}
+/>
+
+Cada marco concluído fornece uma recompensa permanente que influencia suas partidas futuras. Consulte a tabela abaixo para planejar sua rota de progressão.
+
+| Marco | Recompensa | Impacto |
+| Concluir o Limbo | Ovídio desbloqueado | Companheiro jogável |
+| 10 Evoluções | Baralho Mestre | Começa as partidas com uma carta evoluída |
+| Derrotar Minos | Núcleo Ardente | Aumento permanente de dano de fogo |
+
+<Callout type="info" title="Prioridade de Marcos">
+Desbloquear Ovídio deve ser seu primeiro grande objetivo. Sua amplificação de magia acelera as partidas de farm subsequentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Aqui estão algumas das perguntas mais comuns sobre as mecânicas do jogo, personagens e caminhos de progressão.
+
+<FAQ items={[
+  {
+    question: "Quem são os principais personagens jogáveis de Hell Maiden?",
+    answer: "Dante é o combatente principal, enquanto companheiros como Virgílio e Ovídio fornecem bônus passivos e modificações de cartas."
+  },
+  {
+    question: "Como desbloquear Ovídio no jogo?",
+    answer: "Ovídio é desbloqueado ao concluir com sucesso a fase do Limbo e completar seus encontros narrativos associados."
+  },
+  {
+    question: "É possível mudar de companheiro no meio de uma partida?",
+    answer: "Não, a seleção de companheiro é travada no início de cada partida. Escolha um companheiro que se alinhe ao arquétipo do seu baralho."
+  }
+]} />
+
+<Callout type="tip" title="Troca Rápida">
+Se você tiver dificuldades com lutas contra chefes, mude seu companheiro para Virgílio para obter maior geração de escudo e estilos de jogo defensivos.
+</Callout>
+
+</Section>

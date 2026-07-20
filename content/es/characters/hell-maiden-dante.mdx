@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Dante: Guía de las Mejores Builds y Progresión de Personajes",
+  description: "Domina Hell Maiden Dante con nuestra guía de 2026. Aprende builds de Cartas de Espíritu, misiones de rescate de Poetas, estrategias contra jefes de Limbo y Lujuria, y actualizaciones de la hoja de ruta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a0b0b/f5f5f5?text=Dante+Build+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "hell maiden, dante, guía, builds, cartas de espíritu, limbo, lujuria"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Hell Maiden Dante**: La protagonista regresa al Infierno con su emblemática **Pluma Ardiente** (Blazing Quill) para rescatar a los Poetas atrapados.
+- **Bucle Principal**: Sobrevive a oleadas de 12 minutos, recolecta experiencia y construye una mano de cuatro armas usando **Cartas de Espíritu**.
+- **Mejor Estrategia**: Céntrate en fusionar **Cartas de Modificación** duplicadas al Nivel 3 en una sola arma principal para maximizar el daño a los jefes.
+- **Hito Clave**: Rescata a los Poetas del Limbo (Horacio, Homero, Ovidio) para desbloquear nuevas habilidades y hechizos característicos.
+- **Actualización 2026**: El Acceso Anticipado ahora incluye los círculos del **Limbo** y la **Lujuria**, con una expansión planeada a la Gula para finales de este año.
+</Callout>
+
+<Section icon={Swords} title="Dominando a Hell Maiden Dante: Controles y Combate Principal">
+
+En el mundo gótico de "bullet-heaven" de **Hell Maiden**, Dante es la protagonista jugable principal que debe navegar por los traicioneros círculos del inframundo. A diferencia de muchos títulos de supervivencia contra hordas donde los ataques son puramente automáticos, este juego requiere una mezcla de fuego automático y precisión manual. Dante ataca automáticamente, pero tú debes controlar la dirección de sus golpes usando el ratón o el stick del mando. Esta mecánica es fundamental para abrirse paso a través de densas oleadas de enemigos y concentrar el daño en objetivos prioritarios como las Víboras de Élite.
+
+**Puntos Destacados del Video:**
+- **Apuntado Manual**: Aprende a dirigir los ataques de Dante hacia las partes más densas de la horda.
+- **Mecánicas de Desplazamiento (Dash)**: Uso del dash para atravesar patrones de proyectiles sin recibir daño.
+- **Ruta de la Primera Partida**: Un recorrido por los 12 minutos iniciales en el Limbo que conducen a la Reina Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Tráiler de Lanzamiento EA" />
+
+El movimiento es tu mejor defensa. El desplazamiento de Dante no es solo para ganar velocidad; proporciona una breve invulnerabilidad, permitiéndote esquivar enemigos circundantes o escapar de los ataques de área telegrafiados de jefes como la Reina Minos. Mantener a los enemigos a un lado de Dante asegura que los orbes de experiencia sigan siendo accesibles, evitando que te veas obligado a sumergirte en el centro de un grupo para subir de nivel.
+
+<Callout type="tip" title="Consejo de Combate">
+No uses tu desplazamiento para el movimiento general. Mantén siempre al menos una carga de dash disponible para escapar de situaciones de encierro o para esquivar el patrón de proyectiles característico de un jefe.
+</Callout>
+
+| Acción Básica | Método de Entrada | Uso Estratégico |
+| :--- | :--- | :--- |
+| **Movimiento** | WASD / Stick Izquierdo | Kiting de enemigos y posicionamiento para recolectar XP |
+| **Apuntado** | Ratón / Stick Derecho | Concentrar daño en Élites y despejar rutas de escape |
+| **Desplazamiento** | Espacio / Botón Superior | Atravesar líneas enemigas y esquivar golpes telegrafiados |
+| **Hechizo** | Q / Botón Frontal | Limpieza de pantalla durante fases de alta presión |
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia de Cartas de Espíritu: Sinergias de Armas y Mods">
+
+El corazón de la progresión en **Hell Maiden** reside en el sistema de Cartas de Espíritu. Tu mano consta de cuatro ranuras para Armas y sus correspondientes ranuras para Mods. Para tener éxito en los círculos más profundos como la Lujuria, debes ir más allá de simplemente elegir mejoras al azar. Una "Build de Daño Concentrado" es actualmente la forma más fiable de completar el contenido del Acceso Anticipado. Esto implica elegir un arma principal, como la **Pluma Ardiente**, y potenciarla con tres cartas de Mod de Nivel 3.
+
+<CardGrid cols={3}>
+  <Card title="Daño Concentrado">
+    - **Núcleo**: Pluma Ardiente (Blazing Quill)
+    - **Mods**: Daño, Velocidad de Ataque
+    - **Ideal para**: Jefes y Élites
+  </Card>
+  <Card title="Presión de Proyectiles">
+    - **Núcleo**: Buscador (Wayfinder)
+    - **Mods**: Multidisparo, Duración
+    - **Ideal para**: Cobertura de pantalla
+  </Card>
+  <Card title="Control de Estados">
+    - **Núcleo**: Codex Amoris
+    - **Mods**: Duración de Efecto, Velocidad
+    - **Ideal para**: Gestión de multitudes
+  </Card>
+</CardGrid>
+
+Fusionar cartas de Mod duplicadas es esencial. Cuando seleccionas un Mod que ya posees, se fusiona para aumentar su nivel, con un límite en el Nivel 3. Los Mods de Nivel 3 proporcionan saltos masivos en las estadísticas que son necesarios para las oleadas de supervivencia del minuto 12. Además, presta atención a la posición de las cartas; algunos Mods otorgan bonificaciones a las armas adyacentes o a las situadas a su derecha.
+
+| Tipo de Mod | Efecto Nivel 1 | Hito Nivel 3 | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Daño** | +15% Daño Base | +50% Daño Base / Prob. Crítico | **Alta** |
+| **Vel. de Ataque** | +10% Frecuencia | +35% Frecuencia / Recarga Rápida | **Alta** |
+| **Proyectiles** | +1 Proyectil | +3 Proyectiles / Patrón Dividido | **Media** |
+| **Duración** | +20% Tiempo Efecto | +60% Tiempo Efecto / Persistente | **Baja** |
+
+<Callout type="warning" title="Advertencia de Build">
+Evita llenar las cuatro ranuras de armas demasiado pronto. Si repartes tus mejoras de Mod entre cuatro armas débiles, te faltará el DPS concentrado necesario para derrotar a Scarmiglione o Libicocco en el círculo de la Lujuria.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Los Poetas del Limbo: Desbloqueando a los Compañeros de Dante">
+
+A medida que Dante desciende, se encuentra con los Poetas del Limbo, figuras legendarias que le proporcionan nuevas armas, hechizos y ventajas permanentes. Rescatar a estos personajes es el objetivo principal del modo historia y la forma más rápida de ampliar tus opciones tácticas. Cada Poeta rescatado añade cinco nuevas habilidades al conjunto de cartas permanentes, aumentando significativamente la variedad de builds disponibles para futuras partidas.
+
+<Steps>
+  <Step num="1" title="Rescatar a Horacio">
+    Se encuentra en el Círculo 1 (Limbo). Rescatarla desbloquea el arma **Carpe Diem** y su hechizo característico de limpieza de pantalla.
+  </Step>
+  <Step num="2" title="Rescatar a Homero">
+    También ubicado en el Limbo. Homero proporciona la **Lírica Alada** (Winged Lyric), un arma de alta precisión que nunca falla su objetivo, ideal para combates contra jefes.
+  </Step>
+  <Step num="3" title="Desbloquear el Círculo 2">
+    Derrota a la Reina Minos y progresa a través del diálogo del Foro para desbloquear los "Vientos del Deseo" y acceder al círculo de la Lujuria.
+  </Step>
+  <Step num="4" title="Rescatar a Ovidio">
+    Ubicado en el Círculo 2 (Lujuria). Salvar a Ovidio otorga el **Codex Amoris**, que introduce poderosas sinergias de efectos de estado.
+  </Step>
+</Steps>
+
+Interactuar con estos Poetas en el Foro entre partidas es tan importante como rescatarlos. Agotar sus diálogos no solo proporciona contexto sobre los recuerdos perdidos de Dante, sino que también cuenta para los logros "Habitante del Foro" y "Poeta Novato".
+
+<Callout type="success" title="Consejo de Desbloqueo">
+Cada rescate de Poeta añade permanentemente nuevas cartas a tu reserva. Si tienes dificultades con un jefe específico, concéntrate en una "Partida de Rescate" para ampliar tus opciones en lugar de una "Partida de Victoria".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Círculos: Dominando el Limbo y la Lujuria">
+
+Cada círculo en **Hell Maiden** presenta un desafío de supervivencia de 12 minutos seguido de un encuentro con un jefe principal. El Limbo sirve como introducción, presentando a la Reina Minos, mientras que la Lujuria aumenta la dificultad con los jefes Malebranche, Scarmiglione y Libicocco. El entorno también juega un papel; debes explorar para encontrar y activar Templos, que proporcionan bufos específicos para la partida y son necesarios para el logro "Peregrino Piadoso".
+
+| Círculo | Jefe Final | Amenazas de Élite | Duración Supervivencia |
+| :--- | :--- | :--- | :--- |
+| **Limbo** | Reina Minos | Ghouls, Esqueletos | 12 Minutos |
+| **Lujuria** | Scarmiglione / Libicocco | Víboras de Élite, Súcubos | 12 Minutos |
+
+La Reina Minos utiliza un ciclo predecible de ataques de área telegrafiados y anillos de proyectiles. La clave es permanecer en el borde exterior de la arena y solo usar el dash cuando un carril de proyectiles esté completamente bloqueado. En contraste, los jefes de la Lujuria son mucho más agresivos. Scarmiglione cerrará constantemente la distancia, obligándote a moverte lateralmente. Libicocco puede crear clones, multiplicando el desorden visual y dificultando el seguimiento del jefe real.
+
+<Callout type="info" title="Preparación para Jefes">
+Antes de que el temporizador de 12 minutos llegue a cero, asegúrate de que tu hechizo de Poeta característico esté completamente cargado. Úsalo durante la segunda fase del jefe cuando la arena se llene de esbirros invocados o proyectiles superpuestos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Logros">
+
+La progresión permanente en **Hell Maiden** se gestiona a través de los **Lamentos del Abismo** (Wails of the Abyss), una moneda que se obtiene durante las partidas. Esta meta-moneda se gasta en el sistema del Gastador Abismal para mejorar estadísticas base como salud, daño y velocidad de movimiento. Además, encontrar **Amuletos** de rareza Cristal puede proporcionar bonificaciones que cambian el juego y persisten a lo largo de tu viaje por los nueve círculos.
+
+<Checklist
+  id="dante-achievements"
+  title="Hitos Clave para Dante:"
+  items={[
+    "Alcanzar el Nivel 50 en una sola partida (Proeza Infernal I)",
+    "Equipar todas las cartas de Arma y Mod de Dante (Alma de Poeta I)",
+    "Derrotar a la Reina Minos tres veces distintas (Artes Prohibidas I)",
+    "Activar 12 templos diferentes en una sola partida (Peregrino Piadoso)",
+    "Obtener un Amuleto de rareza Cristal (Regalo Celestial)"
+  ]}
+/>
+
+| Recurso | Fuente | Uso Principal | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Lamentos del Abismo** | Bajas enemigas / Recompensas | Mejoras de estadísticas permanentes | **Alta** |
+| **Orbes de XP** | Enemigos derrotados | Subida de nivel y selección de cartas | **Alta** |
+| **Amuletos** | Botín raro / Progresión | Bonificaciones pasivas por partida | **Media** |
+| **Fragmentos de Alma** | Victorias contra jefes | Desbloqueo de niveles de cartas avanzados | **Media** |
+
+<Callout type="tip" title="Consejo de Farmmeo">
+Si necesitas farmear Lamentos del Abismo rápidamente, concéntrate en partidas de puntuación alta en el Limbo. Alcanzar 100,000 puntos otorga el logro "Maestría Infernal I" y aumenta significativamente tu ganancia de moneda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes de Hell Maiden">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el segundo círculo, la Lujuria?",
+    answer: "Debes sobrevivir los 12 minutos completos en el Limbo, derrotar a la Reina Minos y luego interactuar con Virgilio y los otros Poetas en el Foro para activar el evento de progresión 'Vientos del Deseo'."
+  },
+  {
+    question: "¿Cuál es la mejor arma para Dante al principio del juego?",
+    answer: "La Pluma Ardiente (Blazing Quill) sigue siendo una de las opciones más fuertes debido a su daño constante y apuntado fácil de usar. Una vez que rescates a Homero, la Lírica Alada es excelente para el daño a un solo objetivo contra jefes."
+  },
+  {
+    question: "¿Puedo restablecer mis elecciones de cartas de Mod durante una partida?",
+    answer: "No, las elecciones de cartas son permanentes durante esa partida. Sin embargo, puedes reorganizar la posición de las cartas en tu mano para optimizar las bonificaciones adyacentes de Mods específicos."
+  },
+  {
+    question: "¿Qué sucede cuando fusiono un Mod al Nivel 3?",
+    answer: "Fusionar al Nivel 3 proporciona la bonificación estadística máxima para esa carta y, a menudo, añade un efecto secundario, como probabilidad de golpe crítico o aumento del tamaño del proyectil, lo cual es vital para la supervivencia al final de la partida."
+  }
+]} />
+
+</Section>

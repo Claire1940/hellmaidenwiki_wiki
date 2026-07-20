@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden astralshift: Guia de Combate e Construção de Baralho",
+  description: "Domine as profundezas do inferno em hell maiden astralshift. Aprenda mecânicas de fusão de cartas, sinergias com aliados como Virgílio e táticas de sobrevivência contra a Rainha Minos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/e74c3c?text=Hell+Maiden+AstralShift+Combat+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki hell maiden",
+  keywords: "hell maiden, astralshift, sobrevivência, construção de baralho, guia de combate"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **hell maiden astralshift** é um jogo de sobrevivência contra hordas de alta octanagem, apresentando mecânicas profundas de construção de baralho inspiradas na Divina Comédia de Dante.
+- **Fusão de Cartas** é a mecânica central de progressão, permitindo que os jogadores evoluam ataques básicos em habilidades devastadoras que limpam o inferno.
+- **Aliados Lendários** como Virgílio e Ovídio fornecem suporte narrativo essencial e vantagens táticas durante sua descida.
+- **Rainha Minos** serve como a principal antagonista e guardiã, exigindo uma sinergia precisa do baralho para ser derrotada.
+- **Posicionamento Estratégico** e gerenciamento de recursos são vitais, pois a densidade de inimigos aumenta exponencialmente nos círculos mais profundos.
+</Callout>
+
+<Section icon={Swords} title="Introdução à Jogabilidade de hell maiden astralshift">
+
+**hell maiden astralshift** representa uma evolução única no gênero survivor-like, misturando a ação frenética de sobrevivência contra hordas com a profundidade tática de um construtor de baralhos. Desenvolvido pela AstralShift, o jogo busca forte inspiração na *Divina Comédia* de Dante Alighieri, lançando os jogadores em uma versão belamente macabra do abismo. Como Dante, você deve navegar por camadas do inferno, utilizando um sistema dinâmico de cartas para repelir milhares de entidades demoníacas.
+
+**Destaques do Vídeo:**
+- **Estilo Visual**: Experimente a direção de arte sombria e atmosférica característica dos títulos da AstralShift.
+- **Mecânicas de Baralho**: Veja como as cartas são selecionadas e implantadas em combate em tempo real.
+- **Teasers de Chefes**: Dê uma primeira olhada na Rainha Minos e na escala das hordas infernais.
+- **Interações com Aliados**: Observe o diálogo e os sistemas de suporte com Virgílio e Ovídio.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Trailer de Jogabilidade" />
+
+O ciclo de jogabilidade foca em "sobreviver às profundezas". Ao contrário dos survivors tradicionais onde as melhorias são puramente lineares, este título exige que você pense em como sua "mão" de cartas interage. Cada partida é uma nova oportunidade para experimentar diferentes combinações de manobras ofensivas e defensivas.
+
+| Recurso | Descrição | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Gênero** | Sobrevivência de Horda / Construtor de Baralho | Alta rejogabilidade com profundidade tática |
+| **Cenário** | Inferno de Dante (O Abismo) | Ambientes atmosféricos e inimigos ricos em lore |
+| **Mecânica Central** | Fusão e Evolução de Cartas | Escalonamento de poder dinâmico durante as partidas |
+| **Protagonista** | Dante | Customizável através de conjuntos de cartas |
+| **Objetivo Principal** | Sobreviver a ondas e derrotar a Rainha Minos | Progressão através das camadas das profundezas |
+
+<Callout type="tip" title="Dica de Profissional">
+No início de hell maiden astralshift, foque em cartas que fornecem dano em área (AoE). A densidade de inimigos aumenta cedo, e ter uma maneira de limpar caminhos é mais valioso do que um alto dano de alvo único.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando o Sistema de Fusão de Cartas">
+
+A característica definidora de **hell maiden astralshift** é como ele lida com o poder do jogador. Em vez de simples bônus de atributos, você coleta cartas que representam diferentes ataques, feitiços e passivas. O sistema de "Fusão" permite combinar cartas idênticas ou compatíveis para criar versões "Evoluídas" que possuem propriedades únicas.
+
+<CardGrid cols={3}>
+  <Card title="Cartas Básicas">
+    - **Alta Frequência**: Drops comuns de demônios menores.
+    - **Baixo Custo**: Fácil de implantar e ciclar.
+    - **Fundação**: Necessária para todas as evoluções de alto nível.
+  </Card>
+  <Card title="Cartas Fundidas">
+    - **Atributos Melhorados**: Melhor alcance, dano ou tempos de recarga.
+    - **Bônus de Sinergia**: Frequentemente ganham efeitos elementais secundários.
+    - **Poder Intermediário**: Essencial para sobreviver às ondas do meio do jogo.
+  </Card>
+  <Card title="Cartas Evoluídas">
+    - **Mecânicas Únicas**: Transformam o ataque em uma nova forma.
+    - **Limpeza de Tela**: Capazes de aniquilar grupos inteiros de inimigos.
+    - **Requisitos Raros**: Exigem combinações específicas de cartas.
+  </Card>
+</CardGrid>
+
+Entender os caminhos de evolução é crítico para o jogo de alto nível. Você não pode simplesmente escolher cartas aleatoriamente; você deve construir em direção a um "Arquétipo" específico que possa lidar com as ameaças encontradas nos círculos mais profundos do inferno.
+
+| Nível da Carta | Disponibilidade | Método de Melhoria | Custo de Recursos |
+| :--- | :--- | :--- | :--- |
+| **Comum** | Alta (Todo Nível) | Drop Padrão | Baixo |
+| **Incomum** | Moderada | Fundir 2x Comum | Médio |
+| **Rara** | Baixa | Fundir 2x Incomum | Alto |
+| **Épica** | Muito Baixa | Receitas Específicas | Muito Alto |
+| **Lendária** | Apenas Chefe/Evento | Catalisadores de Evolução | Extremo |
+
+<Callout type="warning" title="Alerta de Estratégia">
+Não funda suas cartas cedo demais. Embora uma carta Evoluída seja poderosa, perder a "cobertura" fornecida por duas cartas Básicas separadas pode deixá-lo vulnerável a ser cercado por múltiplas direções.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Aliados e Progressão Narrativa">
+
+Embora o combate seja solitário, a jornada por **hell maiden astralshift** é povoada por figuras lendárias que atuam como seus guias e bússola moral. Esses aliados fornecem mais do que apenas lore; eles oferecem buffs passivos e intervenções ativas que podem salvar uma partida prestes a falhar.
+
+**Principais Aliados no Abismo:**
+- **Virgílio**: Seu guia fiel. Ele fornece conselhos táticos e ajuda Dante a navegar pelo terreno traiçoeiro das profundezas. Em termos de jogabilidade, Virgílio frequentemente oferece oportunidades de "Reroll" (re-rolagem) para seleções de cartas.
+- **Ovídio**: O lendário poeta do Limbo. A presença de Ovídio foca no peso filosófico e narrativo de sua jornada, muitas vezes desbloqueando melhorias permanentes entre as partidas através da "Inspiração Poética".
+
+| Aliado | Papel | Benefício Principal | Condição de Desbloqueio |
+| :--- | :--- | :--- | :--- |
+| **Virgílio** | Guia | Rerolls de Cartas / Navegação | Padrão |
+| **Ovídio** | Poeta | Meta-Progressão Permanente | Alcançar o Círculo do Limbo |
+| **Beatriz** | Inspiração | Recuperação de Vida / Buffs | Marcos de Descida Profunda |
+
+<Callout type="success" title="Dica de Sucesso">
+Interaja com Virgílio toda vez que ele aparecer nas "Zonas Seguras" entre as ondas. Seus conselhos muitas vezes indicam as fraquezas do próximo chefe, permitindo que você ajuste a estratégia do seu baralho.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivendo aos Círculos: Táticas de Combate">
+
+A sobrevivência em **hell maiden astralshift** é uma questão de movimento e gerenciamento. Como a "Donzela do Inferno" ou Dante, você é constantemente perseguido pela "Malícia", uma força rastejante que limita seu movimento se você ficar parado no mesmo lugar por muito tempo.
+
+<Steps>
+  <Step num="1" title="Coleta Inicial">
+    Comece a partida atraindo pequenos grupos de inimigos. Foque em coletar "Fragmentos de Alma" para comprar sua primeira mão de cartas. Priorize uma carta de velocidade de movimento, se disponível.
+  </Step>
+  <Step num="2" title="Consolidação do Baralho">
+    Aos dez minutos de jogo, você deve ter pelo menos duas cartas Fundidas. Pare de pegar novas cartas Básicas, a menos que elas se encaixem no seu caminho de evolução pretendido, para evitar entupir sua mão.
+  </Step>
+  <Step num="3" title="Preparação para o Chefe">
+    Antes de enfrentar a Rainha Minos ou outros Guardiões de Círculo, garanta que você tenha uma carta de dano explosivo de "Alvo Único". AoE é ótimo para ondas, mas os chefes têm barras de vida massivas que exigem fogo focado.
+  </Step>
+  <Step num="4" title="O Confronto Final">
+    Nas camadas mais profundas, a tela ficará cheia de projéteis. Use cartas de "Utilidade Defensiva", como escudos ou teletransportes de curto alcance, para navegar pelos padrões de bullet hell.
+  </Step>
+</Steps>
+
+Os chefes neste jogo não são apenas "esponjas de balas". Eles possuem fases distintas. Por exemplo, a Rainha Minos utiliza uma mecânica de "Julgamento" onde ela marca áreas do chão; permanecer nessas áreas leva ao descarte instantâneo de uma carta, enfraquecendo severamente suas capacidades ofensivas.
+
+| Nome do Chefe | Localização | Ataque Principal | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Rainha Minos** | Círculo do Julgamento | Golpe de Martelo / Descarte de Carta | Mantenha-se móvel, foque em alvo único |
+| **Núcleo da Malícia** | Abismo Profundo | Varredura de Tentáculos / Escuridão | Cartas baseadas em luz são necessárias |
+| **Legião Caída** | Círculo da Violência | Investida de Escudo / Falange | Dano perfurante é essencial |
+
+<Callout type="info" title="Nota Importante">
+A dificuldade em hell maiden astralshift escala com o número de "Pecados" que você equipa antes de uma partida. Embora os Pecados tornem o jogo mais difícil, eles aumentam significativamente a taxa de drop de cartas Raras e Épicas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Marcos">
+
+Para dominar verdadeiramente a descida, os jogadores devem olhar além das partidas individuais e focar nos sistemas de meta-progressão oferecidos pela AstralShift. Coletar "Fragmentos de Memória" permite desbloquear novos baralhos iniciais e aumentos permanentes de atributos para Dante.
+
+<Checklist
+  id="hell-maiden-goals"
+  title="Marcos Essenciais de Progressão:"
+  items={[
+    "Derrote a Rainha Minos pela primeira vez para desbloquear o Círculo da Luxúria.",
+    "Realize 50 Fusões de Cartas bem-sucedidas em uma única partida.",
+    "Complete uma partida sem usar a habilidade de Reroll do Virgílio para uma conquista secreta.",
+    "Desbloqueie a loja de meta-upgrade 'Biblioteca de Ovídio'.",
+    "Alcance a marca de 30 minutos no modo 'Abismo Sem Fim'."
+  ]}
+/>
+
+| Marco | Recompensa | Dificuldade |
+| :--- | :--- | :--- |
+| **Limpeza do Círculo 1** | Nova Skin de Personagem | ★★☆☆☆ |
+| **1000 Abates** | Pacote de Cartas 'Inferno' | ★★★☆☆ |
+| **Derrota de Minos** | Artefato 'Martelo do Juiz' | ★★★★☆ |
+| **Evolução Completa** | Conquista 'Divina Comédia' | ★★★★★ |
+
+<Callout type="tip" title="Dica de Meta">
+Sempre priorize a melhoria permanente 'Ímã de Almas' na loja de Ovídio. Aumentar o raio no qual você coleta fragmentos acelerará drasticamente seu processo de nivelamento em cada partida subsequente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor carta inicial em hell maiden astralshift?",
+    answer: "Para iniciantes, a carta 'Redemoinho' é altamente recomendada. Ela fornece proteção de 360 graus e escala excepcionalmente bem quando fundida na evolução 'Tempestade'."
+  },
+  {
+    question: "Como desbloqueio o Virgílio como personagem jogável?",
+    answer: "Virgílio é atualmente um guia NPC, mas completar a história principal na dificuldade 'Difícil' desbloqueia um modo de desafio especial onde você pode usar seu baralho exclusivo."
+  },
+  {
+    question: "Posso jogar hell maiden astralshift com um controle?",
+    answer: "Sim, o jogo possui suporte total a controles, o que é recomendado para o movimento preciso necessário durante os estágios avançados de bullet-hell."
+  },
+  {
+    question: "O que acontece quando minha mão de cartas está cheia?",
+    answer: "Se sua mão estiver cheia, novas cartas substituirão sua carta não fundida mais antiga. É vital fundir cartas rapidamente para manter espaços abertos para drops de alto nível."
+  }
+]} />
+
+<Callout type="info" title="Considerações Finais">
+Seja você um fã das obras narrativas anteriores da AstralShift ou um entusiasta de sobrevivência hardcore, **hell maiden astralshift** oferece uma experiência profunda e recompensadora. Lembre-se de que a morte não é o fim no abismo; é apenas uma chance de refinar seu baralho e tentar uma nova estratégia.
+</Callout>
+
+</Section>

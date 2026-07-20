@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden Builds: Best Card Synergies & Weapon Loadouts",
+  description: "Master the 9 Circles of Hell with our expert Hell Maiden builds. Explore top-tier card synergies, weapon combinations, and survival strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Hell+Maiden+Builds+Guide",
+  date: "2026-07-19",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hell maiden builds** rely on the strategic placement and merging of **Weapon** and **Mod Cards**.
+- **Merging Mechanics**: Combine two identical Level 1 cards to create a Level 2 card, maximizing stat efficiency.
+- **Top Synergy**: Pair the **Selenic Bloom** with **Eternal Prestige** for a high-sustain, unkillable moon build.
+- **Card Placement**: Use **Spread Cards** to apply buffs across multiple weapons simultaneously.
+- **Survival Tip**: Focus on **Experience Gain** charms early in the run to out-scale the difficulty curve.
+</Callout>
+
+<Section icon={Map} title="Core Deck-Building Mechanics in Hell Maiden">
+
+The foundation of all successful **hell maiden builds** is a deep understanding of the card-based upgrade system. Unlike traditional survivors where upgrades are random stat boosts, this game utilizes a physical deck where the position of your cards determines their effectiveness. You can hold up to four unique weapon cards, each modified by a stack of mod cards.
+
+**Video Highlights:**
+- Detailed walkthrough of the **Card Merging** system.
+- Explanation of the five distinct **Mod Card** categories.
+- Demonstration of the **Lightning Bolt** and **Selenic Bloom** synergies.
+- High-level gameplay showcasing the **Virgil** character unlock.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="Combine HUNDREDS of Spells in this INSANE Survival Roguelite! - Hell Maiden" />
+
+Understanding the rarity and type of cards you encounter is vital for long-term survival in the Circles of Hell.
+
+| Card Type | Primary Function | Strategic Value |
+| :--- | :--- | :--- |
+| **Weapon Card** | The base attack/spell | **Core** of the build; dictates playstyle |
+| **Boost Card** | Increases a single stat | **High** for specialized damage scaling |
+| **Effect Card** | Adds status (Burn/Slow) | **Medium** for crowd control needs |
+| **Spread Card** | Shares buffs to neighbors | **Excellent** for multi-weapon synergy |
+| **Miracle Card** | Multiple powerful boosts | **Top-Tier** rarity; always priority |
+| **Curse Card** | High power at a cost | **Situational**; high-risk, high-reward |
+
+<Callout type="tip" title="Positioning Matters">
+Always check if your Mod Card has a directional requirement. Some cards only boost weapons to the left or right, making the order of your deck just as important as the cards themselves.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The 'Chain Lightning' Speed Build">
+
+The **Chain Lightning** build focuses on high attack speed and screen-wide clearing. By utilizing the **Wayfinder** signature weapon, which shoots swerving projectiles, you can trigger the **I of Love** mod card consistently. This build excels at clearing the "Limbo" level where enemies tend to swarm in massive, low-health packs.
+
+<CardGrid cols={2}>
+  <Card title="Required Weapons">
+    - **Wayfinder**: Main projectile source.
+    - **Lightning Bolt**: Passive AoE strikes.
+    - **Blazing Quill**: For close-range defense.
+  </Card>
+  <Card title="Key Mod Synergies">
+    - **I of Love**: 80% chance for chain lightning at Level 3.
+    - **Swift Strikes**: Negates attack speed penalties.
+    - **Invigorate**: Massive 300% damage boost.
+  </Card>
+</CardGrid>
+
+To maximize this build, you must manage the trade-off between damage and speed. The **Invigorate** card provides a massive 200% to 300% damage increase but significantly slows your attack speed. Pairing it with **Swift Strikes** is the only way to maintain the high-frequency procs needed for the lightning chains to clear the screen.
+
+| Build Component | Level 1 Effect | Level 3 Effect |
+| :--- | :--- | :--- |
+| **I of Love Proc** | 30% Chain Chance | **80% Chain Chance** |
+| **Lightning Damage** | Base Strike | **+300% Total Damage** |
+| **Chain Targets** | 6 Enemies | **10+ Enemies** |
+| **Attack Size** | Standard | **+60% Area Coverage** |
+
+<Callout type="warning" title="Build Weakness">
+This build is glass-cannon oriented. Without healing mods, you must rely on **Dash Distance** and **Movement Speed** charms to avoid being boxed in by elite enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The 'Unkillable Moon' Sustain Build">
+
+For players struggling with the boss fights in the second Circle of Hell, the **Unkillable Moon** build is the premier choice among all **hell maiden builds**. It centers on the **Selenic Bloom** weapon, which creates a lingering AoE ring of stars. When combined with life-steal mechanics, this build allows you to stand your ground even against the most aggressive fiends.
+
+<Steps>
+  <Step num="1" title="Acquire Selenic Bloom">
+    Unlock this weapon by rescuing the Poet **Horace**. It serves as the anchor for your healing zone.
+  </Step>
+  <Step num="2" title="Stack Eternal Prestige">
+    Apply the **Eternal Prestige** mod card to the moon. At Level 3, it provides a 15% chance to absorb HP on every hit.
+  </Step>
+  <Step num="3" title="Expand the Orbit">
+    Use **Heroic Surge** and **Attack Size** mods to make the moon larger. The more enemies inside the ring, the faster you heal.
+  </Step>
+  <Step num="4" title="Add Projectile Count">
+    Level up your projectile mods to throw out 3 or 4 moons simultaneously, creating multiple overlapping healing zones.
+  </Step>
+</Steps>
+
+| Synergy Pair | Resulting Effect | Combat Utility |
+| :--- | :--- | :--- |
+| **Moon + HP Regen** | Constant health recovery | **Excellent** for face-tanking bosses |
+| **Moon + Size Up** | Massive zone control | **Good** for protecting NPCs/Objectives |
+| **Moon + Projectile** | Multiple star rings | **High** DPS and healing frequency |
+
+<Callout type="success" title="Sustainability Peak">
+Once you reach Level 3 with **Eternal Prestige**, you can effectively ignore minor projectile damage as long as you are actively hitting a pack of enemies with your moons.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Character Selection and Signature Weapons">
+
+Each Poet of Limbo you rescue unlocks new possibilities for your **hell maiden builds**. While **Dante** starts with the Blazing Quill, rescuing characters like **Virgil** and **Horace** provides access to signature weapons that fundamentally change your projectile behavior.
+
+<CardGrid cols={3}>
+  <Card title="Dante (The Poet)">
+    - **Weapon**: Blazing Quill
+    - **Style**: Melee/Close-range
+    - **Best Mod**: Flare Up
+  </Card>
+  <Card title="Virgil (The Guide)">
+    - **Weapon**: Wayfinder
+    - **Style**: Ranged/Swerving
+    - **Best Mod**: I of Love
+  </Card>
+  <Card title="Horace (The Satirist)">
+    - **Weapon**: Selenic Bloom
+    - **Style**: AoE/Zone Control
+    - **Best Mod**: Heroic Surge
+  </Card>
+</CardGrid>
+
+Choosing the right character for your preferred playstyle is the first step in any run. Dante is excellent for aggressive players who enjoy the explosion mechanics of **Flare Up**, while Virgil offers a safer, kiting-based approach.
+
+| Character | Unlock Condition | Primary Stat Focus |
+| :--- | :--- | :--- |
+| **Dante** | Default | **Explosion / Melee Damage** |
+| **Virgil** | Rescue in Circle 1 | **Projectile Count / Speed** |
+| **Horace** | Rescue in Circle 2 | **AoE Size / Health Regen** |
+| **Homer** | Circle 3 (TBA) | **Status Effect Duration** |
+
+<Callout type="info" title="Future Content">
+The developers have confirmed that the full version of Hell Maiden will feature all 9 Circles of Hell, with poets like **Ovid** and **Lucan** providing even more specialized weapons.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Milestones and Progression">
+
+Scaling your power is a race against the clock. To ensure your **hell maiden builds** don't fall behind the enemy health pool, you must hit specific milestones during your 15-20 minute runs.
+
+<Checklist
+  id="run-progression"
+  title="Essential Run Milestones:"
+  items={[
+    "Reach Level 10 before the first Boss encounter",
+    "Merge at least one Level 3 Mod Card by the 8-minute mark",
+    "Unlock all 4 weapon slots before entering the second Circle",
+    "Equip at least one Charm of Growth (XP Gain) early on",
+    "Defeat the Circle Boss to unlock the ultimate spell token"
+  ]}
+/>
+
+Early game focus should always be on **Experience Gain**. Charms that increase your XP from orbs by 14% to 28% are mandatory for reaching the high levels (Level 50+) required to fully max out your deck. Without these, you will struggle to find enough cards to merge your mods to Level 3.
+
+| Milestone Time | Target Level | Build Status |
+| :--- | :--- | :--- |
+| **0-5 Minutes** | Level 15 | 2 Weapons, XP Charms active |
+| **5-10 Minutes** | Level 30 | 1 Level 3 Mod, 3 Weapons |
+| **10-15 Minutes** | Level 45 | Full Deck, Multiple Level 3 Mods |
+| **15+ Minutes** | Level 55+ | Endgame scaling, Spell tokens ready |
+
+<Callout type="tip" title="Spell Token Management">
+Save your **Dante's Inferno** or other ultimate spells for when the screen is completely filled with elite "Eyeball" enemies. These spells provide temporary invulnerability and massive screen-clearing damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I merge cards in Hell Maiden?",
+    answer: "Wait until you level up to open the card menu. Drag one card on top of another identical card in your hand. You will see an orange glow and a merge symbol when they are ready to combine. Note: You can only merge cards of the same level (e.g., two Level 1s to make a Level 2)."
+  },
+  {
+    question: "What are the best hell maiden builds for beginners?",
+    answer: "The 'Explosion Blade' build is best for beginners. Focus on the Blazing Quill weapon and stack 'Flare Up' mods. At Level 3, Flare Up gives an 80% chance for enemies to explode on death, dealing massive chain damage to crowds."
+  },
+  {
+    question: "Can I swap mod cards between different weapons?",
+    answer: "Yes. During the level-up screen, you can press the 'E' key to move mod cards between your different weapon stacks. This is crucial for optimizing your build as you find higher rarity weapons later in the run."
+  },
+  {
+    question: "What do the purple experience orbs do?",
+    answer: "Purple orbs are high-value experience drops found in breakable pots or dropped by elite enemies. They provide significantly more progress toward your next level than standard green orbs."
+  }
+]} />
+
+</Section>

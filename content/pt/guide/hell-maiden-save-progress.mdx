@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "hell maiden save progress: Guia de Meta-Progressão e Desbloqueios",
+  description: "Domine as mecânicas de progresso de salvamento em Hell Maiden. Saiba como desbloquear personagens, salvar a meta-progressão e otimizar suas partidas roguelite de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Save+Progress+Guide",
+  date: "2026-07-17",
+  author: "Equipe do Wiki de hell maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **hell maiden save progress**: O progresso é salvo automaticamente para meta-desbloqueios, personagens e bênçãos após cada partida.
+- **Desbloqueios Permanentes**: Personagens como Virgil e Horus permanecem disponíveis assim que os requisitos de suas missões específicas forem cumpridos.
+- **Meta-Progressão**: Concentre-se em coletar "Bênçãos" e "Dinheiro" para aprimorar os atributos dos personagens em todas as tentativas futuras.
+- **Salvamentos no Meio da Partida**: Como um roguelite de sobrevivência tradicional, o progresso no meio da partida geralmente não é salvo; a morte redefine o nível atual.
+- **Sinergia de Personagens**: Use armas de assinatura específicas para ativar efeitos poderosos em área (AoE), como a Lua ou correntes de Raios.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de hell maiden save progress">
+
+No cenário dos roguelites de sobrevivência de 2026, o **hell maiden save progress** funciona por meio de um sistema robusto de meta-progressão. Ao contrário dos RPGs tradicionais, onde você salvaria manualmente em um ponto de controle, este título utiliza um recurso de "Salvar Automaticamente" (Auto-Save) que é ativado sempre que uma partida termina — seja por vitória ou derrota. Isso garante que qualquer moeda ganha, personagens resgatados ou bênçãos permanentes desbloqueadas sejam imediatamente gravados em seu perfil.
+
+**Destaques do Vídeo:**
+- **Construção de Deck**: Como combinar centenas de feitiços em uma estratégia de sobrevivência coesa.
+- **Missões de Personagem**: O processo de encontrar e proteger novas aliadas como Horus no Limbo.
+- **Sistema de Fusão**: Guia visual de como atualizar cartas de modificadores do Nível 1 para o Nível 3.
+- **Táticas de Chefe**: Sobrevivendo às fases bullet-hell dos confrontos finais no Limbo.
+
+<YouTubeEmbed videoId="T49SzQwlhyw" title="Combine CENTENAS de Feitiços neste INSANO Roguelite de Sobrevivência! - Hell Maiden" />
+
+Embora as partidas individuais sejam transitórias, o nível geral da sua conta e os "Poetas do Limbo" desbloqueados representam o núcleo do seu progresso a longo prazo. Entender como maximizar esses ganhos permanentes é essencial para enfrentar níveis de dificuldade mais altos.
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre termine uma partida em vez de sair para o menu principal. Morrer garante que o ouro e a experiência obtidos sejam calculados e salvos no seu progresso permanente.
+</Callout>
+
+| Recurso | Tipo de Salvamento | Permanência |
+| :--- | :--- | :--- |
+| **Desbloqueios de Personagem** | Salvamento no Perfil | Permanente |
+| **Bênçãos/Altares** | Salvamento no Perfil | Permanente |
+| **Deck da Partida Atual** | Apenas Sessão | Perdido ao Morrer |
+| **Experiência na Partida** | Apenas Sessão | Redefinido por Nível |
+| **Moeda (Ouro)** | Salvamento no Perfil | Permanente |
+
+</Section>
+
+<Section icon={Target} title="Desbloqueando Personagens e Bênçãos Permanentes">
+
+Expandir sua lista de personagens é a forma mais significativa de **hell maiden save progress**. Cada personagem, ou "Poeta", traz uma arma de assinatura única que muda completamente o ciclo de jogabilidade. Virgil e Horus são os principais desbloqueios que os jogadores encontrarão no início de sua jornada pelo Limbo.
+
+<Steps>
+  <Step num="1" title="Partida Inicial com Dante">
+    Comece com Dante e sua Pena Flamejante (Blazing Quill). Concentre-se em sobreviver nos primeiros 5 minutos para ativar o primeiro evento narrativo.
+  </Step>
+  <Step num="2" title="Desbloquear a Bênção de Virgil">
+    Após sua primeira morte significativa ou confronto com chefe, Virgil aparece no Altar. A interação aqui desbloqueia sua bênção e a arma de projétil Rastreadora (Wayfinder).
+  </Step>
+  <Step num="3" title="Resgatar Horus no Limbo">
+    Durante uma partida, um marcador de missão aparecerá para "Encontrar Horus". Você deve navegar até a localização dela e protegê-la de ondas de inimigos até o tempo acabar.
+  </Step>
+  <Step num="4" title="Finalizar a Bênção">
+    Uma vez resgatada, Horus fornece sua bênção "Arsenal Glorioso" (Glorious Arsenal), adicionando modificadores de alto dano/baixa velocidade ao seu conjunto de cartas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Importante">
+Se você falhar na missão de resgate de Horus, deverá esperar que a missão reapareça em uma partida subsequente. O desbloqueio dela não é salvo até que a missão seja concluída com sucesso.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Dante">
+    - **Arma**: Pena Flamejante (Blazing Quill)
+    - **Estilo**: Dano em Área de Fogo Equilibrado
+    - **Melhor Para**: Iniciantes
+  </Card>
+  <Card title="Virgil">
+    - **Arma**: Rastreadora (Wayfinder)
+    - **Estilo**: Projéteis Desviantes
+    - **Melhor Para**: Controle de Grupo
+  </Card>
+  <Card title="Horus">
+    - **Arma**: Desabrochar Selênico (Selenic Bloom)
+    - **Estilo**: Dano em Área de Lua/Cura
+    - **Melhor Para**: Alta Sobrevivência
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Fusão de Cartas e Estratégias de Meta-Decks">
+
+Um componente essencial do **hell maiden save progress** é dominar o sistema de cartas. Embora as cartas em si sejam redefinidas a cada partida, seu conhecimento sobre quais combinações funcionam melhor permite uma progressão mais rápida nas fases posteriores. O jogo apresenta cinco tipos distintos de cartas de modificadores que podem ser evoluídos até o Nível 3 por meio da fusão.
+
+| Tipo de Modificador | Efeito Primário | Uso Estratégico |
+| :--- | :--- | :--- |
+| **Impulso (Boost)** | Aumento de atributos | Poder direto da arma |
+| **Efeito (Effect)** | Efeitos de status | Queimadura, Lentidão, Veneno |
+| **Dispersão (Spread)** | Buffs para várias armas | Builds de sinergia |
+| **Milagre (Miracle)** | Múltiplos impulsos poderosos | Raro, alto impacto |
+| **Maldição (Curse)** | Buff forte / Custo pesado | Risco vs Recompensa |
+
+A fusão requer duas cartas do mesmo nível e tipo. Por exemplo, arrastar um modificador de "Tamanho do Ataque" de Nível 1 sobre outro modificador de "Tamanho do Ataque" de Nível 1 cria uma versão de Nível 2 com visuais e atributos aprimorados. Esta é a única maneira de aumentar seu dano de forma eficaz contra os chefes do final do jogo.
+
+<Callout type="info" title="Mecânicas de Fusão">
+Você só pode modificar seu deck durante a tela de subida de nível. Use esse tempo para trocar cartas de modificadores entre diferentes armas para otimizar sua habilidade de "Assinatura".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Sobrevivência para Retenção de Progresso">
+
+Para garantir que você esteja aproveitando ao máximo o **hell maiden save progress**, você deve tentar alcançar marcos específicos em cada partida. Mesmo que não chegue ao chefe final, concluir esses objetivos aumenta o rendimento da sua meta-moeda.
+
+<Checklist
+  id="run-milestones"
+  title="Objetivos Essenciais da Partida:"
+  items={[
+    "Alcançar o Nível de Jogador 30+ para desbloquear categorias avançadas de modificadores",
+    "Localizar pelo menos um Altar permanente para pontos de Bênção",
+    "Fundir com sucesso uma carta de modificador para o Nível 3",
+    "Derrotar pelo menos um inimigo Elite para garantir a queda de um Amuleto",
+    "Coletar mais de 1.000 de Ouro para atualizações permanentes de atributos"
+  ]}
+/>
+
+Os Amuletos, oferecidos por Beatrice, fornecem buffs específicos para a partida, mas são cruciais para sobreviver tempo suficiente para garantir desbloqueios permanentes. Concentre-se no "Amuleto de Crescimento" (ganho de EXP) no início de uma partida para acelerar sua curva de poder, e depois faça a transição para o "Amuleto de Poder" (Dano) para as fases de chefe.
+
+</Section>
+
+<Section icon={Trophy} title="Prioridade de Atributos de Meta-Progressão">
+
+Depois de acumular moedas e bênçãos suficientes, você poderá investir em aumentos permanentes de atributos. Este é o núcleo do ciclo de **hell maiden save progress**, tornando cada tentativa subsequente mais fácil que a anterior.
+
+| Atributo | Prioridade | Impacto |
+| :--- | :--- | :--- |
+| **Ganho de Experiência** | Alta | Evolução mais rápida, mais cartas |
+| **Taxa Crítica** | Alta | Picos massivos de DPS |
+| **Vida Máxima** | Média | Margem de erro para chefes |
+| **Tamanho do Ataque** | Média | Melhor limpeza de tela |
+| **Distância de Esquiva** | Baixa | Utilidade de mobilidade específica |
+
+Focar primeiro no Ganho de Experiência é o caminho mais eficiente. Ao subir de nível mais rápido, você vê mais cartas por partida, permitindo concluir fusões de Nível 3 mais cedo e garantir as eliminações necessárias para obter mais ouro.
+
+<Callout type="success" title="Meta Principal">
+Tente alcançar 20% de Ganho de Experiência permanente o mais rápido possível. Isso reduz drasticamente a repetição necessária para desbloquear os níveis finais das habilidades dos Poetas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="hell maiden save progress FAQ">
+
+<FAQ items={[
+  {
+    question: "Como faço para salvar meu progresso em Hell Maiden?",
+    answer: "O progresso é salvo automaticamente após cada partida. Desbloqueios permanentes, como personagens, ouro e bênçãos, estão vinculados ao seu perfil, enquanto os decks de cartas criados durante a partida são redefinidos após a morte."
+  },
+  {
+    question: "Posso desbloquear Horus e Virgil na mesma partida?",
+    answer: "Sim, se você conseguir ativar o evento de bênção de Virgil e concluir com sucesso a missão de resgate de Horus em uma única sessão de 15 a 20 minutos."
+  },
+  {
+    question: "As cartas de modificadores permanecem no meu inventário depois que eu morro?",
+    answer: "Não. As cartas de modificadores e os níveis de armas fazem parte das mecânicas de 'partida' do roguelite. Apenas a capacidade de encontrar cartas de raridade mais alta e os aumentos permanentes de atributos dos personagens são salvos."
+  },
+  {
+    question: "Qual é a melhor maneira de acumular meta-moeda?",
+    answer: "Invista bastante no 'Amuleto de Crescimento' durante suas partidas para subir de nível rapidamente e concentre-se em derrotar inimigos Elites (marcados no mapa), pois eles deixam cair a maior quantidade de ouro e itens de progressão permanente."
+  }
+]} />
+
+</Section>

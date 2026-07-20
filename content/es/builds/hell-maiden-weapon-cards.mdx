@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cartas de Armas de Hell Maiden: Guía Esencial de Sinergia y Construcción",
+  description: "Domina las mecánicas de construcción de mazos en Hell Maiden. Aprende a combinar cartas de armas con mejoras pasivas para crear builds de roguelite imparables en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapon+Cards+Guide",
+  date: "2026-07-17",
+  author: "Equipo de Wiki de Hell Maiden",
+  keywords: "Hell Maiden, cartas de armas, guía de construcción, sinergias, roguelite"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las cartas de armas de Hell Maiden** son la base de tu build, determinando si te enfocas en tajos cuerpo a cuerpo o proyectiles de área (AoE).
+- **El ranurado pasivo** te permite adjuntar cartas de mejora a armas específicas para modificar su comportamiento, cantidad y daño.
+- **Las mecánicas de fusión** son vitales para la progresión; combina dos cartas idénticas para alcanzar el Nivel 3 y obtener multiplicadores de estadísticas masivos.
+- **Las bonificaciones por adyacencia** pueden activar un crecimiento exponencial, especialmente al usar cartas como Sabor de Venus para potenciar las armas circundantes.
+- **La gestión de riesgos** es clave al usar cartas de alta varianza como la Maldición de Ditto, que puede duplicar tu potencia o anularla por completo.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo las Mecánicas de las Cartas de Armas de Hell Maiden">
+
+El núcleo del juego de este roguelite de supervivencia contra hordas gira en torno a la gestión estratégica de las **cartas de armas de Hell Maiden**. A diferencia de los juegos de supervivencia tradicionales donde las armas suben de nivel automáticamente, este sistema requiere que coloques manualmente mejoras pasivas en las ranuras de armas activas. Cada partida te permite gestionar un mazo de cuatro habilidades principales, que pueden ser intercambiadas, mejoradas y fusionadas a medida que recolectas experiencia de los enemigos caídos.
+
+**Puntos Destacados del Video:**
+- **Personalización**: Cómo transferir cartas pasivas entre diferentes ranuras de armas de forma dinámica.
+- **Sistema de Fusión**: El proceso de combinar cartas de Nivel 1 y Nivel 2 para alcanzar el poder máximo de Nivel 3.
+- **Efectos de Sinergia**: Utilizar bonificaciones de cartas adyacentes para maximizar el recuento de proyectiles en múltiples armas.
+
+<YouTubeEmbed videoId="IO9wcjKmUFY" title="Jugabilidad de Hell Maiden y Mecánicas de Cartas" />
+
+<Callout type="tip" title="Consejo del Editor">
+Prioriza siempre las cartas de armas que complementen tu estilo de movimiento. Si prefieres mantener la distancia (kiting), enfócate en cartas basadas en proyectiles como Flor Selénica o Legado Eterno.
+</Callout>
+
+| Carta de Arma | Tipo de Ataque | Mecánica Principal | Valor Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Legado Eterno** | Lanza Perforante | Atraviesa enemigos y regresa | Alto control de masas, DPS constante |
+| **Flor Selénica** | Luna de Área (AoE) | Gran explosión lunar alrededor de Dante | Ideal para denegación de área defensiva |
+| **Carpadium** | Espada de Retorno | Tajo de alto daño que regresa | Ataques de precisión contra Elites |
+| **Pluma Ardiente** | Proyectil | Disparos ardientes de fuego rápido | Excelente para derretir objetivos únicos |
+| **Tajo Melee** | Corto Alcance | Barrido físico de arco amplio | Supervivencia confiable en el juego temprano |
+
+</Section>
+
+<Section icon={Swords} title="Sinergias de Cartas Pasivas y Estrategias de Ranurado">
+
+Las cartas pasivas son los modificadores que convierten una configuración estándar de **cartas de armas de Hell Maiden** en una potencia que limpia la pantalla. Las builds más efectivas dependen de entender cómo interactúan pasivas específicas con los arquetipos de armas. Por ejemplo, aumentar el recuento de proyectiles en una lanza perforante tiene un impacto mucho mayor que añadirlo a un tajo cuerpo a cuerpo de corto alcance.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en Proyectiles">
+    - **Sabor de Venus**: Añade +1 proyectil.
+    - **Maldición de Ditto**: 50% de probabilidad de +3 proyectiles.
+    - **Ideal para**: Flor Selénica y Pluma Ardiente.
+  </Card>
+  <Card title="Escalado de Daño">
+    - **Senda del Satírico**: Aumento masivo de % de daño.
+    - **Cazador de Elites**: Daño adicional contra jefes.
+    - **Ideal para**: Carpadium y Legado Eterno.
+  </Card>
+  <Card title="Utilidad y Supervivencia">
+    - **Absorber PV**: Probabilidad de curarse al golpear.
+    - **Amuleto de Crecimiento**: Mayor ganancia de EXP.
+    - **Ideal para**: Builds de alta velocidad de ataque.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Riesgo de la Maldición de Ditto">
+La carta Maldición de Ditto es un arma de doble filo. Aunque puede otorgar +3 proyectiles, también conlleva un 50% de probabilidad de no otorgar ningún bono. Úsala solo si tienes una alta velocidad de ataque para promediar la varianza.
+</Callout>
+
+| Carta Pasiva | Bono Nivel 1 | Bono Nivel 3 | Mejor Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Sabor de Venus** | +1 Proyectil | +4 Proyectiles | Ranuras de Armas Adyacentes |
+| **Senda del Satírico** | +50% Daño | +300% Daño | Armas de Alto Daño Base |
+| **Velocidad de Ataque** | +10% Velocidad | +30% Velocidad | Absorción de PV / Robo de Vida |
+| **Tasa Crítica** | +5% Crítico | +15% Crítico | Armas AoE de golpe rápido |
+| **Ganancia de Exp** | +5% EXP | +14% EXP | Efecto bola de nieve temprano |
+
+</Section>
+
+<Section icon={Target} title="Cómo Optimizar tu Mazo de Cartas">
+
+Maximizar el potencial de tus **cartas de armas de Hell Maiden** requiere un enfoque paso a paso para la gestión del mazo. No puedes simplemente elegir cartas al azar; debes organizarlas para aprovechar las bonificaciones por adyacencia y el escalado de nivel.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Base">
+    Elige una carta de arma principal que coincida con tu build prevista. Para el meta de 2026, la **Flor Selénica** es muy recomendada por su masivo potencial de área (AoE).
+  </Step>
+  <Step num="2" title="Ranura Pasivas Críticas">
+    Busca inmediatamente el **Sabor de Venus**. Colócalo en una ranura donde pueda afectar a las armas adyacentes. Esto multiplica el valor de una sola carta en todo tu mazo.
+  </Step>
+  <Step num="3" title="Inicia la Fusión">
+    Una vez que tengas dos cartas idénticas del mismo nivel, usa la función de Fusión. Una carta de Nivel 3 es significativamente más poderosa que tres cartas de Nivel 1 combinadas.
+  </Step>
+  <Step num="4" title="Equilibra con Amuletos">
+    Usa las ranuras de Amuletos para mejoras globales como **Velocidad de Movimiento** o **Atracción Magnética**. Estos no ocupan ranuras de armas pero proporcionan una utilidad de supervivencia esencial.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maestro de la Adyacencia">
+Al colocar una carta de Sabor de Venus de Nivel 3 entre dos armas de proyectiles, obtienes efectivamente +8 proyectiles por el costo de una sola ranura pasiva. Esta es la forma más eficiente de escalar en el juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia contra Elites y Jefes">
+
+A medida que progresas a través de los círculos del Limbo, los enemigos aumentarán en salud y agresividad. Tu build de **cartas de armas de Hell Maiden** debe incluir al menos un elemento defensivo o de alta sostenibilidad para sobrevivir a los encuentros finales contra jefes como la Reina del Inframundo.
+
+| Tipo de Enemigo | Arma Recomendada | Pasiva Clave | Táctica |
+| :--- | :--- | :--- | :--- |
+| **Enjambres** | Flor Selénica | Velocidad de Ataque | Orbita alrededor del borde del grupo |
+| **Elites a Distancia** | Legado Eterno | Recuento de Proyectiles | Usa la perforación para limpiar líneas de fuego |
+| **Jefes** | Carpadium | Cazador de Elites | Ráfaga enfocada durante las ventanas de recuperación |
+| **Explosivos** | Pluma Ardiente | Empuje / Alcance | Mantén la distancia y retrocede mientras disparas |
+
+<Callout type="info" title="Mecánicas de Robo de Vida">
+La carta **Absorber PV** es más efectiva cuando se coloca en un arma con muchos "golpes por segundo", como la habilidad de la Luna o proyectiles de alta velocidad. Esto proporciona una regeneración de salud constante durante combates caóticos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión para Hell Maiden">
+
+Para asegurar que estás maximizando tu eficiencia en cada partida, sigue esta lista de verificación para rastrear los hitos de tu build. Dominar la interacción entre las **cartas de armas de Hell Maiden** y tu habilidad definitiva es la clave para superar el Círculo 6.
+
+<Checklist
+  id="build-milestones"
+  title="Objetivos de Progresión de la Build:"
+  items={[
+    "Obtener cuatro cartas de armas únicas antes del minuto 5",
+    "Alcanzar el Nivel 3 en al menos una pasiva de daño principal",
+    "Equipar una carta de sostenibilidad (Absorber PV) antes del primer Elite",
+    "Maximizar la Velocidad de Movimiento mediante Amuletos para esquivar jefes",
+    "Activar con éxito la definitiva Infierno de Dante durante un enjambre"
+  ]}
+/>
+
+<Callout type="tip" title="Sincronización de la Definitiva">
+No guardes tu definitiva solo para el jefe. Usa el Infierno de Dante cada vez que te veas acorralado por Elites para limpiar la pantalla y recolectar una ráfaga masiva de gemas de experiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más cartas de armas de Hell Maiden durante una partida?",
+    answer: "Las cartas de armas aparecen como recompensas cuando subes de nivel o al abrir cofres soltados por Elites. Puedes tener hasta cuatro cartas de armas activas en cualquier momento."
+  },
+  {
+    question: "¿Puedo acumular la misma carta pasiva varias veces?",
+    answer: "Sí, puedes equipar múltiples copias de la misma pasiva, como Sabor de Venus, en una sola arma para aumentar exponencialmente su recuento de proyectiles."
+  },
+  {
+    question: "¿Cuál es el nivel máximo de una carta?",
+    answer: "Actualmente, el nivel máximo tanto para las cartas de armas como para las pasivas es el Nivel 3. Fusionar dos cartas de Nivel 2 resultará en una carta de Nivel 3."
+  },
+  {
+    question: "¿Importa la posición de las cartas en el mazo?",
+    answer: "Absolutamente. Ciertas cartas proporcionan bonificaciones a las ranuras 'adyacentes'. Colocarlas en las ranuras centrales (2 o 3) les permite potenciar dos armas simultáneamente."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El meta de las **cartas de armas de Hell Maiden** continúa evolucionando a medida que los jugadores descubren nuevas sinergias entre proyectiles y efectos de estado como Quemadura. La experimentación es el núcleo de la experiencia.
+</Callout>
+
+</Section>

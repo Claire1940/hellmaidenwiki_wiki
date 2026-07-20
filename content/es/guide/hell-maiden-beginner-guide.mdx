@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Hell Maiden: Mejores builds iniciales y consejos de combate",
+  description: "Domina Hell Maiden con nuestra guía para principiantes de 2026. Aprende la build rota de Pluma Ardiente, las mecánicas de fusión de cartas y estrategias contra jefes para Dante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fbbf24?text=Hell+Maiden+Beginner+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "guía para principiantes, hell maiden, build de pluma ardiente, fusión de cartas, estrategia contra minos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Esta **guía para principiantes de hell maiden** cubre las mecánicas esenciales para sobrevivir a los primeros círculos del infierno.
+- **Mecánica clave**: Domina la **Fusión de Cartas** para mejorar el daño y la utilidad de tu arma de forma exponencial.
+- **Mejor estrategia**: Céntrate en la build de **Pluma Ardiente (Blazing Quill)** utilizando la Senda de Sataris para intercambiar velocidad de ataque por un daño bruto masivo.
+- **Consejo crítico**: Prioriza siempre la **Velocidad de Movimiento** y la Distancia de Desplazamiento para evitar a los enemigos explosivos "Caterpie" y los proyectiles de los jefes.
+- **Mejor opción**: La **Definitiva Inferno** es tu mejor herramienta para limpiar hordas que llenan la pantalla cuando te encuentras acorralado.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en Hell Maiden">
+
+Entrar en el inframundo por primera vez puede ser desalentador, pero esta **guía para principiantes de hell maiden** está diseñada para agilizar tu progresión. Como Dante, tu objetivo principal es navegar a través de los círculos del infierno, comenzando por el Limbo, mientras te defiendes de oleadas de enemigos cada vez más difíciles. El núcleo del juego gira en torno a la selección de las armas adecuadas y su modificación con cartas que se encuentran en los Santuarios o al subir de nivel. Aunque el arma inicial, la Pluma Ardiente, pueda parecer decepcionante a primera vista, las sinergias específicas de las cartas pueden transformarla en una de las herramientas más poderosas de tu arsenal.
+
+**Puntos destacados del video:**
+- Desglose detallado de la **Build rota de Pluma Ardiente**.
+- Cómo gestionar el equilibrio entre **Velocidad de Ataque** y **Daño**.
+- Estrategias para derrotar al primer jefe importante, **Minos**.
+- Consejos esenciales de fusión de cartas para maximizar la ganancia de XP y la supervivencia.
+
+<YouTubeEmbed videoId="Lh8nab89jp0" title="¡La Pluma Ardiente es realmente la MÁS ROTA! | Hell Maiden" />
+
+El éxito en el juego temprano depende de tu habilidad para realizar "kiting" (atraer enemigos mientras mantienes la distancia) y recoger gemas de experiencia de manera eficiente. Debes equilibrar las mejoras ofensivas con estadísticas defensivas como la Defensa Cuerpo a Cuerpo y la Resistencia a Proyectiles, especialmente cuando te enfrentes a los blobs suicidas que aparecen en las oleadas posteriores de la demo.
+
+<Callout type="tip" title="Consejo inicial">
+No tengas miedo de relanzar (reroll) tus ofertas iniciales de cartas. Encontrar un modificador de daño fuerte como la **Senda de Sataris** desde el principio puede hacer que los primeros cinco minutos de una partida sean significativamente más sencillos.
+</Callout>
+
+| Aspecto Inicial | Recomendación | Prioridad |
+| :--- | :--- | :--- |
+| **Elección de Arma** | Pluma Ardiente (Dante) | Alta |
+| **Primera Mejora** | Aumento de Daño o Ganancia de XP | Crítica |
+| **Posicionamiento Inicial** | Movimiento circular constante | Alta |
+| **Enfoque en Santuarios** | Mejoras de estadísticas permanentes | Media |
+
+</Section>
+
+<Section icon={Zap} title="Dominando la Fusión de Cartas y Modificadores">
+
+El aspecto más singular de la experiencia en hell maiden es el sistema de cartas. A diferencia de los rogue-likes tradicionales donde simplemente eliges una ventaja, este juego te permite insertar cartas de modificación en armas específicas y fusionar cartas duplicadas para aumentar su nivel. Cada arma tiene un número limitado de ranuras, por lo que debes ser estratégico sobre qué efectos aplicas a tu fuente de daño principal frente a tus armas de apoyo secundarias.
+
+<Callout type="warning" title="Gestión de Recursos">
+Fusionar cartas consume las cartas base para crear una versión de mayor nivel. Asegúrate de tener una fuente secundaria de daño antes de fusionar el único modificador de velocidad de tu arma principal.
+</Callout>
+
+| Nombre de la Carta | Efecto Principal | Mejor Sinergia |
+| :--- | :--- | :--- |
+| **Senda de Sataris** | +100% Daño / -Velocidad de Ataque | Golpes Veloces |
+| **Golpes Veloces** | Aumenta la Velocidad de Ataque | Senda de Sataris |
+| **Brasas Encendidas** | Aumenta la cantidad de proyectiles | Favor de Venus |
+| **Estallido** | 30% de probabilidad de explosiones | Builds de alto daño |
+| **Prestigio Eterno** | 5% de probabilidad de absorber HP | Armas de ataque rápido |
+
+Al construir tu equipamiento, busca **Cartas de Modificación** (a menudo azules o doradas). Estas pueden colocarse entre las cartas de arma para aplicar sus efectos a múltiples objetos adyacentes. Por ejemplo, el **Favor de Venus** aumenta la cantidad de proyectiles de las armas adyacentes, lo que la convierte en una opción "imprescindible" para cualquier build que dependa de la Pluma Ardiente o las Brasas Encendidas.
+
+<Steps>
+  <Step num="1" title="Colecciona Duplicados">
+    Recoge la misma carta varias veces al subir de nivel o de cofres para prepararte para una fusión.
+  </Step>
+  <Step num="2" title="Abre el Inventario">
+    Accede a la pantalla de gestión de cartas para ver tus ranuras de armas actuales y modificadores.
+  </Step>
+  <Step num="3" title="Arrastra y Suelta">
+    Arrastra una carta sobre otra del mismo tipo y nivel para crear una versión de Nivel 2 o Nivel 3.
+  </Step>
+  <Step num="4" title="Optimiza las Ranuras">
+    Coloca tus modificadores de mayor nivel junto a tus armas más fuertes para maximizar las bonificaciones de estadísticas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Flame} title="La Build Rota de Pluma Ardiente">
+
+La Pluma Ardiente a menudo es pasada por alto por los nuevos jugadores debido a su corto alcance y requisitos específicos de puntería. Sin embargo, como han descubierto los veteranos de la comunidad, puede convertirse en una fuerza absoluta cuando se construye correctamente. El secreto reside en acumular daño bruto y luego "corregir" la penalización de velocidad de ataque con modificadores secundarios. Esta build te permite eliminar de un solo golpe a la mayoría de los enemigos estándar, incluidos los molestos Caterpies, muy temprano en la partida.
+
+<CardGrid cols={3}>
+  <Card title="El Golpeador Pesado">
+    Céntrate en la **Senda de Sataris Nivel 3**. Esto proporciona aumentos de daño masivos que permiten a la Pluma limpiar oleadas enteras de un solo golpe.
+  </Card>
+  <Card title="El Ajuste de Velocidad">
+    Contrarresta la penalización de Sataris con **Golpes Veloces** y **Carga Diestra**. Esto mantiene tu DPS alto a pesar de los golpes pesados.
+  </Card>
+  <Card title="El Limpiador de Pantalla">
+    Usa **Estallido** y **Expansión Dual**. Estas cartas añaden activaciones explosivas y aumentan el tamaño físico de tus ataques.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de la Build">
+Combinar el **Favor de Venus** con la Pluma Ardiente añade proyectiles adicionales. En el Nivel 3, dispararás múltiples plumas masivas que explotan al impactar, creando efectivamente un "muro de fuego" frente a Dante.
+</Callout>
+
+| Componente de la Build | Efecto al Nivel Máximo | Importancia |
+| :--- | :--- | :--- |
+| **Pluma Ardiente** | Alto daño base, perforación | Núcleo |
+| **Senda de Sataris** | +300% de Daño Total | Esencial |
+| **Golpes Veloces** | Niega las penalizaciones de velocidad | Esencial |
+| **Cosecha Fatal** | 90% de probabilidad de atraer XP | Farmear |
+| **Amuleto de Vida** | Aumento masivo de HP máximo | Supervivencia |
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia y Comportamiento Enemigo">
+
+En hell maiden, la supervivencia es tan importante como el daño. El juego lanzará frecuentemente "Bombarderos Suicidas" y "Exterminadores de Élite" que pueden terminar una partida en segundos si te quedas acorralado. Entender los indicadores de los enemigos y mantener una distancia segura es la marca de un jugador profesional. Los enemigos con proyectiles son particularmente peligrosos porque sus disparos pueden ser difíciles de ver entre el caos visual de tus propios efectos de fuego.
+
+<Callout type="info" title="Estadísticas Defensivas">
+Prioriza la **Defensa General** y la **Resistencia Cuerpo a Cuerpo** si te encuentras recibiendo golpes de las hordas. Una estadística de defensa del 13% o superior aumenta significativamente tu margen de error durante las peleas contra jefes.
+</Callout>
+
+**Estrategias defensivas clave:**
+- **Kiting**: Muévete siempre en un círculo amplio alrededor del centro del mapa para agrupar a los enemigos y realizar ataques de área (AOE).
+- **Gestión del Desplazamiento**: Guarda tu desplazamiento para escapar de los "Bloqueos de Cuerpo" donde los enemigos te rodean por completo.
+- **Sincronización de la Definitiva**: Usa la **Definitiva Inferno** de Dante no solo por el daño, sino por el breve periodo de invulnerabilidad y la limpieza de pantalla que proporciona.
+- **Recolección de XP**: No dejes gemas de experiencia en el suelo por mucho tiempo. Usa un potenciador de **Imán** o la carta **Cosecha Fatal** para mantenerte por delante en la curva de nivel.
+
+| Tipo de Enemigo | Nivel de Peligro | Mejor Contraataque |
+| :--- | :--- | :--- |
+| **Caterpies** | Bajo | Cualquier ataque de área (AOE) |
+| **Bombarderos Suicidas** | Alto | Desplazarse lejos, fuego a distancia |
+| **Diablillos a Distancia** | Medio | Defensa de proyectiles, movimiento constante |
+| **Exterminadores de Élite** | Muy Alto | Habilidad definitiva, kiting |
+
+</Section>
+
+<Section icon={Swords} title="Estrategia contra Jefes: Derrotar a Minos">
+
+La culminación del círculo del Limbo es la batalla contra **Minos**, la Reina del Inframundo. Esta pelea es una prueba de tu posicionamiento y de la calidad de tu build. Minos utiliza una variedad de ataques, incluyendo ráfagas de proyectiles estilo escopeta y láseres en el suelo. Debido a que la Pluma Ardiente requiere que estés relativamente cerca del objetivo, debes dominar la táctica de "golpear y correr" para evitar sus devastadoras ráfagas de corto alcance.
+
+<Callout type="tip" title="Estrategia contra Minos">
+Mantente ligeramente a un lado de Minos en lugar de directamente frente a ella. La mayoría de sus ataques de proyectiles se disparan en un cono directamente hacia tu posición actual.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Fase Uno: Proyectiles">
+    Esquiva las ráfagas verdes de escopeta moviéndote lateralmente. No te desplaces hacia ella durante esta fase.
+  </Step>
+  <Step num="2" title="Fase Dos: Láseres">
+    Vigila los indicadores del suelo. Muévete a los huecos entre los rayos inmediatamente.
+  </Step>
+  <Step num="3" title="Fase Tres: Últimos Ritos">
+    Minos disparará una serie de proyectiles de alto daño en un patrón circular. Quédate a media distancia para encontrar los huecos fácilmente.
+  </Step>
+  <Step num="4" title="El Final">
+    Una vez que su salud sea baja, activa tu **Definitiva Inferno** para quemar el HP restante mientras ignoras el daño menor.
+  </Step>
+</Steps>
+
+| Ataque de Minos | Tipo de Daño | Cómo Evitarlo |
+| :--- | :--- | :--- |
+| **Ráfaga de Escopeta** | Proyectil | Movimiento lateral |
+| **Láseres de Fuego Infernal** | AOE / Suelo | Situarse en zonas seguras |
+| **Invocar Esbirros** | Cuerpo a cuerpo | Usar AOE/Explosiones |
+| **Últimos Ritos** | Proyectil pesado | Kiting preciso a distancia |
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión y Lista de Verificación">
+
+Para dominar verdaderamente el juego, debes aspirar a completar hitos específicos que desbloquean más potencial para Dante y Virgil. Seguir esta lista de verificación te asegurará estar preparado para la transición del contenido de la demo al lanzamiento completo en 2026.
+
+<Checklist
+  id="beginner-milestones"
+  title="Objetivos de Progresión 2026:"
+  items={[
+    "Llegar al Nivel 40 en una sola partida del Limbo",
+    "Fusionar con éxito una carta de Senda de Sataris Nivel 3",
+    "Derrotar a Minos sin usar una poción de salud",
+    "Desbloquear el arma de lanza perforante Carpe Diem",
+    "Maximizar la Defensa General al menos al 15%"
+  ]}
+/>
+
+<Callout type="success" title="Reflexión Final">
+El camino a la salvación en hell maiden está pavimentado con elecciones inteligentes de cartas. Experimenta con diferentes combinaciones y recuerda que incluso un arma "débil" puede volverse rota con los modificadores adecuados.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es la Pluma Ardiente mejor que la espada inicial?",
+    answer: "Aunque la espada es más fácil de usar inicialmente, la Pluma Ardiente tiene un potencial de escalado mucho mayor cuando se combina con la Senda de Sataris y el Favor de Venus, lo que la hace mejor para la limpieza de oleadas en el juego tardío."
+  },
+  {
+    question: "¿Cómo consigo más cartas de modificación?",
+    answer: "Las cartas de modificación se encuentran interactuando con los Santuarios dispersos por el mapa o como botines raros de los Exterminadores de Élite. También puedes relanzar tus recompensas de subida de nivel para encontrarlas."
+  },
+  {
+    question: "¿Cuál es la mejor estadística defensiva para mejorar?",
+    answer: "La Defensa General es la más versátil, pero si tienes dificultades con el jefe, se recomienda encarecidamente la Resistencia a Proyectiles para mitigar el daño de las ráfagas de Minos."
+  },
+  {
+    question: "¿Puedo jugar como Virgil en la versión actual?",
+    answer: "Sí, Virgil está disponible y ofrece un estilo de juego diferente centrado en ataques más rápidos y precisos, aunque esta guía se centra en la build de Pluma Ardiente de Dante."
+  }
+]} />
+
+</Section>

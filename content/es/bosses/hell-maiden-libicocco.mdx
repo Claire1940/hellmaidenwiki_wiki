@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden: Guía de Estrategia para Principiantes y Construcción de Mazos",
+  description: "Domina Hell Maiden con nuestra guía de 2026. Aprende las mecánicas principales, las mejores configuraciones de Cartas de Espíritu, estrategias contra jefes y rutas de progresión eficientes para el Limbo y la Lujuria.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/881337/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "Hell Maiden, guía, estrategia, construcción de mazos, Limbo, Lujuria, cartas de espíritu"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Domina el ciclo de supervivencia de hordas de **Hell Maiden** enfocándote en el movimiento y el apuntado activo.
+- Construye una mano de **cuatro armas** temprano para maximizar el daño y la eficiencia del control de multitudes.
+- **Fusiona Cartas de Modificación duplicadas** para alcanzar el Nivel 3, potenciando significativamente tu capacidad de combate.
+- Prioriza el **rescate de Poetas** para desbloquear armas distintivas permanentes y habilidades específicas de cada personaje.
+- Sobrevive durante **12 minutos** en cada Círculo para enfrentar a jefes desafiantes como la Reina Minos.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos en Hell Maiden">
+
+El ciclo de juego principal de **Hell Maiden** requiere que los jugadores equilibren los ataques automáticos con un apuntado manual preciso. Como Dante, tu objetivo es sobrevivir a oleadas de enemigos, recolectar experiencia y construir estratégicamente tu mazo de Cartas de Espíritu.
+
+**Puntos Destacados del Video:**
+- Técnicas de posicionamiento para oleadas de enemigos de alta densidad.
+- Comprensión de la interacción entre las Cartas de Arma y las Cartas de Modificación.
+- Consejos esenciales para sobrevivir a la primera partida de 12 minutos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Resumen de Jugabilidad de Hell Maiden" />
+
+<CardGrid cols={3}>
+  <Card title="Movimiento">
+    - Mantente siempre en movimiento.
+    - Usa el deslizamiento para cruzar brechas.
+    - Mantén a los enemigos a un solo lado.
+  </Card>
+  <Card title="Construcción de Mazos">
+    - Intenta conseguir cuatro armas.
+    - Fusiona modificaciones duplicadas.
+    - Enfócate en la sinergia.
+  </Card>
+  <Card title="Progresión">
+    - Activa los Templos temprano.
+    - Rescata a los Poetas del Limbo.
+    - Gasta los Lamentos del Abismo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia de Supervivencia">
+Reserva siempre al menos un deslizamiento para los avisos de ataques de enemigos de élite o cuando te encuentres rodeado de proyectiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Configuraciones y Cartas de Espíritu">
+
+La construcción eficiente de mazos en **Hell Maiden** se basa en concentrar las mejoras en un arma distintiva principal. Evita dispersar demasiado tus Cartas de Modificación entre los cuatro espacios.
+
+| Tipo de Configuración | Arma Principal | Prioridad de Mod | Mejor Uso |
+| :--- | :--- | :--- | :--- |
+| Daño Concentrado | Blazing Quill | Daño, Velocidad de Ataque | Batallas contra Jefes |
+| Presión de Proyectiles | Wayfinder | Cantidad de Proyectiles, Velocidad | Grandes Multitudes |
+| Control de Estado | Codex Amoris | Duración de Efecto, Golpe Múltiple | Enemigos de Élite |
+
+<Callout type="warning" title="Conciencia Posicional">
+Reorganiza tu mano cada vez que cambie un efecto posicional. Algunas Cartas de Modificación otorgan bonificaciones basadas en su ubicación respecto a tu arma principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso del Limbo">
+
+<Steps>
+  <Step num="1" title="Configuración del Juego Temprano">
+    Concéntrate en recolectar orbes de experiencia inmediatamente. Asegura tus primeras dos Cartas de Arma dentro de los primeros tres minutos para establecer una base de daño.
+  </Step>
+  <Step num="2" title="Activación de Templos">
+    Explora el mapa para activar Templos. Esto proporciona beneficios cruciales para la partida que hacen manejables los últimos minutos del temporizador de supervivencia de 12 minutos.
+  </Step>
+  <Step num="3" title="Encuentro con el Jefe">
+    Entra en la pelea contra la Reina Minos con una mano llena de armas apoyadas por Mods de Nivel 3. Usa tu Hechizo distintivo solo durante sus patrones de proyectiles más restrictivos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión">
+
+Seguir tu progreso es vital para desbloquear todo el potencial de tus personajes. Usa la tabla a continuación para priorizar tus objetivos entre partidas.
+
+| Hito | Requisito | Recompensa |
+| :--- | :--- | :--- |
+| Rescate de Poetas | Salva a Horacio, Homero, Ovidio | 5 habilidades nuevas por Poeta |
+| Nivel 50 | Alcanza el nivel 50 del personaje | Proeza Infernal I |
+| Puntuación Alta | 100,000 en Limbo/Lujuria | Maestría Infernal |
+| Amuleto de Cristal | Obtén rareza de Cristal | Regalo Celestial |
+
+<Checklist
+  id="progression-goals"
+  title="Lista de Verificación de Progresión Esencial:"
+  items={[
+    "Rescatar a todos los Poetas del Limbo",
+    "Desbloquear el Círculo 2: Lujuria",
+    "Equipar tres cartas de Mod de Nivel 3 en un arma",
+    "Derrotar a la Reina Minos tres veces",
+    "Gastar 5,000 Lamentos del Abismo"
+  ]}
+/>
+
+<Callout type="success" title="Meta-Progresión">
+Rescatar Poetas es tu máxima prioridad. Cada Poeta salvado expande permanentemente tu reserva de cartas, permitiendo configuraciones más poderosas en futuras partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias contra Jefes">
+
+Los jefes en **Hell Maiden** requieren reconocimiento de patrones. Usa los siguientes datos para prepararte para tus encuentros en el Limbo y la Lujuria.
+
+| Jefe | Círculo | Estrategia Principal |
+| :--- | :--- | :--- |
+| Reina Minos | Limbo | Muévete lateralmente, aprovecha las ventanas de recuperación |
+| Scarmiglione | Lujuria | Mantén la distancia, realiza daño explosivo después de los ataques |
+| Libicocco | Lujuria | Elimina los clones primero, evita la superposición central |
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Círculo 2 (Lujuria)?",
+    answer: "Debes completar el objetivo de supervivencia de 12 minutos en el Limbo y derrotar a la Reina Minos. Continúa tus interacciones de la historia en el Foro para activar la progresión."
+  },
+  {
+    question: "¿Cuál es la mejor manera de gastar los Lamentos del Abismo?",
+    answer: "Gástalos en meta-mejoras permanentes que aumenten tu supervivencia o la consistencia de tu daño antes de invertir en configuraciones de desafío específicas."
+  },
+  {
+    question: "¿Es Hell Maiden un roguelike?",
+    answer: "Sí, es un roguelite de supervivencia de hordas. Las partidas implican construcción de mazos, progresión permanente y desbloqueo de personajes a través de los nueve Círculos del Infierno."
+  }
+]} />
+
+</Section>

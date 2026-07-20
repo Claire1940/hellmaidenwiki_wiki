@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Chefes de Hell Maiden: Estratégia 2026 e Detonado de Minos",
+  description: "Domine cada encontro com nosso guia de chefes de Hell Maiden. Aprenda as melhores sinergias de armas, cartas de mod e estratégias para derrotar a Rainha Minos em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Boss+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de chefes de Hell Maiden**: Foque em armas de longo alcance como Wayfinder e Kindle Embers para segurança máxima.
+- **Mecânica principal**: Utilize o sistema de esquiva (dash - 2 cargas) para evitar os padrões de bullet hell dos chefes de fim de jogo.
+- **Melhor estratégia**: Acumule mods de contagem de projéteis e tamanho de ataque para aumentar a hit-box de suas habilidades principais.
+- **Dica crítica**: Priorize as melhorias permanentes de velocidade de movimento encontradas no mapa para fugir do enxame.
+- **Escolha principal**: A Rainha Minos exige alto DPS; use as bênçãos de Horus para aumentar seu dano em até 170%.
+</Callout>
+
+<Section icon={Map} title="Preparação e Primeiros Encontros">
+
+Para ter sucesso em sua jornada pelo Limbo, entender as mecânicas centrais descritas neste **guia de chefes de Hell Maiden** é essencial. O jogo transita de simples criaturas de vermes verdes para encontros complexos de bullet hell muito rapidamente. O sucesso depende da sua habilidade em equilibrar o ganho de experiência com melhorias permanentes baseadas no mapa, como Vida Máxima e Velocidade de Movimento.
+
+**Destaques do Vídeo:**
+- **Introdução de Personagem**: A relação entre Dante e Virgil define o cenário para a progressão narrativa.
+- **Seleção de Armas**: Começar com Wayfinder oferece uma vantagem significativa de alcance sobre opções corpo a corpo.
+- **Sistemas de Cartas de Mod**: Entendendo os cinco tipos (Boost, Effect, Spread, Miracle e Curse).
+- **Mecânicas de Chefe**: Uma visão detalhada da luta contra a Rainha Minos e seus padrões únicos de projéteis.
+
+<YouTubeEmbed videoId="cAstnIemjwo" title="Habilidades de Chefe e Gameplay de Hell Maiden" />
+
+Antes de enfrentar qualquer chefe principal, certifique-se de ter explorado o mapa em busca de bônus de atributos permanentes. Estes são frequentemente guardados por mini-chefes ou imps roxos de elite.
+
+| Tipo de Melhoria | Efeito | Prioridade |
+| :--- | :--- | :--- |
+| **Dano Permanente** | Aumenta o poder de ataque base para todas as armas | **Alta** |
+| **Vida Máxima** | Aumenta a sobrevivência contra mecânicas de morte instantânea | **Média** |
+| **Velocidade de Movimento** | Permite melhor kiting durante fases de bullet hell | **Alta** |
+| **Área de Coleta** | Aumenta o alcance de coleta de experiência | **Baixa** |
+
+<Callout type="success" title="Dica de Início de Jogo">
+Foque na arma Wayfinder logo no início. Seus projéteis giratórios fornecem cobertura de área (AoE) natural, facilitando a limpeza da horda enquanto foca o dano nos mini-chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas Centrais de Chefes e Rainha Minos">
+
+O auge da experiência no Limbo é a batalha contra a Rainha Minos. Este encontro é uma luta de múltiplas fases que testa seu posicionamento e tempo de reação. Diferente dos inimigos padrão, os chefes em Hell Maiden possuem ataques sinalizados que exigem esquivas precisas.
+
+<CardGrid cols={3}>
+  <Card title="Fase 1: O Enxame">
+    - **Invocação de Lacaios**: Minos invoca projéteis e imps menores.
+    - **Movimentação**: Mantenha uma distância média para desviar do bullet hell recebido.
+    - **Foco**: Limpe os lacaios enquanto reduz gradualmente o HP do chefe.
+  </Card>
+  <Card title="Fase 2: Confissão">
+    - **Dano Alto**: Minos usa ataques de "Confissão" que causam dano massivo em área.
+    - **Sinalizações**: Fique atento aos círculos brilhantes no chão.
+    - **Estratégia**: Guarde suas cargas de esquiva especificamente para estes momentos.
+  </Card>
+  <Card title="Fase 3: Desespero">
+    - **Velocidade Aumentada**: A frequência de ataques aumenta quando o HP dela cai abaixo de 25%.
+    - **Bullet Hell**: A tela se enche de olhos vermelhos e projéteis.
+    - **Estratégia**: Use seu Ultimate (Q) para limpar a tela e finalizar a luta.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso Crítico">
+Os chefes não possuem uma mecânica padrão de "atordoamento" (stagger). Não tente tancar o dano diretamente, mesmo que o chefe esteja com pouca vida, pois a fase final costuma ser a mais letal.
+</Callout>
+
+| Ataque do Chefe | Tipo de Dano | Método de Esquiva |
+| :--- | :--- | :--- |
+| **Tumba Flamejante** | Fogo em Área | Esquive para fora do indicador vermelho |
+| **Rajada de Balas** | Projétil | Zigue-zagueie entre as brechas |
+| **Invocar Imps** | Corpo a Corpo/Horda | Use Kindle Embers para limpeza em área |
+| **Confissão** | Mágico/Explosivo | Mantenha-se móvel e evite o centro |
+
+</Section>
+
+<Section icon={Target} title="Melhores Equipamentos para Matar Chefes">
+
+Escolher a combinação certa de armas e cartas de mod é a diferença entre a vitória e uma tela de "Game Over". Nosso **guia de chefes de Hell Maiden** recomenda uma build de "Alcance e Queimadura" para maximizar o dano enquanto se mantém seguro.
+
+### Lista de Níveis de Armas Recomendadas
+
+| Arma | Nível | Melhor Para | Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Wayfinder** | **S** | Dano de Alvo Único em Chefe | Contagem de Projéteis / Chance Crítica |
+| **Kindle Embers** | **A** | Área / Controle de Lacaios | Tamanho de Ataque / Duração |
+| **Dragon's Breath** | **B** | Dano Explosivo | Velocidade de Ataque / Efeito de Queimadura |
+| **Whirling Spheres** | **B** | Utilidade Defensiva | Tamanho de Ataque / Repulsão |
+
+### Sinergias de Cartas de Mod
+
+As cartas de mod podem ser fundidas até o Nível 3, aumentando significativamente sua eficácia. Para lutas contra chefes, priorize as seguintes combinações:
+
+1.  **Contagem de Projéteis + Wayfinder**: Triplica sua produção de dano ao disparar múltiplos projéteis giratórios.
+2.  **Tamanho de Ataque + Kindle Embers**: Cria uma zona massiva estilo "Garlic" que protege você de projéteis menores.
+3.  **Vampirismo (8% de Chance no Acerto)**: Essencial para lutas longas contra chefes para recuperar HP sem depender de drops raros de frascos.
+4.  **Elite Slayer**: Um mod especializado que aumenta o dano contra chefes em até 30%.
+
+<Callout type="tip" title="Dica Profissional de Sinergia">
+Se você encontrar o mod de "Maldição" que aumenta o dano em 170%, mas reduz a velocidade de ataque, combine-o com várias cartas de bônus de "Velocidade de Ataque" para anular a penalidade enquanto mantém o bônus massivo de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Chefe Passo a Passo">
+
+Seguir uma abordagem estruturada durante o encontro garantirá que você não seja sobrecarregado pela poluição visual dos estágios finais do jogo.
+
+<Steps>
+  <Step num="1" title="Posicionamento Inicial">
+    Entre na arena do chefe e mova-se imediatamente para a borda externa. Isso lhe dá mais espaço para ver os projéteis chegando e planejar seu caminho de movimento.
+  </Step>
+  <Step num="2" title="Gerenciamento de Recursos">
+    Não use seu Q (Ultimate) imediatamente. Guarde-o para quando o chefe invocar o enxame de "Olhos Vermelhos", que pode facilmente prendê-lo em um canto.
+  </Step>
+  <Step num="3" title="Janela de Esquiva">
+    Apenas use a esquiva quando um ataque estiver prestes a atingi-lo. Com apenas 2 cargas, desperdiçá-las em movimentos gerais pode deixá-lo vulnerável durante uma explosão de "Confissão".
+  </Step>
+  <Step num="4" title="Cura e Kiting">
+    Se seu HP estiver baixo, foque no kiting. Se você tiver o mod de Vampirismo, suas Whirling Spheres irão curá-lo passivamente enquanto atingem os lacaios próximos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Conselho de Especialista">
+O ambiente pode ser seu inimigo. Cuidado para não ficar preso atrás de pilares ou árvores na arena do Limbo, pois a hitbox de Dante inclui todo o modelo da personagem.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progressão Permanente e Bênçãos">
+
+Derrotar chefes e resgatar aliados como Horus e Virgil desbloqueia "Bênçãos" permanentes. Estes são elementos de meta-progressão que persistem entre as partidas, tornando os futuros encontros com chefes significativamente mais fáceis.
+
+<Checklist
+  id="boss-prep"
+  title="Checklist de Preparação para Chefes:"
+  items={[
+    "Desbloquear a Bênção de Virgil para bônus de atributos iniciais",
+    "Resgatar Horus para habilitar as cartas de Maldição de 170% de dano",
+    "Coletar pelo menos 3 melhorias de Dano Permanente no mapa",
+    "Alcançar o Nível 25 antes de enfrentar a Rainha Minos",
+    "Equipar pelo menos uma Carta de Mod de Nível 3 em sua arma principal"
+  ]}
+/>
+
+| Bênção | Fonte | Efeito |
+| :--- | :--- | :--- |
+| **Orientação de Virgil** | Tutorial | Desbloqueia o Altar para bônus iniciais |
+| **Poder de Horus** | Resgate no meio do jogo | Aumenta a chance de cartas de Mod de nível Ouro |
+| **Favor de Beatrice** | Drops aleatórios | Concede amuletos de bronze/prata/ouro para a partida |
+
+<Callout type="success" title="Dica de Progressão">
+Sempre priorize o resgate de NPCs. As bênçãos que eles fornecem são muito mais poderosas do que qualquer carta de mod individual que você possa encontrar em uma única partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ do Chefe Final">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor arma para a estratégia do guia de chefes de Hell Maiden?",
+    answer: "A Wayfinder é atualmente a melhor arma devido ao seu alto alcance e capacidade de se beneficiar de múltiplos mods de contagem de projéteis, permitindo que você atinja os chefes de uma distância segura."
+  },
+  {
+    question: "Como evito os ataques de bullet hell da Rainha Minos?",
+    answer: "Mantenha distância e observe as sinalizações. Use suas cargas de esquiva apenas para os grandes ataques de área 'Confissão' e desvie manualmente dos projéteis menores."
+  },
+  {
+    question: "As melhorias de mapa, como Vida Máxima, são permanentes?",
+    answer: "Sim, as melhorias de atributos encontradas em altares e locais específicos do mapa persistem durante sua partida atual e contribuem para seu nível de poder geral."
+  },
+  {
+    question: "Posso me curar durante uma luta contra um chefe?",
+    answer: "A cura é rara. Você deve contar com drops de frascos de cura de potes quebrados ou usar a carta de mod Vampirismo, que tem uma chance de restaurar HP a cada acerto."
+  }
+]} />
+
+</Section>

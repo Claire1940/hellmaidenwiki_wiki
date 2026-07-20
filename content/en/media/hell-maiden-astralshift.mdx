@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "hell maiden astralshift: 2026 Strategy & Build Guide",
+  description: "Master hell maiden astralshift with our guide to Spirit Cards, best character builds, boss strategies for Limbo and Lust, and the Early Access roadmap.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e0c0c/fff?text=Hell+Maiden+Guide",
+  date: "2026-07-19",
+  author: "hell maiden Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Loop**: Survive 12-minute waves, collect experience, and defeat bosses using automatic attacks with manual aiming.
+- **Build Strategy**: Assemble a four-Weapon hand and prioritize merging duplicate Mod Cards to Level 3 on your main damage source.
+- **Poet Rescues**: Rescue Horace, Homer, and Ovid to expand your card pool with 15+ powerful new abilities.
+- **Progression**: Use Wails of the Abyss between runs to purchase permanent upgrades and unlock Circle 2 (Lust).
+</Callout>
+
+<Section icon={Swords} title="hell maiden astralshift Core Mechanics">
+
+Developed by AstralShift, **hell maiden astralshift** combines fast-paced horde-survival action with a deep, tactical deck-building system inspired by Dante's Divine Comedy. Players control Dante as she descends through the Circles of Hell, her attacks firing automatically while players manually aim with the cursor or controller stick. This split-control scheme creates a high-skill ceiling where positioning, kiting, and active dodging are vital to surviving the punishing bullet-hell waves.
+
+Dashing serves as your primary defensive tool, granting brief invulnerability frames to cross dangerous projectile lines or escape tight corners. As enemies fall, they drop experience orbs that trigger level-up choices. These choices allow you to draft new Weapon Cards, attach Mod Cards, or upgrade existing abilities in your hand. Managing your active hand is crucial, as you are limited to four Weapon slots and must carefully arrange your cards to benefit from positional synergies.
+
+| Mechanic | Input / System | Tactical Purpose |
+| --- | --- | --- |
+| Movement | WASD / Left Stick | Constantly reposition to avoid contact damage and herd waves |
+| Aiming | Mouse / Right Stick | Direct automatic attacks toward high-density groups or elites |
+| Dashing | Spacebar / Face Button | Move through enemy lines safely; avoid bullet-hell patterns |
+| Leveling | Experience Orbs | Level up mid-run to draft new Weapon Cards or Mod upgrades |
+
+<Callout type="warning" title="Dash Conservation">
+Do not use your dash for general movement. Always keep at least one charge available to escape surrounding hordes or dodge telegraphed boss attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Spirit Cards & Build Setups">
+
+Spirit Cards in **hell maiden astralshift** are divided into Weapon Cards and Mod Cards. Weapon Cards define your attack patterns, while Mod Cards enhance those weapons with utility, speed, and damage multipliers. A dependable build concentrates its strongest upgrades on one signature Weapon, using the remaining slots for complementary attacks, and merges duplicate Mods toward Level 3 instead of collecting many weak effects.
+
+To maximize your damage output, pay close attention to card positioning. Some Mod Cards offer substantial bonuses to adjacent weapons or weapons placed to their right. Rearranging your hand dynamically during a run ensures your primary damage dealer receives all active positional buffs.
+
+<CardGrid cols={3}>
+  <Card title="Focused Damage Build">
+    - **Weapons**: Blazing Quill, Carpe Diem
+    - **Mod Priorities**: Raw Damage, Attack Speed, Crit
+    - **Best For**: Direct damage, elites, and reliable Limbo clears
+  </Card>
+  <Card title="Projectile Pressure Build">
+    - **Weapons**: Wayfinder, Carpe Diem
+    - **Mod Priorities**: Projectile Count, Attack Speed, Area
+    - **Best For**: Large enemy groups and continuous screen coverage
+  </Card>
+  <Card title="Status Control Build">
+    - **Weapons**: Blazing Quill, Codex Amoris
+    - **Mod Priorities**: Status Effects, Duration, Projectile Count
+    - **Best For**: Controlling fast waves while dealing repeated damage
+  </Card>
+</CardGrid>
+
+| Build Type | Main Weapon | Best Mod Priorities | Ideal Hand Position |
+| --- | --- | --- | --- |
+| Focused Damage | Blazing Quill | Raw Damage, Attack Speed, Critical Multipliers | Far left, adjacent to right-facing buffs |
+| Projectile Pressure | Wayfinder | Projectile Count, Attack Speed, Area Size | Center slots to maximize adjacent bonuses |
+| Status Control | Codex Amoris | Status Application, Effect Duration, Projectile Count | Flexible, attached to high-hit-rate weapons |
+
+<Callout type="tip" title="Merge Duplicates">
+Merging duplicate Mod Cards to Level 3 is much more effective than holding multiple low-level copies. Focus your upgrades on your primary damage-dealing Weapon first.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Limbo and Lust Circle Walkthrough">
+
+The Early Access build of **hell maiden astralshift** features two complete Circles of Hell: Limbo (Circle 1) and Lust (Circle 2). Both stages require you to survive a grueling 12-minute wave sequence before transitioning to their final boss encounters. While surviving, you must explore the map to locate Temples, complete optional quests, and rescue trapped Poets.
+
+<Steps>
+  <Step num="1" title="Master Circle 1: Limbo">
+    Survive for 12 minutes while herding Imps, Skeletons, and Ghouls. Focus on building a stable four-Weapon hand and activating nearby Temples before the timer runs out. Defeat Queen Minos at the end of the run to unlock subsequent progression.
+  </Step>
+  <Step num="2" title="Unlock Circle 2: Lust">
+    After defeating Queen Minos, return to the Poets' Forum to progress the story. Interact with Virgil and Beatrice to unlock the Winds of Desire progression path, allowing you to select Circle 2 from the stage selection menu.
+  </Step>
+  <Step num="3" title="Conquer Circle 2: Lust">
+    Lust features highly aggressive enemies like Succubi and Vipers. Prioritize crowd control and status effects early to manage dense waves, rescue Ovid to expand your card pool, and prepare for the dual boss fight against Scarmiglione and Libicocco.
+  </Step>
+</Steps>
+
+| Circle | Survival Timer | Primary Rescue Target | Major Boss Encounter | Signature Enemy Threats |
+| --- | --- | --- | --- | --- |
+| Circle 1: Limbo | 12 Minutes | Horace, Homer | Queen Minos | Imps, Skeletons, Brotchies, Ghouls, Slimes |
+| Circle 2: Lust | 12 Minutes | Ovid | Scarmiglione & Libicocco | Succubi, Vipers, Lust Sinners, Lust Mines |
+
+<Callout type="info" title="Boss Mechanics">
+Queen Minos cycles through telegraphed bullet-hell patterns. Hot Fix Patch 1 reduced her repeat frequency, requiring you to adapt to changing attacks rather than a fixed loop.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Poets of Limbo & Character Unlocks">
+
+Rescuing the Poets of Limbo is the cornerstone of your permanent progression in **hell maiden astralshift**. Dante begins her journey with Virgil guiding her and Beatrice offering sanctified protection. As you descend through Limbo and Lust, you will find other historical poets trapped in the abyss. Rescuing them permanently adds their signature Weapons, Blessings, Spells, and Mod Cards to your drafting pool.
+
+| Character | Unlock Method | Signature Weapon | Core Rewards |
+| --- | --- | --- | --- |
+| Dante Alighieri | Available from start | Blazing Quill | Dante Weapon/Mod Cards, Dante's Inferno Spell |
+| Virgil | Meet in Poets' Forum | Wayfinder | Virgil Cards, Star Sign ☆ Pleiades Spell |
+| Beatrice | Story progression | None | Narrative guidance, Pilgrim's Journey progress |
+| Horace | Rescue in Limbo | Carpe Diem | 5 new abilities, Horace Cards, Carpe Diem Weapon |
+| Homer | Rescue in Limbo | Winged Lyric | 5 new abilities, Homer Cards, Winged Lyric Weapon |
+| Ovid | Rescue in Lust | Codex Amoris | 5 new abilities, Ovid Cards, Codex Amoris Weapon |
+| Lucan | Future roadmap update | TBA | Upcoming cards, narrative expansion |
+
+<Checklist
+  id="poet-progression"
+  title="Poet Rescue & Unlock Checklist:"
+  items={[
+    "Exhaust all dialogue with Virgil in the Poets' Forum",
+    "Rescue Horace in Limbo to unlock the Carpe Diem card line",
+    "Rescue Homer in Limbo to obtain the single-target Winged Lyric",
+    "Unlock Circle 2 (Lust) by defeating Queen Minos",
+    "Rescue Ovid in Lust to unlock the Codex Amoris card line"
+  ]}
+/>
+
+<Callout type="success" title="Ability Pool Expansion">
+Every Poet you rescue permanently adds five new abilities to your card drafting pool, significantly increasing your build variety in subsequent runs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Achievements Guide & Roadmap">
+
+With 72 Steam achievements currently available, **hell maiden astralshift** offers robust challenges for completionists. These range from straightforward progression milestones to highly restrictive gameplay challenges like beating Circles with minimal healing or assembling a perfect hand of Level 3 Mods. 
+
+Meta-progression is driven by Wails of the Abyss, a spendable resource collected during runs. Spending Wails at the Forum shrine permanently enhances Dante's base attributes, making high-difficulty achievements much more manageable.
+
+| Achievement | Category | Official Requirement | Pro Strategy |
+| --- | --- | --- | --- |
+| Perfect Hand | Card Collection | Get a full hand of Level 3 Mod cards in a run | Focus on drafting duplicate Mods; avoid spreading upgrades |
+| Vital Endurance I | Survival Challenge | Beat Circle 1 without healing over 500 HP | Avoid contact damage; utilize high-mobility builds |
+| Hellish Mastery I | Score Milestone | Reach a high score of 100,000 in Limbo | Maximize kill speed and activate all available Temples |
+| Abyssal Spender | Meta-progression | Spend a total of 5,000 Wails of the Abyss | Farm Wails in Limbo and spend them at the Forum shrine |
+
+<Callout type="info" title="Early Access Roadmap">
+AstralShift plans to expand the game from the current two Circles to all nine Circles of Hell. Circle 3 (Gluttony) is scheduled to release later in 2026, alongside new Poets, cards, and an Endless Mode.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock Circle 2 (Lust) in hell maiden astralshift?",
+    answer: "To unlock Circle 2 (Lust), you must successfully survive the 12-minute wave timer in Circle 1 (Limbo), defeat the final boss Queen Minos, and complete the subsequent dialogue sequences with Virgil and Beatrice in the Poets' Forum."
+  },
+  {
+    question: "What is the benefit of merging duplicate Mod Cards?",
+    answer: "Merging identical Mod Cards upgrades them up to a maximum of Level 3. This significantly amplifies their stat bonuses and triggers powerful positional synergies, making a single Level 3 Mod far stronger than multiple Level 1 copies."
+  },
+  {
+    question: "How do I rescue trapped Poets like Horace and Homer?",
+    answer: "Horace and Homer can be found trapped within Circle 1 (Limbo) during your runs. You must locate them on the map, trigger their rescue sequences, and complete the run or survive the waves to permanently unlock them at the Poets' Forum."
+  },
+  {
+    question: "What are Wails of the Abyss used for?",
+    answer: "Wails of the Abyss are the primary meta-progression currency in hell maiden astralshift. You collect them by defeating enemies and clearing stages, and then spend them at the Forum shrine to unlock permanent character upgrades."
+  }
+]} />
+
+<Callout type="tip" title="DirectX 11 Option">
+If you experience performance issues or crashes during dense enemy waves, try launching the game using the DirectX 11 beta option available in your Steam launch settings.
+</Callout>
+
+</Section>

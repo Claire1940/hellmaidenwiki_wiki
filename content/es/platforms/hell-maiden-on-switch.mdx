@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hell Maiden en Switch: Estado del Lanzamiento y Guía de Construcción de Mazos",
+  description: "Descubre si Hell Maiden llegará a Nintendo Switch, cómo jugar de forma portátil en Steam Deck y las estrategias esenciales de construcción de mazos para este roguelike inspirado en Dante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Hell+Maiden+Switch+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden",
+  keywords: "Hell Maiden, Nintendo Switch, Steam Deck, construcción de mazos, roguelike, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Lanzamiento en Switch**: Actualmente, **hell maiden en switch** no ha sido lanzado oficialmente, ya que el juego permanece en el Acceso Anticipado de Steam.
+- **Alternativa Portátil**: Los entusiastas de las consolas portátiles pueden ejecutar el juego sin problemas en **Steam Deck** con pequeños ajustes de control.
+- **Mecánicas Principales**: Combina elementos de **Supervivencia contra Hordas** y **Construcción de Mazos** inspirados en la *Divina Comedia* de Dante Alighieri.
+- **Contenido del Acceso Anticipado**: Incluye **2 Círculos del Infierno**, 4 Poetas del Limbo rescatables, 4 armas y más de 40 habilidades distintas.
+- **Estrategia Principal**: Equipa **Cartas de Modificación** para alterar tus **Cartas de Arma** directamente, creando poderosas sinergias ofensivas para limpiar oleadas.
+</Callout>
+
+<Section icon={Map} title="Estado del Lanzamiento y Perspectivas de la Versión para Consolas">
+
+La anticipación en torno a **hell maiden en switch** sigue creciendo a medida que los fans de los roguelikes y la construcción de mazos buscan formas portátiles de experimentar el descenso de Dante al inframundo. Desarrollado por AstralShift, el juego está actualmente disponible en el Acceso Anticipado de Steam, lo que permite a los desarrolladores recopilar comentarios cruciales de los jugadores y perfeccionar las mecánicas de juego.
+
+Aunque todavía no se ha lanzado oficialmente una versión nativa para Nintendo Switch, las versiones para consolas son muy esperadas. Históricamente, los juegos populares de supervivencia contra hordas y construcción de mazos pasan a las plataformas de consola poco después de completar su fase de Acceso Anticipado. Los desarrolladores han indicado que el Acceso Anticipado durará aproximadamente un año o más hasta 2026, lo que hace que un lanzamiento en Switch post-1.0 sea muy probable.
+
+**Puntos Destacados del Video:**
+- El viaje rediseñado de Dante a través del Infierno en busca de recuerdos perdidos y salvación.
+- Combate dinámico de construcción de mazos con mejoras de cartas y modificaciones de armas.
+- Encuentros estratégicos con figuras históricas como Virgilio, Beatriz y la Reina Minos.
+
+<YouTubeEmbed videoId="90EaQ4buCC8" title="Hell Maiden | Tráiler de Jugabilidad" />
+
+| Plataforma | Estado | Ventana de Lanzamiento |
+|---|---|---|
+| PC (Steam) | Acceso Anticipado | Disponible Ahora |
+| Steam Deck | Jugable | Disponible Ahora |
+| Nintendo Switch | Planificado | Lanzamiento Post-1.0 |
+| PlayStation 5 | Bajo Consideración | Lanzamiento Post-1.0 |
+| Xbox Series X/S | Bajo Consideración | Lanzamiento Post-1.0 |
+
+<Callout type="warning" title="Precio del Acceso Anticipado">
+El juego tiene actualmente un precio de $9.99 en Steam. Los desarrolladores han confirmado que el precio aumentará tras el lanzamiento de la versión completa 1.0, lo que probablemente afectará también al futuro precio en Nintendo Switch.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rendimiento en Portátiles y Alternativas Portátiles">
+
+Mientras esperan el lanzamiento oficial de **hell maiden en switch**, los jugadores pueden disfrutar del juego de forma portátil utilizando dispositivos portátiles de PC como la Steam Deck. Aunque el estado de compatibilidad oficial de Steam Deck figura como "Desconocido", el juego funciona notablemente bien debido a sus modestas exigencias de hardware y su intuitivo diseño de controles.
+
+Para garantizar la mejor experiencia portátil, los jugadores deben ajustar su configuración para optimizar la duración de la batería y el rendimiento. Bloquear la tasa de fotogramas a 60 FPS y utilizar las plantillas de control predeterminadas proporcionará una experiencia similar a la de una consola que refleja fielmente cómo se jugará finalmente el juego en Nintendo Switch.
+
+| Hardware | Especificaciones Mínimas | Especificaciones Recomendadas |
+|---|---|---|
+| SO | Windows 10 o posterior | Windows 10 o posterior |
+| Procesador | 4 Núcleos / 2.5 GHz+ | 4 Núcleos / 3.5 GHz+ |
+| Memoria | 8 GB RAM | 16 GB RAM |
+| Gráficos | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 |
+| Almacenamiento | 4 GB de espacio disponible | 4 GB de espacio disponible |
+
+<Callout type="info" title="Optimización para Steam Deck">
+Si experimentas pequeñas caídas de rendimiento durante oleadas de enemigos densas, establece el límite de TDP de la Steam Deck en 10W. Esto mantiene unos 60 FPS estables mientras extiende significativamente tus sesiones de juego portátil.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jugabilidad Principal y Mecánicas de Construcción de Mazos">
+
+El ciclo principal del juego gira en torno a sobrevivir a oleadas interminables de fuerzas demoníacas mientras construyes un poderoso mazo de habilidades. A diferencia de los juegos tradicionales de "bullet heaven", tus capacidades ofensivas están directamente ligadas a cómo construyes, modificas y gestionas tu mano durante una partida.
+
+El sistema de construcción de mazos se divide en tres categorías de cartas distintas, cada una con un propósito táctico específico. Comprender cómo interactúan estas cartas es la clave para conquistar los círculos más profundos del Infierno.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Arma">
+    - Forman el núcleo de tu configuración ofensiva.
+    - Dictan tus patrones de ataque primarios y el alcance.
+    - Se pueden personalizar directamente con Cartas de Modificación.
+  </Card>
+  <Card title="Cartas de Espíritu">
+    - Proporcionan poderosas bonificaciones pasivas y efectos de estado.
+    - Pueden activar ataques definitivos bajo condiciones específicas.
+    - Cartas impulsadas por la sinergia que aumentan el daño general.
+  </Card>
+  <Card title="Cartas de Modificación">
+    - Se usan para mejorar y modificar tus Cartas de Arma activas.
+    - Alteran la velocidad de ataque, la cantidad de proyectiles y los tipos de daño.
+    - Esenciales para adaptarse a diferentes oleadas de enemigos.
+  </Card>
+</CardGrid>
+
+| Característica | Acceso Anticipado (Actual) | Lanzamiento Completo (Planificado) |
+|---|---|---|
+| Círculos del Infierno | 2 Círculos (Limbo y Lujuria) | Los 9 Círculos del Infierno |
+| Poetas del Limbo | 4 Poetas para rescatar | Más Poetas del Limbo |
+| Habilidades | 40+ Habilidades | Reserva de Cartas Ampliada |
+| Modos de Juego | Campaña Narrativa | Modo Infinito + Historia |
+
+<Callout type="tip" title="Bono de Sinergia">
+Empareja siempre Cartas de Espíritu que apliquen efectos de estado elementales con Cartas de Modificación que aumenten la velocidad de ataque de tu arma. Esto te permite aplicar desventajas de estado rápidamente a enemigos de élite y jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Progresión Paso a Paso">
+
+Navegar por las profundidades del Infierno requiere un enfoque estructurado para mejorar a tu personaje y ampliar tu mazo. Sigue estos pasos para maximizar tu eficiencia durante tus partidas.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Arma Distintiva">
+    Comienza tu partida eligiendo una de las 4 armas distintivas disponibles. Cada arma ofrece un estilo de juego único, que va desde proyectiles de disparo rápido hasta ataques de barrido de gran daño.
+  </Step>
+  <Step num="2" title="Recoge y Roba Habilidades">
+    A medida que derrotes oleadas de demonios, recogerás cartas. Una mecánica única te permite conservar y usar las habilidades distintivas de tus oponentes, integrando sus poderes directamente en tu mazo.
+  </Step>
+  <Step num="3" title="Rescata a los Poetas del Limbo">
+    Explora los círculos del Infierno para localizar y rescatar a poetas legendarios como Homero, Ovidio, Horacio y Lucano. Rescatarlos desbloquea ventajas permanentes e introduce 5 cartas nuevas por poeta en tu reserva.
+  </Step>
+  <Step num="4" title="Conquista a los Jefes del Círculo">
+    Cada Círculo del Infierno termina con una desafiante batalla contra un jefe, como el encuentro con la Reina Minos. Derrotar a un jefe te recompensa con 2 habilidades exclusivas para reforzar aún más tu mazo.
+  </Step>
+</Steps>
+
+| Poeta | Ubicación | Habilidades Clave Desbloqueadas |
+|---|---|---|
+| Virgilio | Guía Inicial | Ataques Guiados, Escudo de Beatriz |
+| Homero | Limbo (Círculo 1) | Versos Épicos, Valor Heroico |
+| Ovidio | Limbo (Círculo 1) | Metamorfosis, Triunfo del Amor |
+| Horacio | Lujuria (Círculo 2) | Ingenio Satírico, Punto Medio Dorado |
+
+<Callout type="success" title="Ventajas de los Poetas">
+Entablar amistad con los Poetas del Limbo entre partidas desbloquea mejoras permanentes para el personaje. Prioriza gastar tus recursos recolectados en estas ventajas para que las partidas posteriores sean significativamente más fáciles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión e Hitos">
+
+Para prepararse completamente para el eventual lanzamiento de **hell maiden en switch**, los jugadores deben aspirar a completar todo el contenido disponible en la versión actual del Acceso Anticipado. El seguimiento de tus hitos garantiza que estés listo para futuras actualizaciones de contenido.
+
+<Checklist
+  id="hell-maiden-goals"
+  title="Hitos del Acceso Anticipado:"
+  items={[
+    "Derrotar a los jefes de los círculos del Limbo y la Lujuria",
+    "Rescatar y entablar amistad con los 4 Poetas del Limbo",
+    "Desbloquear y experimentar con las más de 40 habilidades únicas",
+    "Recoger las 4 armas distintivas para encontrar tu estilo de juego preferido",
+    "Desbloquear los 72 logros de Steam"
+  ]}
+/>
+
+<Callout type="info" title="Hoja de Ruta de Contenido Futuro">
+Los desarrolladores planean introducir los 7 Círculos del Infierno restantes, armas adicionales, ataques definitivos y una continuación del viaje narrativo de Dante en las próximas actualizaciones a lo largo de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Existe una fecha de lanzamiento oficial para Hell Maiden en Switch?",
+    answer: "Aún no hay una fecha de lanzamiento oficial. El juego se encuentra actualmente en el Acceso Anticipado de Steam y se espera que llegue a plataformas de consola, incluida la Nintendo Switch, después del lanzamiento de la versión 1.0."
+  },
+  {
+    question: "¿Puedo jugar el juego de forma portátil ahora mismo?",
+    answer: "Sí, puedes jugar de forma portátil en dispositivos PC de mano como la Steam Deck. Funciona excepcionalmente bien con pequeños ajustes de configuración."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de construcción de mazos en combate?",
+    answer: "Recoges Cartas de Arma, Espíritu y Modificación durante tu partida. Las Cartas de Modificación alteran directamente los atributos de tu arma, lo que te permite personalizar tus patrones de ataque dinámicamente para derrotar a las hordas enemigas."
+  },
+  {
+    question: "¿Se transferirá mi progreso a la versión de Switch?",
+    answer: "El soporte para guardado cruzado aún no ha sido confirmado. Normalmente, el progreso del acceso anticipado en Steam no se transfiere a las versiones de consola, pero los desarrolladores podrían considerarlo al acercarse el lanzamiento."
+  }
+]} />
+
+<Callout type="tip" title="Comentarios de la Comunidad">
+Dado que el juego está en Acceso Anticipado, los desarrolladores monitorean activamente los foros de la comunidad. Si quieres que se priorice una versión para Nintendo Switch, se recomienda encarecidamente compartir tu interés en sus tableros de discusión oficiales de Steam o en su servidor de Discord.
+</Callout>
+
+</Section>

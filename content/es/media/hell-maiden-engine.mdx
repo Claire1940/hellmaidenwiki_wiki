@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Motor de Hell Maiden: Guía de construcción de mazos y mecánicas de supervivencia",
+  description: "Domina el motor de hell maiden con nuestra guía sobre posicionamiento de cartas, rescate de poetas y tácticas de supervivencia para el viaje de Dante por los nueve círculos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Maiden+Engine+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Motor de Hell Maiden**: Un híbrido único de supervivencia contra hordas y construcción táctica de mazos donde la colocación de las cartas dicta el poder.
+- **Posicionamiento de cartas**: Las cartas adyacentes se influyen entre sí; nunca coloques cartas de alto daño de forma aislada sin modificadores de apoyo.
+- **Rescate de poetas**: Rescatar a poetas legendarios como Homero y Ovidio es obligatorio para desbloquear ataques definitivos y armas distintivas.
+- **Disciplina de deslizamiento**: Guarda tu deslizamiento para los patrones de jefes inevitables en lugar de usarlo para la velocidad de movimiento general.
+- **Sinergias de jefes**: Los jefes derrotados sueltan habilidades que se pueden integrar en tu mazo, convirtiendo las amenazas enemigas en recursos para el jugador.
+</Callout>
+
+<Section icon={Map} title="Introducción al motor de Hell Maiden">
+
+El **motor de Hell Maiden** representa una fusión sofisticada de las mecánicas tradicionales de bullet-heaven y la construcción táctica y profunda de mazos. A diferencia de los juegos de supervivencia estándar donde las mejoras son puramente lineales, Hell Maiden requiere que los jugadores traten su conjunto de habilidades como un sistema vivo. Tras los acontecimientos de la Divina Comedia, Dante se encuentra de nuevo en las profundidades del infierno con sus recuerdos borrados. Esta amnesia narrativa sirve para algo más que un simple recurso argumental; refleja el viaje del jugador para redescubrir las mecánicas de combate y reconstruir un arsenal perdido desde cero.
+
+**Puntos destacados del video:**
+- **Colocación estratégica**: Aprende por qué la adyacencia de cartas es la mecánica más pasada por alto al principio del juego.
+- **Bucles de progresión**: Cómo el rescate de poetas se traduce directamente en picos de poder mecánicos.
+- **Mecánicas de jefes**: Un desglose de cómo las habilidades de los jefes se convierten en parte de tu mazo permanente.
+
+<YouTubeEmbed videoId="_VVEN5mb394" title="Hell Maiden: ¡10 cosas que el juego NO te dice!" />
+
+La supervivencia en este motor no consiste solo en esquivar proyectiles; se trata de comprender el "porqué" detrás de tu configuración. Cada partida ofrece la oportunidad de experimentar con más de 40 habilidades distintas, pero la verdadera profundidad radica en cómo interactúan estas habilidades dentro de la cuadrícula del mazo. El juego desafía al jugador a mirar más allá de los altos números de daño y centrarse en el sustento, el control del campo de batalla y las relaciones sinérgicas entre las Cartas de Espíritu y las Cartas de Modificador.
+
+<Callout type="tip" title="Progresión narrativa">
+Presta mucha atención a los diálogos durante los reencuentros. La historia explica por qué Dante está de vuelta en el infierno, y estas pistas narrativas a menudo insinúan a qué poetas deberías dar prioridad para tu estilo de juego específico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando el motor de Hell Maiden: Sinergias de mazo">
+
+En el núcleo del **motor de Hell Maiden** se encuentra la interfaz de construcción de mazos. Los jugadores a menudo cometen el error de llenar cada espacio con armas de alto daño, lo que lleva a configuraciones que se desmoronan bajo presión. El motor recompensa un enfoque equilibrado que considera la velocidad del arma, la cantidad de proyectiles y los modificadores de apoyo.
+
+| Tipo de carta | Función principal | Beneficio de adyacencia |
+| :--- | :--- | :--- |
+| **Cartas de arma** | Daño directo | Recibe mejoras de las Cartas de modificador |
+| **Cartas de espíritu** | Aumentos pasivos de estadísticas | Puede activar efectos secundarios |
+| **Cartas de modificador** | Mejora las Cartas de arma | Debe estar adyacente a un arma |
+| **Cartas definitivas** | Limpieza de pantalla de gran impacto | Requiere rescatar a un poeta para desbloquearse |
+| **Armas distintivas** | Anclas de estilo de juego únicas | Escala con ventajas específicas de poetas |
+
+La colocación de estas cartas es fundamental. Algunas Cartas de Modificador solo afectan al arma que está directamente a su izquierda o derecha. Si colocas un potente modificador de "Disparo múltiple" en una casilla que no toca un arma compatible, estarás desperdiciando un espacio. El motor está diseñado para hacerte reevaluar constantemente tu mano a medida que avanzas por los círculos del infierno.
+
+<CardGrid cols={2}>
+  <Card title="La configuración de sustento">
+    Se centra en ataques de alta frecuencia y bajo daño como **Orbe** o **Esferas lunares**. Al combinarse con modificadores de curación por golpe, esto crea un "motor de curación" que mantiene viva a Dante durante los encuentros concurridos.
+  </Card>
+  <Card title="La configuración de control">
+    Utiliza **Picos de tierra** y **Rayo** para aturdir o ralentizar a los enemigos. Esta configuración prioriza la gestión del campo de batalla, asegurando que Dante nunca sea acorralada por las hordas invasoras.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Organización del mazo">
+No ignores la función "Reorganizar". A medida que recojas nuevas cartas a mitad de la partida, debes pausar con frecuencia y optimizar tu distribución para asegurarte de que tus modificadores estén potenciando tus armas más fuertes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El sistema de rescate de poetas">
+
+La progresión en Hell Maiden está indisolublemente ligada a los Poetas del Limbo. No solo luchas por sobrevivir; luchas por liberar a los grandes pensadores de la antigüedad. Rescatar a estos personajes es la única forma de expandir tus opciones tácticas en el **motor de Hell Maiden**.
+
+<Steps>
+  <Step num="1" title="Localiza al poeta">
+    Cada nivel contiene una misión específica o un área oculta donde se encuentra un poeta. Mantente atento al minimapa para ver iconos únicos que indican su ubicación.
+  </Step>
+  <Step num="2" title="Supera el desafío">
+    Los poetas suelen estar custodiados por "Engendros" de élite o requieren un tiempo de supervivencia específico para desbloquearse. Debes derrotar a estos guardianes para iniciar el rescate.
+  </Step>
+  <Step num="3" title="Entabla amistad y desbloquea">
+    Una vez rescatados, los poetas regresan a tu nexo. Hablar con ellos desbloquea 5 nuevas habilidades por poeta, así como ventajas únicas que modifican tus estadísticas base.
+  </Step>
+  <Step num="4" title="Integra equipo distintivo">
+    Tras alcanzar ciertos hitos de amistad, los poetas otorgan acceso a sus armas distintivas, que a menudo definen las configuraciones meta de alto nivel.
+  </Step>
+</Steps>
+
+| Poeta | Papel histórico | Desbloqueo clave | Enfoque del estilo de juego |
+| :--- | :--- | :--- | :--- |
+| **Homero** | Poeta épico | Arco legendario | Precisión a larga distancia |
+| **Ovidio** | Metamorfosis | Modificador de transformación | Cambio de habilidad adaptable |
+| **Horacio** | Satírico | Ventaja de golpe crítico | Alto riesgo, alta recompensa |
+| **Lucano** | Farsalia | Efectos de sangrado/Daño en el tiempo | Presión sostenida |
+
+<Callout type="success" title="Prioridad de desbloqueo">
+Los nuevos jugadores deberían priorizar el rescate de **Homero** primero. Sus desbloqueos proporcionan las mejoras de daño más consistentes al principio del juego, lo que hace que las partidas posteriores por el primer círculo sean mucho más sencillas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de supervivencia y mecánicas de jefes">
+
+El **motor de Hell Maiden** cuenta con dos círculos principales del infierno en su estado actual de Acceso Anticipado, cada uno de los cuales culmina en una brutal batalla contra un jefe. Estos jefes no son solo obstáculos; son las fuentes de tus habilidades más poderosas. Cuando derrotas a un jefe, tienes la oportunidad de tomar su poder distintivo y añadirlo a tu propio mazo.
+
+| Nombre del jefe | Círculo | Amenaza principal | Habilidad de recompensa |
+| :--- | :--- | :--- | :--- |
+| **Minos** | Limbo | Láseres que cubren la pantalla | Rayo de juicio |
+| **Cerbero** | Gula | Embestidas de tres carriles | Modificador de triple golpe |
+| **Engendros de élite** | Varios | Proyectiles rápidos | Espíritu teledirigido |
+
+El combate efectivo requiere dominar el deslizamiento. La causa más común de muerte es el "agotamiento del deslizamiento": usar el deslizamiento para moverse más rápido cuando no hay peligro, solo para tenerlo en tiempo de recarga cuando un jefe lanza un ataque inevitable. Trata el deslizamiento como una herramienta defensiva, no como una herramienta de movilidad.
+
+<Checklist
+  id="combat-goals"
+  title="Lista de verificación para dominar el combate:"
+  items={[
+    "Guarda el deslizamiento solo para los indicadores de zona roja",
+    "Identifica qué tipos de enemigos sueltan orbes de salud",
+    "Prioriza eliminar a los 'Generadores' antes de que inunden la pantalla",
+    "Prueba cada nueva habilidad de jefe en una partida de práctica",
+    "Mantén una proporción de 2:1 de Cartas de Arma con respecto a Cartas de Modificador"
+  ]}
+/>
+
+<Callout type="info" title="Gestión del espacio">
+El daño es secundario al espacio. Si puedes controlar la arena con ralentizaciones o empujones, tu daño acabará ganando la batalla. Si estás rodeado, incluso la configuración con el mayor DPS fallará.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Especificaciones técnicas y Acceso Anticipado">
+
+A partir de 2026, Hell Maiden continúa evolucionando a través de su fase de Acceso Anticipado. Los desarrolladores de Astral Shift se han comprometido con una hoja de ruta que incluye los nueve círculos del infierno, poetas adicionales y un modo infinito. Comprender los requisitos técnicos es esencial para mantener las altas tasas de fotogramas necesarias para que el **motor de Hell Maiden** funcione sin problemas durante las oleadas de alta densidad.
+
+| Requisito | Especificación mínima | Especificación recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | 4 núcleos / 2.5 GHz+ | 4 núcleos / 3.5 GHz+ |
+| **Memoria** | 8 GB de RAM | 16 GB de RAM |
+| **Gráficos** | Nvidia GTX 970 / AMD RX 570 | Nvidia GTX 1070 / AMD RX 580 |
+| **DirectX** | Versión 11 | Versión 12 |
+
+El juego ha recibido recientemente parches para solucionar la estabilidad de DirectX 11 y errores de progresión. Si experimentas bloqueos durante combates intensos contra jefes, asegúrate de tener seleccionada la opción "DirectX 11" en el menú de configuración, ya que esto proporciona una mejor compatibilidad con hardware más antiguo.
+
+<Callout type="tip" title="Contenido futuro">
+La versión completa planea incluir los 9 círculos, más armas y una continuación de la historia de la amnesia. Se espera que los precios aumenten tras el lanzamiento completo, lo que hace que la versión de Acceso Anticipado sea un punto de entrada de gran valor.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la parte más importante del motor de Hell Maiden?",
+    answer: "El posicionamiento de las cartas. Las cartas adyacentes pueden mejorarse o activarse entre sí, lo que significa que un mazo bien organizado de cartas 'débiles' puede superar a un mazo desorganizado de cartas 'fuertes'."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevos ataques definitivos?",
+    answer: "Los ataques definitivos se desbloquean rescatando a los Poetas del Limbo (como Homero u Ovidio) y completando sus misiones secundarias específicas o hitos de amistad."
+  },
+  {
+    question: "¿Debería usar mi deslizamiento para viajar más rápido?",
+    answer: "No. El deslizamiento debe guardarse para esquivar patrones específicos de jefes o escapar de esquinas estrechas. Usarlo para viajar a menudo te deja vulnerable cuando realmente lo necesitas."
+  },
+  {
+    question: "¿Puedo usar los ataques de los jefes contra otros enemigos?",
+    answer: "Sí. Una de las características principales del motor es la capacidad de conservar y usar las habilidades distintivas de tus oponentes en tu propio mazo tras derrotarlos."
+  }
+]} />
+
+</Section>

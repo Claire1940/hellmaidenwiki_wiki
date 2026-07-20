@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cartas de Hell Maiden: Guía de estrategia y mecánicas de build (2026)",
+  description: "Domina el sistema de cartas de Hell Maiden con nuestra guía sobre cartas de Armas y Modificaciones, mecánicas de fusión y estrategias de mazo específicas para cada personaje para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c0519/fff?text=Hell+Maiden+Cards+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Hell Maiden"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las **cartas de Hell Maiden** se dividen en dos tipos principales: Cartas de Armas para habilidades y Cartas de Modificaciones para mejoras de estadísticas.
+- El **sistema de fusión** permite a los jugadores combinar cartas de Modificaciones duplicadas del mismo nivel para alcanzar un nivel máximo de 3.
+- El **posicionamiento estratégico** es vital, ya que ciertas Cartas de Propagación (Spread) otorgan mejoras a las cartas adyacentes en tu mazo.
+- Las **Armas de Firma** cuentan con ataques definitivos animados únicos (Hechizos) que pueden cambiar el rumbo de la batalla.
+- Los **reintentos (rerolls) son limitados** a tres por partida, así que úsalos con sabiduría para asegurar cartas de rareza de Oro de alto nivel.
+</Callout>
+
+<Section icon={Map} title="Mecánicas principales de las cartas de Hell Maiden">
+
+Comprender el sistema de cartas es la base de la supervivencia en el inframundo. En **Hell Maiden**, tu poder está directamente ligado al mazo que construyes durante cada partida. A diferencia de los constructores de mazos tradicionales, estas cartas son ranuras físicas en tu interfaz de usuario que puedes manipular en tiempo real. Cada poeta comienza con un Arma de Firma, pero a medida que progresas por los niveles, llenarás tu mano con hasta cuatro cartas de Armas y varias cartas de Modificaciones.
+
+**Puntos destacados del video:**
+- Demostración del bucle principal de equipar cartas de Modificaciones en cartas de Armas.
+- Muestra de la pantalla de selección al subir de nivel y la reorganización de cartas.
+- Visualización del impacto del aumento de la cantidad de proyectiles en los ataques básicos.
+- Un vistazo a la animación de la habilidad definitiva de Dante, Inferno.
+
+<YouTubeEmbed videoId="IO9wcjKmUFY" title="Jugabilidad de Hell Maiden y mecánicas de cartas" />
+
+La sinergia entre estas cartas determina tu daño infligido y tu supervivencia. Al subir de nivel, específicamente en los niveles pares y en los niveles 3 y 5, se te presentará una opción de tres cartas únicas. Aunque puedes omitir las cartas de Modificaciones si no se adaptan a tu build, las cartas de Armas son adiciones obligatorias para tu arsenal.
+
+<Callout type="tip" title="Comprobación de compatibilidad">
+Cuando estés en la pantalla de subida de nivel, pasa el cursor sobre una carta de Modificación. Todas las cartas de Armas compatibles con ese modificador específico brillarán, lo que facilita ver dónde se pueden aplicar tus mejoras.
+</Callout>
+
+| Tipo de estadística | Efecto del icono | Descripción |
+| :--- | :--- | :--- |
+| **Daño** | Poder de ataque | Aumenta los puntos de vida netos restados a los enemigos. |
+| **Velocidad de ataque** | Frecuencia | Reduce el intervalo entre las activaciones de las armas. |
+| **Prob. de crítico** | Probabilidad | Aumenta la probabilidad de infligir daño crítico adicional. |
+| **Cant. de proyectiles** | Cantidad | Añade balas o cortes adicionales por ciclo de ataque. |
+| **Tamaño de ataque** | Área de efecto | Aumenta la escala física del impacto del arma. |
+| **Duración** | Persistencia | Extiende el tiempo que una habilidad permanece activa en pantalla. |
+
+</Section>
+
+<Section icon={Swords} title="Clasificaciones de cartas de Armas y Modificaciones">
+
+No todas las **cartas de Hell Maiden** son iguales. El juego utiliza un sistema de rareza y tipo para ayudar a los jugadores a identificar rápidamente la función de una carta. Las cartas de Armas vienen en dos rarezas distintas: **Plata** (Común) y **Oro** (Rara). Las cartas de Oro suelen ofrecer mecánicas más complejas o estadísticas base más altas, como *Dragon's Breath* de Dante.
+
+Las cartas de Modificaciones se clasifican además en cinco tipos, cada uno codificado por colores para una fácil identificación durante las partidas de ritmo rápido.
+
+<CardGrid cols={3}>
+  <Card title="Cartas de Impulso y Efecto">
+    - **Impulso (Azul)**: Mejora una única estadística preexistente.
+    - **Efecto (Morado)**: Añade nuevos efectos de estado como Quemadura o Ralentización.
+    - **Activadores al golpear**: Gran utilidad para armas de ataque rápido.
+  </Card>
+  <Card title="Cartas de Propagación y Milagro">
+    - **Propagación (Verde)**: Mejora las cartas adyacentes en la distribución del mazo.
+    - **Milagro (Amarillo)**: Proporciona múltiples mejoras de estadísticas simultáneamente.
+    - **Posicionamiento**: Requiere una organización cuidadosa del mazo para maximizar su efecto.
+  </Card>
+  <Card title="Cartas de Maldición">
+    - **Maldición (Rojo)**: Ofrece mejoras masivas con una desventaja significativa.
+    - **Riesgo/Recompensa**: Ejemplo: +100% de Daño pero -30% de Velocidad de ataque.
+    - **Builds avanzadas**: Se utilizan mejor cuando tienes otras cartas para compensar la penalización.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de Maldiciones">
+Equipa cartas de Maldición solo si tu build actual puede soportar la desventaja. Por ejemplo, no aceptes una penalización de Velocidad de ataque si tu arma principal ya tiene un tiempo de recarga largo, o podrías encontrarte indefenso ante las hordas.
+</Callout>
+
+| Nombre de la carta | Tipo | Rareza | Efecto principal |
+| :--- | :--- | :--- | :--- |
+| **Blazing Quill** | Arma | Oro | Corte abrasador de corto alcance (Firma de Dante). |
+| **Wayfinder** | Arma | Oro | Proyectil de área de efecto que se desvía (Firma de Virgil). |
+| **Cronus' Inertia** | Modificación | Plata | 30-90% de probabilidad de aplicar Ralentización al golpear. |
+| **Dextral Charge** | Modificación | Plata | Aumenta la velocidad de ataque de las armas a la derecha. |
+| **Dragon's Breath** | Arma | Oro | Genera una ráfaga ardiente de llamas. |
+
+</Section>
+
+<Section icon={Sparkles} title="El proceso de fusión y nivelación">
+
+Uno de los aspectos más únicos de las **cartas de Hell Maiden** es la mecánica de fusión. Puedes mejorar las cartas de Modificaciones hasta el Nivel 3 combinando duplicados. Este proceso es esencial para escalar tu poder y adaptarte a la dificultad creciente de los círculos del Limbo.
+
+<Steps>
+  <Step num="1" title="Colecciona duplicados">
+    Obtén un duplicado de una carta de Modificación que ya poseas del menú de subida de nivel o de un cofre.
+  </Step>
+  <Step num="2" title="Coincidir niveles">
+    Asegúrate de que las dos cartas sean del mismo nivel. Dos cartas de Nivel 1 se fusionarán en una carta de Nivel 2.
+  </Step>
+  <Step num="3" title="Evolución visual">
+    Observa el borde de la carta: las cartas de Nivel 2 presentan detalles plateados, mientras que las cartas de Nivel 3 cuentan con detalles dorados e ilustraciones modificadas.
+  </Step>
+  <Step num="4" title="Combinación automática">
+    Si mueves una carta a una ranura que contiene su duplicado del mismo nivel, se fusionarán instantáneamente para ahorrar espacio.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Organización del mazo">
+Presionar la tecla **Tab** te permite organizar tu mazo. Puedes mover libremente las cartas de Modificaciones entre diferentes cartas de Armas mientras estás en la pantalla de subida de nivel para optimizar las bonificaciones de tus cartas de "Propagación".
+</Callout>
+
+| Nivel de fusión | Detalle del borde | Multiplicador de estadísticas (Aprox.) |
+| :--- | :--- | :--- |
+| **Nivel 1** | Estándar | Valor base (ej. +20% de velocidad) |
+| **Nivel 2** | Plata | 2x Valor base (ej. +40% de velocidad) |
+| **Nivel 3** | Oro | 3x-4x Valor base (ej. +80% de velocidad) |
+
+</Section>
+
+<Section icon={Target} title="Cartas de Firma y Hechizos de personajes">
+
+En el meta de 2026, elegir a tu poeta es el primer paso para definir tu estrategia de cartas. Cada personaje viene con una carta de Arma de Firma que no se puede descartar e incluye un poderoso "Hechizo" o ataque definitivo. Estos hechizos activan una cinemática totalmente animada y causan un daño masivo que limpia la pantalla.
+
+**Estrategia de Dante:**
+Dante se enfoca en el fuego y el combate cuerpo a cuerpo. Su firma, *Blazing Quill*, se beneficia enormemente de las modificaciones de Tamaño de ataque y Cantidad de proyectiles. Su hechizo, *Dante's Inferno*, se reserva mejor para encuentros de élite donde estés rodeado.
+
+**Estrategia de Virgil:**
+Virgil utiliza el *Wayfinder*, que destaca en el control de masas a larga distancia. Los jugadores que usen a Virgil deben enfocarse en la Duración y la Velocidad de proyectil para mantener sus anclas desviadas activas durante el mayor tiempo posible.
+
+<Callout type="success" title="Recompensas de élite">
+Los enemigos de élite sueltan cofres que proporcionan selecciones gratuitas de cartas de Modificaciones. Estas no consumen tus puntos de subida de nivel, lo que las convierte en la forma más eficiente de alcanzar el Nivel 3 en tus modificadores principales.
+</Callout>
+
+| Poeta | Arma de Firma | Estilo de ataque | Hechizo definitivo |
+| :--- | :--- | :--- | :--- |
+| **Dante** | Blazing Quill | Cuerpo a cuerpo/Corte | Dante's Inferno |
+| **Virgil** | Wayfinder | Proyectil/Área de efecto | Spectral Tide |
+| **Horace** | Por determinar | Por determinar | Por determinar |
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de supervivencia para la selección de cartas">
+
+Construir un mazo no se trata solo de daño; se trata de sobrevivir al asalto de 10-12 minutos de las etapas del Limbo. Usa la siguiente lista de verificación para asegurarte de que tu mazo esté equilibrado para el encuentro con el jefe final.
+
+<Checklist
+  id="card-survival-goals"
+  title="Hitos esenciales del mazo:"
+  items={[
+    "Equipar al menos una carta de 'Efecto' para el control de masas (Ralentización o Quemadura)",
+    "Fusionar los modificadores de daño principales al Nivel 3 antes de la marca de los 8 minutos",
+    "Posicionar cartas de 'Propagación' para mejorar tu arma de mayor daño",
+    "Asegurar una fuente de curación (ej. cartas de Modificaciones de absorción de HP)",
+    "Conservar al menos un reintento para las apariciones de armas de Oro en la fase tardía del juego"
+  ]}
+/>
+
+<Callout type="tip" title="El objeto Imán">
+Mantente atento al objeto del Imán en el campo de batalla. Atrae todas las gemas de experiencia sueltas hacia ti, lo que a menudo puede resultar en 2 o 3 subidas de nivel inmediatas, permitiéndote solucionar rápidamente una distribución débil de cartas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo tener cartas de Armas duplicadas en mi mano?",
+    answer: "No, el jugador no puede obtener cartas de Armas duplicadas. Puedes tener hasta cuatro cartas de Armas únicas a la vez, incluyendo tu carta de Firma."
+  },
+  {
+    question: "¿Qué pasa si uso todos mis reintentos?",
+    answer: "Una vez usados los tres reintentos, la opción desaparece para el resto de la partida. Debes elegir entre las tres cartas presentadas inicialmente."
+  },
+  {
+    question: "¿Se conservan las cartas de Hell Maiden entre partidas?",
+    answer: "No, las cartas seleccionadas durante una partida son temporales y no se conservan. Cada partida comienza desde cero, aunque tu metaprogresión en el Foro puede afectar tus estadísticas iniciales."
+  },
+  {
+    question: "¿Cómo descarto una carta que ya no quiero?",
+    answer: "Puedes descartar cartas de Modificaciones de tu mano en cualquier momento mientras estés en la pantalla de subida de nivel. Sin embargo, las cartas de Armas nunca se pueden eliminar una vez elegidas."
+  }
+]} />
+
+</Section>
